@@ -20,7 +20,7 @@ function urlHandler(value) {
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Archimedean Catalan Convex Hulls</h2>
 Each polyhedron on this page is the convex hull of an solid of Archimedes compounded with its Catalan dual. This operation is equivalent to John Conway's 'join' operation applied to either the Archimedean solid or the respective Catalan dual.
 <hr> 
-<!--<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+<!-- <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
   <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva de Estrelação ao infinito" frameborder="0" loading="lazy"></iframe></div>
