@@ -20,22 +20,22 @@ function urlHandler(value) {
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Archimedean Catalan Convex Hulls</h2>
 Each polyhedron on this page is the convex hull of an solid of Archimedes compounded with its Catalan dual. This operation is equivalent to John Conway's 'join' operation applied to either the Archimedean solid or the respective Catalan dual.
 <hr> 
-<!-- <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+<!--<p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
   <hr>
-  <h3 align="center">Immersive room</h3>
-  <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva de Estrelação ao infinito" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/infinity.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to stellation to infinity polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>
- <hr>
-  <h3 id="ra" align="center">Augmented Reality</h3>
-To view stellation to infinity polyhedra in AR, simply visit:
-<p align="center"><a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra/infinity/ra.html</a></p> 
-with any browser with a webcam device (smartphone, tablet or notebook). 
-<br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
-<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to stellation to infinity polyhedra" src="ar/example.jpg" width="85%"></p>
-<p align="center"><img src="ar/infinity.gif" alt="Augmented Reality to stellation to infinity polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+  <h3 align="center">Sala imersiva</h3>
+  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva de Estrelação ao infinito" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/infinity.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para poliedros de Estrelação ao infinito"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
 <hr>
-<h3 id="m3d" align="center">3D models</h3>
-<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+  <h3 id="ra" align="center">Realidade Aumentada</h3>
+  Para visualizar os poliedros de estrelação ao infinito em RA, visite a página:
+<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra/infinity/ra.html</a></p> 
+com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+<br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
+<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros de Estrelação ao infinito" src="../ar/example.jpg" width="85%"></p>
+<p align="center"><img src="../ar/infinity.gif" alt="Realidade Aumentada para poliedros de Estrelação ao infinito" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<hr>
+<h3 id="m3d" align="center">Modelos 3D</h3>
+ <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Joined truncated tetrahedron</h4>
 <a href="vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/0A.png" class="foto" alt="Joined Truncated Tetrahedron"></a><img src="ar/0.png" class="qr">
  <br>The joined truncated tetrahedron is composed of the Archimedean truncated tetrahedron and its respective dual triakis tetrahedron of Catalan. It has faces shaped like rhombi and kites.
