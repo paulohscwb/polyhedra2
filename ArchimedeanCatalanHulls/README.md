@@ -42,9 +42,14 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><br><b>Faces:</b> 12 kites and 6 rhombi | <b>Edges:</b> 36 | <b>Vertices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">More...</a>
 <hr>
 <h4>2. Joined Cuboctahedron</h4>
-<a href="vr/JoinedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/1A.png" class="foto" alt="Joined Truncated Tetrahedron"></a><img src="ar/1.png" class="qr">
+<a href="vr/JoinedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/1A.png" class="foto" alt="Joined Cuboctahedron"></a><img src="ar/1.png" class="qr">
  <br>The joined cuboctahedron is a composite of the Archimedean cuboctahedron with its respective dual, the Catalan rhombic dodecahedron. It has faces shaped like kites.
 <br><br><br><b>Faces:</b> 24 kites | <b>Edges:</b> 48 | <b>Vertices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">More...</a>
+<hr>
+<h4>3. Joined Truncated Octahedron</h4>
+<a href="vr/JoinedTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/2A.png" class="foto" alt="Joined Truncated Octahedron"></a><img src="ar/2.png" class="qr">
+ <br>The joined truncated octahedron is a composite of the Archimedean truncated octahedron with its respective dual, the Catalan tetrakis hexahedron. It has faces shaped like rhombi and kites.
+<br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">More...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
