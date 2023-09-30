@@ -54,6 +54,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>It has faces shaped like rhombi and kites.
 <br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">More...</a>
 <hr>
+<h4>4. Joined Truncated Cube</h4>
+<a href="vr/JoinedTruncatedCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/3A.png" class="foto" alt="Joined Truncated Cube"></a><img src="ar/3.png" class="qr">
+ <br><br>The joined truncated cube is a composite of the Archimedean truncated cube with its respective dual, the Catalan triakis octahedron. 
+ <br>It has faces shaped like rhombi and kites.
+<br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">More...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 

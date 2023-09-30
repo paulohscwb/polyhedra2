@@ -44,15 +44,21 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>2. Cuboctaedro combinado</h4>
 <a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/1A.png" class="foto" alt="Cuboctaedro combinado"></a><img src="../ar/1.png" class="qr">
- <br><br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. 
+ <br><br><br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. 
  <br>Possui faces com formatos de pipas.
-<br><br><b>Faces:</b> 24 pipas | <b>Arestas:</b> 48 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">Mais sobre...</a>
+<br><br><br><b>Faces:</b> 24 pipas | <b>Arestas:</b> 48 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <h4>3. Octaedro truncado combinado</h4>
 <a href="../vr/JoinedTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/2A.png" class="foto" alt="Octaedro truncado combinado"></a><img src="../ar/2.png" class="qr">
  <br><br>O octaedro truncado combinado é uma composição do octaedro truncado Arquimediano com o seu respectivo dual, o hexaedro tetrakis de Catalan. 
  <br>Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">Mais sobre...</a>
+<hr>
+<h4>4. Cubo truncado combinado</h4>
+<a href="../vr/JoinedTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/3A.png" class="foto" alt="Octaedro truncado combinado"></a><img src="../ar/3.png" class="qr">
+ <br><br>O cubo truncado combinado é uma composição do cubo truncado Arquimediano com o seu respectivo dual, o octaedro triakis de Catalan. 
+ <br>Possui faces com formatos de losangos e de pipas.
+<br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">Mais sobre...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
