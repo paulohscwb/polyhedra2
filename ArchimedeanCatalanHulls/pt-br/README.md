@@ -41,7 +41,11 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>O tetraedro truncado combinado é uma composição do tetraedro truncado Arquimediano com o seu respectivo dual, o tetraedro triakis de Catalan. Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 12 pipas e 6 losangos | <b>Arestas:</b> 36 | <b>Vértices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">Mais sobre...</a>
 <hr>
-
+<h4>2. Cuboctaedro combinado</h4>
+<a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/1A.png" class="foto" alt="Tetraedro truncado combinado"></a><img src="../ar/1.png" class="qr">
+ <br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. Possui faces com formatos de pipas.
+<br><br><b>Faces:</b> 24 pipas | <b>Arestas:</b> 48 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">Mais sobre...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
