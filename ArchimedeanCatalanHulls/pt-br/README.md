@@ -36,9 +36,9 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-<h4>1. Tetraedro truncado agrupado</h4>
-<a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/0A.png" class="foto" alt="Tetraedro truncado agrupado"></a><img src="../ar/0.png" class="qr">
- <br>O tetraedro truncado agrupado é composto pelo tetraedro truncado Arquimediano e seu respectivo dual Tetraedro triakis de Catalan. Possui faces com formatos de losangos e de pipas.
+<h4>1. Tetraedro truncado combinado</h4>
+<a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/0A.png" class="foto" alt="Tetraedro truncado combinado"></a><img src="../ar/0.png" class="qr">
+ <br>O tetraedro truncado combinado é uma composição do tetraedro truncado Arquimediano com o seu respectivo dual, o tetraedro triakis de Catalan. Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 12 pipas e 6 losangos | <b>Arestas:</b> 36 | <b>Vértices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 
