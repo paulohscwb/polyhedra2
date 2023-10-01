@@ -87,14 +87,20 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>9. Joined Truncated Icosahedron</h4>
 <a href="vr/JoinedTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/8A.png" class="foto" alt="Joined Truncated Icosahedron"></a><img src="ar/8.png" class="qr">
  <br><br>The joined truncated icosahedron is a composite of the Archimedean truncated icosahedron with its respective dual, the Catalan pentakis dodecahedron. 
- <br>It has faces shaped like like rhombi and kites.
+ <br>It has faces shaped like rhombi and kites.
 <br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosahedron.html" target="_blank">More...</a>
 <hr>
 <h4>10. Joined Truncated Dodecahedron</h4>
 <a href="vr/JoinedTruncatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/9A.png" class="foto" alt="Joined Truncated Dodecahedron"></a><img src="ar/9.png" class="qr">
  <br><br>The joined truncated dodecahedron is a composite of the Archimedean truncated dodecahedron with its respective dual, the Catalan triakis icosahedron. 
- <br>It has faces shaped like like rhombi and kites.
+ <br>It has faces shaped like rhombi and kites.
 <br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedDodecahedron.html" target="_blank">More...</a>
+<hr>
+<h4>11. Joined Rhombicosidodecahedron</h4>
+<a href="vr/JoinedRhombicosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/10A.png" class="foto" alt="Joined Rhombicosidodecahedron"></a><img src="ar/10.png" class="qr">
+ <br><br>The joined rhombicosidodecahedron is a composite of the Archimedean rhombicosidodecahedron with its respective dual, the Catalan deltoidal hexecontahedron. 
+ <br>It has faces shaped like 60 short kites and 60 long kites.
+<br><br><br><b>Faces:</b> 120 kites | <b>Edges:</b> 240 | <b>Vertices:</b> 122. <a href="http://dmccooey.com/polyhedra/JoinedRhombicosidodecahedron.html" target="_blank">More...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
