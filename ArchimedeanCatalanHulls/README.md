@@ -90,6 +90,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>It has faces shaped like like rhombi and kites.
 <br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosahedron.html" target="_blank">More...</a>
 <hr>
+<h4>10. Joined Truncated Dodecahedron</h4>
+<a href="vr/JoinedTruncatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/9A.png" class="foto" alt="Joined Truncated Dodecahedron"></a><img src="ar/9.png" class="qr">
+ <br><br>The joined truncated dodecahedron is a composite of the Archimedean truncated dodecahedron with its respective dual, the Catalan triakis icosahedron. 
+ <br>It has faces shaped like like rhombi and kites.
+<br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedDodecahedron.html" target="_blank">More...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 
