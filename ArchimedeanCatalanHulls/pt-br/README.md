@@ -55,10 +55,16 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <h4>4. Cubo truncado combinado</h4>
-<a href="../vr/JoinedTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/3A.png" class="foto" alt="Octaedro truncado combinado"></a><img src="../ar/3.png" class="qr">
+<a href="../vr/JoinedTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/3A.png" class="foto" alt="Cubo truncado combinado"></a><img src="../ar/3.png" class="qr">
  <br><br>O cubo truncado combinado é uma composição do cubo truncado Arquimediano com o seu respectivo dual, o octaedro triakis de Catalan. 
  <br>Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">Mais sobre...</a>
+<hr>
+<h4>5. Rombicuboctaedro combinado</h4>
+<a href="../vr/JoinedRhombicuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/4A.png" class="foto" alt="Rombicuboctaedro combinado"></a><img src="../ar/4.png" class="qr">
+ <br><br>O rombicuboctaedro combinado é uma composição do rombicuboctaedro Arquimediano com o seu respectivo dual, o icositetraedro deltoidal de Catalan. 
+ <br>Possui faces com formatos de losangos e de pipas.
+<br><br><b>Faces:</b> 24 pipas e 24 losangos | <b>Arestas:</b> 96 | <b>Vértices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
