@@ -43,8 +43,8 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><b>Faces:</b> 12 pipas e 6 losangos | <b>Arestas:</b> 36 | <b>Vértices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <h4>2. Cuboctaedro combinado</h4>
-<a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/1A.png" class="foto" alt="Cuboctaedro combinado"></a><img src="../ar/1.png" class="qr">
- <br><br><br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. 
+<a href="../vr/JoinedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/1A.png" class="foto" alt="Cuboctaedro combinado"></a><img src="../ar/1.png" class="qr">
+ <br><br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. 
  <br>Possui faces com formatos de pipas.
 <br><br><br><b>Faces:</b> 24 pipas | <b>Arestas:</b> 48 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">Mais sobre...</a>
 <hr>
@@ -65,6 +65,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>O rombicuboctaedro combinado é uma composição do rombicuboctaedro Arquimediano com o seu respectivo dual, o icositetraedro deltoidal de Catalan. 
  <br>Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 24 pipas e 24 losangos | <b>Arestas:</b> 96 | <b>Vértices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">Mais sobre...</a>
+<hr>
+<h4>6. Cubo snub combinado</h4>
+<a href="../vr/JoinedSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/5A.png" class="foto" alt="Cubo snub combinado"></a><img src="../ar/5.png" class="qr">
+ <br><br>O cubo snub combinado é uma composição do cubo snub Arquimediano com o seu respectivo dual, o icositetraedro pentagonal de Catalan. 
+ <br>Possui faces com formatos de losangos e de pipas.
+<br><br><b>Faces:</b> 24 pipas e 36 losangos | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">Mais sobre...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
