@@ -72,6 +72,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>Possui faces com formatos de losangos e de pipas.
 <br><br><b>Faces:</b> 24 pipas e 36 losangos | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">Mais sobre...</a>
 <hr>
+<h4>7. Icosidodecaedro combinado</h4>
+<a href="../vr/JoinedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/6A.png" class="foto" alt="Cubo snub combinado"></a><img src="../ar/6.png" class="qr">
+ <br><br>O icosidodecaedro combinado é uma composição do icosidodecaedro Arquimediano com o seu respectivo dual, o triacontaedro rômbico de Catalan. 
+ <br>Possui faces com formatos de pipas.
+<br><br><b>Faces:</b> 60 pipas | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedIcosidodecahedron.html" target="_blank">Mais sobre...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.

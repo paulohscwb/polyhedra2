@@ -67,10 +67,16 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><br><b>Faces:</b> 24 kites and 24 rhombi | <b>Edges:</b> 96 | <b>Vertices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">More...</a>
 <hr>
 <h4>6. Joined Snub Cube</h4>
-<a href="vr/JoinedRhombicuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/5A.png" class="foto" alt="Joined Snub Cube"></a><img src="ar/5.png" class="qr">
+<a href="vr/JoinedSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/5A.png" class="foto" alt="Joined Snub Cube"></a><img src="ar/5.png" class="qr">
  <br><br>The joined snub cube is a composite of the Archimedean snub cube with its respective dual, the Catalan pentagonal icositetrahedron. 
  <br>It has faces shaped like rhombi and kites.
 <br><br><br><b>Faces:</b> 24 kites and 36 rhombi | <b>Edges:</b> 120 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">More...</a>
+<hr>
+<h4>7. Joined Icosidodecahedron</h4>
+<a href="vr/JoinedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/6A.png" class="foto" alt="Joined Snub Cube"></a><img src="ar/6.png" class="qr">
+ <br><br>The joined icosidodecahedron is a composite of the Archimedean icosidodecahedron with its respective dual, the Catalan rhombic triacontahedron. 
+ <br>It has faces shaped like kites.
+<br><br><br><b>Faces:</b> 60 kites | <b>Edges:</b> 120 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedIcosidodecahedron.html" target="_blank">More...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
