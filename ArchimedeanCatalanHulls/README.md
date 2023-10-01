@@ -108,6 +108,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>It has faces shaped like kites and rhombi.
 <br><br><br><b>Faces:</b> 60 kites and 90 rhombi | <b>Edges:</b> 300 | <b>Vertices:</b> 152. <a href="http://dmccooey.com/polyhedra/JoinedLsnubDodecahedron.html" target="_blank">More...</a>
 <hr>
+<h4>13. Joined Truncated Icosidodecahedron</h4>
+<a href="vr/JoinedTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/12A.png" class="foto" alt="Joined Truncated Icosidodecahedron"></a><img src="ar/12.png" class="qr">
+ <br><br>The joined truncated icosidodecahedron is a composite of the Archimedean truncated icosidodecahedron with its respective dual, the Catalan disdyakis triacontahedron. 
+ <br>It has faces shaped like 60 short, 60 medium and 60 long kites.
+<br><br><br><b>Faces:</b> 180 kites | <b>Edges:</b> 360 | <b>Vertices:</b> 182. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosidodecahedron.html" target="_blank">More...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 

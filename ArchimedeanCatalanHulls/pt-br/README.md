@@ -108,6 +108,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>Possui faces com formatos de pipas e losangos.
 <br><br><br><b>Faces:</b> 60 pipas e 90 losangos | <b>Arestas:</b> 300 | <b>Vértices:</b> 152. <a href="http://dmccooey.com/polyhedra/JoinedLsnubDodecahedron.html" target="_blank">Mais sobre...</a>
 <hr>
+<h4>13. Icosidodecaedro truncado combinado</h4>
+<a href="../vr/JoinedTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/12A.png" class="foto" alt="Icosidodecaedro truncado combinado"></a><img src="../ar/12.png" class="qr">
+ <br><br>O icosidodecaedro truncado combinado é uma composição do icosidodecaedro truncado Arquimediano com o seu respectivo dual, o triacontaedro disdiakis de Catalan. 
+ <br>Possui faces com formatos de 60 pipas curtas, 60 médias e 60 longas.
+<br><br><br><b>Faces:</b> 180 pipas | <b>Arestas:</b> 360 | <b>Vértices:</b> 182. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosidodecahedron.html" target="_blank">Mais sobre...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
