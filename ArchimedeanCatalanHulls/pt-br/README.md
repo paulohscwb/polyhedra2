@@ -73,10 +73,16 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><b>Faces:</b> 24 pipas e 36 losangos | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">Mais sobre...</a>
 <hr>
 <h4>7. Icosidodecaedro combinado</h4>
-<a href="../vr/JoinedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/6A.png" class="foto" alt="Cubo snub combinado"></a><img src="../ar/6.png" class="qr">
+<a href="../vr/JoinedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/6A.png" class="foto" alt="Icosidodecaedro combinado"></a><img src="../ar/6.png" class="qr">
  <br><br>O icosidodecaedro combinado é uma composição do icosidodecaedro Arquimediano com o seu respectivo dual, o triacontaedro rômbico de Catalan. 
  <br>Possui faces com formatos de pipas.
 <br><br><b>Faces:</b> 60 pipas | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedIcosidodecahedron.html" target="_blank">Mais sobre...</a>
+<hr>
+<h4>8. Cuboctaedro truncado combinado</h4>
+<a href="../vr/JoinedTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/7A.png" class="foto" alt="Cuboctaedro truncado combinado"></a><img src="../ar/7.png" class="qr">
+ <br><br>O cuboctaedro truncado combinado é uma composição do cuboctaedro truncado Arquimediano com o seu respectivo dual, o dodecaedro disdiakis de Catalan. 
+ <br>Possui faces com formatos de 24 pipas curtas, 24 médias e 24 longas.
+<br><br><b>Faces:</b> 72 pipas | <b>Arestas:</b> 144 | <b>Vértices:</b> 74. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCuboctahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  
