@@ -84,13 +84,19 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>It has faces shaped like 24 short, 24 medium and 24 long kites.
 <br><br><br><b>Faces:</b> 72 kites | <b>Edges:</b> 144 | <b>Vertices:</b> 74. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCuboctahedron.html" target="_blank">More...</a>
 <hr>
+<h4>9. Joined Truncated Icosahedron</h4>
+<a href="vr/JoinedTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/8A.png" class="foto" alt="Joined Truncated Icosahedron"></a><img src="ar/8.png" class="qr">
+ <br><br>The joined truncated icosahedron is a composite of the Archimedean truncated icosahedron with its respective dual, the Catalan pentakis dodecahedron. 
+ <br>It has faces shaped like like rhombi and kites.
+<br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosahedron.html" target="_blank">More...</a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
 <h4>How to cite this work:</h4> 
-<p>Siqueira, P.H., "Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/pt-br/>, September 2023.</p>
+<p>Siqueira, P.H., "Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/pt-br/>, October 2023.</p>
 <!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8272770"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8272770.svg" alt="DOI"></a>-->
 <br><br><b>References:</b>
 <br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>
