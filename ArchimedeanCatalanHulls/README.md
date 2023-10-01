@@ -99,8 +99,14 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>11. Joined Rhombicosidodecahedron</h4>
 <a href="vr/JoinedRhombicosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/10A.png" class="foto" alt="Joined Rhombicosidodecahedron"></a><img src="ar/10.png" class="qr">
  <br><br>The joined rhombicosidodecahedron is a composite of the Archimedean rhombicosidodecahedron with its respective dual, the Catalan deltoidal hexecontahedron. 
- <br>It has faces shaped like 60 short kites and 60 long kites.
+ <br>It has faces shaped like 60 short kites and 60 medium kites.
 <br><br><br><b>Faces:</b> 120 kites | <b>Edges:</b> 240 | <b>Vertices:</b> 122. <a href="http://dmccooey.com/polyhedra/JoinedRhombicosidodecahedron.html" target="_blank">More...</a>
+<hr>
+<h4>12. Joined Snub Dodecahedron</h4>
+<a href="vr/JoinedSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/11A.png" class="foto" alt="Joined Snub Dodecahedron"></a><img src="ar/11.png" class="qr">
+ <br><br>The joined snub dodecahedron is a composite of the Archimedean snub dodecahedron with its respective dual, the Catalan pentagonal hexecontahedron. 
+ <br>It has faces shaped like kites and rhombi.
+<br><br><br><b>Faces:</b> 60 kites and 90 rhombi | <b>Edges:</b> 300 | <b>Vertices:</b> 152. <a href="http://dmccooey.com/polyhedra/JoinedLsnubDodecahedron.html" target="_blank">More...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 

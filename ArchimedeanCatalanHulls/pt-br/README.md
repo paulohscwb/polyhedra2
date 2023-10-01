@@ -99,8 +99,14 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>11. Rombicosidodecaedro combinado</h4>
 <a href="../vr/JoinedRhombicosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/10A.png" class="foto" alt="Rombicosidodecaedro combinado"></a><img src="../ar/10.png" class="qr">
  <br><br>O rombicosidodecaedro combinado é uma composição do rombicosidodecaedro Arquimediano com o seu respectivo dual, o hexecontaedro deltoidal de Catalan. 
- <br>Possui faces com formatos de 60 pipas curtas e 60 longas.
+ <br>Possui faces com formatos de 60 pipas curtas e 60 médias.
 <br><br><br><b>Faces:</b> 120 pipas | <b>Arestas:</b> 240 | <b>Vértices:</b> 122. <a href="http://dmccooey.com/polyhedra/JoinedRhombicosidodecahedron.html" target="_blank">Mais sobre...</a>
+<hr>
+<h4>12. Dodecaedro snub combinado</h4>
+<a href="../vr/JoinedSnubDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/11A.png" class="foto" alt="Dodecaedro snub combinado"></a><img src="../ar/11.png" class="qr">
+ <br><br>O dodecaedro snub combinado é uma composição do dodecaedro snub Arquimediano com o seu respectivo dual, o hexecontaedro pentagonal de Catalan. 
+ <br>Possui faces com formatos de pipas e losangos.
+<br><br><br><b>Faces:</b> 60 pipas e 90 losangos | <b>Arestas:</b> 300 | <b>Vértices:</b> 152. <a href="http://dmccooey.com/polyhedra/JoinedLsnubDodecahedron.html" target="_blank">Mais sobre...</a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
