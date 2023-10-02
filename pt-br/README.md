@@ -6,7 +6,7 @@
 <br><a href="https://paulohscwb.github.io/polyhedra/">english version</a>
 <br><br>Nova página: os poliedros de Arquimedes podem ser vistos em Realidade Aumentada (RA) com os marcadores indicados, e por meio dos links criados nos marcadores, o modelo 3D de cada poliedro pode ser visto em Realidade Virtual (RV).
 <hr>
-<h3 style="margin-top:3px"><a target="_blank" href="../ArchimedeanCatalanHulls/pt-br/"><img src="../ArchimedeanCatalanHulls/ar/0A.png" style="margin-bottom:-10px" width="40"> Cascos convexos de Arquimedes e Catalan</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../ArchimedeanCatalanHulls/pt-br/"><img src="../ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Cascos convexos de Arquimedes e Catalan</a></h3>
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
 <hr>
 <h3 align="center">Salas imersivas</h3>

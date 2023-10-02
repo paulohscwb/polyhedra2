@@ -4,6 +4,16 @@
 	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
 	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<style type="text/css">
+		* {font-family:'Lato'; font-size:2vh;}
+		input, label {padding: 5px;}
+		input {border-radius:10px; border:1px solid #ccc; max-width:95%;}
+		.forml {position: fixed; top: 0; max-width:95vw;}
+		.box {border:1px solid #ccc; margin:5px 5px 0 5px; flex-direction: row; align-items:center; padding: 10px; box-shadow:0 0 1px inset grey; border-radius:7px;}
+		hr {border-top:1px solid lightblue; border-bottom:1px solid silver;}
+		.titulo {font-size:2.1vh; color:royalblue; font-weight:bold;}
+	</style>
   </head>
   <body>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
@@ -19,8 +29,8 @@
 		</a-assets>
 				
 		<a-entity position="0 0 0" scale="3.7 3.7 3.7">
-			<a-obj-model src="outros/JoinedSnubCube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model src="outros/JoinedSnubCubeL.obj" mtl="#material"></a-obj-model>
+			<a-obj-model id="fc" src="outros/JoinedSnubCube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+			<a-obj-model id="ar" src="outros/JoinedSnubCubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.36141'></a-sphere>
 			<a-sphere mixin='esfera mtl9' position='1.36141 0.0 0.0'></a-sphere>
 			<a-sphere mixin='esfera mtl9' position='-1.36141 0.0 0.0'></a-sphere>
@@ -93,5 +103,51 @@
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
+	<div class="forml">
+		<div class="box">
+			<span class="titulo">Joined snub cube</span>
+			<br><span class="titulo">Cubo snub combinado</span>
+			<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
+			<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
+			<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
+		</div>
+	</div>
+	<script>
+		function mfaces() {
+			var x = document.getElementById("faces")
+			var sceneEl = document.querySelector('a-scene')
+			var entityEl = sceneEl.querySelector('#fc')
+			if (x.checked == true) { 
+			  entityEl.setAttribute('visible','true');
+			}
+			else {
+			  entityEl.setAttribute('visible','false');
+			}
+		}
+		
+		function marestas() {
+			var x = document.getElementById("arestas")
+			var sceneEl = document.querySelector('a-scene')
+			var entityEl = sceneEl.querySelector('#ar')
+			if (x.checked == true) { 
+			  entityEl.setAttribute('visible','true');
+			}
+			else {
+			  entityEl.setAttribute('visible','false');
+			}
+		}
+		
+		function mvertices() {
+			var x = document.getElementById("vertices")
+			var sceneEl = document.querySelector('a-scene')
+			var entityEl = sceneEl.querySelector('#esfera')
+			if (x.checked == true) { 
+			  entityEl.setAttribute('visible','true');
+			}
+			else {
+			  entityEl.setAttribute('visible','false');
+			}
+		}
+	</script>
   </body>
 </html>

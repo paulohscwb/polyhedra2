@@ -9,7 +9,7 @@
 		* {font-family:'Lato'; font-size:2vh;}
 		input, label {padding: 5px;}
 		input {border-radius:10px; border:1px solid #ccc; max-width:95%;}
-		.forml {position: fixed; top: 0; max-width:40vw;}
+		.forml {position: fixed; top: 0; max-width:95vw;}
 		.box {border:1px solid #ccc; margin:5px 5px 0 5px; flex-direction: row; align-items:center; padding: 10px; box-shadow:0 0 1px inset grey; border-radius:7px;}
 		hr {border-top:1px solid lightblue; border-bottom:1px solid silver;}
 		.titulo {font-size:2.1vh; color:royalblue; font-weight:bold;}
@@ -223,7 +223,6 @@
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
-	
 	<div class="forml">
 		<div class="box">
 			<span class="titulo">Joined truncated icosidodecahedron</span>
@@ -233,7 +232,6 @@
 			<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
 		</div>
 	</div>
-	
 	<script>
 		function mfaces() {
 			var x = document.getElementById("faces")
@@ -270,8 +268,6 @@
 			  entityEl.setAttribute('visible','false');
 			}
 		}
-
 	</script>
-	
   </body>
 </html>
