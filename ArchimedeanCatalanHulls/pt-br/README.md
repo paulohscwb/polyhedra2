@@ -7,8 +7,8 @@
 <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected>Mais poliedros:</option>
-		<option disabled value="../../ArchimedeanCatalanHulls/">Cascos convexos de Arquimedes e Catalan</option>
-		<option value="../../Fractal/">Fractais de poliedros</option>
+		<option disabled value="../../ArchimedeanCatalanHulls/pt-br/">Cascos convexos de Arquimedes e Catalan</option>
+		<option value="../../Fractal/pt-br/">Fractais de poliedros</option>
 	</select>
 </form>
 <script>

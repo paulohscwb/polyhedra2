@@ -62,7 +62,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">More...</a>
 <hr>
 <h4>5. Fractal dodecahedron</h4>
-<a href="vr/JoinedRhombicuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Fractal Dodecahedron"></a><img src="ar/17.png" class="qr">
+<a href="vr/FractalDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Fractal Dodecahedron"></a><img src="ar/17.png" class="qr">
  <br><br>The joined rhombicuboctahedron is a composite of the Archimedean rhombicuboctahedron with its respective dual, the Catalan deltoidal icositetrahedron. 
  <br>It has faces shaped like rhombi and kites.
 <br><br><br><b>Faces:</b> 24 kites and 24 rhombi | <b>Edges:</b> 96 | <b>Vertices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">More...</a>
