@@ -24,6 +24,7 @@
 			<a-mixin id="solido" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
 			<a-asset-item id="mt" src="outros/solidos.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Escher.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="outros/EscherL.obj"></a-asset-item>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
@@ -32,87 +33,87 @@
 		<a-entity rotation="0 30 0"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="4 4 4" id="nivel0">
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt"></a-obj-model>
 			</a-entity>
 			
-			<a-entity scale="2 2 2" id="nivel1" visible="false">
+			<a-entity scale="2.666 2.666 2.666" id="nivel1" visible="false">
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 -0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 -0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0.5 0"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 -0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0.5 0"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 -0.5 0"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 -0.5"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 -0.5 0"></a-obj-model>
-				<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
+				<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
 			</a-entity>
-			<a-entity scale="1 1 1" id="nivel2" visible="false">
+			<a-entity scale="1.778 1.778 1.778" id="nivel2" visible="false">
 				<a-entity position="-0.5 0 -0.5">
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 -0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 -0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
 				</a-entity>
 				<a-entity position="0.5 0 0.5">
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 0.5 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 0.5 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0.5 -0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0.5 -0.5 0"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="0 -0.5 -0.5"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="0 -0.5 -0.5"></a-obj-model>
 					<a-obj-model mixin="fc" src="#aq" mtl="#mt" scale="0.998 0.998 0.998" position="-0.5 -0.5 0"></a-obj-model>
-					<a-obj-model mixin="ar" src="#aq" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
+					<a-obj-model mixin="ar" src="#aq1" mtl="#mt" position="-0.5 -0.5 0"></a-obj-model>
 				</a-entity>
 			</a-entity>
 			<a-entity scale="0.75 0.75 0.75" id="nivel3" visible="false">
