@@ -8,6 +8,7 @@
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected>Mais poliedros:</option>
 		<option disabled value="../../ArchimedeanCatalanHulls/">Cascos convexos de Arquimedes e Catalan</option>
+		<option value="../../Fractal/">Fractais de poliedros</option>
 	</select>
 </form>
 <script>
@@ -23,16 +24,16 @@ function urlHandler(value) {
 <!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
   <hr>
   <h3 align="center">Sala imersiva</h3>
-  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva de Estrelação ao infinito" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/infinity.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para poliedros de Estrelação ao infinito"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos cascos convexos de Arquimedes e Catalan" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os cascos convexos de Arquimedes e Catalan"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os poliedros de estrelação ao infinito em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra/infinity/ra.html</a></p> 
+  Para visualizar os cascos convexos de Arquimedes e Catalan em RA, visite a página:
+<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/ra.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
-<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros de Estrelação ao infinito" src="../ar/example.jpg" width="85%"></p>
-<p align="center"><img src="../ar/infinity.gif" alt="Realidade Aumentada para poliedros de Estrelação ao infinito" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para os Cascos convexos de Arquimedes e Catalan" src="../ar/example.jpg" width="85%"></p>
+<p align="center"><img src="../ar/ArchimedeanCatalanHulls.gif" alt="Realidade Aumentada para os Cascos convexos de Arquimedes e Catalan" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
@@ -113,7 +114,6 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>O icosidodecaedro truncado combinado é uma composição do icosidodecaedro truncado Arquimediano com o seu respectivo dual, o triacontaedro disdiakis de Catalan. 
  <br>Possui faces com formatos de 60 pipas curtas, 60 médias e 60 longas.
 <br><br><br><b>Faces:</b> 180 pipas | <b>Arestas:</b> 360 | <b>Vértices:</b> 182. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosidodecahedron.html" target="_blank">Mais sobre...</a>
-<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean Catalan Convex Hulls - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.

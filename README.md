@@ -7,6 +7,7 @@
  <br><br> New page: polyhedra can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="ArchimedeanCatalanHulls/"><img src="ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Archimedean and Catalan Convex Hulls</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="Fractal/"><img src="Fractal/ar/14A.png" style="margin-bottom:-10px" width="40"> Polyhedra fractals</a></h3>
 
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 <hr>
