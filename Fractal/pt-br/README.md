@@ -97,6 +97,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br>Possui faces com formatos de losangos e de pipas.
 <br><br><br><b>Faces:</b> 60 pipas e 30 losangos | <b>Arestas:</b> 180 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedDodecahedron.html" target="_blank">Mais sobre...</a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fractal polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/Fractal/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
