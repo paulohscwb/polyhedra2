@@ -39,34 +39,219 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Tetraedro fractal</h4>
 <a href="../vr/FractalTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/13A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/13.png" class="qr">
- <br><br>O tetraedro truncado combinado é uma composição do tetraedro truncado Arquimediano com o seu respectivo dual, o tetraedro triakis de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 12 pipas e 6 losangos | <b>Arestas:</b> 36 | <b>Vértices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>4</td>
+		<td>6</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>4</td>
+		<td>16</td>
+		<td>24</td>
+		<td>16</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>16</td>
+		<td>64</td>
+		<td>96</td>
+		<td>64</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>64</td>
+		<td>256</td>
+		<td>384</td>
+		<td>256</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>256</td>
+		<td>1024</td>
+		<td>1536</td>
+		<td>1024</td>
+	</tr>
+ </table>
+
 <h4>2. Octaedro fractal</h4>
 <a href="../vr/FractalOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Octaedro fractal"></a><img src="../ar/14.png" class="qr">
- <br><br>O cuboctaedro combinado é uma composição do cuboctaedro Arquimediano com o seu respectivo dual, o dodecaedro rômbico de Catalan. 
- <br>Possui faces com formatos de pipas.
-<br><br><br><b>Faces:</b> 24 pipas | <b>Arestas:</b> 48 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 8 faces do octaedro regular, obtemos um octaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>8</td>
+		<td>12</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>48</td>
+		<td>72</td>
+		<td>36</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>36</td>
+		<td>288</td>
+		<td>432</td>
+		<td>216</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>216</td>
+		<td>1728</td>
+		<td>2592</td>
+		<td>1296</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>1296</td>
+		<td>10368</td>
+		<td>15552</td>
+		<td>7776</td>
+	</tr>
+ </table>
 <h4>3. Icosaedro fractal</h4>
 <a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
- <br><br>O octaedro truncado combinado é uma composição do octaedro truncado Arquimediano com o seu respectivo dual, o hexaedro tetrakis de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
+ </table>
 <h4>4. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
- <br><br>O cubo truncado combinado é uma composição do cubo truncado Arquimediano com o seu respectivo dual, o octaedro triakis de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 24 pipas e 12 losangos | <b>Arestas:</b> 72 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>6</td>
+		<td>12</td>
+		<td>8</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>120</td>
+		<td>240</td>
+		<td>160</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>2400</td>
+		<td>4800</td>
+		<td>3200</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>8000</td>
+		<td>48000</td>
+		<td>96000</td>
+		<td>64000</td>
+	</tr>
+ </table>
 <h4>5. Dodecaedro fractal</h4>
 <a href="../vr/FractalDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Dodecaedro fractal"></a><img src="../ar/17.png" class="qr">
- <br><br>O rombicuboctaedro combinado é uma composição do rombicuboctaedro Arquimediano com o seu respectivo dual, o icositetraedro deltoidal de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 24 pipas e 24 losangos | <b>Arestas:</b> 96 | <b>Vértices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do dodecaedro regular, obtemos um dodecaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>240</td>
+		<td>600</td>
+		<td>400</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>4800</td>
+		<td>12000</td>
+		<td>8000</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>8000</td>
+		<td>96000</td>
+		<td>240000</td>
+		<td>160000</td>
+	</tr>
+ </table>
 <h4>6. Fractal do sólido de Escher</h4>
 <a href="../vr/FractalEscher.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Fractal do sólido de Escher"></a><img src="../ar/18.png" class="qr">
  <br><br>O cubo snub combinado é uma composição do cubo snub Arquimediano com o seu respectivo dual, o icositetraedro pentagonal de Catalan. 
