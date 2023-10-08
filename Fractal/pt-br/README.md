@@ -39,7 +39,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Tetraedro fractal</h4>
 <a href="../vr/FractalTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/13A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/13.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -84,10 +84,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>1024</td>
 	</tr>
  </table>
-
+<hr>
 <h4>2. Octaedro fractal</h4>
 <a href="../vr/FractalOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Octaedro fractal"></a><img src="../ar/14.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 8 faces do octaedro regular, obtemos um octaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 8 faces do octaedro regular, obtemos um octaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -132,9 +132,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>7776</td>
 	</tr>
  </table>
+ <hr>
 <h4>3. Icosaedro fractal</h4>
 <a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -172,9 +173,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>20736</td>
 	</tr>
  </table>
+ <hr>
 <h4>4. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com &frac13; da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -212,9 +214,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>64000</td>
 	</tr>
  </table>
+ <hr>
 <h4>5. Dodecaedro fractal</h4>
 <a href="../vr/FractalDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Dodecaedro fractal"></a><img src="../ar/17.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do dodecaedro regular, obtemos um dodecaedro regular fractal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do dodecaedro regular, obtemos um dodecaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -252,35 +255,176 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>160000</td>
 	</tr>
  </table>
+ <hr>
 <h4>6. Fractal do sólido de Escher</h4>
 <a href="../vr/FractalEscher.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Fractal do sólido de Escher"></a><img src="../ar/18.png" class="qr">
- <br><br>O cubo snub combinado é uma composição do cubo snub Arquimediano com o seu respectivo dual, o icositetraedro pentagonal de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 24 pipas e 36 losangos | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 48 faces do sólido de Escher, obtemos um fractal do sólido de Escher. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>48</td>
+		<td>72</td>
+		<td>26</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>576</td>
+		<td>864</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>6912</td>
+		<td>10368</td>
+		<td>3744</td>
+	</tr>
+ </table>
+ <hr>
 <h4>7. Fractal do pequeno dodecaedro estrelado</h4>
 <a href="../vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Fractal do pequeno dodecaedro estrelado"></a><img src="../ar/19.png" class="qr">
- <br><br>O icosidodecaedro combinado é uma composição do icosidodecaedro Arquimediano com o seu respectivo dual, o triacontaedro rômbico de Catalan. 
- <br>Possui faces com formatos de pipas.
-<br><br><br><b>Faces:</b> 60 pipas | <b>Arestas:</b> 120 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedIcosidodecahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do pequeno dodecaedro estrelado, obtemos um fractal do pequeno dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>144</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>1728</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>8. Fractal do grande icosaedro</h4>
 <a href="../vr/FractalGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Fractal do grande icosaedro"></a><img src="../ar/20.png" class="qr">
- <br><br>O cuboctaedro truncado combinado é uma composição do cuboctaedro truncado Arquimediano com o seu respectivo dual, o dodecaedro disdiakis de Catalan. 
- <br>Possui faces com formatos de 24 pipas curtas, 24 médias e 24 longas.
-<br><br><br><b>Faces:</b> 72 pipas | <b>Arestas:</b> 144 | <b>Vértices:</b> 74. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCuboctahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do grande icosaedro, obtemos um fractal do grande icosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>9. Fractal do grande dodecaedro</h4>
 <a href="../vr/FractalGreatDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Fractal do grande dodecaedro"></a><img src="../ar/21.png" class="qr">
- <br><br>O icosaedro truncado combinado é uma composição do icosaedro truncado Arquimediano com o seu respectivo dual, o dodecaedro pentakis de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 60 pipas e 30 losangos | <b>Arestas:</b> 180 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosahedron.html" target="_blank">Mais sobre...</a>
-<hr>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro, obtemos um fractal do grande dodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>144</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>1728</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>10. Fractal do grande dodecaedro estrelado</h4>
 <a href="../vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Fractal do grande dodecaedro estrelado"></a><img src="../ar/22.png" class="qr">
- <br><br>O dodecaedro truncado combinado é uma composição do dodecaedro truncado Arquimediano com o seu respectivo dual, o icosaedro triakis de Catalan. 
- <br>Possui faces com formatos de losangos e de pipas.
-<br><br><br><b>Faces:</b> 60 pipas e 30 losangos | <b>Arestas:</b> 180 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedDodecahedron.html" target="_blank">Mais sobre...</a>
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro estrelado, obtemos um fractal do grande dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>240</td>
+		<td>600</td>
+		<td>400</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>4800</td>
+		<td>12000</td>
+		<td>8000</td>
+	</tr>
+ </table>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
