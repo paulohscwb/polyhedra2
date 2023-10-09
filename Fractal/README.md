@@ -39,63 +39,392 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Fractal tetrahedron</h4>
 <a href="vr/FractalTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/13A.png" class="foto" alt="Fractal Tetrahedron"></a><img src="ar/13.png" class="qr">
- <br><br>The joined truncated tetrahedron is a composite of the Archimedean truncated tetrahedron with its respective dual, the Catalan triakis tetrahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 12 kites and 6 rhombi | <b>Edges:</b> 36 | <b>Vertices:</b> 20. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedTetrahedron.html" target="_blank">More...</a>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 4 faces of the regular tetrahedron, we obtain a regular fractal tetrahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>4</td>
+		<td>6</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>4</td>
+		<td>16</td>
+		<td>24</td>
+		<td>16</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>16</td>
+		<td>64</td>
+		<td>96</td>
+		<td>64</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>64</td>
+		<td>256</td>
+		<td>384</td>
+		<td>256</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>256</td>
+		<td>1024</td>
+		<td>1536</td>
+		<td>1024</td>
+	</tr>
+ </table>
 <hr>
 <h4>2. Fractal octahedron</h4>
 <a href="vr/FractalOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/14A.png" class="foto" alt="FractalOctahedron"></a><img src="ar/14.png" class="qr">
- <br><br>The joined cuboctahedron is a composite of the Archimedean cuboctahedron with its respective dual, the Catalan rhombic dodecahedron. 
- <br>It has faces shaped like kites.
-<br><br><br><b>Faces:</b> 24 kites | <b>Edges:</b> 48 | <b>Vertices:</b> 26. <a href="http://dmccooey.com/polyhedra/JoinedCuboctahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 8 faces of the regular octahedron, we obtain a regular fractal octahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>8</td>
+		<td>12</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>48</td>
+		<td>72</td>
+		<td>36</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>36</td>
+		<td>288</td>
+		<td>432</td>
+		<td>216</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>216</td>
+		<td>1728</td>
+		<td>2592</td>
+		<td>1296</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>1296</td>
+		<td>10368</td>
+		<td>15552</td>
+		<td>7776</td>
+	</tr>
+ </table>
+ <hr>
 <h4>3. Fractal icosahedron</h4>
 <a href="vr/FractalIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/15A.png" class="foto" alt="Fractal Icosahedron"></a><img src="ar/15.png" class="qr">
- <br><br>The joined truncated octahedron is a composite of the Archimedean truncated octahedron with its respective dual, the Catalan tetrakis hexahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedOctahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 20 faces of the regular icosahedron, we obtain a regular fractal icosahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
+ </table>
+ <hr>
 <h4>4. Fractal cube</h4>
 <a href="vr/FractalCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/16A.png" class="foto" alt="Fractal Cube"></a><img src="ar/16.png" class="qr">
- <br><br>The joined truncated cube is a composite of the Archimedean truncated cube with its respective dual, the Catalan triakis octahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 24 kites and 12 rhombi | <b>Edges:</b> 72 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCube.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 6 faces of the cube, we obtain a fractal cube. In the first order of construction of the fractal, we construct 8 new solids on each face of the original polyhedron, all with &frac13; the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>6</td>
+		<td>12</td>
+		<td>8</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>120</td>
+		<td>240</td>
+		<td>160</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>2400</td>
+		<td>4800</td>
+		<td>3200</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>8000</td>
+		<td>48000</td>
+		<td>96000</td>
+		<td>64000</td>
+	</tr>
+ </table>
+ <hr>
 <h4>5. Fractal dodecahedron</h4>
 <a href="vr/FractalDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Fractal Dodecahedron"></a><img src="ar/17.png" class="qr">
- <br><br>The joined rhombicuboctahedron is a composite of the Archimedean rhombicuboctahedron with its respective dual, the Catalan deltoidal icositetrahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 24 kites and 24 rhombi | <b>Edges:</b> 96 | <b>Vertices:</b> 50. <a href="http://dmccooey.com/polyhedra/JoinedRhombicuboctahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the regular dodecahedron, we obtain a regular fractal dodecahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>240</td>
+		<td>600</td>
+		<td>400</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>4800</td>
+		<td>12000</td>
+		<td>8000</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>8000</td>
+		<td>96000</td>
+		<td>240000</td>
+		<td>160000</td>
+	</tr>
+ </table>
+ <hr>
 <h4>6. Escher solid fractal</h4>
 <a href="vr/FractalEscher.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/18A.png" class="foto" alt="Escher solid fractal"></a><img src="ar/18.png" class="qr">
- <br><br>The joined snub cube is a composite of the Archimedean snub cube with its respective dual, the Catalan pentagonal icositetrahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 24 kites and 36 rhombi | <b>Edges:</b> 120 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedLsnubCube.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 48 faces of the Escher solid, we obtain an Escher solid fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>48</td>
+		<td>72</td>
+		<td>26</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>576</td>
+		<td>864</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>6912</td>
+		<td>10368</td>
+		<td>3744</td>
+	</tr>
+ </table>
+ <hr>
 <h4>7. Small stellated dodecahedron fractal</h4>
 <a href="vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Small stellated dodecahedron fractal"></a><img src="ar/19.png" class="qr">
- <br><br>The joined icosidodecahedron is a composite of the Archimedean icosidodecahedron with its respective dual, the Catalan rhombic triacontahedron. 
- <br>It has faces shaped like kites.
-<br><br><br><b>Faces:</b> 60 kites | <b>Edges:</b> 120 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/JoinedIcosidodecahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the small stellated dodecahedron, we obtain a small stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>144</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>1728</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>8. Great icosahedron fractal</h4>
 <a href="vr/FractalGreatIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/20A.png" class="foto" alt="Great icosahedron fractal"></a><img src="ar/20.png" class="qr">
- <br><br>The joined truncated cuboctahedron is a composite of the Archimedean truncated cuboctahedron with its respective dual, the Catalan disdyakis dodecahedron. 
- <br>It has faces shaped like 24 short, 24 medium and 24 long kites.
-<br><br><br><b>Faces:</b> 72 kites | <b>Edges:</b> 144 | <b>Vertices:</b> 74. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedCuboctahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 20 faces of the great icosahedron, we obtain a great icosahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>9. Great dodecahedron fractal</h4>
 <a href="vr/FractalGreatDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/21A.png" class="foto" alt="Joined Truncated Icosahedron"></a><img src="ar/21.png" class="qr">
- <br><br>The joined truncated icosahedron is a composite of the Archimedean truncated icosahedron with its respective dual, the Catalan pentakis dodecahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedIcosahedron.html" target="_blank">More...</a>
-<hr>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great dodecahedron, we obtain a great dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>144</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>1728</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+ </table>
+ <hr>
 <h4>10. Great stellated dodecahedron fractal</h4>
 <a href="vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/22A.png" class="foto" alt="Great stellated dodecahedron fractal"></a><img src="ar/22.png" class="qr">
- <br><br>The joined truncated dodecahedron is a composite of the Archimedean truncated dodecahedron with its respective dual, the Catalan triakis icosahedron. 
- <br>It has faces shaped like rhombi and kites.
-<br><br><br><b>Faces:</b> 60 kites and 30 rhombi | <b>Edges:</b> 180 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/JoinedTruncatedDodecahedron.html" target="_blank">More...</a>
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great stellated dodecahedron, we obtain a great stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>12</td>
+		<td>30</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>240</td>
+		<td>600</td>
+		<td>400</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>400</td>
+		<td>4800</td>
+		<td>12000</td>
+		<td>8000</td>
+	</tr>
+ </table>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
