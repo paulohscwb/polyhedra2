@@ -258,7 +258,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>6. Fractal do sólido de Escher</h4>
 <a href="../vr/FractalEscher.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Fractal do sólido de Escher"></a><img src="../ar/18.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 48 faces do sólido de Escher, obtemos um fractal do sólido de Escher. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 48 faces do sólido de Escher, obtemos um fractal do sólido de Escher. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -288,11 +288,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>10368</td>
 		<td>3744</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>82944</td>
+		<td>124416</td>
+		<td>44928</td>
+	</tr>
  </table>
  <hr>
 <h4>7. Fractal do pequeno dodecaedro estrelado</h4>
 <a href="../vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Fractal do pequeno dodecaedro estrelado"></a><img src="../ar/19.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do pequeno dodecaedro estrelado, obtemos um fractal do pequeno dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do pequeno dodecaedro estrelado, obtemos um fractal do pequeno dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -322,11 +329,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>20736</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>8. Fractal do grande icosaedro</h4>
 <a href="../vr/FractalGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Fractal do grande icosaedro"></a><img src="../ar/20.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do grande icosaedro, obtemos um fractal do grande icosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do grande icosaedro, obtemos um fractal do grande icosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -356,11 +370,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>9. Fractal do grande dodecaedro</h4>
 <a href="../vr/FractalGreatDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Fractal do grande dodecaedro"></a><img src="../ar/21.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro, obtemos um fractal do grande dodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro, obtemos um fractal do grande dodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -390,11 +411,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>20736</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>10. Fractal do grande dodecaedro estrelado</h4>
 <a href="../vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Fractal do grande dodecaedro estrelado"></a><img src="../ar/22.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro estrelado, obtemos um fractal do grande dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1 e 2.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro estrelado, obtemos um fractal do grande dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -412,17 +440,107 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>20</td>
-		<td>240</td>
-		<td>600</td>
-		<td>400</td>
+		<td>21</td>
+		<td>252</td>
+		<td>630</td>
+		<td>420</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>400</td>
-		<td>4800</td>
-		<td>12000</td>
-		<td>8000</td>
+		<td>441</td>
+		<td>5292</td>
+		<td>13230</td>
+		<td>8820</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>111132</td>
+		<td>277830</td>
+		<td>185220</td>
+	</tr>
+ </table>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>11. Fractal da dipirâmide pentagrâmica</h4>
+<a href="../vr/FractalPentagrammicDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/23A.png" class="foto" alt="Fractal da dipirâmide pentagrâmica"></a><img src="../ar/23.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas arestas que formam o pentagrama da dipirâmide pentagrâmica, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido em 5 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>10</td>
+		<td>15</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>60</td>
+		<td>90</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>36</td>
+		<td>360</td>
+		<td>540</td>
+		<td>252</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>216</td>
+		<td>2160</td>
+		<td>3240</td>
+		<td>1512</td>
+	</tr>
+ </table>
+ <hr>
+<h4>12. Fractal do icosaedro triâmbico medial</h4>
+<a href="../vr/FractalMedialTriambicIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/24A.png" class="foto" alt="Fractal do icosaedro triâmbico medial"></a><img src="../ar/24.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces do icosaedro triâmbico medial, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>60</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>260</td>
+		<td>780</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>3380</td>
+		<td>10140</td>
+		<td>4056</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>43940</td>
+		<td>131820</td>
+		<td>52728</td>
 	</tr>
  </table>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>

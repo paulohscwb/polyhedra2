@@ -258,7 +258,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <hr>
 <h4>6. Escher solid fractal</h4>
 <a href="vr/FractalEscher.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/18A.png" class="foto" alt="Escher solid fractal"></a><img src="ar/18.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to the 48 faces of the Escher solid, we obtain an Escher solid fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 48 faces of the Escher solid, we obtain an Escher solid fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -288,11 +288,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>10368</td>
 		<td>3744</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>82944</td>
+		<td>124416</td>
+		<td>44928</td>
+	</tr>
  </table>
  <hr>
 <h4>7. Small stellated dodecahedron fractal</h4>
 <a href="vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Small stellated dodecahedron fractal"></a><img src="ar/19.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the small stellated dodecahedron, we obtain a small stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the small stellated dodecahedron, we obtain a small stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -322,11 +329,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>20736</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>8. Great icosahedron fractal</h4>
 <a href="vr/FractalGreatIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/20A.png" class="foto" alt="Great icosahedron fractal"></a><img src="ar/20.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to the 20 faces of the great icosahedron, we obtain a great icosahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 20 faces of the great icosahedron, we obtain a great icosahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -356,11 +370,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>9. Great dodecahedron fractal</h4>
 <a href="vr/FractalGreatDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/21A.png" class="foto" alt="Joined Truncated Icosahedron"></a><img src="ar/21.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great dodecahedron, we obtain a great dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great dodecahedron, we obtain a great dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -390,11 +411,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>4320</td>
 		<td>1728</td>
 	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>20736</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
  </table>
  <hr>
 <h4>10. Great stellated dodecahedron fractal</h4>
 <a href="vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/22A.png" class="foto" alt="Great stellated dodecahedron fractal"></a><img src="ar/22.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great stellated dodecahedron, we obtain a great stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1 and 2.
+ <br><br>Applying the construction principle of the Sierpinski triangle to the 12 faces of the great stellated dodecahedron, we obtain a great stellated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -412,17 +440,107 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>20</td>
-		<td>240</td>
-		<td>600</td>
-		<td>400</td>
+		<td>21</td>
+		<td>252</td>
+		<td>630</td>
+		<td>420</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>400</td>
-		<td>4800</td>
-		<td>12000</td>
-		<td>8000</td>
+		<td>441</td>
+		<td>5292</td>
+		<td>13230</td>
+		<td>8820</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>111132</td>
+		<td>277830</td>
+		<td>185220</td>
+	</tr>
+ </table>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
+<h4>11. Pentagramic dipyramid fractal</h4>
+<a href="vr/FractalPentagrammicDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/23A.png" class="foto" alt="Pentagramic dipyramid fractal"></a><img src="ar/23.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to the edges that form the pentagram of the pentagramic dipyramid, we obtain a pentagramic dipyramid fractal. In the first order of fractal construction, we construct a new solid at 5 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>10</td>
+		<td>15</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>60</td>
+		<td>90</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>36</td>
+		<td>360</td>
+		<td>540</td>
+		<td>252</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>216</td>
+		<td>2160</td>
+		<td>3240</td>
+		<td>1512</td>
+	</tr>
+ </table>
+ <hr>
+<h4>12. Medial triambic icosahedron fractal</h4>
+<a href="vr/FractalMedialTriambicIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/24A.png" class="foto" alt="Medial triambic icosahedron"></a><img src="ar/24.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to the faces of the medial triambic icosahedron, we obtain a medial triambic icosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>60</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>260</td>
+		<td>780</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>3380</td>
+		<td>10140</td>
+		<td>4056</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>43940</td>
+		<td>131820</td>
+		<td>52728</td>
 	</tr>
  </table>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
