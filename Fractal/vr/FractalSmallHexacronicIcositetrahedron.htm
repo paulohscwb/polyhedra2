@@ -25,25 +25,25 @@
 			<a-asset-item id="mt" src="outros/solidos.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/SmallHexacronicIcositetrahedron.obj"></a-asset-item>
 			<a-asset-item id="aq1" src="outros/SmallHexacronicIcositetrahedronL.obj"></a-asset-item>
-			<a-mixin id="p1" position="-2.3 0 0"></a-mixin>
-			<a-mixin id="p2" position="2.3 0 0"></a-mixin>
-			<a-mixin id="p3" position="0 2.3 0"></a-mixin>
-			<a-mixin id="p4" position="0 -2.3 0"></a-mixin>
-			<a-mixin id="p5" position="0 0 2.3"></a-mixin>
-			<a-mixin id="p6" position="0 0 -2.3"></a-mixin>
-			<a-mixin id="p7" scale="0.4 0.4 0.4"></a-mixin>
+			<a-mixin id="p1" position="-8.16 0 0"></a-mixin>
+			<a-mixin id="p2" position="8.16 0 0"></a-mixin>
+			<a-mixin id="p3" position="0 8.16 0"></a-mixin>
+			<a-mixin id="p4" position="0 -8.16 0"></a-mixin>
+			<a-mixin id="p5" position="0 0 8.16"></a-mixin>
+			<a-mixin id="p6" position="0 0 -8.16"></a-mixin>
+			<a-mixin id="p7" scale="1.4 1.4 1.4"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
 		<a-entity scale="0.9 0.9 0.9"><!-- mixin="anima1 anima2 anima3">-->
-			<a-entity scale="4 4 4" id="nivel0">
+			<a-entity scale="2 2 2" id="nivel0">
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="ar" src="#aq1" mtl="#mt"></a-obj-model>
 			</a-entity>
 			
-			<a-entity scale="1.2 1.2 1.2" id="nivel1" visible="false">
+			<a-entity scale="0.59 0.59 0.59" id="nivel1" visible="false">
 				<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="ar p1" src="#aq1" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -56,10 +56,10 @@
 				<a-obj-model mixin="ar p5" src="#aq1" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="ar p6" src="#aq1" mtl="#mt"></a-obj-model>
-				<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-				<a-obj-model mixin="ar p6" src="#aq1" mtl="#mt"></a-obj-model>
+				<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+				<a-obj-model mixin="ar p7" src="#aq1" mtl="#mt"></a-obj-model>
 			</a-entity>
-			<a-entity scale="0.585 0.585 0.585" id="nivel2" visible="false">
+			<a-entity scale="0.1741 0.1741 0.1741" id="nivel2" visible="false">
 				<a-entity position="-6.82 -2.22 0">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
@@ -145,7 +145,7 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.224 0.224 0.224" id="nivel3" visible="false">
+			<a-entity scale="0.0513 0.0513 0.0513" id="nivel3" visible="false">
 				<a-entity position="-17.825 -5.84 0">
 					<a-entity position="-6.815 -2.215 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
