@@ -12,32 +12,32 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.3; roughness:0.7;" geometry="radius:1;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404; side:double;"></a-mixin>
 			<a-mixin id="mtl2" material="color: #04b4a2; side:double;"></a-mixin>
-			<a-mixin id="mtl3" material="color: #b43604; side:double;"></a-mixin>
+			<a-mixin id="mtl3" material="color: #e55; side:double;"></a-mixin>
 			<a-mixin id="mtl5" material="color: #0468b4; side:double;"></a-mixin>
 			<a-mixin id="mtl4" material="color: #04b494; side:double;"></a-mixin>
 			<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 			<a-mixin id="esfera" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
-			<a-mixin id="p1" position="0 0.525 -0.853"></a-mixin>
-			<a-mixin id="p2" position="0 -0.525 -0.853"></a-mixin>
-			<a-mixin id="p3" position="-0.853 0 -0.525"></a-mixin>
-			<a-mixin id="p4" position="-0.853 0 0.525"></a-mixin>
-			<a-mixin id="p5" position="0 0.525 0.853"></a-mixin>
-			<a-mixin id="p6" position="0 -0.525 0.853"></a-mixin>
-			<a-mixin id="p7" position="0.853 0 -0.525"></a-mixin>
-			<a-mixin id="p8" position="0.853 0 0.525"></a-mixin>
-			<a-mixin id="p9" position="0.525 0.853 0"></a-mixin>
-			<a-mixin id="p10" position="-0.525 0.853 0"></a-mixin>
-			<a-mixin id="p11" position="0.525 -0.853 0"></a-mixin>
-			<a-mixin id="p12" position="-0.525 -0.853 0"></a-mixin>
+			<a-mixin id="p1" position="0 0.851 -1.378"></a-mixin>
+			<a-mixin id="p2" position="0 -0.851 -1.378"></a-mixin>
+			<a-mixin id="p3" position="-1.378 0 -0.851"></a-mixin>
+			<a-mixin id="p4" position="-1.378 0 0.851"></a-mixin>
+			<a-mixin id="p5" position="0 0.851 1.378"></a-mixin>
+			<a-mixin id="p6" position="0 -0.851 1.378"></a-mixin>
+			<a-mixin id="p7" position="1.378 0 -0.851"></a-mixin>
+			<a-mixin id="p8" position="1.378 0 0.851"></a-mixin>
+			<a-mixin id="p9" position="0.851 1.378 0"></a-mixin>
+			<a-mixin id="p10" position="-0.851 1.378 0"></a-mixin>
+			<a-mixin id="p11" position="0.851 -1.378 0"></a-mixin>
+			<a-mixin id="p12" position="-0.851 -1.378 0"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 58.25 0 0; to: 58.25 360 0; easing: linear; delay: 13000'></a-mixin>
-			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 58.25 0 0; to: 238.25 90 0; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
-			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 58.25 0 0; to: 229 0 290; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
+			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 58.25 0 0; to: 238.25 90 120; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
+			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 58.25 0 0; to: 229 120 290; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
 		<a-entity rotation="58.25 0 0"><!-- mixin="anima1 anima2 anima3">-->
@@ -46,7 +46,7 @@
 				<a-icosahedron mixin="ar"></a-icosahedron>
 			</a-entity>
 			
-			<a-entity scale="3 3 3" id="nivel1" visible="false">
+			<a-entity scale="2.29 2.29 2.29" id="nivel1" visible="false">
 				<a-icosahedron mixin="fc mtl2 p1"></a-icosahedron>
 				<a-icosahedron mixin="ar p1"></a-icosahedron>
 				<a-icosahedron mixin="fc mtl2 p2"></a-icosahedron>
@@ -72,8 +72,8 @@
 				<a-icosahedron mixin="fc mtl2 p12"></a-icosahedron>
 				<a-icosahedron mixin="ar p12"></a-icosahedron>
 			</a-entity>
-			<a-entity scale="1.5 1.5 1.5" id="nivel2" visible="false">
-				<a-entity position="0 1.05 -1.705">
+			<a-entity scale="0.877 0.877 0.877" id="nivel2" visible="false">
+				<a-entity position="0 2.221 -3.59">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -99,7 +99,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="0 -1.05 -1.705">
+				<a-entity position="0 -2.221 -3.59">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -125,7 +125,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="0 1.05 1.705">
+				<a-entity position="0 2.221 3.59">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -151,7 +151,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="0 -1.05 1.705">
+				<a-entity position="0 -2.221 3.59">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -177,7 +177,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="1.05 -1.705 0">
+				<a-entity position="2.221 -3.59 0">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -203,7 +203,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="-1.05 1.705 0">
+				<a-entity position="-2.221 3.59 0">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -229,7 +229,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="1.05 1.705 0">
+				<a-entity position="2.221 3.59 0">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -255,7 +255,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="-1.05 -1.705 0">
+				<a-entity position="-2.221 -3.59 0">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -281,7 +281,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="-1.705 0 1.05">
+				<a-entity position="-3.59 0 2.221">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -307,7 +307,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="1.705 0 -1.05">
+				<a-entity position="3.59 0 -2.221">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -333,7 +333,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="1.705 0 1.05">
+				<a-entity position="3.59 0 2.221">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -359,7 +359,7 @@
 					<a-icosahedron mixin="fc mtl3 p12"></a-icosahedron>
 
 				</a-entity>
-				<a-entity position="-1.705 0 -1.05">
+				<a-entity position="-3.59 0 -2.221">
 					<a-icosahedron mixin="fc mtl3 p1"></a-icosahedron>
 
 					<a-icosahedron mixin="fc mtl3 p2"></a-icosahedron>
@@ -386,9 +386,9 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.75 0.75 0.75" id="nivel3" visible="false">
-				<a-entity position="0 2.1 3.41">
-					<a-entity position="0 1.05 -1.705">
+			<a-entity scale="0.335 0.335 0.335" id="nivel3" visible="false">
+				<a-entity position="0 5.82 9.41">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -414,7 +414,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -440,7 +440,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -466,7 +466,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -492,7 +492,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -518,7 +518,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -544,7 +544,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -570,7 +570,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -596,7 +596,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -622,7 +622,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -648,7 +648,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -674,321 +674,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -2.1 3.41">
-					<a-entity position="0 1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1015,8 +701,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="0 2.1 -3.41">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="0 -5.82 9.41">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1042,7 +728,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1068,7 +754,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1094,7 +780,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1120,7 +806,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1146,7 +832,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1172,7 +858,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1198,7 +884,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1224,7 +910,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1250,7 +936,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1276,7 +962,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1302,321 +988,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -2.1 -3.41">
-					<a-entity position="0 1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1643,8 +1015,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="3.41 0 2.1">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="0 5.82 -9.41">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1670,7 +1042,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1696,7 +1068,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1722,7 +1094,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1748,7 +1120,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1774,7 +1146,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1800,7 +1172,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1826,7 +1198,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1852,7 +1224,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1878,7 +1250,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1904,7 +1276,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -1930,321 +1302,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="3.41 0 -2.1">
-					<a-entity position="0 1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2271,8 +1329,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="-3.41 0 2.1">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="0 -5.82 -9.41">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2298,7 +1356,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2324,7 +1382,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2350,7 +1408,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2376,7 +1434,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2402,7 +1460,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2428,7 +1486,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2454,7 +1512,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2480,7 +1538,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2506,7 +1564,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2532,7 +1590,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2558,321 +1616,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="-3.41 0 -2.1">
-					<a-entity position="0 1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2899,8 +1643,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="2.1 3.41 0">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="9.41 0 5.82">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2926,7 +1670,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2952,7 +1696,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -2978,7 +1722,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3004,7 +1748,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3030,7 +1774,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3056,7 +1800,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3082,7 +1826,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3108,7 +1852,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3134,7 +1878,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3160,7 +1904,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3186,321 +1930,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="-2.1 -3.41 0">
-					<a-entity position="0 1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="0 -1.05 1.705">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.05 1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 -1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="1.705 0 1.05">
-						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
-	
-						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
-	
-					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3527,8 +1957,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="-2.1 3.41 0">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="9.41 0 -5.82">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3554,7 +1984,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3580,7 +2010,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3606,7 +2036,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3632,7 +2062,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3658,7 +2088,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3684,7 +2114,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3710,7 +2140,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3736,7 +2166,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3762,7 +2192,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3788,7 +2218,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3814,7 +2244,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3841,8 +2271,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="2.1 -3.41 0">
-					<a-entity position="0 1.05 -1.705">
+				<a-entity position="-9.41 0 5.82">
+					<a-entity position="0 2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3868,7 +2298,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 -1.705">
+					<a-entity position="0 -2.221 -3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3894,7 +2324,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 1.05 1.705">
+					<a-entity position="0 2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3920,7 +2350,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="0 -1.05 1.705">
+					<a-entity position="0 -2.221 3.59">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3946,7 +2376,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 -1.705 0">
+					<a-entity position="2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3972,7 +2402,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 1.705 0">
+					<a-entity position="-2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -3998,7 +2428,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.05 1.705 0">
+					<a-entity position="2.221 3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4024,7 +2454,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.05 -1.705 0">
+					<a-entity position="-2.221 -3.59 0">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4050,7 +2480,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 1.05">
+					<a-entity position="-3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4076,7 +2506,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 -1.05">
+					<a-entity position="3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4102,7 +2532,7 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="1.705 0 1.05">
+					<a-entity position="3.59 0 2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4128,7 +2558,1577 @@
 						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
 	
 					</a-entity>
-					<a-entity position="-1.705 0 -1.05">
+					<a-entity position="-3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-9.41 0 -5.82">
+					<a-entity position="0 2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="5.82 9.41 0">
+					<a-entity position="0 2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-5.82 -9.41 0">
+					<a-entity position="0 2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-5.82 9.41 0">
+					<a-entity position="0 2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="5.82 -9.41 0">
+					<a-entity position="0 2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 -3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2.221 3.59">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="2.221 3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-2.221 -3.59 0">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 -2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="3.59 0 2.221">
+						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p3"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p4"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p5"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p6"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p7"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p8"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p9"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p10"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p11"></a-icosahedron>
+	
+						<a-icosahedron mixin="fc mtl4 p12"></a-icosahedron>
+	
+					</a-entity>
+					<a-entity position="-3.59 0 -2.221">
 						<a-icosahedron mixin="fc mtl4 p1"></a-icosahedron>
 	
 						<a-icosahedron mixin="fc mtl4 p2"></a-icosahedron>
@@ -4163,6 +4163,7 @@
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.85" position="7 5 -1"></a-light>
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>

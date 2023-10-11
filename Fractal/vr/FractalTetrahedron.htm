@@ -12,11 +12,11 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.3; roughness:0.7;" geometry="radius:1;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404; side:double;"></a-mixin>
 			<a-mixin id="mtl2" material="color: #04b4a2; side:double;"></a-mixin>
-			<a-mixin id="mtl3" material="color: #b43604; side:double;"></a-mixin>
+			<a-mixin id="mtl3" material="color: #e88; side:double;"></a-mixin>
 			<a-mixin id="mtl4" material="color: #04b494; side:double;"></a-mixin>
 			<a-mixin id="mtl5" material="color: #04aadd; side:double;"></a-mixin>
 			<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
@@ -27,9 +27,9 @@
 			<a-mixin id="p2" position="0.57735 0.57735 0.57735"></a-mixin>
 			<a-mixin id="p3" position="-0.57735 -0.57735 0.57735"></a-mixin>
 			<a-mixin id="p4" position="0.57735 -0.57735 -0.57735"></a-mixin>
-			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
-			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
-			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
+			<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
+			<!--<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 180; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
+			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 180 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
 		<a-entity rotation="-35 15 45"><!-- mixin="anima1 anima2 anima3">-->
@@ -949,6 +949,7 @@
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.85" position="7 5 -1"></a-light>
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
