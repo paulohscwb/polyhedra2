@@ -135,7 +135,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>3. Icosaedro fractal</h4>
 <a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -176,7 +176,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>4. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com &frac13; da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com &frac13; da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -299,7 +299,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>7. Fractal do pequeno dodecaedro estrelado</h4>
 <a href="../vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Fractal do pequeno dodecaedro estrelado"></a><img src="../ar/19.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do pequeno dodecaedro estrelado, obtemos um fractal do pequeno dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 12 faces do pequeno dodecaedro estrelado, obtemos um fractal do pequeno dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -340,7 +340,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>8. Fractal do grande icosaedro</h4>
 <a href="../vr/FractalGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Fractal do grande icosaedro"></a><img src="../ar/20.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 20 faces do grande icosaedro, obtemos um fractal do grande icosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 20 faces do grande icosaedro, obtemos um fractal do grande icosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -381,7 +381,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>9. Fractal do grande dodecaedro</h4>
 <a href="../vr/FractalGreatDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Fractal do grande dodecaedro"></a><img src="../ar/21.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro, obtemos um fractal do grande dodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 12 faces do grande dodecaedro, obtemos um fractal do grande dodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -422,7 +422,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <hr>
 <h4>10. Fractal do grande dodecaedro estrelado</h4>
 <a href="../vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Fractal do grande dodecaedro estrelado"></a><img src="../ar/22.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 12 faces do grande dodecaedro estrelado, obtemos um fractal do grande dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 12 faces do grande dodecaedro estrelado, obtemos um fractal do grande dodecaedro estrelado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -464,7 +464,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>11. Fractal da dipirâmide pentagrâmica</h4>
 <a href="../vr/FractalPentagrammicDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/23A.png" class="foto" alt="Fractal da dipirâmide pentagrâmica"></a><img src="../ar/23.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas arestas que formam o pentagrama da dipirâmide pentagrâmica, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido em 5 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas arestas que formam o pentagrama da dipirâmide pentagrâmica, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido em 5 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -501,11 +501,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>3240</td>
 		<td>1512</td>
 	</tr>
+	<tr>
+		<td>4</td>
+		<td>1296</td>
+		<td>12960</td>
+		<td>19440</td>
+		<td>9072</td>
+	</tr>
  </table>
  <hr>
 <h4>12. Fractal do icosaedro triâmbico medial</h4>
 <a href="../vr/FractalMedialTriambicIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/24A.png" class="foto" alt="Fractal do icosaedro triâmbico medial"></a><img src="../ar/24.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces do icosaedro triâmbico medial, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces do icosaedro triâmbico medial, obtemos um fractal do icosaedro triâmbico medial. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -541,6 +548,252 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>43940</td>
 		<td>131820</td>
 		<td>52728</td>
+	</tr>
+ </table>
+ <hr>
+<h4>13. Fractal do triacontaedro rômbico medial</h4>
+<a href="../vr/FractalMedialRhombicTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/25A.png" class="foto" alt="Fractal do triacontaedro rômbico medial"></a><img src="../ar/25.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do triacontaedro rômbico medial, obtemos um fractal do triacontaedro rômbico medial. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>30</td>
+		<td>60</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>390</td>
+		<td>780</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>5070</td>
+		<td>10140</td>
+		<td>4056</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>65910</td>
+		<td>131820</td>
+		<td>52728</td>
+	</tr>
+ </table>
+ <hr>
+<h4>14. Fractal do pequeno hexecontaedro ditrigonal dodecacrônico</h4>
+<a href="../vr/FractalSmallDitrigonalDodecacronicHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/26A.png" class="foto" alt="Fractal do pequeno hexecontaedro ditrigonal dodecacrônico"></a><img src="../ar/26.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do pequeno hexecontaedro ditrigonal dodecacrônico, obtemos um fractal do pequeno hexecontaedro ditrigonal dodecacrônico. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>120</td>
+		<td>44</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1560</td>
+		<td>572</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>20280</td>
+		<td>7436</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>263640</td>
+		<td>96668</td>
+	</tr>
+ </table>
+ <hr>
+<h4>15. Fractal do pequeno icositetraedro hexacrônico</h4>
+<a href="../vr/FractalSmallHexacronicIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/27A.png" class="foto" alt="Fractal do pequeno icositetraedro hexacrônico"></a><img src="../ar/27.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 6 faces do pequeno icositetraedro hexacrônico, obtemos um fractal do pequeno icositetraedro hexacrônico. Na primeira ordem de construção do fractal, construímos um novo sólido em 6 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>48</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>7</td>
+		<td>168</td>
+		<td>336</td>
+		<td>140</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>49</td>
+		<td>1176</td>
+		<td>2352</td>
+		<td>980</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>343</td>
+		<td>8232</td>
+		<td>16464</td>
+		<td>6860</td>
+	</tr>
+ </table>
+ <hr>
+<h4>16. Fractal do grande octaedro triakis</h4>
+<a href="../vr/FractalGreatTriakisOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/28A.png" class="foto" alt="Fractal do grande octaedro triakis"></a><img src="../ar/28.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 8 faces do grande octaedro triakis, obtemos um fractal do grande octaedro triakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 8 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>36</td>
+		<td>14</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>9</td>
+		<td>216</td>
+		<td>324</td>
+		<td>126</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>81</td>
+		<td>1944</td>
+		<td>2916</td>
+		<td>1134</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>729</td>
+		<td>17496</td>
+		<td>26244</td>
+		<td>10216</td>
+	</tr>
+ </table>
+ <hr>
+<h4>17. Fractal do grande dodecaedro stellapentakis</h4>
+<a href="../vr/FractalGreatStellapentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/29A.png" class="foto" alt="Fractal do grande dodecaedro stellapentakis"></a><img src="../ar/29.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 20 faces do grande dodecaedro stellapentakis, obtemos um fractal do grande dodecaedro stellapentakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 20 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>90</td>
+		<td>32</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>1260</td>
+		<td>1890</td>
+		<td>672</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>26460</td>
+		<td>39690</td>
+		<td>14112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>555660</td>
+		<td>833490</td>
+		<td>296352</td>
+	</tr>
+ </table>
+ <hr>
+<h4>18. Fractal do grande dodecaedro disdyakis</h4>
+<a href="../vr/FractalGreatDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/30A.png" class="foto" alt="Fractal do grande dodecaedro disdyakis"></a><img src="../ar/30.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 8 faces do grande dodecaedro disdyakis, obtemos um fractal do grande dodecaedro disdyakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 8 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>48</td>
+		<td>72</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>9</td>
+		<td>432</td>
+		<td>648</td>
+		<td>180</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>81</td>
+		<td>3888</td>
+		<td>5832</td>
+		<td>1620</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>729</td>
+		<td>34992</td>
+		<td>52488</td>
+		<td>14580</td>
 	</tr>
  </table>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
