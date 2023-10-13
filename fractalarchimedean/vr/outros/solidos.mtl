@@ -120,10 +120,10 @@ Pm/map_Pm 0.2
 d 0.88
 
 newmtl CorL
-Kd 0.3 0.3 0.3
+Kd 0.5 0.5 0.5
 Ks 0.5 0.5 0.5
-Pr/map_Pr 0.7
-Pm/map_Pm 0.2
+Pr/map_Pr 0.8
+Pm/map_Pm 0.3
 d 1
 
 newmtl CorL1
