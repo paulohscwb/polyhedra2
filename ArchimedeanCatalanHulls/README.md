@@ -7,8 +7,10 @@
  <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected value>More polyhedra:</option>
-		<option disabled value="../ArchimedeanCatalanHulls/">Archimedean and Catalan Convex Hulls</option>
-		<option value="../Fractal/">Fractal polyhedra</option>
+		<option disabled value="../archimedeancatalanhulls/pt-br/">Archimedean and Catalan convex hulls</option>
+		<option value="../fractalplatonic/pt-br/">Platonic polyhedra fractals</option>
+		<option value="../fractalnonconvex/pt-br/">Non convex polyhedra fractals</option>
+		<option value="../fractalarchimedean/pt-br/">Archimedean polyhedra fractals</option>
 	</select>
 </form>
 <script>
@@ -18,7 +20,7 @@ function urlHandler(value) {
 </script>
 
 <p id="p1"></p>
-  <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Archimedean and Catalan Convex Hulls</h2>
+  <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Archimedean and Catalan convex hulls</h2>
 Each polyhedron on this page is the convex hull of an solid of Archimedes compounded with its Catalan dual. This operation is equivalent to John Conway's 'join' operation applied to either the Archimedean solid or the respective Catalan dual.
 <hr> 
 <!--<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
