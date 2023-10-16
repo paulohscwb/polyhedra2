@@ -9,7 +9,7 @@
 <h3 style="margin-top:3px"><a target="_blank" href="ArchimedeanCatalanHulls/"><img src="ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Archimedean and Catalan Convex Hulls</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalplatonic/"><img src="fractalplatonic/ar/14A.png" style="margin-bottom:-10px" width="40"> Platonic polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalnonconvex/"><img src="fractalnonconvex/ar/19A.png" style="margin-bottom:-10px" width="40"> Non convex polyhedra fractals</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="fractalarchimedean/"><img src="fractalarchimedean/ar/36A.png" style="margin-bottom:-10px" width="40"> Archimedean polyhedra fractals</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="fractalarchimedean/"><img src="fractalarchimedean/ar/37A.png" style="margin-bottom:-10px" width="40"> Archimedean polyhedra fractals</a></h3>
 
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 <hr>
