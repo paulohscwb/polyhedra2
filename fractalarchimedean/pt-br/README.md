@@ -7,7 +7,7 @@
 <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected>Mais poliedros:</option>
-		<option value="../../archimedeancatalanhulls/pt-br/">Cascos convexos de Arquimedes e Catalan</option>
+		<option value="../../ArchimedeanCatalanHulls/pt-br/">Cascos convexos de Arquimedes e Catalan</option>
 		<option value="../../fractalplatonic/pt-br/">Fractais dos poliedros de Platão</option>
 		<option value="../../fractalnonconvex/pt-br/">Fractais dos poliedros não convexos</option>
 		<option disabled value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>

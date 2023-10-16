@@ -7,7 +7,7 @@
  <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected value>More polyhedra:</option>
-		<option value="../archimedeancatalanhulls/pt-br/">Archimedean and Catalan convex hulls</option>
+		<option value="../ArchimedeanCatalanHulls/pt-br/">Archimedean and Catalan convex hulls</option>
 		<option disabled value="../fractalplatonic/pt-br/">Platonic polyhedra fractals</option>
 		<option value="../fractalnonconvex/pt-br/">Non convex polyhedra fractals</option>
 		<option value="../fractalarchimedean/pt-br/">Archimedean polyhedra fractals</option>
