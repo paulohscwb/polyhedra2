@@ -40,7 +40,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h3 id="m3d" align="center">Modelos 3D</h3>
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Fractal do cuboctaedro</h4>
-<a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/31.png" class="qr">
+<a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Fractal do cuboctaedro"></a><img src="../ar/31.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
@@ -80,9 +80,214 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 	</tr>
  </table>
 <hr>
-<h4>2. Fractal do cuboctaedro</h4>
-<a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/32.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+<h4>2. Fractal do icosidodecaedro</h4>
+<a href="../vr/FractalIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Fractal do icosidodecaedro"></a><img src="../ar/32.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do icosidodecaedro, obtemos um fractal do icosidodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>32</td>
+		<td>60</td>
+		<td>30</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>672</td>
+		<td>1260</td>
+		<td>630</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>14112</td>
+		<td>26460</td>
+		<td>13230</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>296352</td>
+		<td>555660</td>
+		<td>277830</td>
+	</tr>
+ </table>
+<hr>
+<h4>3. Fractal do rombicosidodecaedro</h4>
+<a href="../vr/FractalRhombicosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/33A.png" class="foto" alt="Fractal do rombicosidodecaedro"></a><img src="../ar/33.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces pentagonais do rombicosidodecaedro, obtemos um fractal do rombicosidodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face pentagonal do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>62</td>
+		<td>120</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>806</td>
+		<td>1560</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10478</td>
+		<td>20280</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>136214</td>
+		<td>263640</td>
+		<td>131820</td>
+	</tr>
+ </table>
+<hr>
+<h4>4. Fractal do rombicuboctaedro</h4>
+<a href="../vr/FractalRhombicuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/34A.png" class="foto" alt="Fractal do rombicuboctaedro"></a><img src="../ar/34.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do rombicuboctaedro, obtemos um fractal do rombicuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>26</td>
+		<td>48</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>9</td>
+		<td>234</td>
+		<td>432</td>
+		<td>216</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>81</td>
+		<td>2106</td>
+		<td>3888</td>
+		<td>1944</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>729</td>
+		<td>18954</td>
+		<td>34992</td>
+		<td>17496</td>
+	</tr>
+ </table>
+<hr>
+<h4>5. Fractal do cubo snub</h4>
+<a href="../vr/FractalSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/35A.png" class="foto" alt="Fractal do cubo snub"></a><img src="../ar/35.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces quadradas do cubo snub, obtemos um fractal do cubo snub. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face quadrada do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>38</td>
+		<td>60</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>7</td>
+		<td>266</td>
+		<td>420</td>
+		<td>168</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>49</td>
+		<td>1862</td>
+		<td>2940</td>
+		<td>1176</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>343</td>
+		<td>13034</td>
+		<td>20580</td>
+		<td>8232</td>
+	</tr>
+ </table>
+<hr>
+<h4>6. Fractal do dodecaedro snub</h4>
+<a href="../vr/FractalSnubDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/36A.png" class="foto" alt="Fractal do dodecaedro snub"></a><img src="../ar/36.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces pentagonais do dodecaedro snub, obtemos um fractal do dodecaedro snub. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face pentagonal do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>92</td>
+		<td>150</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>1196</td>
+		<td>1950</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>15548</td>
+		<td>25350</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>202124</td>
+		<td>329550</td>
+		<td>131820</td>
+	</tr>
+ </table>
+<hr>
+<h4>7. Fractal do cubo truncado</h4>
+<a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cubo truncado, obtemos um fractal do cubo truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -95,29 +300,111 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>0</td>
 		<td>1</td>
 		<td>14</td>
+		<td>36</td>
 		<td>24</td>
-		<td>12</td>
 	</tr>
 	<tr>
 		<td>1</td>
 		<td>9</td>
 		<td>126</td>
+		<td>324</td>
 		<td>216</td>
-		<td>108</td>
 	</tr>
 	<tr>
 		<td>2</td>
 		<td>81</td>
 		<td>1134</td>
+		<td>2916</td>
 		<td>1944</td>
-		<td>972</td>
 	</tr>
 	<tr>
 		<td>3</td>
 		<td>729</td>
 		<td>10206</td>
+		<td>26244</td>
 		<td>17496</td>
-		<td>8748</td>
+	</tr>
+ </table>
+<hr>
+<h4>8. Fractal do cuboctaedro truncado</h4>
+<a href="../vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Fractal do cuboctaedro truncado"></a><img src="../ar/38.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces quadradas do cuboctaedro truncado, obtemos um fractal do cuboctaedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face quadrada do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>26</td>
+		<td>72</td>
+		<td>48</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>338</td>
+		<td>936</td>
+		<td>624</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>4394</td>
+		<td>12168</td>
+		<td>8112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>57122</td>
+		<td>158184</td>
+		<td>105456</td>
+	</tr>
+ </table>
+<hr>
+<h4>9. Fractal do cuboctaedro truncado</h4>
+<a href="../vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/39A.png" class="foto" alt="Fractal do cuboctaedro truncado"></a><img src="../ar/39.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces quadradas do cuboctaedro truncado, obtemos um fractal do cuboctaedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face quadrada do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>26</td>
+		<td>72</td>
+		<td>48</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>338</td>
+		<td>936</td>
+		<td>624</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>4394</td>
+		<td>12168</td>
+		<td>8112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>57122</td>
+		<td>158184</td>
+		<td>105456</td>
 	</tr>
  </table>
 <hr>
