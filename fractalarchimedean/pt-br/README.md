@@ -39,9 +39,9 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
  <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-<h4>1. Tetraedro fractal</h4>
-<a href="../vr/FractalTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/31.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+<h4>1. Fractal do cuboctaedro</h4>
+<a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/31.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -53,37 +53,71 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 	<tr>
 		<td>0</td>
 		<td>1</td>
-		<td>4</td>
-		<td>6</td>
-		<td>4</td>
+		<td>14</td>
+		<td>24</td>
+		<td>12</td>
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>4</td>
-		<td>16</td>
-		<td>24</td>
-		<td>16</td>
+		<td>9</td>
+		<td>126</td>
+		<td>216</td>
+		<td>108</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>16</td>
-		<td>64</td>
-		<td>96</td>
-		<td>64</td>
+		<td>81</td>
+		<td>1134</td>
+		<td>1944</td>
+		<td>972</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>64</td>
-		<td>256</td>
-		<td>384</td>
-		<td>256</td>
+		<td>729</td>
+		<td>10206</td>
+		<td>17496</td>
+		<td>8748</td>
+	</tr>
+ </table>
+<hr>
+<h4>2. Fractal do cuboctaedro</h4>
+<a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/32.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
 	</tr>
 	<tr>
-		<td>4</td>
-		<td>256</td>
-		<td>1024</td>
-		<td>1536</td>
-		<td>1024</td>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>24</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>9</td>
+		<td>126</td>
+		<td>216</td>
+		<td>108</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>81</td>
+		<td>1134</td>
+		<td>1944</td>
+		<td>972</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>729</td>
+		<td>10206</td>
+		<td>17496</td>
+		<td>8748</td>
 	</tr>
  </table>
 <hr>
