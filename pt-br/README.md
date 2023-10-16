@@ -9,7 +9,7 @@
 <h3 style="margin-top:3px"><a target="_blank" href="../ArchimedeanCatalanHulls/pt-br/"><img src="../ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Cascos convexos de Arquimedes e Catalan</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalplatonic/pt-br/"><img src="../fractalplatonic/ar/14A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Platão</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalnonconvex/pt-br/"><img src="../fractalnonconvex/ar/19A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros não convexos</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="../fractalarchimedean/pt-br/"><img src="../fractalarchimedean/ar/31A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Arquimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../fractalarchimedean/pt-br/"><img src="../fractalarchimedean/ar/36A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Arquimedes</a></h3>
 
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
 <hr>
