@@ -205,7 +205,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>5. Snub cube fractal</h4>
 <a href="vr/FractalSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/35A.png" class="foto" alt="Snub cube fractal"></a><img src="ar/35.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to square faces of the snub cube, we obtain a snub cube fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction principle of the Koch curve to square faces of the snub cube, we obtain a snub cube fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
  <table>
 	<tr>
 		<th>order</th>
@@ -241,6 +241,13 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>13034</td>
 		<td>20580</td>
 		<td>8232</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>2401</td>
+		<td>91238</td>
+		<td>144060</td>
+		<td>57624</td>
 	</tr>
  </table>
  <hr>
@@ -450,7 +457,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <hr>
  <h4>11. Truncated icosidodecahedron fractal</h4>
 <a href="vr/FractalTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/41A.png" class="foto" alt="Truncated icosidodecahedron fractal"></a><img src="ar/41.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to decagonal faces of the truncated icosidodecahedron, we obtain a truncated icosidodecahedron fractal. In the first order of fractal construction, we construct a new solid at each decagonal face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction principle of the Koch curve to decagonal faces of the truncated icosidodecahedron, we obtain a truncated icosidodecahedron fractal. In the first order of fractal construction, we construct a new solid at each decagonal face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
  <table>
 	<tr>
 		<th>order</th>
@@ -487,11 +494,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>395460</td>
 		<td>263640</td>
 	</tr>
+	<tr>
+		<td>4</td>
+		<td>2401</td>
+		<td>33614</td>
+		<td>86436</td>
+		<td>57624</td>
+	</tr>
  </table>
  <hr>
  <h4>12. Truncated octahedron fractal</h4>
 <a href="vr/FractalTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/42A.png" class="foto" alt="Truncated octahedron fractal"></a><img src="ar/42.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to square faces of the truncated octahedron, we obtain a truncated octahedron fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction principle of the Koch curve to square faces of the truncated octahedron, we obtain a truncated octahedron fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
  <table>
 	<tr>
 		<th>order</th>
@@ -528,8 +542,14 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>12348</td>
 		<td>8232</td>
 	</tr>
+	<tr>
+		<td>4</td>
+		<td>343</td>
+		<td>4802</td>
+		<td>12348</td>
+		<td>8232</td>
+	</tr>
  </table>
- <hr>
  <hr>
  <h4>13. Truncated tetrahedron fractal</h4>
 <a href="vr/FractalTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Truncated tetrahedron fractal"></a><img src="ar/43.png" class="qr">
@@ -578,7 +598,6 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>7500</td>
 	</tr>
  </table>
- <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
