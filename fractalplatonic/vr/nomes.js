@@ -77,11 +77,11 @@ function mnivel() {
 
 function mnivelRA() {
 	var sceneEl = document.querySelector('a-scene')
-	var entityEl0 = sceneEl.querySelector('.nivel0')
-	var entityEl1 = sceneEl.querySelector('.nivel1')
-	var entityEl2 = sceneEl.querySelector('.nivel2')
-	var entityEl3 = sceneEl.querySelector('.nivel3')
-	var entityEl4 = sceneEl.querySelector('.nivel4')
+	var entityEl0 = sceneEl.querySelectorAll('.nivel0')
+	var entityEl1 = sceneEl.querySelectorAll('.nivel1')
+	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
+	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
+	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
 	  entityEl0.setAttribute('visible','true');
