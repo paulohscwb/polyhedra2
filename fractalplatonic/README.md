@@ -23,22 +23,23 @@ function urlHandler(value) {
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Platonic polyhedra fractals</h2>
 Using the same principle as the construction of the Sierpinski triangle or the Koch curve, we can construct fractals from other regular polygons. When these polygons form a polyhedron, we have the construction of a fractal polyhedron.
 <hr> 
-<!--<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
-  <hr>
+ <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+  <!-- <hr>
   <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva de Fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/fractalplatonic.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to fractal polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>
- <hr>
+  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/fractalplatonic.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to fractal polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> -->
+ <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
 To view fractal polyhedra in AR, simply visit:
-<p align="center"><a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a></p> 
+<p align="center"><a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+<br>and <a href="ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
 <p align="center"><img src="ar/fractalplatonic.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Fractal tetrahedron</h4>
 <a href="vr/FractalTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/13A.png" class="foto" alt="Fractal Tetrahedron"></a><img src="ar/13.png" class="qr">
  <br><br>Applying the construction principle of the Sierpinski triangle to the 4 faces of the regular tetrahedron, we obtain a regular fractal tetrahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
@@ -86,6 +87,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>1024</td>
 	</tr>
  </table>
+ <a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
 <hr>
 <h4>2. Fractal octahedron</h4>
 <a href="vr/FractalOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/14A.png" class="foto" alt="FractalOctahedron"></a><img src="ar/14.png" class="qr">
@@ -134,49 +136,9 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>7776</td>
 	</tr>
  </table>
+ <a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
  <hr>
-<h4>3. Fractal icosahedron</h4>
-<a href="vr/FractalIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/15A.png" class="foto" alt="Fractal Icosahedron"></a><img src="ar/15.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to the 20 faces of the regular icosahedron, we obtain a regular fractal icosahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
- <table>
-	<tr>
-		<th>order</th>
-		<th>polyhedra</th>
-		<th>faces</th>
-		<th>edges</th>
-		<th>vertices</th>
-	</tr>
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>20</td>
-		<td>30</td>
-		<td>12</td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>12</td>
-		<td>240</td>
-		<td>360</td>
-		<td>144</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>144</td>
-		<td>2880</td>
-		<td>4320</td>
-		<td>1728</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>1728</td>
-		<td>34560</td>
-		<td>51840</td>
-		<td>20736</td>
-	</tr>
- </table>
- <hr>
-<h4>4. Fractal cube</h4>
+<h4>3. Fractal cube</h4>
 <a href="vr/FractalCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/16A.png" class="foto" alt="Fractal Cube"></a><img src="ar/16.png" class="qr">
  <br><br>Applying the construction principle of the Sierpinski carpet to the 6 faces of the cube, we obtain a fractal cube. In the first order of construction of the fractal, we construct 8 new solids on each face of the original polyhedron, all with &frac13; the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -216,6 +178,49 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>64000</td>
 	</tr>
  </table>
+ <a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <hr>
+ <h4>4. Fractal icosahedron</h4>
+<a href="vr/FractalIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/15A.png" class="foto" alt="Fractal Icosahedron"></a><img src="ar/15.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to the 20 faces of the regular icosahedron, we obtain a regular fractal icosahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
+ </table>
+ <a href="ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
  <hr>
 <h4>5. Fractal dodecahedron</h4>
 <a href="vr/FractalDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Fractal Dodecahedron"></a><img src="ar/17.png" class="qr">
@@ -257,6 +262,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>160000</td>
 	</tr>
  </table>
+ <a href="ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

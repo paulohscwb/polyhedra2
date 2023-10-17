@@ -23,22 +23,23 @@ function urlHandler(value) {
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fractais dos poliedros de Platão</h2>
   Utilizando o mesmo princípio da construção do triângulo de Sierpinski ou da curva de Koch, podemos construir fractais de outros polígonos regulares. Quando estes polígonos formam um poliedro, temos a construção de um poliedro fractal.
  <hr>
-<!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
-  <hr>
-  <h3 align="center">Sala imersiva</h3>
+ <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
+  <!-- <hr>
+   <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva de fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/fractalplatonic.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para fractais de poliedros"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/fractalplatonic.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para fractais de poliedros"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p> -->
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a></p> 
+<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+e <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/fractalplatonic.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+ <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Tetraedro fractal</h4>
 <a href="../vr/FractalTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/13A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/13.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
@@ -86,6 +87,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>1024</td>
 	</tr>
  </table>
+ <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
 <hr>
 <h4>2. Octaedro fractal</h4>
 <a href="../vr/FractalOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Octaedro fractal"></a><img src="../ar/14.png" class="qr">
@@ -134,49 +136,9 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>7776</td>
 	</tr>
  </table>
+ <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
  <hr>
-<h4>3. Icosaedro fractal</h4>
-<a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
- <table>
-	<tr>
-		<th>ordem</th>
-		<th>poliedros</th>
-		<th>faces</th>
-		<th>arestas</th>
-		<th>vértices</th>
-	</tr>
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>20</td>
-		<td>30</td>
-		<td>12</td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>12</td>
-		<td>240</td>
-		<td>360</td>
-		<td>144</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>144</td>
-		<td>2880</td>
-		<td>4320</td>
-		<td>1728</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>1728</td>
-		<td>34560</td>
-		<td>51840</td>
-		<td>20736</td>
-	</tr>
- </table>
- <hr>
-<h4>4. Cubo fractal</h4>
+<h4>3. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com &frac13; da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -216,6 +178,49 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>64000</td>
 	</tr>
  </table>
+ <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <hr>
+ <h4>4. Icosaedro fractal</h4>
+<a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas 20 faces do icosaedro regular, obtemos um icosaedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>20</td>
+		<td>30</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>12</td>
+		<td>240</td>
+		<td>360</td>
+		<td>144</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>144</td>
+		<td>2880</td>
+		<td>4320</td>
+		<td>1728</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>1728</td>
+		<td>34560</td>
+		<td>51840</td>
+		<td>20736</td>
+	</tr>
+ </table>
+ <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
  <hr>
 <h4>5. Dodecaedro fractal</h4>
 <a href="../vr/FractalDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Dodecaedro fractal"></a><img src="../ar/17.png" class="qr">
@@ -257,6 +262,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>160000</td>
 	</tr>
  </table>
+ <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
  <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
