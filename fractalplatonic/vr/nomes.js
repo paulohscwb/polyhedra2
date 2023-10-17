@@ -77,95 +77,92 @@ function mnivel() {
 
 function mnivelRA() {
 	var sceneEl = document.querySelector('a-scene')
-	var entityEl0 = sceneEl.querySelectorAll('#nivel0')
-	var entityEl1 = sceneEl.querySelectorAll('#nivel1')
-	var entityEl2 = sceneEl.querySelectorAll('#nivel2')
-	var entityEl3 = sceneEl.querySelectorAll('#nivel3')
-	var entityEl4 = sceneEl.querySelectorAll('#nivel4')
-	var entityEl0a = sceneEl.querySelectorAll('#nivel0a')
-	var entityEl1a = sceneEl.querySelectorAll('#nivel1a')
-	var entityEl2a = sceneEl.querySelectorAll('#nivel2a')
-	var entityEl3a = sceneEl.querySelectorAll('#nivel3a')
-	var entityEl4a = sceneEl.querySelectorAll('#nivel4a')
-	var entityEl0b = sceneEl.querySelectorAll('#nivel0b')
-	var entityEl1b = sceneEl.querySelectorAll('#nivel1b')
-	var entityEl2b = sceneEl.querySelectorAll('#nivel2b')
-	var entityEl3b = sceneEl.querySelectorAll('#nivel3b')
+	var entityEl0 = sceneEl.querySelectorAll('.nivel0')
+	var entityEl1 = sceneEl.querySelectorAll('.nivel1')
+	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
+	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
+	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
+	const nodeList = document.querySelectorAll(".example");
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
-	  entityEl0.setAttribute('visible','true');
-	  entityEl1.setAttribute('visible','false');
-	  entityEl2.setAttribute('visible','false');
-	  entityEl3.setAttribute('visible','false');
-	  entityEl4.setAttribute('visible','false');
-	  entityEl0a.setAttribute('visible','true');
-	  entityEl1a.setAttribute('visible','false');
-	  entityEl2a.setAttribute('visible','false');
-	  entityEl3a.setAttribute('visible','false');
-	  entityEl4a.setAttribute('visible','false');
-	  entityEl0b.setAttribute('visible','true');
-	  entityEl1b.setAttribute('visible','false');
-	  entityEl2b.setAttribute('visible','false');
-	  entityEl3b.setAttribute('visible','false');
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
 	} else if (p == 1) {
-	  entityEl0.setAttribute('visible','false');
-	  entityEl1.setAttribute('visible','true');
-	  entityEl2.setAttribute('visible','false');
-	  entityEl3.setAttribute('visible','false');
-	  entityEl4.setAttribute('visible','false');
-	  entityEl0a.setAttribute('visible','false');
-	  entityEl1a.setAttribute('visible','true');
-	  entityEl2a.setAttribute('visible','false');
-	  entityEl3a.setAttribute('visible','false');
-	  entityEl4a.setAttribute('visible','false');
-	  entityEl0b.setAttribute('visible','false');
-	  entityEl1b.setAttribute('visible','true');
-	  entityEl2b.setAttribute('visible','false');
-	  entityEl3b.setAttribute('visible','false');
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
 	} else if (p == 2) {
-	  entityEl0.setAttribute('visible','false');
-	  entityEl1.setAttribute('visible','false');
-	  entityEl2.setAttribute('visible','true');
-	  entityEl3.setAttribute('visible','false');
-	  entityEl4.setAttribute('visible','false');
-	  entityEl0a.setAttribute('visible','false');
-	  entityEl1a.setAttribute('visible','false');
-	  entityEl2a.setAttribute('visible','true');
-	  entityEl3a.setAttribute('visible','false');
-	  entityEl4a.setAttribute('visible','false');
-	  entityEl0b.setAttribute('visible','false');
-	  entityEl1b.setAttribute('visible','false');
-	  entityEl2b.setAttribute('visible','true');
-	  entityEl3b.setAttribute('visible','false');
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+	    entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
 	} else if (p == 3) {
-	  entityEl0.setAttribute('visible','false');
-	  entityEl1.setAttribute('visible','false');
-	  entityEl2.setAttribute('visible','false');
-	  entityEl3.setAttribute('visible','true');
-	  entityEl4.setAttribute('visible','false');
-	  entityEl0a.setAttribute('visible','false');
-	  entityEl1a.setAttribute('visible','false');
-	  entityEl2a.setAttribute('visible','false');
-	  entityEl3a.setAttribute('visible','true');
-	  entityEl4a.setAttribute('visible','false');
-	  entityEl0b.setAttribute('visible','false');
-	  entityEl1b.setAttribute('visible','false');
-	  entityEl2b.setAttribute('visible','false');
-	  entityEl3b.setAttribute('visible','true');
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
 	} else {
-	  entityEl0.setAttribute('visible','false');
-	  entityEl1.setAttribute('visible','false');
-	  entityEl2.setAttribute('visible','false');
-	  entityEl3.setAttribute('visible','false');
-	  entityEl4.setAttribute('visible','true');
-	  entityEl0a.setAttribute('visible','false');
-	  entityEl1a.setAttribute('visible','false');
-	  entityEl2a.setAttribute('visible','false');
-	  entityEl3a.setAttribute('visible','false');
-	  entityEl4a.setAttribute('visible','true');
-	  entityEl0b.setAttribute('visible','false');
-	  entityEl1b.setAttribute('visible','false');
-	  entityEl2b.setAttribute('visible','false');
-	  entityEl3b.setAttribute('visible','false');
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','true');
+	  }
 	}
 }
