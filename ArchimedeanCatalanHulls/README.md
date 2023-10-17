@@ -31,7 +31,7 @@ Each polyhedron on this page is the convex hull of an solid of Archimedes compou
  <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
 To view Archimedean and Catalan Convex Hulls in AR, simply visit:
-<p align="center"><a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/ra.html</a></p> 
+<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/ra.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to Archimedean and Catalan Convex Hulls" src="ar/example.jpg" width="85%"></p>

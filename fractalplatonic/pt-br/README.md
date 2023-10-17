@@ -31,8 +31,8 @@ function urlHandler(value) {
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
-e <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
+<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+e <a href="../ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
@@ -87,7 +87,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>1024</td>
 	</tr>
  </table>
- <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
 <hr>
 <h4>2. Octaedro fractal</h4>
 <a href="../vr/FractalOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Octaedro fractal"></a><img src="../ar/14.png" class="qr">
@@ -136,7 +136,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>7776</td>
 	</tr>
  </table>
- <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
  <hr>
 <h4>3. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
@@ -178,7 +178,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>64000</td>
 	</tr>
  </table>
- <a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
  <hr>
  <h4>4. Icosaedro fractal</h4>
 <a href="../vr/FractalIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Icosaedro fractal"></a><img src="../ar/15.png" class="qr">
@@ -220,7 +220,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>20736</td>
 	</tr>
  </table>
- <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
+ <a href="../ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
  <hr>
 <h4>5. Dodecaedro fractal</h4>
 <a href="../vr/FractalDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Dodecaedro fractal"></a><img src="../ar/17.png" class="qr">
@@ -262,7 +262,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>160000</td>
 	</tr>
  </table>
- <a href="../ra1.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
+ <a href="../ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
  <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>

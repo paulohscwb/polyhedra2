@@ -31,7 +31,7 @@ function urlHandler(value) {
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os cascos convexos de Arquimedes e Catalan em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/ra.html</a></p> 
+<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/ra.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para os Cascos convexos de Arquimedes e Catalan" src="../ar/example.jpg" width="85%"></p>
