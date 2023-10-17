@@ -705,7 +705,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <hr>
  <h4>17. Great triakis icosahedron fractal</h4>
 <a href="vr/FractalGreatTriakisIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/47A.png" class="foto" alt="Great triakis icosahedron fractal"></a><img src="ar/47.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to 12 faces of the great triakis icosahedron, we obtain a great triakis icosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the great triakis icosahedron, we obtain a great triakis icosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -741,6 +741,212 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>131820</td>
 		<td>197730</td>
 		<td>70304</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>18. Great truncated icosahedron fractal</h4>
+<a href="vr/FractalTruncatedGreatIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/48A.png" class="foto" alt="Great truncated icosahedron fractal"></a><img src="ar/48.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the great truncated icosahedron, we obtain a great truncated icosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>32</td>
+		<td>90</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>416</td>
+		<td>1170</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>5408</td>
+		<td>15210</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>70304</td>
+		<td>197730</td>
+		<td>131820</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>19. Great pentakis dodecahedron fractal</h4>
+<a href="vr/FractalGreatPentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Great Pentakis Dodecahedron fractal"></a><img src="ar/49.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 vertices of the great pentakis dodecahedron, we obtain a great pentakis dodecahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>90</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1170</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>15210</td>
+		<td>4056</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>197730</td>
+		<td>52728</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>20. Icosidodecadodecahedron fractal</h4>
+<a href="vr/FractalIcosidodecadodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/50A.png" class="foto" alt="icosidodecadodecahedron fractal"></a><img src="ar/50.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the icosidodecadodecahedron, we obtain an icosidodecadodecahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>44</td>
+		<td>120</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>572</td>
+		<td>1560</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>7436</td>
+		<td>20280</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>96668</td>
+		<td>263640</td>
+		<td>131820</td>
+	</tr>
+ </table>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
+<h4>21. Rhombicosahedron fractal</h4>
+<a href="vr/FractalRhombicosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Rhombicosahedron fractal"></a><img src="ar/51.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the rhombicosahedron, we obtain an rhombicosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>50</td>
+		<td>120</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>650</td>
+		<td>1560</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>8450</td>
+		<td>20280</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>109850</td>
+		<td>263640</td>
+		<td>131820</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>22. Medial inverted pentagonal hexecontahedron fractal</h4>
+<a href="vr/FractalMedialInvertedPentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/52A.png" class="foto" alt="Medial inverted pentagonal hexecontahedron fractal"></a><img src="ar/52.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 vertices of the medial inverted pentagonal hexecontahedron, we obtain a medial inverted pentagonal hexecontahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>150</td>
+		<td>84</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1950</td>
+		<td>1092</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>25350</td>
+		<td>14196</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>329550</td>
+		<td>184548</td>
 	</tr>
  </table>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>

@@ -743,6 +743,212 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>70304</td>
 	</tr>
  </table>
+ <hr>
+<h4>18. Fractal do grande icosaedro truncado</h4>
+<a href="../vr/FractalTruncatedGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/48A.png" class="foto" alt="Fractal do Grande icosaedro truncado"></a><img src="../ar/48.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do grande icosaedro truncado, obtemos um fractal do grande icosaedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 faces do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>32</td>
+		<td>90</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>416</td>
+		<td>1170</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>5408</td>
+		<td>15210</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>70304</td>
+		<td>197730</td>
+		<td>131820</td>
+	</tr>
+ </table>
+ <hr>
+<h4>19. Fractal do grande dodecaedro pentakis</h4>
+<a href="../vr/FractalGreatPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Fractal do grande dodecaedro pentakis"></a><img src="../ar/49.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 vértices do grande dodecaedro pentakis, obtemos um fractal do grande dodecaedro pentakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>90</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1170</td>
+		<td>312</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>15210</td>
+		<td>4056</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>197730</td>
+		<td>52728</td>
+	</tr>
+ </table>
+ <hr>
+<h4>20. Fractal do icosidodecadodecaedro</h4>
+<a href="../vr/FractalIcosidodecadodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="Fractal do icosidodecadodecaedro"></a><img src="../ar/50.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do icosidodecadodecaedro, obtemos um fractal do icosidodecadodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 faces do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>44</td>
+		<td>120</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>572</td>
+		<td>1560</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>7436</td>
+		<td>20280</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>96668</td>
+		<td>263640</td>
+		<td>131820</td>
+	</tr>
+ </table>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>21. Fractal do Rombicosaedro</h4>
+<a href="../vr/FractalRhombicosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Fractal do Rombicosaedro"></a><img src="../ar/51.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do rombicosaedro, obtemos um fractal do rombicosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 faces do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>50</td>
+		<td>120</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>650</td>
+		<td>1560</td>
+		<td>780</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>8450</td>
+		<td>20280</td>
+		<td>10140</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>109850</td>
+		<td>263640</td>
+		<td>131820</td>
+	</tr>
+ </table>
+ <hr>
+<h4>22. Fractal do hexecontaedro pentagonal invertido medial</h4>
+<a href="../vr/FractalMedialInvertedPentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Fractal do hexecontaedro pentagonal invertido medial"></a><img src="../ar/52.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 vértices do hexecontaedro pentagonal invertido medial, obtemos um fractal do hexecontaedro pentagonal invertido medial. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>150</td>
+		<td>84</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1950</td>
+		<td>1092</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>25350</td>
+		<td>14196</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>329550</td>
+		<td>184548</td>
+	</tr>
+ </table>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
