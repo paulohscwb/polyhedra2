@@ -455,8 +455,8 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>6860</td>
 	</tr>
  </table>
- <hr>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+  <hr>
  <h4>11. Great triakis octahedron fractal</h4>
 <a href="vr/FractalGreatTriakisOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/28A.png" class="foto" alt="Great triakis octahedron fractal"></a><img src="ar/28.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to 8 faces of the great triakis octahedron, we obtain a great triakis octahedron fractal. In the first order of fractal construction, we construct a new solid at 8 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
