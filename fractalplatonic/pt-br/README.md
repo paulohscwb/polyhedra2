@@ -31,8 +31,8 @@ function urlHandler(value) {
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
-<br>e
+<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a></p>
+<p>e
 <br> <a href="../ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
