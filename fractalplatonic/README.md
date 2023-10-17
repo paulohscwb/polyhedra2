@@ -32,7 +32,8 @@ Using the same principle as the construction of the Sierpinski triangle or the K
   <h3 id="ra" align="center">Augmented Reality</h3>
 To view fractal polyhedra in AR, simply visit:
 <p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
-<br>and <a href="ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
+<br>and
+<br> <a href="ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
@@ -87,7 +88,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>1024</td>
 	</tr>
  </table>
- <a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>2. Fractal octahedron</h4>
 <a href="vr/FractalOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/14A.png" class="foto" alt="FractalOctahedron"></a><img src="ar/14.png" class="qr">
@@ -136,7 +137,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>7776</td>
 	</tr>
  </table>
- <a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>3. Fractal cube</h4>
 <a href="vr/FractalCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/16A.png" class="foto" alt="Fractal Cube"></a><img src="ar/16.png" class="qr">
@@ -178,7 +179,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>64000</td>
 	</tr>
  </table>
- <a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>4. Fractal icosahedron</h4>
 <a href="vr/FractalIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/15A.png" class="foto" alt="Fractal Icosahedron"></a><img src="ar/15.png" class="qr">
@@ -220,7 +221,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>20736</td>
 	</tr>
  </table>
- <a href="ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>5. Fractal dodecahedron</h4>
 <a href="vr/FractalDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Fractal Dodecahedron"></a><img src="ar/17.png" class="qr">
@@ -262,7 +263,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>160000</td>
 	</tr>
  </table>
- <a href="ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
