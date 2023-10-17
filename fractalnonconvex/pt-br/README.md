@@ -579,6 +579,170 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>14580</td>
 	</tr>
  </table>
+ <hr>
+<h4>14. Fractal do grande triacontaedro rômbico</h4>
+<a href="../vr/FractalGreatRhombicTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Fractal do grande triacontaedro rômbico"></a><img src="../ar/44.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 20 faces do grande triacontaedro rômbico, obtemos um fractal do grande triacontaedro rômbico. Na primeira ordem de construção do fractal, construímos um novo sólido em 20 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>30</td>
+		<td>60</td>
+		<td>32</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>630</td>
+		<td>1260</td>
+		<td>672</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>13230</td>
+		<td>26460</td>
+		<td>14112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>277830</td>
+		<td>555660</td>
+		<td>296352</td>
+	</tr>
+ </table>
+ <hr>
+<h4>15. Fractal do pequeno rombidodecácrono</h4>
+<a href="../vr/FractalSmallRhombidodecacron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="Fractal do pequeno rombidodecácrono"></a><img src="../ar/45.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do pequeno rombidodecácrono, obtemos um fractal do pequeno rombidodecácrono. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>120</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1560</td>
+		<td>546</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>20280</td>
+		<td>7098</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>263640</td>
+		<td>92274</td>
+	</tr>
+ </table>
+ <hr>
+<h4>16. Fractal do rombicosacro</h4>
+<a href="../vr/FractalRhombicosacron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="Fractal do rombicosacro"></a><img src="../ar/46.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 20 faces do rombicosacro, obtemos um fractal do rombicosacro. Na primeira ordem de construção do fractal, construímos um novo sólido em 20 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>120</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>1260</td>
+		<td>2520</td>
+		<td>1050</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>26460</td>
+		<td>52920</td>
+		<td>22050</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>555660</td>
+		<td>1111320</td>
+		<td>463050</td>
+	</tr>
+ </table>
+ <hr>
+<h4>17. Fractal do grande icosaedro triakis</h4>
+<a href="../vr/FractalGreatTriakisIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/47A.png" class="foto" alt="Fractal do grande icosaedro triakis"></a><img src="../ar/47.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do grande icosaedro triakis, obtemos um fractal do grande icosaedro triakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>90</td>
+		<td>32</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1170</td>
+		<td>416</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>15210</td>
+		<td>5408</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>197730</td>
+		<td>70304</td>
+	</tr>
+ </table>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

@@ -579,6 +579,170 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>14580</td>
 	</tr>
  </table>
+ <hr>
+ <h4>14. Great rhombic triacontahedron fractal</h4>
+<a href="vr/FractalGreatRhombicTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/44A.png" class="foto" alt="Great rhombic triacontahedron fractal"></a><img src="ar/44.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 20 faces of the great rhombic triacontahedron, we obtain a great rhombic triacontahedron fractal. In the first order of fractal construction, we construct a new solid at 20 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>30</td>
+		<td>60</td>
+		<td>32</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>630</td>
+		<td>1260</td>
+		<td>672</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>13230</td>
+		<td>26460</td>
+		<td>14112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>277830</td>
+		<td>555660</td>
+		<td>296352</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>15. Small rhombidodecacron fractal</h4>
+<a href="vr/FractalSmallRhombidodecacron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/45A.png" class="foto" alt="Small rhombidodecacron fractal"></a><img src="ar/45.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the small rhombidodecacron, we obtain a small rhombidodecacron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>120</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1560</td>
+		<td>546</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>20280</td>
+		<td>7098</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>263640</td>
+		<td>92274</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>16. Rhombicosacron fractal</h4>
+<a href="vr/FractalRhombicosacron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/46A.png" class="foto" alt="Rhombicosacron fractal"></a><img src="ar/46.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 20 faces of the rhombicosacron, we obtain a rhombicosacron fractal. In the first order of fractal construction, we construct a new solid at 20 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>120</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>21</td>
+		<td>1260</td>
+		<td>2520</td>
+		<td>1050</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>441</td>
+		<td>26460</td>
+		<td>52920</td>
+		<td>22050</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9261</td>
+		<td>555660</td>
+		<td>1111320</td>
+		<td>463050</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>17. Great triakis icosahedron fractal</h4>
+<a href="vr/FractalGreatTriakisIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/47A.png" class="foto" alt="Great triakis icosahedron fractal"></a><img src="ar/47.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to 12 faces of the great triakis icosahedron, we obtain a great triakis icosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>60</td>
+		<td>90</td>
+		<td>32</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>780</td>
+		<td>1170</td>
+		<td>416</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>10140</td>
+		<td>15210</td>
+		<td>5408</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>131820</td>
+		<td>197730</td>
+		<td>70304</td>
+	</tr>
+ </table>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
