@@ -23,11 +23,11 @@ function urlHandler(value) {
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Cascos convexos de Arquimedes e Catalan</h2>
   Cada poliedro nesta página é o casco convexo de um sólido de Arquimedes composto por seu dual de Catalan. Esta operação é equivalente à operação de 'junção' de John Conway aplicada ao sólido de Arquimedes ou ao respectivo dual de Catalan.
  <hr>
-<!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
-  <hr>
+ <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
+  <!--<hr>
   <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos cascos convexos de Arquimedes e Catalan" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os cascos convexos de Arquimedes e Catalan"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os cascos convexos de Arquimedes e Catalan"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>-->
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os cascos convexos de Arquimedes e Catalan em RA, visite a página:
@@ -38,7 +38,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <p align="center"><img src="../ar/ArchimedeanCatalanHulls.gif" alt="Realidade Aumentada para os Cascos convexos de Arquimedes e Catalan" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+ <!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Tetraedro truncado combinado</h4>
 <a href="../vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/0A.png" class="foto" alt="Tetraedro truncado combinado"></a><img src="../ar/0.png" class="qr">
  <br><br>O tetraedro truncado combinado é uma composição do tetraedro truncado Arquimediano com o seu respectivo dual, o tetraedro triakis de Catalan. 
