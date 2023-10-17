@@ -14,6 +14,9 @@
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+<div class="box">
+	<label for="rangevalue">order: </label><output id="rangevalue">0</output><input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
+</div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
 	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
      
@@ -39,9 +42,7 @@
 	</a-assets>
 
     <a-entity camera></a-entity>
-	<div class="box">
-		<label for="rangevalue">order: </label><output id="rangevalue">0</output><input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
-	</div>
+	
 	
 	<a-marker preset="hiro">
 	    <a-link mixin="lnk" class="lnk" href="#"></a-link>
@@ -966,7 +967,7 @@
 	</a-marker>
 	
 	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/octahemioctacron.htm"></a-link>
+		<a-link mixin="lnk" class="lnk" href="vr/FractalOctahedron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.25 0.25 0.25">
 			<a-entity scale="6 6 6" id="nivel0">
 				<a-octahedron mixin="fc mtl1"></a-octahedron>
