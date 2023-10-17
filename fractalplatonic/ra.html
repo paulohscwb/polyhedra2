@@ -2,10 +2,12 @@
 <html>
 <head>
 	<script src="https://aframe.io/releases/1.3.0/aframe.js"></script>
-	<title>Stellation to infinity polyhedra</title>
+	<title>Polyhedra fractals</title>
 	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script src="vr/nomes.js"></script>
+	<link rel="stylesheet" href="vr/nomes.css">
 </head>
 <body style='margin: 0; overflow: hidden;'>
 	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;'>
@@ -16,19 +18,24 @@
 	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
      
      <a-assets>
-		<a-mixin id="mtl0" material="opacity: 0.7; side: double; metalness:0.3; roughness:0.9;"></a-mixin>
-		<a-mixin id="mtl8" material="color: #86B404; side:double;"></a-mixin>
-		<a-mixin id="mtl9" material="color: #F79F81; side:double;"></a-mixin>
-		<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-		<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
-		<a-mixin id="esfera" geometry="radius: 0.05;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-		<a-mixin id="esferaP" geometry="radius: 0.025;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-		<a-mixin id="esferaG" geometry="radius: 0.1;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
-		<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
+		<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
+		<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
+		<a-mixin id="mtl1" material="color: #5cb404; side:double;"></a-mixin>
+		<a-mixin id="mtl2" material="color: #04b4a2; side:double;"></a-mixin>
+		<a-mixin id="mtl3" material="color: #e88; side:double;"></a-mixin>
+		<a-mixin id="mtl4" material="color: #04b494; side:double;"></a-mixin>
+		<a-mixin id="mtl5" material="color: #04aadd; side:double;"></a-mixin>
+		<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
+		<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
+		<a-mixin id="esfera" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
+		<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 	</a-assets>
 
     <a-entity camera></a-entity>
+	<div class="box">
+		<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
+	</div>
 	
 	<a-marker preset="hiro">
 	    <a-link mixin="lnk" class="lnk" href="#"></a-link>
@@ -38,107 +45,4690 @@
 	<a-light type="directional" color="white" intensity="0.7" position="-3 2 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.7" position="3 -2 1"></a-light>
     
-	<a-marker type="barcode" value="0" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/tetrahemihexacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.32 0.32 0.32">
+	<a-marker type="barcode" value="13" smooth="smooth:true; smoothCount:1">
+		<a-link mixin="lnk" class="lnk" href="vr/FractalTetrahedron.htm"></a-link>
+	   	<a-entity position="2 0.8 0" scale="1.32 1.32 1.32">
+			<a-assets>
+				<a-mixin id="p1" position="-0.57735 0.57735 -0.57735"></a-mixin>
+				<a-mixin id="p2" position="0.57735 0.57735 0.57735"></a-mixin>
+				<a-mixin id="p3" position="-0.57735 -0.57735 0.57735"></a-mixin>
+				<a-mixin id="p4" position="0.57735 -0.57735 -0.57735"></a-mixin>
+			</a-assets>
+			<a-entity scale="6 6 6" id="nivel0">
+				<a-tetrahedron mixin="fc mtl1"></a-tetrahedron>
+				<a-tetrahedron mixin="ar"></a-tetrahedron>
+			</a-entity>
 			
+			<a-entity scale="3 3 3" id="nivel1" visible="false">
+				<a-tetrahedron mixin="fc mtl2 p1"></a-tetrahedron>
+				<a-tetrahedron mixin="ar p1"></a-tetrahedron>
+				<a-tetrahedron mixin="fc mtl2 p2"></a-tetrahedron>
+				<a-tetrahedron mixin="ar p2"></a-tetrahedron>
+				<a-tetrahedron mixin="fc mtl2 p3"></a-tetrahedron>
+				<a-tetrahedron mixin="ar p3"></a-tetrahedron>
+				<a-tetrahedron mixin="fc mtl2 p4"></a-tetrahedron>
+				<a-tetrahedron mixin="ar p4"></a-tetrahedron>
+			</a-entity>
+			<a-entity scale="1.5 1.5 1.5" id="nivel2" visible="false">
+				<a-entity position="-1.1547 1.1547 -1.1547">
+					<a-tetrahedron mixin="fc mtl3 p1"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p2"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p3"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p4"></a-tetrahedron>
+
+				</a-entity>
+				<a-entity position="1.1547 1.1547 1.1547">
+					<a-tetrahedron mixin="fc mtl3 p1"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p2"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p3"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p4"></a-tetrahedron>
+
+				</a-entity>
+				<a-entity position="-1.1547 -1.1547 1.1547">
+					<a-tetrahedron mixin="fc mtl3 p1"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p2"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p3"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p4"></a-tetrahedron>
+
+				</a-entity>
+				<a-entity position="1.1547 -1.1547 -1.1547">
+					<a-tetrahedron mixin="fc mtl3 p1"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p2"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p3"></a-tetrahedron>
+
+					<a-tetrahedron mixin="fc mtl3 p4"></a-tetrahedron>
+
+				</a-entity>
+			</a-entity>
+			<a-entity scale="0.75 0.75 0.75" id="nivel3" visible="false">
+				<a-entity position="-2.3094 2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-2.3094 -2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 -2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="fc mtl4 p1"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p2"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p3"></a-tetrahedron>
+	
+						<a-tetrahedron mixin="fc mtl4 p4"></a-tetrahedron>
+	
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity scale="0.375 0.375 0.375" id="nivel4" visible="false">
+				<a-entity position="-4.6188 4.6188 -4.6188">
+					<a-entity position="-2.3094 2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="-2.3094 -2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 -2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="4.6188 4.6188 4.6188">
+					<a-entity position="-2.3094 2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="-2.3094 -2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 -2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="-4.6188 -4.6188 4.6188">
+					<a-entity position="-2.3094 2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="-2.3094 -2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 -2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="4.6188 -4.6188 -4.6188">
+					<a-entity position="-2.3094 2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="-2.3094 -2.3094 2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="2.3094 -2.3094 -2.3094">
+						<a-entity position="-1.1547 1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="-1.1547 -1.1547 1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+		
+						</a-entity>
+						<a-entity position="1.1547 -1.1547 -1.1547">
+							<a-tetrahedron mixin="fc mtl5 p1"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p2"></a-tetrahedron>
+		
+							<a-tetrahedron mixin="fc mtl5 p3"></a-tetrahedron>
+
+							<a-tetrahedron mixin="fc mtl5 p4"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="1" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/octahemioctacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.25 0.25 0.25">
+	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1">
+		<a-link mixin="lnk" class="lnk" href="vr/FractalOctahedron.htm"></a-link>
+	   	<a-entity position="2 0.8 0" scale="1.32 1.32 1.32">
+			<a-assets>
+				<a-mixin id="p1" position="0 1 0"></a-mixin>
+				<a-mixin id="p2" position="0 -1 0"></a-mixin>
+				<a-mixin id="p3" position="-1 0 0"></a-mixin>
+				<a-mixin id="p4" position="1 0 0"></a-mixin>
+				<a-mixin id="p5" position="0 0 -1"></a-mixin>
+				<a-mixin id="p6" position="0 0 1"></a-mixin>
+			</a-assets>
+			<a-entity scale="6 6 6" id="nivel0">
+				<a-octahedron mixin="fc mtl1"></a-octahedron>
+				<a-octahedron mixin="ar"></a-octahedron>
+			</a-entity>
 			
+			<a-entity scale="3 3 3" id="nivel1" visible="false">
+				<a-octahedron mixin="fc mtl2 p1"></a-octahedron>
+				<a-octahedron mixin="ar p1"></a-octahedron>
+				<a-octahedron mixin="fc mtl2 p2"></a-octahedron>
+				<a-octahedron mixin="ar p2"></a-octahedron>
+				<a-octahedron mixin="fc mtl2 p3"></a-octahedron>
+				<a-octahedron mixin="ar p3"></a-octahedron>
+				<a-octahedron mixin="fc mtl2 p4"></a-octahedron>
+				<a-octahedron mixin="ar p4"></a-octahedron>
+				<a-octahedron mixin="fc mtl2 p5"></a-octahedron>
+				<a-octahedron mixin="ar p5"></a-octahedron>
+				<a-octahedron mixin="fc mtl2 p6"></a-octahedron>
+				<a-octahedron mixin="ar p6"></a-octahedron>
+			</a-entity>
+			<a-entity scale="1.5 1.5 1.5" id="nivel2" visible="false">
+				<a-entity position="-2 0 0">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+				<a-entity position="2 0 0">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+				<a-entity position="0 0 2">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+				<a-entity position="0 0 -2">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+				<a-entity position="0 2 0">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+				<a-entity position="0 -2 0">
+					<a-octahedron mixin="fc mtl3 p1"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p2"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p3"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p4"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p5"></a-octahedron>
+
+					<a-octahedron mixin="fc mtl3 p6"></a-octahedron>
+
+				</a-entity>
+			</a-entity>
+			<a-entity scale="0.75 0.75 0.75" id="nivel3" visible="false">
+				<a-entity position="-4 0 0">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="4 0 0">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 0 4">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 0 -4">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 4 0">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 -4 0">
+					<a-entity position="-2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="2 0 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 0 -2">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+					<a-entity position="0 -2 0">
+						<a-octahedron mixin="fc mtl4 p1"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p2"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p3"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p4"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p5"></a-octahedron>
+	
+						<a-octahedron mixin="fc mtl4 p6"></a-octahedron>
+	
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity scale="0.375 0.375 0.375" id="nivel4" visible="false">
+				<a-entity position="-8 0 0">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="8 0 0">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 0 8">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 0 -8">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 8 0">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 -8 0">
+					<a-entity position="-4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="4 0 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 0 -4">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+					<a-entity position="0 -4 0">
+						<a-entity position="-2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="2 0 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 0 -2">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+						<a-entity position="0 -2 0">
+							<a-octahedron mixin="fc mtl5 p1"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p2"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p3"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p4"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p5"></a-octahedron>
+		
+							<a-octahedron mixin="fc mtl5 p6"></a-octahedron>
+		
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="2" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="15" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/hexahemioctacron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.25 0.25 0.25">
 			
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="3" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="16" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/great_dodecahemicosacron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.21 0.21 0.21">
 			
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="4" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="17" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/small_dodecahemicosacron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.21 0.21 0.21">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="5" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/small_icosihemidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="6" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/small_dodecahemidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="7" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_icosihemidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="8" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dodecahemidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="9" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="10" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="12" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="13" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
-			
-		</a-entity>
-	</a-marker>
-	
-	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1">
-		<a-link mixin="lnk" class="lnk" href="vr/great_dirhombicosidodecacron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.16 0.16 0.16">
 			
 		</a-entity>
 	</a-marker>
