@@ -24,33 +24,33 @@
 			<a-mixin id="solido" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
 			<a-asset-item id="mt" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="outros/GreatTriakisIcosahedron.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="outros/GreatTriakisIcosahedronL.obj"></a-asset-item>
-			<a-mixin id="p1" position="-4.25 2.625 0"></a-mixin>
-			<a-mixin id="p2" position="4.25 2.625 0"></a-mixin>
-			<a-mixin id="p3" position="4.25 -2.625 0"></a-mixin>
-			<a-mixin id="p4" position="-4.25 -2.625 0"></a-mixin>
-			<a-mixin id="p5" position="0 4.25 2.625"></a-mixin>
-			<a-mixin id="p6" position="0 4.25 -2.625"></a-mixin>
-			<a-mixin id="p7" position="0 -4.25 2.625"></a-mixin>
-			<a-mixin id="p8" position="0 -4.25 -2.625"></a-mixin>
-			<a-mixin id="p9" position="2.625 0 4.25"></a-mixin>
-			<a-mixin id="p10" position="-2.625 0 4.25"></a-mixin>
-			<a-mixin id="p11" position="2.625 0 -4.25"></a-mixin>
-			<a-mixin id="p12" position="-2.625 0 -4.25"></a-mixin>
+			<a-asset-item id="aq" src="outros/SmallRhombidodecacron.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="outros/SmallRhombidodecacronL.obj"></a-asset-item>
+			<a-mixin id="p1" position="-1.125 0.695 0"></a-mixin>
+			<a-mixin id="p2" position="1.125 0.695 0"></a-mixin>
+			<a-mixin id="p3" position="1.125 -0.695 0"></a-mixin>
+			<a-mixin id="p4" position="-1.125 -0.695 0"></a-mixin>
+			<a-mixin id="p5" position="0 1.125 0.695"></a-mixin>
+			<a-mixin id="p6" position="0 1.125 -0.695"></a-mixin>
+			<a-mixin id="p7" position="0 -1.125 0.695"></a-mixin>
+			<a-mixin id="p8" position="0 -1.125 -0.695"></a-mixin>
+			<a-mixin id="p9" position="0.695 0 1.125"></a-mixin>
+			<a-mixin id="p10" position="-0.695 0 1.125"></a-mixin>
+			<a-mixin id="p11" position="0.695 0 -1.125"></a-mixin>
+			<a-mixin id="p12" position="-0.695 0 -1.125"></a-mixin>
 			<a-mixin id="p13" scale="0.625 0.625 0.625"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
-		<a-entity rotation="0 45 0" scale="0.235 0.235 0.235"><!-- mixin="anima1 anima2 anima3">-->
-			<a-entity scale="8 8 8" id="nivel0">
+		<a-entity rotation="0 0 0" scale="8	8 8"><!-- mixin="anima1 anima2 anima3">-->
+			<a-entity scale="0.9999 0.9999 0.9999" id="nivel0">
 				<a-obj-model mixin="fc" src="#aq" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="ar" src="#aq1" mtl="#mt"></a-obj-model>
 			</a-entity>
 			
-			<a-entity scale="3.05 3.05 3.05" id="nivel1" visible="false">
+			<a-entity scale="0.38 0.38 0.38" id="nivel1" visible="false">
 				<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="ar p1" src="#aq1" mtl="#mt"></a-obj-model>
 				<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -78,8 +78,8 @@
 				<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1" scale="0.62375 0.62375 0.62375"></a-obj-model>
 				<a-obj-model mixin="ar p13" src="#aq1" mtl="#mt"></a-obj-model>
 			</a-entity>
-			<a-entity scale="1.163 1.163 1.163" id="nivel2" visible="false">
-				<a-entity position="11.148 6.885 0">
+			<a-entity scale="0.144 0.144 0.144" id="nivel2" visible="false">
+				<a-entity position="7.7908 2.9605 0">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -107,7 +107,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="-11.148 6.885 0">
+				<a-entity position="-7.7908 2.9605 0">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -135,7 +135,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="11.148 -6.885 0">
+				<a-entity position="7.7908 -2.9605 0">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -163,7 +163,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="-11.148 -6.885 0">
+				<a-entity position="-7.7908 -2.9605 0">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -191,7 +191,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="0 11.148 6.885">
+				<a-entity position="0 7.7908 2.9605">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -219,7 +219,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="0 -11.148 6.885">
+				<a-entity position="0 -7.7908 2.9605">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -247,7 +247,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="0 11.148 -6.885">
+				<a-entity position="0 7.7908 -2.9605">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -275,7 +275,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="0 -11.148 -6.885">
+				<a-entity position="0 -7.7908 -2.9605">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -303,7 +303,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="6.885 0 11.148">
+				<a-entity position="2.9605 0 7.7908">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -331,7 +331,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="6.885 0 -11.148">
+				<a-entity position="2.9605 0 -7.7908">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -359,7 +359,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="-6.885 0 11.148">
+				<a-entity position="-2.9605 0 7.7908">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -387,7 +387,7 @@
 					<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 
 				</a-entity>
-				<a-entity position="-6.885 0 -11.148">
+				<a-entity position="-2.9605 0 -7.7908">
 					<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 
 					<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -444,9 +444,9 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.443 0.443 0.443" id="nivel3" visible="false">
-				<a-entity position="29.239 18.06 0">
-					<a-entity position="11.148 6.885 0">
+			<a-entity scale="0.0549 0.0549 0.0549" id="nivel3" visible="false">
+				<a-entity position="23.065 8.7646 0">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -474,7 +474,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -502,7 +502,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -530,7 +530,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -558,7 +558,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -586,7 +586,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -614,7 +614,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -642,7 +642,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -670,7 +670,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -698,7 +698,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -726,7 +726,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -754,373 +754,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity scale="0.625 0.625 0.625">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="-29.239 18.06 0">
-					<a-entity position="11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1177,8 +811,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="29.239 -18.06 0">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="-23.065 8.7646 0">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1206,7 +840,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1234,7 +868,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1262,7 +896,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1290,7 +924,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1318,7 +952,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1346,7 +980,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1374,7 +1008,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1402,7 +1036,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1430,7 +1064,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1458,7 +1092,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1486,373 +1120,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity scale="0.625 0.625 0.625">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="-29.239 -18.06 0">
-					<a-entity position="11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1909,8 +1177,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="0 29.239 18.06">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="23.065 -8.7646 0">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1938,7 +1206,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1966,7 +1234,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -1994,7 +1262,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2022,7 +1290,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2050,7 +1318,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2078,7 +1346,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2106,7 +1374,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2134,7 +1402,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2162,7 +1430,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2190,7 +1458,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2218,373 +1486,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity scale="0.625 0.625 0.625">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -29.239 18.06">
-					<a-entity position="11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2641,8 +1543,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="0 29.239 -18.06">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="-23.065 -8.7646 0">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2670,7 +1572,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2698,7 +1600,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2726,7 +1628,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2754,7 +1656,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2782,7 +1684,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2810,7 +1712,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2838,7 +1740,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2866,7 +1768,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2894,7 +1796,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2922,7 +1824,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -2950,373 +1852,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity scale="0.625 0.625 0.625">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -29.239 -18.06">
-					<a-entity position="11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3373,8 +1909,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="18.06 0 29.239">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="0 23.065 8.7646">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3402,7 +1938,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3430,7 +1966,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3458,7 +1994,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3486,7 +2022,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3514,7 +2050,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3542,7 +2078,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3570,7 +2106,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3598,7 +2134,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3626,7 +2162,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3654,7 +2190,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -3682,373 +2218,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity scale="0.625 0.625 0.625">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-				</a-entity>
-				<a-entity position="-18.06 0 29.239">
-					<a-entity position="11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="6.885 0 -11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 11.148">
-						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
-	
-						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
-	
-					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4105,8 +2275,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="18.06 0 -29.239">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="0 -23.065 8.7646">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4134,7 +2304,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4162,7 +2332,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4190,7 +2360,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4218,7 +2388,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4246,7 +2416,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4274,7 +2444,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4302,7 +2472,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4330,7 +2500,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4358,7 +2528,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4386,7 +2556,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4414,7 +2584,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4471,8 +2641,8 @@
 	
 					</a-entity>
 				</a-entity>
-				<a-entity position="-18.06 0 -29.239">
-					<a-entity position="11.148 6.885 0">
+				<a-entity position="0 23.065 -8.7646">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4500,7 +2670,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4528,7 +2698,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4556,7 +2726,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4584,7 +2754,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4612,7 +2782,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4640,7 +2810,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4668,7 +2838,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4696,7 +2866,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4724,7 +2894,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4752,7 +2922,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4780,7 +2950,1837 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity scale="0.625 0.625 0.625">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="0 -23.065 -8.7646">
+					<a-entity position="7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity scale="0.625 0.625 0.625">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="8.7646 0 23.065">
+					<a-entity position="7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity scale="0.625 0.625 0.625">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-8.7646 0 23.065">
+					<a-entity position="7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity scale="0.625 0.625 0.625">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="8.7646 0 -23.065">
+					<a-entity position="7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity scale="0.625 0.625 0.625">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+				</a-entity>
+				<a-entity position="-8.7646 0 -23.065">
+					<a-entity position="7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-7.7908 -2.9605 0">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="0 -7.7908 -2.9605">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="2.9605 0 -7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 7.7908">
+						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p3" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p4" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p5" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p6" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p7" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p8" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p9" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p10" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p11" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p12" src="#aq" mtl="#mt"></a-obj-model>
+	
+						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
+	
+					</a-entity>
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4838,7 +4838,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity scale="0.625 0.625 0.625">
-					<a-entity position="11.148 6.885 0">
+					<a-entity position="7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4866,7 +4866,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 6.885 0">
+					<a-entity position="-7.7908 2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4894,7 +4894,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="11.148 -6.885 0">
+					<a-entity position="7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4922,7 +4922,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-11.148 -6.885 0">
+					<a-entity position="-7.7908 -2.9605 0">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4950,7 +4950,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 6.885">
+					<a-entity position="0 7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -4978,7 +4978,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 6.885">
+					<a-entity position="0 -7.7908 2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5006,7 +5006,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 11.148 -6.885">
+					<a-entity position="0 7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5034,7 +5034,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="0 -11.148 -6.885">
+					<a-entity position="0 -7.7908 -2.9605">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5062,7 +5062,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 11.148">
+					<a-entity position="2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5090,7 +5090,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="6.885 0 -11.148">
+					<a-entity position="2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5118,7 +5118,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 11.148">
+					<a-entity position="-2.9605 0 7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5146,7 +5146,7 @@
 						<a-obj-model mixin="fc p13" src="#aq" mtl="#mt1"></a-obj-model>
 	
 					</a-entity>
-					<a-entity position="-6.885 0 -11.148">
+					<a-entity position="-2.9605 0 -7.7908">
 						<a-obj-model mixin="fc p1" src="#aq" mtl="#mt"></a-obj-model>
 	
 						<a-obj-model mixin="fc p2" src="#aq" mtl="#mt"></a-obj-model>
@@ -5223,8 +5223,8 @@
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Great triakis icosahedron fractal</span>
-		<br><span class="titulo">Fractal do grande icosaedro triakis</span>
+		<span class="titulo">Small rhombidodecacron fractal</span>
+		<br><span class="titulo">Fractal do pequeno rombidodecácrono</span>
 		<hr><input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp;&nbsp;<label for="rangevalue">order: </label><output id="rangevalue">0</output>
 		<br><input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
 	</div>
