@@ -27,14 +27,11 @@
 		<a-mixin id="mtl4" material="color: #04b494; side:double;"></a-mixin>
 		<a-mixin id="mtl5" material="color: #04aadd; side:double;"></a-mixin>
 		<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-		<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
-		<a-mixin id="esfera" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
-		<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 	</a-assets>
 
     <a-entity camera></a-entity>
 	<div class="box">
-		<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
+		<label for="rangevalue">order: </label><output id="rangevalue">0</output><input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
 	</div>
 	
 	<a-marker preset="hiro">
