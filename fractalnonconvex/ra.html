@@ -18,7 +18,7 @@
 	<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 </div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
-	   embedded arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
+	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
      
      <a-assets>
 		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
@@ -4202,7 +4202,7 @@
 			</a-entity>
 		</a-entity>
 	</a-marker>
-	
+	<!--
 	<a-marker type="barcode" value="19" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalSmallStellatedDodecahedron.htm"></a-link>
 		<a-entity position="2 0.8 0" scale="0.25 0.25 0.25">
@@ -29428,7 +29428,7 @@
 			</a-entity>
 		</a-entity>
 	</a-marker>
-	
+	-->
   </a-scene>
 </body>
 </html>	 
