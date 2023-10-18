@@ -74,3 +74,95 @@ function mnivel() {
 	  entityEl4.setAttribute('visible','true');
 	}
 }
+
+function mnivelRA() {
+	var sceneEl = document.querySelector('a-scene')
+	var entityEl0 = sceneEl.querySelectorAll('.nivel0')
+	var entityEl1 = sceneEl.querySelectorAll('.nivel1')
+	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
+	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
+	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
+	const nodeList = document.querySelectorAll(".example");
+	var p = document.getElementById("nv").value
+	if (p == 0) { 
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	} else if (p == 1) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	} else if (p == 2) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+	    entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	} else if (p == 3) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	} else {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','true');
+	  }
+	}
+}
