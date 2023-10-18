@@ -82,7 +82,6 @@ function mnivelRA() {
 	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
 	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
 	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
-	const nodeList = document.querySelectorAll(".example");
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
 	  for (let i = 0; i < entityEl0.length; i++) {
