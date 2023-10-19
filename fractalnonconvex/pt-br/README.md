@@ -23,22 +23,20 @@ function urlHandler(value) {
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fractais dos poliedros não convexos</h2>
   Utilizando o mesmo princípio da construção do triângulo de Sierpinski ou da curva de Koch, podemos construir fractais de outros polígonos regulares. Quando estes polígonos formam um poliedro, temos a construção de um poliedro fractal.
  <hr>
-<!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
+ <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
   <hr>
-  <h3 align="center">Sala imersiva</h3>
+  <!-- <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva de fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/fractalnonconvex.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para fractais de poliedros"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
-<hr>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/fractalnonconvex.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para fractais de poliedros"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p> 
+<hr> -->
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalnonconvex/ra.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+  Para visualizar os fractais de poliedros em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/fractalnonconvex.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Fractal do sólido de Escher</h4>
 <a href="../vr/FractalEscher.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Fractal do sólido de Escher"></a><img src="../ar/18.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 48 faces do sólido de Escher, obtemos um fractal do sólido de Escher. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -79,6 +77,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>44928</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>2. Fractal do pequeno dodecaedro estrelado</h4>
 <a href="../vr/FractalSmallStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Fractal do pequeno dodecaedro estrelado"></a><img src="../ar/19.png" class="qr">
@@ -120,6 +119,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>20736</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>3. Fractal do grande dodecaedro estrelado</h4>
 <a href="../vr/FractalGreatStellatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Fractal do grande dodecaedro estrelado"></a><img src="../ar/22.png" class="qr">
@@ -161,6 +161,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>185220</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>4. Fractal do grande icosaedro</h4>
 <a href="../vr/FractalGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Fractal do grande icosaedro"></a><img src="../ar/20.png" class="qr">
@@ -202,6 +203,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>20736</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>5. Fractal do grande dodecaedro</h4>
 <a href="../vr/FractalGreatDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Fractal do grande dodecaedro"></a><img src="../ar/21.png" class="qr">
@@ -243,6 +245,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>20736</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>6. Fractal do grande dodecaedro stellapentakis</h4>
 <a href="../vr/FractalGreatStellapentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/29A.png" class="foto" alt="Fractal do grande dodecaedro stellapentakis"></a><img src="../ar/29.png" class="qr">
@@ -284,6 +287,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>296352</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>7. Fractal da dipirâmide pentagrâmica</h4>
 <a href="../vr/FractalPentagrammicDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/23A.png" class="foto" alt="Fractal da dipirâmide pentagrâmica"></a><img src="../ar/23.png" class="qr">
@@ -332,6 +336,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>9072</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>8. Fractal do icosaedro triâmbico medial</h4>
 <a href="../vr/FractalMedialTriambicIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/24A.png" class="foto" alt="Fractal do icosaedro triâmbico medial"></a><img src="../ar/24.png" class="qr">
@@ -373,6 +378,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>52728</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>9. Fractal do grande triacontaedro rômbico</h4>
 <a href="../vr/FractalGreatRhombicTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Fractal do grande triacontaedro rômbico"></a><img src="../ar/44.png" class="qr">
@@ -414,6 +420,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>296352</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>10. Fractal do triacontaedro rômbico medial</h4>
 <a href="../vr/FractalMedialRhombicTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/25A.png" class="foto" alt="Fractal do triacontaedro rômbico medial"></a><img src="../ar/25.png" class="qr">
@@ -455,8 +462,9 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>52728</td>
 	</tr>
  </table>
- <hr>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
   <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+  <hr>
 <h4>11. Fractal do pequeno hexecontaedro ditrigonal dodecacrônico</h4>
 <a href="../vr/FractalSmallDitrigonalDodecacronicHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/26A.png" class="foto" alt="Fractal do pequeno hexecontaedro ditrigonal dodecacrônico"></a><img src="../ar/26.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do pequeno hexecontaedro ditrigonal dodecacrônico, obtemos um fractal do pequeno hexecontaedro ditrigonal dodecacrônico. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -497,6 +505,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>96668</td>
 	</tr>
  </table>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>12. Fractal do rombicosacro</h4>
 <a href="../vr/FractalRhombicosacron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="Fractal do rombicosacro"></a><img src="../ar/46.png" class="qr">
@@ -538,6 +547,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>463050</td>
 	</tr>
  </table>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>13. Fractal do pequeno icositetraedro hexacrônico</h4>
 <a href="../vr/FractalSmallHexacronicIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/27A.png" class="foto" alt="Fractal do pequeno icositetraedro hexacrônico"></a><img src="../ar/27.png" class="qr">
@@ -579,6 +589,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>6860</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>14. Fractal do grande octaedro triakis</h4>
 <a href="../vr/FractalGreatTriakisOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/28A.png" class="foto" alt="Fractal do grande octaedro triakis"></a><img src="../ar/28.png" class="qr">
@@ -620,6 +631,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>10216</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>15. Fractal do grande dodecaedro disdyakis</h4>
 <a href="../vr/FractalGreatDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/30A.png" class="foto" alt="Fractal do grande dodecaedro disdyakis"></a><img src="../ar/30.png" class="qr">
@@ -661,6 +673,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>14580</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>16. Fractal do pequeno rombidodecácrono</h4>
 <a href="../vr/FractalSmallRhombidodecacron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="Fractal do pequeno rombidodecácrono"></a><img src="../ar/45.png" class="qr">
@@ -702,6 +715,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>92274</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>17. Fractal do grande icosaedro triakis</h4>
 <a href="../vr/FractalGreatTriakisIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/47A.png" class="foto" alt="Fractal do grande icosaedro triakis"></a><img src="../ar/47.png" class="qr">
@@ -743,6 +757,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>70304</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>18. Fractal do grande icosaedro truncado</h4>
 <a href="../vr/FractalTruncatedGreatIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/48A.png" class="foto" alt="Fractal do Grande icosaedro truncado"></a><img src="../ar/48.png" class="qr">
@@ -784,6 +799,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>19. Fractal do grande dodecaedro pentakis</h4>
 <a href="../vr/FractalGreatPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Fractal do grande dodecaedro pentakis"></a><img src="../ar/49.png" class="qr">
@@ -825,6 +841,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>52728</td>
 	</tr>
  </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>20. Fractal do icosidodecadodecaedro</h4>
 <a href="../vr/FractalIcosidodecadodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="Fractal do icosidodecadodecaedro"></a><img src="../ar/50.png" class="qr">
@@ -866,6 +883,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>21. Fractal do Rombicosaedro</h4>
@@ -908,6 +926,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>22. Fractal do hexecontaedro pentagonal invertido medial</h4>
 <a href="../vr/FractalMedialInvertedPentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Fractal do hexecontaedro pentagonal invertido medial"></a><img src="../ar/52.png" class="qr">
@@ -949,6 +968,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>184548</td>
 	</tr>
  </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
