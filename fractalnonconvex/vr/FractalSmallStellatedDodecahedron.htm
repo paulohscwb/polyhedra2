@@ -13,6 +13,7 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="fc" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+			<a-mixin id="fc1" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404; side:double;">
 			<a-asset-item id="mt" src="outros/c1.mtl"></a-asset-item>
@@ -68,7 +69,7 @@
 				<a-entity mixin="ar p11b"></a-entity>
 				<a-entity mixin="fc p12b"></a-entity>
 				<a-entity mixin="ar p12b"></a-entity>
-				<a-entity mixin="fc p13b" src="#aq" mtl="#mt1" scale="0.6238 0.6238 0.6238"></a-entity>
+				<a-entity mixin="fc1 p13b" scale="0.6238 0.6238 0.6238"></a-entity>
 				<a-entity mixin="ar p13b"></a-entity>
 			</a-entity>
 			<a-entity scale="1.163 1.163 1.163" id="nivel2" visible="false">
@@ -96,7 +97,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 				</a-entity>
 				<a-entity position="2.124 1.3141 0">
 					<a-entity mixin="fc p1b"></a-entity>
@@ -122,7 +123,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 				</a-entity>
 				<a-entity position="0 2.124 1.3141">
 					<a-entity mixin="fc p1b"></a-entity>
@@ -148,7 +149,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="0 2.124 -1.3141">
@@ -175,7 +176,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="1.3141 0 2.124">
@@ -202,7 +203,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="-1.3141 0 2.124">
@@ -229,7 +230,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="-1.3141 0 -2.124">
@@ -256,7 +257,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="1.3141 0 -2.124">
@@ -283,7 +284,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="2.124 -1.3141 0">
@@ -310,7 +311,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="-2.124 -1.3141 0">
@@ -337,7 +338,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="0 -2.124 1.3141">
@@ -364,7 +365,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity position="0 -2.124 -1.3141">
@@ -391,7 +392,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 				<a-entity mixin="p13b">
@@ -418,7 +419,7 @@
 					<a-entity mixin="fc p11b"></a-entity>
 
 					<a-entity mixin="fc p12b"></a-entity>
-					<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+					<a-entity mixin="fc1 p13b"></a-entity>
 
 				</a-entity>
 			</a-entity>
@@ -448,7 +449,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -474,7 +475,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -500,7 +501,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -527,7 +528,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -554,7 +555,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -581,7 +582,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -608,7 +609,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -635,7 +636,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -662,7 +663,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -689,7 +690,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -716,7 +717,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -743,7 +744,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -770,7 +771,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -799,7 +800,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -825,7 +826,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -851,7 +852,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -878,7 +879,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -905,7 +906,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -932,7 +933,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -959,7 +960,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -986,7 +987,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -1013,7 +1014,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -1040,7 +1041,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -1067,7 +1068,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -1094,7 +1095,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -1121,7 +1122,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -1150,7 +1151,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1176,7 +1177,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1202,7 +1203,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -1229,7 +1230,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -1256,7 +1257,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -1283,7 +1284,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -1310,7 +1311,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -1337,7 +1338,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -1364,7 +1365,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -1391,7 +1392,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -1418,7 +1419,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -1445,7 +1446,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -1472,7 +1473,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -1501,7 +1502,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1527,7 +1528,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1553,7 +1554,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -1580,7 +1581,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -1607,7 +1608,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -1634,7 +1635,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -1661,7 +1662,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -1688,7 +1689,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -1715,7 +1716,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -1742,7 +1743,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -1769,7 +1770,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -1796,7 +1797,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -1823,7 +1824,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -1852,7 +1853,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1878,7 +1879,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -1904,7 +1905,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -1931,7 +1932,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -1958,7 +1959,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -1985,7 +1986,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -2012,7 +2013,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -2039,7 +2040,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -2066,7 +2067,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -2093,7 +2094,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -2120,7 +2121,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -2147,7 +2148,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -2174,7 +2175,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -2203,7 +2204,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2229,7 +2230,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2255,7 +2256,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -2282,7 +2283,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -2309,7 +2310,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -2336,7 +2337,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -2363,7 +2364,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -2390,7 +2391,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -2417,7 +2418,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -2444,7 +2445,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -2471,7 +2472,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -2498,7 +2499,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -2525,7 +2526,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -2554,7 +2555,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2580,7 +2581,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2606,7 +2607,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -2633,7 +2634,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -2660,7 +2661,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -2687,7 +2688,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -2714,7 +2715,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -2741,7 +2742,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -2768,7 +2769,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -2795,7 +2796,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -2822,7 +2823,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -2849,7 +2850,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -2876,7 +2877,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -2905,7 +2906,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2931,7 +2932,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -2957,7 +2958,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -2984,7 +2985,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -3011,7 +3012,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -3038,7 +3039,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -3065,7 +3066,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -3092,7 +3093,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -3119,7 +3120,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -3146,7 +3147,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -3173,7 +3174,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -3200,7 +3201,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -3227,7 +3228,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -3256,7 +3257,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -3282,7 +3283,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -3308,7 +3309,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -3335,7 +3336,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -3362,7 +3363,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -3389,7 +3390,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -3416,7 +3417,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -3443,7 +3444,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -3470,7 +3471,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -3497,7 +3498,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -3524,7 +3525,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -3551,7 +3552,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -3578,7 +3579,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -3607,7 +3608,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -3633,7 +3634,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -3659,7 +3660,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -3686,7 +3687,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -3713,7 +3714,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -3740,7 +3741,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -3767,7 +3768,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -3794,7 +3795,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -3821,7 +3822,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -3848,7 +3849,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -3875,7 +3876,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -3902,7 +3903,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -3929,7 +3930,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -3958,7 +3959,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -3984,7 +3985,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -4010,7 +4011,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -4037,7 +4038,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -4064,7 +4065,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -4091,7 +4092,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -4118,7 +4119,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -4145,7 +4146,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -4172,7 +4173,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -4199,7 +4200,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -4226,7 +4227,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -4253,7 +4254,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -4280,7 +4281,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -4309,7 +4310,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -4335,7 +4336,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -4361,7 +4362,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -4388,7 +4389,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -4415,7 +4416,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -4442,7 +4443,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -4469,7 +4470,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -4496,7 +4497,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -4523,7 +4524,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -4550,7 +4551,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -4577,7 +4578,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -4604,7 +4605,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -4631,7 +4632,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
@@ -4660,7 +4661,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="2.124 1.3141 0">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -4686,7 +4687,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 					</a-entity>
 					<a-entity position="0 2.124 1.3141">
 						<a-entity mixin="fc p1b"></a-entity>
@@ -4712,7 +4713,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 2.124 -1.3141">
@@ -4739,7 +4740,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 2.124">
@@ -4766,7 +4767,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 2.124">
@@ -4793,7 +4794,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-1.3141 0 -2.124">
@@ -4820,7 +4821,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="1.3141 0 -2.124">
@@ -4847,7 +4848,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="2.124 -1.3141 0">
@@ -4874,7 +4875,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="-2.124 -1.3141 0">
@@ -4901,7 +4902,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 1.3141">
@@ -4928,7 +4929,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity position="0 -2.124 -1.3141">
@@ -4955,7 +4956,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 					<a-entity mixin="p13b">
@@ -4982,7 +4983,7 @@
 						<a-entity mixin="fc p11b"></a-entity>
 
 						<a-entity mixin="fc p12b"></a-entity>
-						<a-entity mixin="fc p13b" src="#aq" mtl="#mt1"></a-entity>
+						<a-entity mixin="fc1 p13b"></a-entity>
 
 					</a-entity>
 				</a-entity>
