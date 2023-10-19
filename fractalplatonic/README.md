@@ -32,8 +32,8 @@ Using the same principle as the construction of the Sierpinski triangle or the K
  <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
 To view fractal polyhedra in AR, simply visit:
-<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a></p>
-<p>and
+<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
+<br> and
 <br> <a href="ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
