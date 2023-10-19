@@ -292,48 +292,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 	</tr>
  </table>
 <hr>
-<h4>7. Fractal do cubo truncado</h4>
-<a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cubo truncado, obtemos um fractal do cubo truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
- <table>
-	<tr>
-		<th>ordem</th>
-		<th>poliedros</th>
-		<th>faces</th>
-		<th>arestas</th>
-		<th>vértices</th>
-	</tr>
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>14</td>
-		<td>36</td>
-		<td>24</td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>9</td>
-		<td>126</td>
-		<td>324</td>
-		<td>216</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>81</td>
-		<td>1134</td>
-		<td>2916</td>
-		<td>1944</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>729</td>
-		<td>10206</td>
-		<td>26244</td>
-		<td>17496</td>
-	</tr>
- </table>
-<hr>
-<h4>8. Fractal do cuboctaedro truncado</h4>
+<h4>7. Fractal do cuboctaedro truncado</h4>
 <a href="../vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Fractal do cuboctaedro truncado"></a><img src="../ar/38.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces quadradas do cuboctaedro truncado, obtemos um fractal do cuboctaedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face quadrada do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -371,6 +330,47 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>57122</td>
 		<td>158184</td>
 		<td>105456</td>
+	</tr>
+ </table>
+<hr>
+<h4>8. Fractal do cubo truncado</h4>
+<a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cubo truncado, obtemos um fractal do cubo truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>36</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>9</td>
+		<td>126</td>
+		<td>324</td>
+		<td>216</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>81</td>
+		<td>1134</td>
+		<td>2916</td>
+		<td>1944</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>729</td>
+		<td>10206</td>
+		<td>26244</td>
+		<td>17496</td>
 	</tr>
  </table>
 <hr>

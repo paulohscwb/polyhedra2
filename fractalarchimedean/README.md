@@ -292,7 +292,48 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 	</tr>
  </table>
  <hr>
-<h4>7. Truncated cube fractal</h4>
+ <h4>7. Truncated cuboctahedron fractal</h4>
+<a href="vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/38A.png" class="foto" alt="Truncated cuboctahedron fractal"></a><img src="ar/38.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to square faces of the truncated cuboctahedron, we obtain a truncated cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>26</td>
+		<td>72</td>
+		<td>48</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>13</td>
+		<td>338</td>
+		<td>936</td>
+		<td>624</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>169</td>
+		<td>4394</td>
+		<td>12168</td>
+		<td>8112</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>2197</td>
+		<td>57122</td>
+		<td>158184</td>
+		<td>105456</td>
+	</tr>
+ </table>
+ <hr>
+ <h4>8. Truncated cube fractal</h4>
 <a href="vr/FractalTruncatedCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/37A.png" class="foto" alt="Truncated cube fractal"></a><img src="ar/37.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the truncated cube, we obtain a truncated cube fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -333,46 +374,6 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 	</tr>
  </table>
  <hr>
- <h4>8. Truncated cuboctahedron fractal</h4>
-<a href="vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/38A.png" class="foto" alt="Truncated cuboctahedron fractal"></a><img src="ar/38.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to square faces of the truncated cuboctahedron, we obtain a truncated cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each square face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
- <table>
-	<tr>
-		<th>order</th>
-		<th>polyhedra</th>
-		<th>faces</th>
-		<th>edges</th>
-		<th>vertices</th>
-	</tr>
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>26</td>
-		<td>72</td>
-		<td>48</td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>13</td>
-		<td>338</td>
-		<td>936</td>
-		<td>624</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>169</td>
-		<td>4394</td>
-		<td>12168</td>
-		<td>8112</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>2197</td>
-		<td>57122</td>
-		<td>158184</td>
-		<td>105456</td>
-	</tr>
- </table>
  <h4>9. Truncated dodecahedron fractal</h4>
 <a href="vr/FractalTruncatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/39A.png" class="foto" alt="Truncated dodecahedron fractal"></a><img src="ar/39.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the truncated dodecahedron, we obtain a truncated dodecahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
