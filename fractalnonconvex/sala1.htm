@@ -31,7 +31,7 @@
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03;" material="opacity: 0.3; color:cyan;" grabbable clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-object, a-link" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, [poli1], a-link" sphere-collider="objects: .poli, a-cylinder;" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
 			<a-mixin id="fca" scale="0.998 0.998 0.998" obj-model="obj: #a1; mtl: #mt"></a-mixin>
 			<a-mixin id="fcb" scale="0.998 0.998 0.998" obj-model="obj: #a2; mtl: #mt"></a-mixin>
@@ -104,12 +104,12 @@
 		<a-cylinder mixin="botao1" class="botao" position="0.65 0.79 -0.13" onclick="nv.value=2; mnivelRA()"></a-cylinder>
 		<a-cylinder mixin="botao1" class="botao" position="0.79 0.79 -0.13" onclick="nv.value=3; mnivelRA()"></a-cylinder>
 		
-		<a-entity class="poli" position="-0.75 1 -0.8" scale="0.053 0.053 0.053" shadow>	
-			<a-entity scale="4 4 4" mixin="poli1" class="nivel0">
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.8" scale="0.053 0.053 0.053" shadow>	
+			<a-entity scale="4 4 4" class="nivel0">
 				<a-entity mixin="fca"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="2 2 2" mixin="poli1" class="nivel1" visible="false">
+			<a-entity scale="2 2 2" class="nivel1" visible="false">
 				<a-entity mixin="fca p1a"></a-entity>
 				<a-entity mixin="fca p2a"></a-entity>
 				<a-entity mixin="fca p3a"></a-entity>
@@ -123,7 +123,7 @@
 				<a-entity mixin="fca p11a"></a-entity>
 				<a-entity mixin="fca p12a"></a-entity>
 			</a-entity>
-			<a-entity scale="1 1 1" mixin="poli1" class="nivel2" visible="false">
+			<a-entity scale="1 1 1" class="nivel2" visible="false">
 				<a-entity position="-2 0 -2">
 					<a-entity mixin="fca p1a"></a-entity>
 
@@ -437,7 +437,7 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.5 0.5 0.5" mixin="poli1" class="nivel3" visible="false">
+			<a-entity scale="0.5 0.5 0.5" class="nivel3" visible="false">
 				<a-entity position="4 4 0">
 					<a-entity position="-2 0 -2">
 						<a-entity mixin="fca p1a"></a-entity>
@@ -4209,12 +4209,12 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" position="-0.75 1 -0.1" scale="0.064 0.064 0.064" shadow>
-			<a-entity scale="8 8 8" mixin="poli1" class="nivel0">
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.1" scale="0.064 0.064 0.064" shadow>
+			<a-entity scale="8 8 8" class="nivel0">
 				<a-entity mixin="fcb"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="3.05 3.05 3.05" mixin="poli1" class="nivel1" visible="false">
+			<a-entity scale="3.05 3.05 3.05" class="nivel1" visible="false">
 				<a-entity mixin="fcb p1b"></a-entity>
 				<a-entity mixin="fcb p2b"></a-entity>
 				<a-entity mixin="fcb p3b"></a-entity>
@@ -4229,7 +4229,7 @@
 				<a-entity mixin="fcb p12b"></a-entity>
 				<a-entity mixin="fcb1 p13b" scale="0.6238 0.6238 0.6238"></a-entity>
 			</a-entity>
-			<a-entity scale="1.163 1.163 1.163" mixin="poli1" class="nivel2" visible="false">
+			<a-entity scale="1.163 1.163 1.163" class="nivel2" visible="false">
 				<a-entity position="-2.124 1.3141 0">
 					<a-entity mixin="fcb p1b"></a-entity>
 					<a-entity mixin="fcb p2b"></a-entity>
@@ -4450,7 +4450,7 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.443 0.443 0.443" mixin="poli1" class="nivel3" visible="false">
+			<a-entity scale="0.443 0.443 0.443" class="nivel3" visible="false">
 				<a-entity position="5.573 3.447 0">
 					<a-entity position="-2.124 1.3141 0">
 						<a-entity mixin="fcb p1b"></a-entity>
@@ -9017,12 +9017,12 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" position="0 1 -0.6" scale="0.064 0.064 0.064" shadow>
-			<a-entity scale="8 8 8" mixin="poli1" class="nivel0">
+		<a-entity class="poli" mixin="poli1" position="0 1 -0.6" scale="0.064 0.064 0.064" shadow>
+			<a-entity scale="8 8 8" class="nivel0">
 				<a-entity mixin="fcc"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="2.23 2.23 2.23" mixin="poli1" class="nivel1" visible="false">
+			<a-entity scale="2.23 2.23 2.23" class="nivel1" visible="false">
 				<a-entity mixin="fcc p1c"></a-entity>
 				<a-entity mixin="fcc p2c"></a-entity>
 				<a-entity mixin="fcc p3c"></a-entity>
@@ -9045,7 +9045,7 @@
 				<a-entity mixin="fcc p20c"></a-entity>
 				<a-entity mixin="fcc1 p21c" scale="1.5768 1.5768 1.5768"></a-entity>
 			</a-entity>
-			<a-entity scale="0.6216 0.6216 0.6216" mixin="poli1" class="nivel2" visible="false">
+			<a-entity scale="0.6216 0.6216 0.6216" class="nivel2" visible="false">
 				<a-entity position="-2.866 2.866 -2.866">
 					<a-entity mixin="fcc p1c"></a-entity>
 					
@@ -9971,7 +9971,7 @@
 					
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.1733 0.1733 0.1733" mixin="poli1" class="nivel3" visible="false">
+			<a-entity scale="0.1733 0.1733 0.1733" class="nivel3" visible="false">
 				<a-entity position="10.28 10.28 10.28">
 					<a-entity position="-2.866 2.866 -2.866">
 						<a-entity mixin="fcc p1c"></a-entity>
