@@ -23,22 +23,20 @@ function urlHandler(value) {
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Archimedean polyhedra fractals</h2>
 Using the same principle as the construction of the Sierpinski triangle or the Koch curve, we can construct fractals from other regular polygons. When these polygons form a polyhedron, we have the construction of a fractal polyhedron.
 <hr> 
-<!--<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
-  <h3 align="center">Immersive room</h3>
+<!--  <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva de Fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><img align="middle" src="../../geometria-descritiva/videos/fractalarchimedean.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to fractal polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>
- <hr>
+ <hr> -->
   <h3 id="ra" align="center">Augmented Reality</h3>
-To view fractal polyhedra in AR, simply visit:
-<p align="center"><a href="ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalarchimedean/ra.html</a></p> 
-with any browser with a webcam device (smartphone, tablet or notebook). 
+To view fractal polyhedra in AR, simply visit the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook).
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
 <p align="center"><img src="ar/fractalarchimedean.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Cuboctahedron fractal</h4>
 <a href="vr/FractalCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/31A.png" class="foto" alt="Cuboctahedron fractal"></a><img src="ar/31.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
@@ -79,6 +77,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>8748</td>
 	</tr>
  </table>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>2. Icosidodecahedron fractal</h4>
 <a href="vr/FractalIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/32A.png" class="foto" alt="Icosidodecahedron fractal"></a><img src="ar/32.png" class="qr">
@@ -120,6 +119,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>277830</td>
 	</tr>
  </table>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>3. Rhombicosidodecahedron fractal</h4>
 <a href="vr/FractalRhombicosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/33A.png" class="foto" alt="Rhombicosidodecahedron fractal"></a><img src="ar/33.png" class="qr">
@@ -161,6 +161,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>4. Rhombicuboctahedron fractal</h4>
 <a href="vr/FractalRhombicuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/34A.png" class="foto" alt="rhombicuboctahedron fractal"></a><img src="ar/34.png" class="qr">
@@ -202,6 +203,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>17496</td>
 	</tr>
  </table>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Snub cube fractal</h4>
 <a href="vr/FractalSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/35A.png" class="foto" alt="Snub cube fractal"></a><img src="ar/35.png" class="qr">
@@ -250,6 +252,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>57624</td>
 	</tr>
  </table>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>6. Snub dodecahedron fractal</h4>
 <a href="vr/FractalSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/36A.png" class="foto" alt="Snub dodecahedron fractal"></a><img src="ar/36.png" class="qr">
@@ -291,6 +294,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>7. Truncated cuboctahedron fractal</h4>
 <a href="vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/38A.png" class="foto" alt="Truncated cuboctahedron fractal"></a><img src="ar/38.png" class="qr">
@@ -332,6 +336,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>105456</td>
 	</tr>
  </table>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>8. Truncated cube fractal</h4>
 <a href="vr/FractalTruncatedCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/37A.png" class="foto" alt="Truncated cube fractal"></a><img src="ar/37.png" class="qr">
@@ -373,6 +378,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>17496</td>
 	</tr>
  </table>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>9. Truncated dodecahedron fractal</h4>
 <a href="vr/FractalTruncatedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/39A.png" class="foto" alt="Truncated dodecahedron fractal"></a><img src="ar/39.png" class="qr">
@@ -414,6 +420,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>555660</td>
 	</tr>
  </table>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>10. Truncated icosahedron fractal</h4>
 <a href="vr/FractalTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/40A.png" class="foto" alt="Truncated icosahedron fractal"></a><img src="ar/40.png" class="qr">
@@ -455,6 +462,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>11. Truncated icosidodecahedron fractal</h4>
 <a href="vr/FractalTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/41A.png" class="foto" alt="Truncated icosidodecahedron fractal"></a><img src="ar/41.png" class="qr">
@@ -503,6 +511,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>57624</td>
 	</tr>
  </table>
+ <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>12. Truncated octahedron fractal</h4>
 <a href="vr/FractalTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/42A.png" class="foto" alt="Truncated octahedron fractal"></a><img src="ar/42.png" class="qr">
@@ -551,6 +560,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>8232</td>
 	</tr>
  </table>
+ <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
  <h4>13. Truncated tetrahedron fractal</h4>
 <a href="vr/FractalTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Truncated tetrahedron fractal"></a><img src="ar/43.png" class="qr">
@@ -599,6 +609,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 		<td>7500</td>
 	</tr>
  </table>
+ <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

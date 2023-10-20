@@ -23,22 +23,20 @@ function urlHandler(value) {
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fractais dos poliedros de Arquimedes</h2>
   Utilizando o mesmo princípio da construção do triângulo de Sierpinski ou da curva de Koch, podemos construir fractais de outros polígonos regulares. Quando estes polígonos formam um poliedro, temos a construção de um poliedro fractal.
  <hr>
-<!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
+ <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
   <hr>
-  <h3 align="center">Sala imersiva</h3>
+<!--  <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva de fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/fractalarchimedean.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para fractais de poliedros"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
-<hr>
+<hr> -->
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalarchimedean/ra.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+  Para visualizar os fractais de poliedros em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/fractalarchimedean.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Fractal do cuboctaedro</h4>
 <a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Fractal do cuboctaedro"></a><img src="../ar/31.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -79,6 +77,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>8748</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>2. Fractal do icosidodecaedro</h4>
 <a href="../vr/FractalIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Fractal do icosidodecaedro"></a><img src="../ar/32.png" class="qr">
@@ -120,6 +119,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>277830</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>3. Fractal do rombicosidodecaedro</h4>
 <a href="../vr/FractalRhombicosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/33A.png" class="foto" alt="Fractal do rombicosidodecaedro"></a><img src="../ar/33.png" class="qr">
@@ -161,6 +161,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>4. Fractal do rombicuboctaedro</h4>
 <a href="../vr/FractalRhombicuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/34A.png" class="foto" alt="Fractal do rombicuboctaedro"></a><img src="../ar/34.png" class="qr">
@@ -202,6 +203,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>17496</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Fractal do cubo snub</h4>
 <a href="../vr/FractalSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/35A.png" class="foto" alt="Fractal do cubo snub"></a><img src="../ar/35.png" class="qr">
@@ -250,6 +252,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>57624</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>6. Fractal do dodecaedro snub</h4>
 <a href="../vr/FractalSnubDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/36A.png" class="foto" alt="Fractal do dodecaedro snub"></a><img src="../ar/36.png" class="qr">
@@ -291,6 +294,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>7. Fractal do cuboctaedro truncado</h4>
 <a href="../vr/FractalTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Fractal do cuboctaedro truncado"></a><img src="../ar/38.png" class="qr">
@@ -332,6 +336,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>105456</td>
 	</tr>
  </table>
+ <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>8. Fractal do cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
@@ -373,6 +378,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>17496</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>9. Fractal do dodecaedro truncado</h4>
 <a href="../vr/FractalTruncatedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/39A.png" class="foto" alt="Fractal do dodecaedro truncado"></a><img src="../ar/39.png" class="qr">
@@ -414,6 +420,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>555660</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>10. Fractal do icosaedro truncado</h4>
 <a href="../vr/FractalTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/40A.png" class="foto" alt="Fractal do icosaedro truncado"></a><img src="../ar/40.png" class="qr">
@@ -455,6 +462,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>131820</td>
 	</tr>
  </table>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>11. Fractal do icosidodecaedro truncado</h4>
 <a href="../vr/FractalTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/41A.png" class="foto" alt="Fractal do icosidodecaedro truncado"></a><img src="../ar/41.png" class="qr">
@@ -496,6 +504,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>263640</td>
 	</tr>
  </table>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>12. Fractal do octaedro truncado</h4>
 <a href="../vr/FractalTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/42A.png" class="foto" alt="Fractal do octaedro truncado"></a><img src="../ar/42.png" class="qr">
@@ -544,6 +553,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>57624</td>
 	</tr>
  </table>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>13. Fractal do tetraedro truncado</h4>
 <a href="../vr/FractalTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/43A.png" class="foto" alt="Fractal do tetraedro truncado"></a><img src="../ar/43.png" class="qr">
@@ -592,6 +602,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 		<td>7500</td>
 	</tr>
  </table>
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
