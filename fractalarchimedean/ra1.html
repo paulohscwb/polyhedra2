@@ -65,7 +65,7 @@
 		<a-mixin id="p11c" position="2.625 0 -4.25"></a-mixin>
 		<a-mixin id="p12c" position="-2.625 0 -4.25"></a-mixin>
 		<a-mixin id="p13c" scale="1.52 1.52 1.52"></a-mixin>
-		<a-asset-item id="aq" src="vr/outros/TruncatedCuboctahedron.obj"></a-asset-item>
+		<a-asset-item id="a4" src="vr/outros/TruncatedCuboctahedron.obj"></a-asset-item>
 		<a-mixin id="p1d" position="-3.12 3.12 0"></a-mixin>
 		<a-mixin id="p2d" position="3.12 3.12 0"></a-mixin>
 		<a-mixin id="p3d" position="3.12 -3.12 0"></a-mixin>
@@ -95,11 +95,11 @@
 	<a-marker type="barcode" value="34" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalRhombicuboctahedron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.97 0.97 0.97">
-			<a-entity scale="0.9999 0.9999 0.9999" id="nivel0">
+			<a-entity scale="0.9999 0.9999 0.9999" class="nivel0">
 				<a-entity mixin="fca"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="0.333 0.333 0.333" id="nivel1" visible="false">
+			<a-entity scale="0.333 0.333 0.333" class="nivel1" visible="false">
 				<a-entity mixin="fca p1a"></a-entity>
 				<a-entity mixin="fca p2a"></a-entity>
 				<a-entity mixin="fca p3a"></a-entity>
@@ -110,7 +110,7 @@
 				<a-entity mixin="fca p8a"></a-entity>
 				<a-entity mixin="fca1 p9a" scale="0.998 0.998 0.998"></a-entity>
 			</a-entity>
-			<a-entity scale="0.1109 0.1109 0.1109" id="nivel2" visible="false">
+			<a-entity scale="0.1109 0.1109 0.1109" class="nivel2" visible="false">
 				<a-entity position="4.4294 4.4294 4.4294">
 					<a-entity mixin="fca p1a"></a-entity>
 					<a-entity mixin="fca p2a"></a-entity>
@@ -211,7 +211,7 @@
 					<a-entity mixin="fca1 p9a"></a-entity>
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.0369 0.0369 0.0369" id="nivel3" visible="false">
+			<a-entity scale="0.0369 0.0369 0.0369" class="nivel3" visible="false">
 				<a-entity position="13.3016 13.3016 13.3016">
 					<a-entity position="4.4294 4.4294 4.4294">
 						<a-entity mixin="fca p1a"></a-entity>
@@ -1128,11 +1128,11 @@
 	<a-marker type="barcode" value="35" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalSnubCube.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="1.04 1.04 1.04">
-			<a-entity scale="1 1 1" id="nivel0">
+			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="fcb"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="0.3925 0.3925 0.3925" id="nivel1" visible="false">
+			<a-entity scale="0.3925 0.3925 0.3925" class="nivel1" visible="false">
 				<a-entity mixin="fcb p1b"></a-entity>
 				<a-entity mixin="fcb p2b"></a-entity>
 				<a-entity mixin="fcb p3b"></a-entity>
@@ -1141,7 +1141,7 @@
 				<a-entity mixin="fcb p6b"></a-entity>
 				<a-entity mixin="fcb1 p7b"></a-entity>
 			</a-entity>
-			<a-entity scale="0.154 0.154 0.154" id="nivel2" visible="false">
+			<a-entity scale="0.154 0.154 0.154" class="nivel2" visible="false">
 				<a-entity position="-4.5197 0 0">
 					<a-entity mixin="fcb p1b"></a-entity>
 					<a-entity mixin="fcb p2b"></a-entity>
@@ -1206,7 +1206,7 @@
 					<a-entity mixin="fcb1 p7b"></a-entity>
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.0605 0.0605 0.0605" id="nivel3" visible="false">
+			<a-entity scale="0.0605 0.0605 0.0605" class="nivel3" visible="false">
 				<a-entity position="-11.5153 0 0">
 					<a-entity position="-4.5197 0 0">
 						<a-entity mixin="fcb p1b"></a-entity>
@@ -1663,7 +1663,7 @@
 					</a-entity>
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.02373 0.02373 0.02373" id="nivel4" visible="false">
+			<a-entity scale="0.02373 0.02373 0.02373" class="nivel4" visible="false">
 				<a-entity position="-29.338 0 0">
 					<a-entity position="-11.5153 0 0">
 						<a-entity position="-4.5197 0 0">
@@ -4870,11 +4870,11 @@
 	<a-marker type="barcode" value="36" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalSnubDodecahedron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.6 0.6 0.6">
-			<a-entity scale="1 1 1" id="nivel0">
+			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="fcc"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="0.285 0.285 0.285" id="nivel1" visible="false">
+			<a-entity scale="0.285 0.285 0.285" class="nivel1" visible="false">
 				<a-entity mixin="fcc p1c"></a-entity>
 				<a-entity mixin="fcc p2c"></a-entity>
 				<a-entity mixin="fcc p3c"></a-entity>
@@ -4889,7 +4889,7 @@
 				<a-entity mixin="fcc p12c"></a-entity>
 				<a-entity mixin="fcc1 p13c" scale="1.517 1.517 1.517"></a-entity>
 			</a-entity>
-			<a-entity scale="0.0812 0.0812 0.0812" id="nivel2" visible="false">
+			<a-entity scale="0.0812 0.0812 0.0812" class="nivel2" visible="false">
 				<a-entity position="14.912 9.2106 0">
 					<a-entity mixin="fcc p1c"></a-entity>
 
@@ -5255,7 +5255,7 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.02315 0.02315 0.02315" id="nivel3" visible="false">
+			<a-entity scale="0.02315 0.02315 0.02315" class="nivel3" visible="false">
 				<a-entity position="52.323 32.318 0">
 					<a-entity position="14.912 9.2106 0">
 						<a-entity mixin="fcc p1c"></a-entity>
@@ -10021,11 +10021,11 @@
 	<a-marker type="barcode" value="38" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTruncatedCuboctahedron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.6 0.6 0.6">
-			<a-entity scale="1 1 1" id="nivel0">
+			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="fcd"></a-entity>
 			</a-entity>
 			
-			<a-entity scale="0.333 0.333 0.333" id="nivel1" visible="false">
+			<a-entity scale="0.333 0.333 0.333" class="nivel1" visible="false">
 				<a-entity mixin="fcd p1d"></a-entity>
 				<a-entity mixin="fcd p2d"></a-entity>
 				<a-entity mixin="fcd p3d"></a-entity>
@@ -10040,7 +10040,7 @@
 				<a-entity mixin="fcd p12d"></a-entity>
 				<a-entity mixin="fcd1 p13d" scale="0.998 0.998 0.998"></a-entity>
 			</a-entity>
-			<a-entity scale="0.1109 0.1109 0.1109" id="nivel2" visible="false">
+			<a-entity scale="0.1109 0.1109 0.1109" class="nivel2" visible="false">
 				<a-entity position="9.369 9.369 0">
 					<a-entity mixin="fcd p1d"></a-entity>
 
@@ -10406,7 +10406,7 @@
 
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.03693 0.03693 0.03693" id="nivel3" visible="false">
+			<a-entity scale="0.03693 0.03693 0.03693" class="nivel3" visible="false">
 				<a-entity position="28.136 28.136 0">
 					<a-entity position="9.369 9.369 0">
 						<a-entity mixin="fcd p1d"></a-entity>
