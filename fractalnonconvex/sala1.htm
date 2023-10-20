@@ -4,7 +4,7 @@
     <title>Polyhedra fractals</title>
 	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://unpkg.com/super-hands/dist/super-hands.min.js"></script>
     <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
     <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
@@ -27,7 +27,7 @@
 	</div>
     <a-scene physics shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
-           <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="mass:40; shape: auto"></a-mixin>
+           <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="mass:10; shape: auto"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03;" material="opacity: 0.3; color:cyan;" grabbable clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
