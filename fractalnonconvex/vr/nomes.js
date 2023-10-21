@@ -1,5 +1,5 @@
 function abrir() {
-  window.open(fl);
+  window.open(fl, _self);
 }
 
 function mfaces() {
