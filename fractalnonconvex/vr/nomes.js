@@ -2,6 +2,10 @@ function abrir() {
   window.open(fl);
 }
 
+function fechar() {
+  window.close();
+}
+
 function mfaces() {
 	var x = document.getElementById("faces")
 	var sceneEl = document.querySelector('a-scene')
