@@ -1,9 +1,5 @@
 function abrir() {
-  window.open(fl);
-}
-
-function fechar() {
-  window.close();
+  window.open(fl, '_self');
 }
 
 function mfaces() {
