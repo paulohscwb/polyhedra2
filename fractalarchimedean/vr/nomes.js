@@ -1,3 +1,7 @@
+function abrir() {
+  window.open(fl, '_self');
+}
+
 function mfaces() {
 	var x = document.getElementById("faces")
 	var sceneEl = document.querySelector('a-scene')
