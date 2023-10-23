@@ -969,6 +969,55 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>23. Fractal da dipirâmide heptagrâmica</h4>
+<a href="../vr/FractalHeptagrammicDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/53A.png" class="foto" alt="Fractal da dipirâmide heptagrâmica"></a><img src="../ar/53.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nos vértices da dipirâmide heptagrâmica, obtemos um fractal da dipirâmide heptagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido nos vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>21</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>112</td>
+		<td>168</td>
+		<td>72</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>64</td>
+		<td>896</td>
+		<td>1344</td>
+		<td>576</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>512</td>
+		<td>7168</td>
+		<td>10752</td>
+		<td>4608</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>4096</td>
+		<td>57344</td>
+		<td>86016</td>
+		<td>36864</td>
+	</tr>
+ </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

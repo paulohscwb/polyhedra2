@@ -969,6 +969,55 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>23. Heptagrammic dipyramid fractal</h4>
+<a href="vr/FractalHeptagrammicDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/53A.png" class="foto" alt="Heptagrammic dipyramid fractal"></a><img src="ar/53.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to vertices of the heptagrammic dipyramid, we obtain a heptagrammic dipyramid fractal. In the first order of fractal construction, we construct a new solid at vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>21</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>112</td>
+		<td>168</td>
+		<td>72</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>64</td>
+		<td>896</td>
+		<td>1344</td>
+		<td>576</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>512</td>
+		<td>7168</td>
+		<td>10752</td>
+		<td>4608</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>4096</td>
+		<td>57344</td>
+		<td>86016</td>
+		<td>36864</td>
+	</tr>
+ </table>
+ <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
