@@ -801,7 +801,120 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  </table>
  <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <h4>19. Great pentakis dodecahedron fractal</h4>
+ <h4>19. Pentagrammic dipyramid fractal</h4>
+<a href="vr/FractalPentagrammicDipyramidA.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/54A.png" class="foto" alt="Pentagrammic dipyramid fractal"></a><img src="ar/54.png" class="qr">
+ <br><br>Applying the principle of repetition of solids at vertices of the pentagrammic dipyramid, we obtain a pentagrammic dipyramid fractal. In the first order of fractal construction, we construct a new solid at each vertice of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3, 4 and 5.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>10</td>
+		<td>15</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>60</td>
+		<td>90</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>11</td>
+		<td>110</td>
+		<td>165</td>
+		<td>77</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>21</td>
+		<td>210</td>
+		<td>315</td>
+		<td>147</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>41</td>
+		<td>410</td>
+		<td>615</td>
+		<td>287</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>81</td>
+		<td>810</td>
+		<td>1215</td>
+		<td>567</td>
+	</tr>
+ </table>
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>20. Heptagrammic dipyramid fractal</h4>
+<a href="vr/FractalHeptagrammicDipyramidA.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/55A.png" class="foto" alt="Pentagrammic dipyramid fractal"></a><img src="ar/55.png" class="qr">
+ <br><br>Applying the principle of repetition of solids at vertices of the heptagrammic dipyramid, we obtain a heptagrammic dipyramid fractal. In the first order of fractal construction, we construct a new solid at each vertice of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3, 4 and 5.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>21</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>112</td>
+		<td>168</td>
+		<td>72</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>15</td>
+		<td>210</td>
+		<td>315</td>
+		<td>135</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>29</td>
+		<td>406</td>
+		<td>609</td>
+		<td>261</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>57</td>
+		<td>798</td>
+		<td>1197</td>
+		<td>513</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>113</td>
+		<td>1582</td>
+		<td>2373</td>
+		<td>1017</td>
+	</tr>
+ </table>
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+ <h4>21. Great pentakis dodecahedron fractal</h4>
 <a href="vr/FractalGreatPentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Great Pentakis Dodecahedron fractal"></a><img src="ar/49.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to 12 vertices of the great pentakis dodecahedron, we obtain a great pentakis dodecahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -843,7 +956,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <h4>20. Icosidodecadodecahedron fractal</h4>
+ <h4>22. Icosidodecadodecahedron fractal</h4>
 <a href="vr/FractalIcosidodecadodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/50A.png" class="foto" alt="icosidodecadodecahedron fractal"></a><img src="ar/50.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to 12 faces of the icosidodecadodecahedron, we obtain an icosidodecadodecahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -884,9 +997,8 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
-<h4>21. Rhombicosahedron fractal</h4>
+<h4>23. Rhombicosahedron fractal</h4>
 <a href="vr/FractalRhombicosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Rhombicosahedron fractal"></a><img src="ar/51.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to 12 faces of the rhombicosahedron, we obtain an rhombicosahedron fractal. In the first order of fractal construction, we construct a new solid at 12 faces of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -928,7 +1040,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <h4>22. Medial inverted pentagonal hexecontahedron fractal</h4>
+ <h4>24. Medial inverted pentagonal hexecontahedron fractal</h4>
 <a href="vr/FractalMedialInvertedPentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/52A.png" class="foto" alt="Medial inverted pentagonal hexecontahedron fractal"></a><img src="ar/52.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to 12 vertices of the medial inverted pentagonal hexecontahedron, we obtain a medial inverted pentagonal hexecontahedron fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
@@ -970,7 +1082,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <h4>23. Heptagrammic dipyramid fractal</h4>
+ <h4>25. Heptagrammic dipyramid fractal</h4>
 <a href="vr/FractalHeptagrammicDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/53A.png" class="foto" alt="Heptagrammic dipyramid fractal"></a><img src="ar/53.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to vertices of the heptagrammic dipyramid, we obtain a heptagrammic dipyramid fractal. In the first order of fractal construction, we construct a new solid at vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
  <table>

@@ -801,7 +801,121 @@ function urlHandler(value) {
  </table>
  <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>19. Fractal do grande dodecaedro pentakis</h4>
+ <hr>
+<h4>19. Fractal da dipirâmide pentagrâmica</h4>
+<a href="../vr/FractalPentagrammicDipyramidA.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="Fractal da dipirâmide pentagrâmica"></a><img src="../ar/54.png" class="qr">
+ <br><br>Aplicando-se o princípio de repetição de sólidos nos vértices da dipirâmide pentagrâmica, obtemos um fractal da dipirâmide pentagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido correspondente a cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3, 4 e 5.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>10</td>
+		<td>15</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>6</td>
+		<td>60</td>
+		<td>90</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>11</td>
+		<td>110</td>
+		<td>165</td>
+		<td>77</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>21</td>
+		<td>210</td>
+		<td>315</td>
+		<td>147</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>41</td>
+		<td>410</td>
+		<td>615</td>
+		<td>287</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>81</td>
+		<td>810</td>
+		<td>1215</td>
+		<td>567</td>
+	</tr>
+ </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>20. Fractal da dipirâmide heptagrâmica</h4>
+<a href="../vr/FractalHeptagrammicDipyramidA.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Fractal da dipirâmide pentagrâmica"></a><img src="../ar/55.png" class="qr">
+ <br><br>Aplicando-se o princípio de repetição de sólidos nos vértices da dipirâmide heptagrâmica, obtemos um fractal da dipirâmide heptagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido correspondente a cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3, 4 e 5.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>14</td>
+		<td>21</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>112</td>
+		<td>168</td>
+		<td>72</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>15</td>
+		<td>210</td>
+		<td>315</td>
+		<td>135</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>29</td>
+		<td>406</td>
+		<td>609</td>
+		<td>261</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>57</td>
+		<td>798</td>
+		<td>1197</td>
+		<td>513</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>113</td>
+		<td>1582</td>
+		<td>2373</td>
+		<td>1017</td>
+	</tr>
+ </table>
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
+<h4>21. Fractal do grande dodecaedro pentakis</h4>
 <a href="../vr/FractalGreatPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Fractal do grande dodecaedro pentakis"></a><img src="../ar/49.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 vértices do grande dodecaedro pentakis, obtemos um fractal do grande dodecaedro pentakis. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -843,7 +957,7 @@ function urlHandler(value) {
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>20. Fractal do icosidodecadodecaedro</h4>
+<h4>22. Fractal do icosidodecadodecaedro</h4>
 <a href="../vr/FractalIcosidodecadodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="Fractal do icosidodecadodecaedro"></a><img src="../ar/50.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do icosidodecadodecaedro, obtemos um fractal do icosidodecadodecaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 faces do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -884,9 +998,8 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>21. Fractal do Rombicosaedro</h4>
+<h4>23. Fractal do Rombicosaedro</h4>
 <a href="../vr/FractalRhombicosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Fractal do Rombicosaedro"></a><img src="../ar/51.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 faces do rombicosaedro, obtemos um fractal do rombicosaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 faces do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -928,7 +1041,7 @@ function urlHandler(value) {
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>22. Fractal do hexecontaedro pentagonal invertido medial</h4>
+<h4>24. Fractal do hexecontaedro pentagonal invertido medial</h4>
 <a href="../vr/FractalMedialInvertedPentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Fractal do hexecontaedro pentagonal invertido medial"></a><img src="../ar/52.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch em 12 vértices do hexecontaedro pentagonal invertido medial, obtemos um fractal do hexecontaedro pentagonal invertido medial. Na primeira ordem de construção do fractal, construímos um novo sólido em 12 vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
@@ -970,7 +1083,7 @@ function urlHandler(value) {
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>23. Fractal da dipirâmide heptagrâmica</h4>
+<h4>25. Fractal da dipirâmide heptagrâmica</h4>
 <a href="../vr/FractalHeptagrammicDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/53A.png" class="foto" alt="Fractal da dipirâmide heptagrâmica"></a><img src="../ar/53.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nos vértices da dipirâmide heptagrâmica, obtemos um fractal da dipirâmide heptagrâmica. Na primeira ordem de construção do fractal, construímos um novo sólido nos vértices do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
  <table>
