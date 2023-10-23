@@ -14,7 +14,8 @@
 		<a-assets>
 			<a-mixin id="fc" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt"></a-mixin>
 			<a-mixin id="fc1" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
-			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-mixin id="ar1" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-mixin id="ar" mixin="ar1"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404; side:double;">
 			<a-asset-item id="mt" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
@@ -28,6 +29,7 @@
 			<a-mixin id="p6a" position="4.02 -3.21 0" rotation="0 0 25.71"></a-mixin>
 			<a-mixin id="p7a" position="-4.02 -3.21 0" rotation="0 0 25.71"></a-mixin>
 			<a-mixin id="p8a" scale="1.25 1.25 1.25"></a-mixin>
+			<a-mixin id="p8a2" scale="1.365 1.365 1.365" rotation="0 0 5"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
@@ -58,7 +60,7 @@
 				<a-entity mixin="ar p8a"></a-entity>
 			</a-entity>
 			<a-entity scale="0.096 0.096 0.096" id="nivel2" visible="false">
-				<a-entity position="16.16 -3.69 0">
+				<a-entity position="16.16 3.69 0">
 					<a-entity mixin="fc p1a"></a-entity>
 					<a-entity mixin="fc p2a"></a-entity>
 					<a-entity mixin="fc p3a"></a-entity>
@@ -68,7 +70,7 @@
 					<a-entity mixin="fc p7a"></a-entity>
 					<a-entity mixin="fc1 p8a"></a-entity>
 				</a-entity>
-				<a-entity position="-16.16 -3.69 0">
+				<a-entity position="-16.16 3.69 0">
 					<a-entity mixin="fc p1a"></a-entity>
 					<a-entity mixin="fc p2a"></a-entity>
 					<a-entity mixin="fc p3a"></a-entity>
@@ -108,7 +110,7 @@
 					<a-entity mixin="fc p7a"></a-entity>
 					<a-entity mixin="fc1 p8a"></a-entity>
 				</a-entity>
-				<a-entity position="12.97 10.35 0">
+				<a-entity position="12.97 -10.35 0">
 					<a-entity mixin="fc p1a"></a-entity>
 					<a-entity mixin="fc p2a"></a-entity>
 					<a-entity mixin="fc p3a"></a-entity>
@@ -118,7 +120,7 @@
 					<a-entity mixin="fc p7a"></a-entity>
 					<a-entity mixin="fc1 p8a"></a-entity>
 				</a-entity>
-				<a-entity position="-12.97 10.35 0">
+				<a-entity position="-12.97 -10.35 0">
 					<a-entity mixin="fc p1a"></a-entity>
 					<a-entity mixin="fc p2a"></a-entity>
 					<a-entity mixin="fc p3a"></a-entity>
@@ -128,7 +130,7 @@
 					<a-entity mixin="fc p7a"></a-entity>
 					<a-entity mixin="fc1 p8a"></a-entity>
 				</a-entity>
-				<a-entity mixin="p8a">
+				<a-entity mixin="p8a2">
 					<a-entity mixin="fc p1a"></a-entity>
 					<a-entity mixin="fc p2a"></a-entity>
 					<a-entity mixin="fc p3a"></a-entity>
@@ -140,7 +142,7 @@
 				</a-entity>
 			</a-entity>
 			<a-entity scale="0.0298 0.0298 0.0298" id="nivel3" visible="false">
-				<a-entity position="52.13 -11.91 0">
+				<a-entity position="52.13 11.91 0">
 					<a-entity position="16.16 -3.69 0">
 						<a-entity mixin="fc p1a"></a-entity>
 						<a-entity mixin="fc p2a"></a-entity>
@@ -222,7 +224,7 @@
 						<a-entity mixin="fc1 p8a"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="-52.13 -11.91 0">
+				<a-entity position="-52.13 11.91 0">
 					<a-entity position="16.16 -3.69 0">
 						<a-entity mixin="fc p1a"></a-entity>
 						<a-entity mixin="fc p2a"></a-entity>
@@ -550,7 +552,7 @@
 						<a-entity mixin="fc1 p8a"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="41.83 33.4 0">
+				<a-entity position="41.83 -33.4 0">
 					<a-entity position="16.16 -3.69 0">
 						<a-entity mixin="fc p1a"></a-entity>
 						<a-entity mixin="fc p2a"></a-entity>
@@ -632,7 +634,7 @@
 						<a-entity mixin="fc1 p8a"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="-41.83 33.4 0">
+				<a-entity position="-41.83 -33.4 0">
 					<a-entity position="16.16 -3.69 0">
 						<a-entity mixin="fc p1a"></a-entity>
 						<a-entity mixin="fc p2a"></a-entity>
@@ -714,7 +716,7 @@
 						<a-entity mixin="fc1 p8a"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity mixin="p8a">
+				<a-entity mixin="p8a2">
 					<a-entity position="16.16 -3.69 0">
 						<a-entity mixin="fc p1a"></a-entity>
 						<a-entity mixin="fc p2a"></a-entity>
@@ -798,7 +800,7 @@
 				</a-entity>
 			</a-entity>
 			<a-entity scale="0.0092 0.0092 0.0092" id="nivel4" visible="false">
-				<a-entity position="168.17 -38.43 0">
+				<a-entity position="168.17 38.43 0">
 					<a-entity position="52.13 -11.91 0">
 						<a-entity position="16.16 -3.69 0">
 							<a-entity mixin="fc p1a"></a-entity>
@@ -1456,7 +1458,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="-168.17 -38.43 0">
+				<a-entity position="-168.17 38.43 0">
 					<a-entity position="52.13 -11.91 0">
 						<a-entity position="16.16 -3.69 0">
 							<a-entity mixin="fc p1a"></a-entity>
@@ -4088,7 +4090,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="134.94 107.75 0">
+				<a-entity position="134.94 -107.75 0">
 					<a-entity position="52.13 -11.91 0">
 						<a-entity position="16.16 -3.69 0">
 							<a-entity mixin="fc p1a"></a-entity>
@@ -4746,7 +4748,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="-134.94 107.75 0">
+				<a-entity position="-134.94 -107.75 0">
 					<a-entity position="52.13 -11.91 0">
 						<a-entity position="16.16 -3.69 0">
 							<a-entity mixin="fc p1a"></a-entity>
@@ -5404,7 +5406,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity mixin="p8a">
+				<a-entity mixin="p8a2">
 					<a-entity position="52.13 -11.91 0">
 						<a-entity position="16.16 -3.69 0">
 							<a-entity mixin="fc p1a"></a-entity>
