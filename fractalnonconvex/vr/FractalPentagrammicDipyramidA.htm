@@ -31,7 +31,7 @@
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
-		<a-entity scale="2 2 2"><!-- mixin="anima1 anima2 anima3">-->
+		<a-entity scale="1.5 1.5 1.5"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="1 1 1" id="nivel0">
 				<a-entity mixin="fc"></a-entity>
 				<a-entity mixin="ar"></a-entity>
@@ -218,7 +218,7 @@
 				</a-entity>
 			</a-entity>
 		
-			<a-entity scale="0.0901 0.0901 0.0901" id="nivel4" visible="false">
+			<a-entity scale="0.0901 0.0901 0.0901" id="nivel5" visible="false">
 				<a-entity position="-17.94 5.82 0">
 					<a-entity position="-11.09 3.6 0">
 						<a-entity position="-6.854 2.225 0">
@@ -369,7 +369,7 @@
 		<span class="titulo">Pentagrammic dipyramid fractal</span>
 		<br><span class="titulo">Fractal da dipirâmide pentagrâmica</span>
 		<hr><input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp;&nbsp;<label for="rangevalue">order: </label><output id="rangevalue">0</output>
-		<br><input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
+		<br><input type="range" id="nv" min="0" max="5" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
 	</div>
   </body>
 </html>
