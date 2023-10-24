@@ -28,7 +28,7 @@
     <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
            <a-mixin id="poli1" shadow grabbable draggable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:20; shape: auto"></a-mixin>
-		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03;" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
+		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-gltf-model, a-link" sphere-collider="objects: .poli, a-gltf-model, a-cylinder;" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
@@ -44,11 +44,11 @@
         <a-gltf-model static-body src="vr/salas/fractal_nonconvex6a.glb" position="0 0 0" shadow></a-gltf-model>
 		<a-gltf-model static-body src="vr/salas/fractal_nonconvex6b.glb" position="0 0 0" shadow></a-gltf-model>
 		
-		<a-cylinder mixin="botao1" class="botao" position="0.38 0.79 -0.13" onclick="nv.value=0; mnivelRA()"></a-cylinder>
-		<a-cylinder mixin="botao1" class="botao" position="0.51 0.79 -0.13" onclick="nv.value=1; mnivelRA()"></a-cylinder>
-		<a-cylinder mixin="botao1" class="botao" position="0.65 0.79 -0.13" onclick="nv.value=2; mnivelRA()"></a-cylinder>
-		<a-cylinder mixin="botao1" class="botao" position="0.79 0.79 -0.13" onclick="nv.value=3; mnivelRA()"></a-cylinder>
-		<a-cylinder mixin="botao1" class="botao" position="0.93 0.79 -0.13" onclick="nv.value=4; mnivelRA()"></a-cylinder>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=0; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=1; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=2; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=3; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.93 0.77 -0.13" onclick="nv.value=4; mnivelRA()"></a-sphere>
 		
 		<a-entity class="poli" mixin="poli1" position="-0.75 1.05 -0.5" scale="0.05 0.05 0.05" shadow>	
 			<a-entity class="nivel0">
