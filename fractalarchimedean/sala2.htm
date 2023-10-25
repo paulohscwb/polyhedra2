@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Polyhedra fractals</title>
+	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/super-hands/dist/super-hands.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.2/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+	<script src="vr/nomes.js"></script>
+  </head>
+  <body>
+	<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;' id="info">
+		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
+	</div>
+	<script>
+		setTimeout(() => {
+		let get = document.getElementById('info');
+			get.style.display = 'none';
+		}, 5000);
+	</script>
+	<div class="box" style="visibility: hidden;">
+		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
+	</div>
+    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
+        <a-assets>
+           <a-mixin id="poli1" shadow grabbable draggable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:20; shape: auto"></a-mixin>
+		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
+           <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
+			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-gltf-model, a-link" sphere-collider="objects: .poli, a-gltf-model, a-cylinder;" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
+        </a-assets>
+		
+        <a-entity id="cameraRig">
+           <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
+           <a-entity id="lhand" mixin="controle" hand-controls="hand: left"></a-entity>
+		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
+        </a-entity>
+        <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
+        <a-gltf-model static-body src="vr/salas/fractal_arquim2.glb" position="0 0 0" shadow></a-gltf-model>
+		
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=0; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=1; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=2; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=3; mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.93 0.77 -0.13" onclick="nv.value=4; mnivelRA()"></a-sphere>
+		
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.75" scale="0.045 0.045 0.045" shadow>	
+			<a-entity class="nivel0">
+				<a-gltf-model src="vr/salas/glb/fractalrhombicuboctahedron0.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel1" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalrhombicuboctahedron1.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel2" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalrhombicuboctahedron2.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel3" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalrhombicuboctahedron3.glb" shadow></a-gltf-model>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.15" scale="0.045 0.045 0.045" shadow>
+			<a-entity class="nivel0">
+				<a-gltf-model src="vr/salas/glb/fractalsnubcube0.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel1" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubcube1.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel2" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubcube2.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel3" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubcube3.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel4" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubcube4.glb" shadow></a-gltf-model>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="0 1 -0.15" scale="0.045 0.045 0.045" shadow>
+			<a-entity class="nivel0">
+				<a-gltf-model src="vr/salas/glb/fractalsnubdodecahedron0.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel1" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubdodecahedron1.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel2" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubdodecahedron2.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel3" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractalsnubdodecahedron3.glb" shadow></a-gltf-model>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="0 1 -0.75" scale="0.045 0.045 0.045" shadow>
+			<a-entity class="nivel0">
+				<a-gltf-model src="vr/salas/glb/fractaltruncatedcuboctahedron0.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel1" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractaltruncatedcuboctahedron1.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel2" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractaltruncatedcuboctahedron2.glb" shadow></a-gltf-model>
+			</a-entity>
+			<a-entity class="nivel3" visible="false">
+				<a-gltf-model src="vr/salas/glb/fractaltruncatedcuboctahedron3.glb" shadow></a-gltf-model>
+			</a-entity>
+		</a-entity>
+		
+<!-- <a-video src="vr/salas/videos/great_dodecahemidodecahedron_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video> -->
+		<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>
+<!-- <a-link position="2.06 1.5 -0.7" rotation="0 270 0" scale="0.25 0.25 0" href="sala2.htm" title="Proxima sala / Next room" link="backgroundColor: aliceblue; borderColor:#97c9f1; titleColor:#55aaed"></a-link> -->
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala3.htm', abrir(fl)" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
+		<a-text value="Proxima sala / Next room" position="2.06 1.85 -1.2" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Youtube: @paulohscwb" position="2.06 0.18 1.5" width="2" rotation="0 270 0"></a-text>
+		<a-text value="imagem panoramica: Paul Bourke" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
+
+        <a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="-3 2 1"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="3 -2 1"></a-light>
+		<a-sky src="../imagens/toy.jpg""></a-sky> <!--geometry="phiStart: 95;"-->
+    </a-scene>
+  </body>
+</html>
