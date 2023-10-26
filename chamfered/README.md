@@ -43,6 +43,11 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>2. Chamfered octahedron</h4>
+<a href="vr/ChamferedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Chamfered octahedron"></a><img src="ar/57.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
