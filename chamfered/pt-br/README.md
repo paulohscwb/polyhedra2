@@ -47,9 +47,14 @@ function urlHandler(value) {
 <a href="../vr/ChamferedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="Cubo chanfrado"></a><img src="../ar/57.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>
+<hr> 
 <h4>3. Octaedro chanfrado</h4>
 <a href="../vr/ChamferedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="Octaedro chanfrado"></a><img src="../ar/58.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>4. Icosaedro chanfrado</h4>
+<a href="../vr/ChamferedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Icosaedro chanfrado"></a><img src="../ar/59.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
