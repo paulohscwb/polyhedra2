@@ -3,7 +3,7 @@
 <h2>Visualization of polyhedra with Augmented Reality (AR) and Virtual Reality (VR) in A-frame</h2>
  <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
- <br><a href="https://paulohscwb.github.io/polyhedra2/fractalarchimedean/pt-br/">versão em português</a>
+ <br><a href="https://paulohscwb.github.io/polyhedra2/chamfered/pt-br/">versão em português</a>
  <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected value>More polyhedra:</option>
@@ -45,6 +45,11 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
 <h4>2. Chamfered octahedron</h4>
 <a href="vr/ChamferedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Chamfered octahedron"></a><img src="ar/57.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>3. Chamfered cube</h4>
+<a href="vr/ChamferedCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Chamfered cube"></a><img src="ar/58.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
