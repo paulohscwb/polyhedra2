@@ -54,15 +54,19 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>4. Chamfered icosahedron </h4>
-<a href="vr/ChamferedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Chamfered icosahedron "></a><img src="ar/59.png" class="qr">
+<a href="vr/ChamferedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Chamfered icosahedron"></a><img src="ar/59.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>5. Chamfered dodecahedron </h4>
-<a href="vr/ChamferedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Chamfered dodecahedron "></a><img src="ar/60.png" class="qr">
+<h4>5. Chamfered dodecahedron</h4>
+<a href="vr/ChamferedDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Chamfered dodecahedron"></a><img src="ar/60.png" class="qr">
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>6. Chamfered truncated icosahedron</h4>
+<a href="vr/ChamferedTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Chamfered truncated icosahedron"></a><img src="ar/61.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
