@@ -58,13 +58,18 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>5. Chamfered dodecahedron </h4>
+<a href="vr/ChamferedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Chamfered dodecahedron "></a><img src="ar/60.png" class="qr">
+ <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalarchimedean/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
 <h4>How to cite this work:</h4> 
-<p>Siqueira, P.H., "Archimedean polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/polyhedra2/fractalarchimedean/pt-br/>, October 2023.</p>
+<p>Siqueira, P.H., "Archimedean polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/polyhedra2/fractalarchimedean/pt-br/>, November 2023.</p>
 <!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8272770"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8272770.svg" alt="DOI"></a>-->
 <br><br><b>References:</b>
 <br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>
