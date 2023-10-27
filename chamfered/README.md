@@ -31,7 +31,9 @@ We define the operation of "chamfering" as a truncation along the edges of a pol
   <p align="center"><img align="middle" src="../../geometria-descritiva/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Chamfered polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
-To view fractal polyhedra in AR, simply visit the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook).
+  To view chamfered polyhedra in AR, simply visit:
+<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/chamfered/ra.html</a></p> 
+with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
 <p align="center"><img src="ar/fractalarchimedean.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>

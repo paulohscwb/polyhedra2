@@ -10,8 +10,8 @@
 		<option value="../../ArchimedeanCatalanHulls/pt-br/">Cascos convexos de Arquimedes e Catalan</option>
 		<option value="../../fractalplatonic/pt-br/">Fractais dos poliedros de Platão</option>
 		<option value="../../fractalnonconvex/pt-br/">Fractais dos poliedros não convexos</option>
-		<option disabled value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>
-		<option value="../../chamfered/pt-br/">Poliedros chanfrados</option>
+		<option value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>
+		<option disabled value="../../chamfered/pt-br/">Poliedros chanfrados</option>
 	</select>
 </form>
 <script>
@@ -31,7 +31,9 @@ function urlHandler(value) {
   <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os Poliedros chanfrados"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
   <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os fractais de poliedros em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+  Para visualizar os poliedros chanfrados em RA, visite a página:
+<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/chamfered/ra.html</a></p> 
+com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/fractalarchimedean.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
