@@ -42,10 +42,16 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <h3 id="m3d" align="center">3D models</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Propellor Tetrahedron</h4>
-<a href="vr/ChamferedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/56A.png" class="foto" alt="Chamfered Tetrahedron"></a><img src="ar/56.png" class="qr">
- <br><br>A chamfered tetrahedron, also known as the alternate truncated cube, is a polyhedron obtained by chamfering a regular tetrahedron. An equilateral chamfered tetrahedron may be constructed by appropriate choice of the edge length ratio for chamfering.
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 6 mirror-symmetric hexagons | <b>Edges:</b> 24 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
- <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<a href="vr/PropellorTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Propellor Tetrahedron"></a><img src="ar/62.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>2. Propellor Cube</h4>
+<a href="vr/PropellorCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Propellor Tetrahedron"></a><img src="ar/63.png" class="qr">
+ <br><br><br>A propellor cube is a polyhedron obtained by performing propellor operations on a cube. 
+ <br><br><br><b>Faces:</b> 6 squares and 24 kites | <b>Edges:</b> 60 | <b>Vertices:</b> 32. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>

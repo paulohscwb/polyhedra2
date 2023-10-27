@@ -41,13 +41,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-<h4>1. Tetraedro chanfrado</h4>
-<a href="../vr/ChamferedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Tetraedro chanfrado"></a><img src="../ar/56.png" class="qr">
- <br><br>Um tetraedro chanfrado, também conhecido como cubo truncado alternado, é um poliedro obtido chanfrando um tetraedro regular. Um tetraedro chanfrado equilátero pode ser construído pela escolha apropriada da relação de comprimento da aresta para chanframento.
- <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 6 hexágonos simétricos | <b>Arestas:</b> 24 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
-<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<h4>1. Tetraedro de hélice</h4>
+<a href="../vr/PropellorTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="Tetraedro chanfrado"></a><img src="../ar/62.png" class="qr">
+ <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
+ <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-
+<h4>2. Cubo de hélice</h4>
+<a href="../vr/PropellorCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/63A.png" class="foto" alt="Tetraedro chanfrado"></a><img src="../ar/63.png" class="qr">
+ <br><br>Um cubo de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um cubo. 
+ <br><br><br><b>Faces:</b> 6 quadrados e 24 pipas | <b>Arestas:</b> 60 | <b>Vértices:</b> 32. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
