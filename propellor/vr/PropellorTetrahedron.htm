@@ -17,11 +17,11 @@
 			<a-mixin id="mtl9" material="color: #F79F81; side:double;"></a-mixin>
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
-			<a-mixin id="esfera" geometry="radius: 0.031;" material="metalness:0.4; roughness:0.5;">
+			<a-mixin id="esfera" geometry="radius: 0.029;" material="metalness:0.4; roughness:0.5;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 		</a-assets>
 				
-		<a-entity position="0 0 0" scale="4 4 4">
+		<a-entity position="0 0 0" scale="4.8 4.8 4.8">
 			<a-obj-model id="fc" src="outros/PropellorTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="outros/PropellorTetrahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.509755 -0.139681 -1.0'></a-sphere>
