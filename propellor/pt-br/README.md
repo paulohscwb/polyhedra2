@@ -23,7 +23,7 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros de hélice</h2>
-  Os poliedros desta página foram criados aplicando a operação de hélice de George Hart aos sólidos platônicos e alguns dos sólidos de Arquimedes e Catalães. Cada face é cercada por uma "hélice" de tetrágonos, com simetria rotacional de seu sólido platônico subjacente.
+  Os poliedros desta página foram criados aplicando a operação de hélice de George Hart aos sólidos platônicos e alguns dos sólidos de Arquimedes e de Catalan. Cada face é cercada por uma "hélice" de tetrágonos, com simetria rotacional de seu sólido platônico subjacente.
  <hr>
 <!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
@@ -57,6 +57,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../vr/PropellorOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/64A.png" class="foto" alt="Octaedro de hélice"></a><img src="../ar/64.png" class="qr">
  <br><br>Um octaedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um octaedro regular. 
  <br><br><br><b>Faces:</b> 8 triângulos equiláteros e 24 pipas | <b>Arestas:</b> 60 | <b>Vértices:</b> 30. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>4. Icosaedro de hélice</h4>
+<a href="../vr/PropellorIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/65A.png" class="foto" alt="Icosaedro de hélice"></a><img src="../ar/65.png" class="qr">
+ <br><br>Um icosaedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um icosaedro regular. 
+ <br><br><br><b>Faces:</b> 20 triângulos equiláteros e 60 pipas | <b>Arestas:</b> 150 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>

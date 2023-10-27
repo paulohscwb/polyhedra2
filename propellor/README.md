@@ -59,6 +59,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 8 equilateral triangles and 24 kites | <b>Edges:</b> 60 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>4. Propellor icosahedron </h4>
+<a href="vr/PropellorIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/65A.png" class="foto" alt="Propellor icosahedron"></a><img src="ar/65.png" class="qr">
+ <br><br><br>A propellor icosahedron is a polyhedron obtained by performing propellor operations on a regular icosahedron. 
+ <br><br><br><b>Faces:</b> 20 equilateral triangles and 60 kites | <b>Edges:</b> 150 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
