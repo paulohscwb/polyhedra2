@@ -65,6 +65,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 20 equilateral triangles and 60 kites | <b>Edges:</b> 150 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>5. Propellor dodecahedron </h4>
+<a href="vr/PropellorDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Propellor dodecahedron"></a><img src="ar/66.png" class="qr">
+ <br><br><br>A propellor dodecahedron is a polyhedron obtained by performing propellor operations on a regular dodecahedron. 
+ <br><br><br><b>Faces:</b> 12 regular pentagons and 60 kites | <b>Edges:</b> 150 | <b>Vertices:</b> 80. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

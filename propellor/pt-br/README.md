@@ -65,6 +65,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 20 triângulos equiláteros e 60 pipas | <b>Arestas:</b> 150 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>5. Dodecaedro de hélice</h4>
+<a href="../vr/PropellorDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/66A.png" class="foto" alt="Dodecaedro de hélice"></a><img src="../ar/66.png" class="qr">
+ <br><br>Um dodecaedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um dodecaedro regular. 
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares e 60 pipas | <b>Arestas:</b> 150 | <b>Vértices:</b> 80. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
