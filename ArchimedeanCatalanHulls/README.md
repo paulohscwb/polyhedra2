@@ -39,7 +39,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <p align="center"><img src="ar/ArchimedeanCatalanHulls.gif" alt="Augmented Reality to Archimedean and Catalan Convex Hulls" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU8wKQCxiosQaNLSIjAhyQO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Joined truncated tetrahedron</h4>
 <a href="vr/JoinedTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/0A.png" class="foto" alt="Joined Truncated Tetrahedron"></a><img src="ar/0.png" class="qr">
  <br><br>The joined truncated tetrahedron is a composite of the Archimedean truncated tetrahedron with its respective dual, the Catalan triakis tetrahedron. 
