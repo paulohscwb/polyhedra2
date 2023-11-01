@@ -263,6 +263,20 @@ function urlHandler(value) {
  </table>
  <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
+<h4>6. Fractal dragão de tetraedro</h4>
+<a href="../vr/FractalDragon.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/78A.png" class="foto" alt="Fractal dragão de tetraedro"></a><img src="../ar/78.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção da curva do Dragão com um tetraedro regular, obtemos um fractal dragão de tetraedro. Na primeira ordem de construção do fractal, construímos dois novos tetraedros correspondentes a uma face do poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 8.
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>7. Árvore fractal</h4>
+<a href="../vr/FractalTree.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Árvore fractal"></a><img src="../ar/77.png" class="qr">
+ <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>8. Árvore fractal com dodecaedros</h4>
+<a href="../vr/FractalTree1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/79A.png" class="foto" alt="Árvore fractal com dodecaedros"></a><img src="../ar/79.png" class="qr">
+ <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Neste exemplo, adicionamos dodecaedros como "frutos" ou "flores" da árvore. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
+ <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
