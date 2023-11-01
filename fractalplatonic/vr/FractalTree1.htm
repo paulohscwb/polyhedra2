@@ -20,9 +20,9 @@
 			<a-mixin id="mtl4" material="color: #04b494; side:double;"></a-mixin>
 			<a-mixin id="mtl5" material="color: #04aadd; side:double;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
-			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.32 1.17 0"></a-mixin>
-			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.16 1.17 0.27"></a-mixin>
-			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.16 1.17 -0.27"></a-mixin>
+			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.344 1.22 0"></a-mixin>
+			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.172 1.22 0.294"></a-mixin>
+			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
 			<a-mixin id="p4" mixin="es" position="0.07 -0.13 0.58"></a-mixin>
 			<!--<a-mixin id="p1" mixin="es" rotation="0 0 -45" position="0.4 1.15 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="45 -30 0" position="-0.2 1.15 0.35"></a-mixin>
@@ -30,11 +30,11 @@
 			<a-mixin id="p4" mixin="es" position="0.07 -0.13 0.58"></a-mixin>
 			<a-mixin id="p1" mixin="es" rotation="0 -14.1 -50" position="0.441 1.102 0.108"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="45 -4.14 30" position="-0.3 1.068 0.325"></a-mixin>
-			<a-mixin id="p3" mixin="es" rotation="-47.7 -8.38 29.89" position="-0.23 1.08 -0.41"></a-mixin>-->
+			<a-mixin id="p3" mixin="es" rotation="-47.7 -8.38 29.89" position="-0.23 1.08 -0.41"></a-mixin>
 			<a-mixin id="anima1" animation='property: rotation; dur: 15000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 15000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 20000; from: 0 0 0; to: 0 -180 0; dir: alternate; easing: linear; delay: 32000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 0 180 0; dir: alternate; easing: linear; delay: 73000; loop: 1'></a-mixin>
-			<a-mixin id="anima4" animation__4='property: camera.zoom; from: 1.2; to: 1; dur: 30000; delay: 15000'></a-mixin>
+			<a-mixin id="anima4" animation__4='property: camera.zoom; from: 1.2; to: 1; dur: 30000; delay: 15000'></a-mixin>-->
 		</a-assets>
 		
 		<a-entity rotation="0 0 0" position="0 -3.7 0" mixin="anima1 anima2 anima3">
@@ -12080,8 +12080,8 @@
 	<div class="box">
 		<span class="titulo">Fractal tree</span>
 		<br><span class="titulo">Árvore fractal</span>
-		<hr><label for="rangevalue">order: </label><output id="rangevalue">0</output>
-		<br><input type="range" id="nv" min="0" max="6" step="1" value="0" onchange="rangevalue.value=value; mnivelTREE()">
+		<hr><label for="rangevalue">order: </label><output id="rangevalue">6</output>
+		<br><input type="range" id="nv" min="0" max="6" step="1" value="6" onchange="rangevalue.value=value; mnivelTREE()">
 	</div>
   </body>
 </html>
