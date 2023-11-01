@@ -150,6 +150,10 @@ function mnivelRA() {
 	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
 	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
 	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
+	var entityEl5 = sceneEl.querySelectorAll('.nivel5')
+	var entityEl6 = sceneEl.querySelectorAll('.nivel6')
+	var entityEl7 = sceneEl.querySelectorAll('.nivel7')
+	var entityEl8 = sceneEl.querySelectorAll('.nivel8')
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
 	  for (let i = 0; i < entityEl0.length; i++) {
@@ -167,6 +171,18 @@ function mnivelRA() {
 	  for (let i = 0; i < entityEl4.length; i++) {
 		entityEl4[i].setAttribute('visible','false');
 	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
 	} else if (p == 1) {
 	  for (let i = 0; i < entityEl0.length; i++) {
 		entityEl0[i].setAttribute('visible','false');
@@ -182,6 +198,18 @@ function mnivelRA() {
 	  }
 	  for (let i = 0; i < entityEl4.length; i++) {
 		entityEl4[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
 	  }
 	} else if (p == 2) {
 	  for (let i = 0; i < entityEl0.length; i++) {
@@ -199,6 +227,18 @@ function mnivelRA() {
 	  for (let i = 0; i < entityEl4.length; i++) {
 		entityEl4[i].setAttribute('visible','false');
 	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
 	} else if (p == 3) {
 	  for (let i = 0; i < entityEl0.length; i++) {
 		entityEl0[i].setAttribute('visible','false');
@@ -215,7 +255,19 @@ function mnivelRA() {
 	  for (let i = 0; i < entityEl4.length; i++) {
 		entityEl4[i].setAttribute('visible','false');
 	  }
-	} else {
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
+	} else if (p == 4) {
 	  for (let i = 0; i < entityEl0.length; i++) {
 		entityEl0[i].setAttribute('visible','false');
 	  }
@@ -230,6 +282,130 @@ function mnivelRA() {
 	  }
 	  for (let i = 0; i < entityEl4.length; i++) {
 		entityEl4[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
+	} else if (p == 5) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  } 
+	} else if (p == 6) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
+	} else if (p == 7) {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','true');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','false');
+	  }
+	} else {
+	  for (let i = 0; i < entityEl0.length; i++) {
+		entityEl0[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl1.length; i++) {
+		entityEl1[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl2.length; i++) {
+		entityEl2[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl3.length; i++) {
+		entityEl3[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl4[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl5[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl6[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl7[i].setAttribute('visible','false');
+	  }
+	  for (let i = 0; i < entityEl4.length; i++) {
+		entityEl8[i].setAttribute('visible','true');
 	  }
 	}
 }
