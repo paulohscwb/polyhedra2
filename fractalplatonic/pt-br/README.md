@@ -32,11 +32,7 @@ function urlHandler(value) {
   <p align="center"><img src="../../../geometria-descritiva/videos/fractalplatonic1.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../../../geometria-descritiva/videos/fractalplatonic2.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os fractais de poliedros em RA, visite a página:
-<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra.html</a>
-<br> e
-<br> <a href="../ra1.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/fractalplatonic/ra1.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+  Para visualizar os fractais de poliedros em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/fractalplatonic.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
