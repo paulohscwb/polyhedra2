@@ -236,13 +236,13 @@ function mnivelRA() {
 
 function mnivelTREE() {
 	var sceneEl = document.querySelector('a-scene')
-	var entityEl0 = sceneEl.querySelectorAll('.nivel0')
-	var entityEl1 = sceneEl.querySelectorAll('.nivel1')
-	var entityEl2 = sceneEl.querySelectorAll('.nivel2')
-	var entityEl3 = sceneEl.querySelectorAll('.nivel3')
-	var entityEl4 = sceneEl.querySelectorAll('.nivel4')
-	var entityEl5 = sceneEl.querySelectorAll('.nivel5')
-	var entityEl6 = sceneEl.querySelectorAll('.nivel6')
+	var entityEl0 = sceneEl.querySelectorAll('.nivel0t')
+	var entityEl1 = sceneEl.querySelectorAll('.nivel1t')
+	var entityEl2 = sceneEl.querySelectorAll('.nivel2t')
+	var entityEl3 = sceneEl.querySelectorAll('.nivel3t')
+	var entityEl4 = sceneEl.querySelectorAll('.nivel4t')
+	var entityEl5 = sceneEl.querySelectorAll('.nivel5t')
+	var entityEl6 = sceneEl.querySelectorAll('.nivel6t')
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
 	  for (let i = 0; i < entityEl0.length; i++) {
