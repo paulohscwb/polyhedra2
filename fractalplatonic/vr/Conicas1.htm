@@ -16,11 +16,11 @@
 			<a-mixin id="fc2" material="opacity: 1; side: double; metalness:0.7; roughness:0.6;" geometry="radius:0.01; height:4"></a-mixin>
 			<a-mixin id="fc1" material="opacity: 1; side: double; metalness:0.7; roughness:0.6;" geometry="width:4; height:7"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
-			<a-mixin id="mtl1" material="color: #5cb404; side:double;"></a-mixin>
-			<a-mixin id="mtl2" material="color: #04b4a2; side:double;"></a-mixin>
-			<a-mixin id="mtl3" material="color: #ddf; side:double;"></a-mixin>
-			<a-mixin id="mtl4" material="color: #fdd; side:double; opacity:0.1"></a-mixin>
-			<a-mixin id="mtl5" material="color: #fdd; side:double;"></a-mixin>
+			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404; side:double;"></a-mixin>
+			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2; side:double;"></a-mixin>
+			<a-mixin id="mtl3" mixin="fc" material="color: #ddf; side:double;"></a-mixin>
+			<a-mixin id="mtl4" mixin="fc" material="color: #fdd; side:double; opacity:0.1"></a-mixin>
+			<a-mixin id="mtl5" mixin="fc"  material="color: #fdd; side:double;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 			<a-mixin id="esfera" geometry="radius: 0.032;" material="metalness:0.4; roughness:0.5;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
@@ -35,13 +35,13 @@
 		
 		<a-entity rotation="0 100 0">
 			<a-entity scale="4 4 4" id="nivel0">
-				<a-cone mixin="fc mtl1" position="0 -1 0"></a-cone>
-				<a-cone rotation="180 0 0" position="0 1 0" mixin="fc mtl1"></a-cone>
+				<a-cone mixin="mtl1" position="0 -1 0"></a-cone>
+				<a-cone rotation="180 0 0" position="0 1 0" mixin="mtl1"></a-cone>
 				<a-sphere position="0 -0.6 0.4" radius="0.05"></a-sphere>
 				<a-cylinder mixin="fc2 mtl3"></a-cylinder>
-				<a-plane mixin="fc1 mtl4" position="0 -0.6 0.4" rotation="90 0 0"></a-plane>
+				<a-plane mixin="mtl4" position="0 -0.6 0.4" rotation="90 0 0"></a-plane>
 				<a-entity position="0 -0.6 0.4" rotation="90 0 0" mixin="anima1 anima2">
-					<a-plane mixin="fc1 mtl5"></a-plane>
+					<a-plane mixin="mtl5"></a-plane>
 					<a-cylinder mixin="fc2 mtl3" height="7"></a-cylinder>
 				</a-entity>
 			</a-entity>
