@@ -33,23 +33,23 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; side: double; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5;"></a-mixin>
-			<a-mixin id="mtl1" mixin="fc" material="color: #736154; side:double;"></a-mixin>
-			<a-mixin id="mtl2" mixin="fc" material="color: #387146; side:double;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:10;"></a-mixin>
+			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
+			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
 			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.344 1.22 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.172 1.22 0.294"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
-		<!--	<a-mixin id="fc1" material="opacity: 0.87; side: double; metalness:0.7; roughness:0.6;" geometry="primitive:tetrahedron; radius:2.6; height:3; width:0.7; depth:0.7"></a-mixin>
+			<a-mixin id="fc1" material="opacity: 0.87; metalness:0.7; roughness:0.6;" geometry="primitive:tetrahedron; radius:2.6; height:3; width:0.7; depth:0.7"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
 			<a-mixin id="mtl4" rotation="0 0 0" mixin="fc1" material="color: #04aadd; side:double;"></a-mixin>
 			<a-mixin id="p1a" position="-1.06 -1.06 0" rotation="0 0 45"></a-mixin>
-			<a-mixin id="p2a" position="1.06 -1.06 0" rotation="0 0 -45"></a-mixin> -->
+			<a-mixin id="p2a" position="1.06 -1.06 0" rotation="0 0 -45"></a-mixin> 
         </a-assets>
 		
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
-           <a-entity id="lhand" mixin="controle" hand-controls="hand: left"></a-entity>
+           <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
 		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
@@ -59,13 +59,13 @@
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.27" onclick="nv.value=1; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.27" onclick="nv.value=2; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.27" onclick="nv.value=3; mnivelTREE(); mnivelRA()"></a-sphere>
-		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.83 0.77 -0.27" onclick="nv.value=4; mnivelTREE(); mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.93 0.77 -0.27" onclick="nv.value=4; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=5; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=6; mnivelTREE(); mnivelRA()"></a-sphere>
-		<!--<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=7; mnivelTREE()"></a-sphere>
-		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=8; mnivelTREE()"></a-sphere>-->
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=7; mnivelTREE(); mnivelRA()"></a-sphere>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=8; mnivelTREE(); mnivelRA()"></a-sphere>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.75 -1.8 -0.6" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>	
+		<a-entity class="poli" mixin="poli1" position="0 1 -0.6" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>	
 			<a-entity scale="2.3 2.3 2.3" class="nivel0t">
 				<a-cone mixin="mtl1"></a-cone>
 				<a-entity mixin="p1" class="nivel1t">
@@ -1917,7 +1917,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="0 1.5 -0.6" rotation="-55 0 0" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.5 -0.6" rotation="-55 0 0" scale="0.17 0.17 0.17" shadow>
 		
 			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="mtl4"></a-entity>
