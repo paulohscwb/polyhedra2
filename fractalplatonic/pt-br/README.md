@@ -276,7 +276,7 @@ function urlHandler(value) {
 <h4>8. Árvore fractal com dodecaedros</h4>
 <a href="../vr/FractalTree1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/79A.png" class="foto" alt="Árvore fractal com dodecaedros"></a><img src="../ar/79.png" class="qr">
  <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Neste exemplo, adicionamos dodecaedros como "frutos" ou "flores" da árvore. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
- <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

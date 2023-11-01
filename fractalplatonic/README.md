@@ -276,7 +276,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <h4>8. Fractal tree with dodecahedrons</h4>
 <a href="vr/FractalTree1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Fractal tree with dodecahedrons"></a><img src="ar/79.png" class="qr">
  <br><br>Applying the principle of repetitions with cone frustum, we obtain a fractal tree. In this example, we added dodecahedrons as the "fruits" or "flowers" of the tree. In the first order of construction the fractal, we build three new cone frustums connected with a face of the original cone frustum. In this example, we have solid representations in orders from 0 to 7.
- <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
