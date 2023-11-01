@@ -33,12 +33,12 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.87; side: double; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
-			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404; side:double;"></a-mixin>
-			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2; side:double;"></a-mixin>
-			<a-mixin id="mtl3" mixin="fc" material="color: #e88; side:double;"></a-mixin>
-			<a-mixin id="mtl4" mixin="fc" material="color: #04b494; side:double;"></a-mixin>
-			<a-mixin id="mtl5" mixin="fc" material="color: #04aadd; side:double;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.87;  metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
+			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404;"></a-mixin>
+			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2;"></a-mixin>
+			<a-mixin id="mtl3" mixin="fc" material="color: #e88;"></a-mixin>
+			<a-mixin id="mtl4" mixin="fc" material="color: #04b494;"></a-mixin>
+			<a-mixin id="mtl5" mixin="fc" material="color: #04aadd;"></a-mixin>
 			<a-mixin id="p1c" position="0 0.851 -1.378"></a-mixin>
 			<a-mixin id="p2c" position="0 -0.851 -1.378"></a-mixin>
 			<a-mixin id="p3c" position="-1.378 0 -0.851"></a-mixin>
