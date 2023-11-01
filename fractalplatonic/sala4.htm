@@ -33,7 +33,7 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:20;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:15;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
@@ -1918,7 +1918,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.75 1.13 -0.6" rotation="-55 0 0" scale="0.15 0.15 0.15" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.13 -0.6" rotation="0 30 0" scale="0.15 0.15 0.15" shadow>
 		
 			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="mtl4"></a-entity>
