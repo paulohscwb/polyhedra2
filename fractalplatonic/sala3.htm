@@ -33,7 +33,7 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:10;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:20;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
@@ -42,7 +42,7 @@
 			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
 			<a-mixin id="fc1" material="opacity: 0.87; metalness:0.7; roughness:0.6;" geometry="primitive:tetrahedron; radius:2.6; height:3; width:0.7; depth:0.7"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
-			<a-mixin id="mtl4" rotation="0 0 0" mixin="fc1" material="color: #04aadd; side:double;"></a-mixin>
+			<a-mixin id="mtl4" rotation="0 0 0" mixin="fc1" material="color: #04aadd;"></a-mixin>
 			<a-mixin id="p1a" position="-1.06 -1.06 0" rotation="0 0 45"></a-mixin>
 			<a-mixin id="p2a" position="1.06 -1.06 0" rotation="0 0 -45"></a-mixin> 
         </a-assets>
@@ -65,7 +65,7 @@
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=7; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=8; mnivelTREE(); mnivelRA()"></a-sphere>
 		
-		<a-entity class="poli" mixin="poli1" position="0 1 -0.6" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>	
+		<a-entity class="poli" mixin="poli1" position="0.15 0.885 -0.5" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>	
 			<a-entity scale="2.3 2.3 2.3" class="nivel0t">
 				<a-cone mixin="mtl1"></a-cone>
 				<a-entity mixin="p1" class="nivel1t">
@@ -1917,7 +1917,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.75 1.5 -0.6" rotation="-55 0 0" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.13 -0.6" rotation="-55 0 0" scale="0.15 0.15 0.15" shadow>
 		
 			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="mtl4"></a-entity>
@@ -3449,7 +3449,7 @@
 <!-- <a-video src="vr/salas/videos/great_dodecahemidodecahedron_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video> -->
 		<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>
 <!-- <a-link position="2.06 1.5 -0.7" rotation="0 270 0" scale="0.25 0.25 0" href="sala1.htm" title="Sala Anterior / Previous room" link="backgroundColor: aliceblue; borderColor:#97c9f1; titleColor:#55aaed"></a-link> -->
-		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala1.htm', abrir(fl)" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala4.htm', abrir(fl)" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
 		<a-text value="Proxima sala / Next room" position="2.06 1.85 -1.3" width="2" rotation="0 270 0"></a-text>
 		<a-text value="Youtube: @paulohscwb" position="2.06 0.18 1.5" width="2" rotation="0 270 0"></a-text>
 		<a-text value="imagem panoramica: Marko Klaric" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
