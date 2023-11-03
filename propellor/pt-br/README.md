@@ -77,6 +77,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 6 quadrados, 8 hexágonos e 72 quadriláteros | <b>Arestas:</b> 180 | <b>Vértices:</b> 96. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>7. Hexaedro tetrakis de hélice</h4>
+<a href="../vr/PropellorTetrakisHexahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/68A.png" class="foto" alt="Hexaedro tetrakis de hélice"></a><img src="../ar/68.png" class="qr">
+ <br><br>Um hexaedro tetrakis de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um hexaedro tetrakis de Catalan.
+ <br><br><br><b>Faces:</b> 24 triângulos acutângulos, 24 pipas e 48 quadriláteros | <b>Arestas:</b> 180 | <b>Vértices:</b> 86. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

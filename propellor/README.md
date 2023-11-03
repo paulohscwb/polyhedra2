@@ -73,8 +73,14 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>6. Propellor truncated octahedron</h4>
 <a href="vr/PropellorTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Propellor Truncated Octahedron"></a><img src="ar/67.png" class="qr">
- <br><br><br>A propellor truncated octahedron is a polyhedron obtained by performing propellor operations on a Archimedean truncated octahedron. 
+ <br><br><br>A propellor truncated octahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated octahedron. 
  <br><br><br><b>Faces:</b> 6 squares, 8 hexagons and 72 quadrilaterals | <b>Edges:</b> 180 | <b>Vertices:</b> 96. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>7. Propellor tetrakis hexahedron</h4>
+<a href="vr/PropellorTetrakisHexahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/68A.png" class="foto" alt="Propellor tetrakis hexahedron"></a><img src="ar/68.png" class="qr">
+ <br><br><br>A propellor tetrakis hexahedron is a polyhedron obtained by performing propellor operations on a Catalan tetrakis hexahedron. 
+ <br><br><br><b>Faces:</b> 24 acute triangles, 24 kites and 48 quadrilaterals | <b>Edges:</b> 180 | <b>Vertices:</b> 86. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
