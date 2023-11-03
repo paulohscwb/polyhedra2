@@ -83,6 +83,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 24 acute triangles, 24 kites and 48 quadrilaterals | <b>Edges:</b> 180 | <b>Vertices:</b> 86. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>8. Propellor snub cube</h4>
+<a href="vr/PropellorSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/69A.png" class="foto" alt="Propellor snub cube"></a><img src="ar/69.png" class="qr">
+ <br><br><br>A propellor snub cube is a polyhedron obtained by performing propellor operations on a Archimedean snub cube. 
+ <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 acute triangles, 6 squares and 120 quadrilaterals | <b>Edges:</b> 300 | <b>Vertices:</b> 144. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

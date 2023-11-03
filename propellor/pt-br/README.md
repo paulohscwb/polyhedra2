@@ -83,6 +83,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 24 triângulos acutângulos, 24 pipas e 48 quadriláteros | <b>Arestas:</b> 180 | <b>Vértices:</b> 86. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>8. Cubo snub de hélice</h4>
+<a href="../vr/PropellorSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/69A.png" class="foto" alt="Cubo snub de hélice"></a><img src="../ar/69.png" class="qr">
+ <br><br>Um cubo snub de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um cubo snub de Arquimedes.
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos acutângulos, 6 quadrados e 120 quadriláteros | <b>Arestas:</b> 300 | <b>Vértices:</b> 144. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
