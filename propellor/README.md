@@ -119,6 +119,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 60 acute triangles, 60 kites and 120 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 212. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>14. Propellor truncated icosidodecahedron</h4>
+<a href="vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Propellor truncated icosidodecahedron"></a><img src="ar/75.png" class="qr">
+ <br><br><br>A propellor truncated icosidodecahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated icosidodecahedron. 
+ <br><br><br><b>Faces:</b> 60 acute triangles, 60 kites and 120 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 212. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
