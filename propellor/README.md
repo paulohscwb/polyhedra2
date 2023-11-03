@@ -101,6 +101,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 12 losangos, 150 quadrilaterals, 6 octagons and 8 hexagons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>11. Propellor disdyakis dodecahedron</h4>
+<a href="vr/PropellorDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Propellor disdyakis dodecahedron"></a><img src="ar/72.png" class="qr">
+ <br><br><br>A propellor disdyakis dodecahedron is a polyhedron obtained by performing propellor operations on a Catalan disdyakis dodecahedron. 
+ <br><br><br><b>Faces:</b> 48 acute triangles and 144 quadrilaterals | <b>Edges:</b> 360 | <b>Vertices:</b> 170. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

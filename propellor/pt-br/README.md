@@ -101,6 +101,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 12 losangos, 150 quadriláteros, 6 octógonos e 8 hexágonos | <b>Arestas:</b> 360 | <b>Vértices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>11. Dodecaedro disdiakis de hélice</h4>
+<a href="../vr/PropellorDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/72A.png" class="foto" alt="Dodecaedro disdiakis de hélice"></a><img src="../ar/72.png" class="qr">
+ <br><br>Um dodecaedro disdiakis de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um dodecaedro disdiakis de Catalan.
+ <br><br><br><b>Faces:</b> 48 triângulos equiláteros e 144 quadriláteros | <b>Arestas:</b> 360 | <b>Vértices:</b> 170. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
