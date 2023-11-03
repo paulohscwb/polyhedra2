@@ -127,7 +127,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>15. Triacontaedro disdiakis de hélice</h4>
-<a href="../vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Triacontaedro disdiakis de hélice"></a><img src="../ar/76.png" class="qr">
+<a href="../vr/PropellorDisdyakisTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Triacontaedro disdiakis de hélice"></a><img src="../ar/76.png" class="qr">
  <br><br>Um triacontaedro disdiakis de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um triacontaedro disdiakis de Catalan.
  <br><br><br><b>Faces:</b> 120 triângulos equiláteros e 360 quadriláteros | <b>Arestas:</b> 900 | <b>Vértices:</b> 422. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>

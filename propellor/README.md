@@ -127,7 +127,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>15. Propellor disdyakis triacontahedron</h4>
-<a href="vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Propellor disdyakis triacontahedron"></a><img src="ar/76.png" class="qr">
+<a href="vr/PropellorDisdyakisTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Propellor disdyakis triacontahedron"></a><img src="ar/76.png" class="qr">
  <br><br><br>A propellor disdyakis triacontahedron is a polyhedron obtained by performing propellor operations on a Catalan disdyakis triacontahedron. 
  <br><br><br><b>Faces:</b> 120 acute triangles and 360 quadrilaterals | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
