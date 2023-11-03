@@ -113,6 +113,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 12 regular pentagons, 20 hexágonos and 180 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 240. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>13. Propellor pentakis dodecahedron</h4>
+<a href="vr/PropellorPentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Propellor pentakis dodecahedron"></a><img src="ar/74.png" class="qr">
+ <br><br><br>A propellor pentakis dodecahedron is a polyhedron obtained by performing propellor operations on a Catalan pentakis dodecahedron. 
+ <br><br><br><b>Faces:</b> 60 acute triangles, 60 kites and 120 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 212. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
