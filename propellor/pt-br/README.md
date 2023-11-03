@@ -100,6 +100,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>Um cuboctaedro truncado de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um cuboctaedro truncado de Arquimedes.
  <br><br><br><b>Faces:</b> 12 losangos, 150 quadriláteros, 6 octógonos e 8 hexágonos | <b>Arestas:</b> 360 | <b>Vértices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>11. Dodecaedro disdiakis de hélice</h4>
 <a href="../vr/PropellorDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/72A.png" class="foto" alt="Dodecaedro disdiakis de hélice"></a><img src="../ar/72.png" class="qr">
@@ -122,9 +123,14 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>14. Icosidodecaedro truncado de hélice</h4>
 <a href="../vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/75A.png" class="foto" alt="Icosidodecaedro truncado de hélice"></a><img src="../ar/75.png" class="qr">
  <br><br>Um icosidodecaedro truncado de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um icosidodecaedro truncado de Arquimedes.
- <br><br><br><b>Faces:</b> 60 triângulos equiláteros, 60 pipas e 120 quadriláteros | <b>Arestas:</b> 450 | <b>Vértices:</b> 212. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 30 losangos, 20 hexágonos, 12 decágonos e 360 quadriláteros | <b>Arestas:</b> 900 | <b>Vértices:</b> 480. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>15. Triacontaedro disdiakis de hélice</h4>
+<a href="../vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Triacontaedro disdiakis de hélice"></a><img src="../ar/76.png" class="qr">
+ <br><br>Um triacontaedro disdiakis de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um triacontaedro disdiakis de Catalan.
+ <br><br><br><b>Faces:</b> 120 triângulos equiláteros e 360 quadriláteros | <b>Arestas:</b> 900 | <b>Vértices:</b> 422. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

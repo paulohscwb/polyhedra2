@@ -100,6 +100,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A propellor truncated cuboctahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated cuboctahedron. 
  <br><br><br><b>Faces:</b> 12 rhombi, 150 quadrilaterals, 6 octagons and 8 hexagons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 <h4>11. Propellor disdyakis dodecahedron</h4>
 <a href="vr/PropellorDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Propellor disdyakis dodecahedron"></a><img src="ar/72.png" class="qr">
@@ -122,9 +123,14 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <h4>14. Propellor truncated icosidodecahedron</h4>
 <a href="vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Propellor truncated icosidodecahedron"></a><img src="ar/75.png" class="qr">
  <br><br><br>A propellor truncated icosidodecahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated icosidodecahedron. 
- <br><br><br><b>Faces:</b> 60 acute triangles, 60 kites and 120 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 212. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br><br><b>Faces:</b> 30 rhombi, 20 hexagons, 12 decagons and 360 quadrilaterals | <b>Edges:</b> 900 | <b>Vertices:</b> 480. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>15. Propellor disdyakis triacontahedron</h4>
+<a href="vr/PropellorTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Propellor disdyakis triacontahedron"></a><img src="ar/76.png" class="qr">
+ <br><br><br>A propellor disdyakis triacontahedron is a polyhedron obtained by performing propellor operations on a Catalan disdyakis triacontahedron. 
+ <br><br><br><b>Faces:</b> 120 acute triangles and 360 quadrilaterals | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
