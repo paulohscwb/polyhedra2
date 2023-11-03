@@ -89,6 +89,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos acutângulos, 6 quadrados e 120 quadriláteros | <b>Arestas:</b> 300 | <b>Vértices:</b> 144. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>9. Icositetraedro pentagonal de hélice</h4>
+<a href="../vr/PropellorPentagonalIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/70A.png" class="foto" alt="Icositetraedro pentagonal de hélice"></a><img src="../ar/70.png" class="qr">
+ <br><br>Um icositetraedro pentagonal de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um icositetraedro pentagonal de Catalan.
+ <br><br><br><b>Faces:</b> 48 pipas, 72 quadriláteros e 24 pentágonos | <b>Arestas:</b> 300 | <b>Vértices:</b> 158. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
