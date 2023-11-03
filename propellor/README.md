@@ -85,7 +85,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>8. Propellor snub cube</h4>
 <a href="vr/PropellorSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/69A.png" class="foto" alt="Propellor snub cube"></a><img src="ar/69.png" class="qr">
- <br><br><br>A propellor snub cube is a polyhedron obtained by performing propellor operations on a Archimedean snub cube. 
+ <br><br><br>A propellor snub cube is a polyhedron obtained by performing propellor operations on an Archimedean snub cube. 
  <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 acute triangles, 6 squares and 120 quadrilaterals | <b>Edges:</b> 300 | <b>Vertices:</b> 144. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
@@ -93,6 +93,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <a href="vr/PropellorPentagonalIcositetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/70A.png" class="foto" alt="Propellor pentagonal icositetrahedron"></a><img src="ar/70.png" class="qr">
  <br><br><br>A propellor pentagonal icositetrahedron is a polyhedron obtained by performing propellor operations on a Catalan pentagonal icositetrahedron. 
  <br><br><br><b>Faces:</b> 48 pipas, 72 quadrilaterals and 24 pentagons | <b>Edges:</b> 300 | <b>Vertices:</b> 158. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>10. Propellor truncated cuboctahedron</h4>
+<a href="vr/PropellorTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/71A.png" class="foto" alt="Propellor truncated cuboctahedron"></a><img src="ar/71.png" class="qr">
+ <br><br><br>A propellor truncated cuboctahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated cuboctahedron. 
+ <br><br><br><b>Faces:</b> 12 losangos, 150 quadrilaterals, 6 octagons and 8 hexagons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
