@@ -92,13 +92,13 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <h4>9. Propellor pentagonal icositetrahedron</h4>
 <a href="vr/PropellorPentagonalIcositetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/70A.png" class="foto" alt="Propellor pentagonal icositetrahedron"></a><img src="ar/70.png" class="qr">
  <br><br><br>A propellor pentagonal icositetrahedron is a polyhedron obtained by performing propellor operations on a Catalan pentagonal icositetrahedron. 
- <br><br><br><b>Faces:</b> 48 pipas, 72 quadrilaterals and 24 pentagons | <b>Edges:</b> 300 | <b>Vertices:</b> 158. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br><br><b>Faces:</b> 48 kites, 72 quadrilaterals and 24 pentagons | <b>Edges:</b> 300 | <b>Vertices:</b> 158. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>10. Propellor truncated cuboctahedron</h4>
 <a href="vr/PropellorTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/71A.png" class="foto" alt="Propellor truncated cuboctahedron"></a><img src="ar/71.png" class="qr">
  <br><br><br>A propellor truncated cuboctahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated cuboctahedron. 
- <br><br><br><b>Faces:</b> 12 losangos, 150 quadrilaterals, 6 octagons and 8 hexagons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br><br><b>Faces:</b> 12 rhombi, 150 quadrilaterals, 6 octagons and 8 hexagons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>11. Propellor disdyakis dodecahedron</h4>
