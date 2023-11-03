@@ -107,6 +107,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 48 acute triangles and 144 quadrilaterals | <b>Edges:</b> 360 | <b>Vertices:</b> 170. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>12. Propellor truncated icosahedron</h4>
+<a href="vr/PropellorTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/73A.png" class="foto" alt="Propellor truncated icosahedron"></a><img src="ar/73.png" class="qr">
+ <br><br><br>A propellor truncated icosahedron is a polyhedron obtained by performing propellor operations on an Archimedean truncated icosahedron. 
+ <br><br><br><b>Faces:</b> 12 regular pentagons, 20 hexágonos and 180 quadrilaterals | <b>Edges:</b> 450 | <b>Vertices:</b> 240. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

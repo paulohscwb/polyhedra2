@@ -107,6 +107,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 48 triângulos equiláteros e 144 quadriláteros | <b>Arestas:</b> 360 | <b>Vértices:</b> 170. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>12. Icosaedro truncados de hélice</h4>
+<a href="../vr/PropellorTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/73A.png" class="foto" alt="Icosaedro truncado de hélice"></a><img src="../ar/73.png" class="qr">
+ <br><br>Um icosaedro truncado de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um icosaedro truncado de Arquimedes.
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares, 20 hexágonos e 180 quadriláteros | <b>Arestas:</b> 450 | <b>Vértices:</b> 240. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
