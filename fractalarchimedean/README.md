@@ -12,6 +12,7 @@
 		<option value="../fractalnonconvex/">Non convex polyhedra fractals</option>
 		<option disabled value="../fractalarchimedean/">Archimedean polyhedra fractals</option>
 		<option value="../chamfered/">Chamfered polyhedra</option>
+		<option value="../propellor/">Propellor polyhedra</option>
 	</select>
 </form>
 <script>

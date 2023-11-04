@@ -11,6 +11,7 @@
 <h3 style="margin-top:3px"><a target="_blank" href="fractalnonconvex/"><img src="fractalnonconvex/ar/19A.png" style="margin-bottom:-10px" width="40"> Non convex polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalarchimedean/"><img src="fractalarchimedean/ar/37A.png" style="margin-bottom:-10px" width="40"> Archimedean polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="chamfered/"><img src="chamfered/ar/56A.png" style="margin-bottom:-10px" width="40"> Chamfered polyhedra</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="propellor/"><img src="propellor/ar/65A.png" style="margin-bottom:-10px" width="40"> Propellor polyhedra</a></h3>
 
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 <hr>

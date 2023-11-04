@@ -11,6 +11,7 @@
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalnonconvex/pt-br/"><img src="../fractalnonconvex/ar/19A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros não convexos</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalarchimedean/pt-br/"><img src="../fractalarchimedean/ar/37A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../chamfered/pt-br/"><img src="../chamfered/ar/56A.png" style="margin-bottom:-10px" width="40"> Poliedros chanfrados</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../propellor/pt-br/"><img src="../propellor/ar/65A.png" style="margin-bottom:-10px" width="40"> Poliedros de hélice</a></h3>
 
 <!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
 <hr>

@@ -23,7 +23,7 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros de hélice</h2>
-  Os poliedros desta página foram criados aplicando a operação de hélice de George Hart aos sólidos platônicos e alguns dos sólidos de Arquimedes e de Catalan. Cada face é cercada por uma "hélice" de tetrágonos, com simetria rotacional de seu sólido platônico subjacente.
+  Os poliedros desta página foram criados aplicando a operação de hélice de George Hart aos sólidos platônicos e alguns dos sólidos de Arquimedes e de Catalan. Cada face é cercada por uma "hélice" de quadriláteros, com simetria rotacional de seu sólido platônico subjacente.
  <hr>
 <!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
