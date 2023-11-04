@@ -36,8 +36,8 @@ We define the operation of "chamfering" as a truncation along the edges of a pol
 <p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/chamfered/ra.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
-<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
-<p align="center"><img src="ar/fractalarchimedean.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to chamfered polyhedra" src="ar/example.jpg" width="85%"></p>
+<p align="center"><img src="ar/chamfered.gif" alt="Augmented Reality to chamfered polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

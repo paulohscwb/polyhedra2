@@ -25,19 +25,19 @@ function urlHandler(value) {
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros de hélice</h2>
   Os poliedros desta página foram criados aplicando a operação de hélice de George Hart aos sólidos platônicos e alguns dos sólidos de Arquimedes e de Catalan. Cada face é cercada por uma "hélice" de quadriláteros, com simetria rotacional de seu sólido platônico subjacente.
  <hr>
-<!-- <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
+<p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
- <h3 align="center">Sala imersiva</h3>
-  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos Poliedros chanfrados" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os Poliedros chanfrados"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
-  <hr>
+<!-- <h3 align="center">Sala imersiva</h3>
+  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos Poliedros de hélice" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os Poliedros de hélice"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+  <hr> -->
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os poliedros chanfrados em RA, visite a página:
-<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/chamfered/ra.html</a></p> 
+  Para visualizar os poliedros de hélice em RA, visite a página:
+<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/propellor/ra.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
-<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para fractais de poliedros" src="../ar/example.jpg" width="85%"></p>
-<p align="center"><img src="../ar/fractalarchimedean.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros de hélice" src="../ar/example.jpg" width="85%"></p>
+<p align="center"><img src="../ar/propellor.gif" alt="Realidade Aumentada para poliedros de hélice" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

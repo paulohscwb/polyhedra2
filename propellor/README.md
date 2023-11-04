@@ -25,19 +25,19 @@ function urlHandler(value) {
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Propellor polyhedra</h2>
 The polyhedra of this page were created by applying George Hart's propellor operation to the Platonic solids and some of the Archimedean and Catalan solids. Each face is surrounded by a "propellor" of quadrilaterals, with rotational symmetry of its underlying Platonic solid.
 <hr> 
-<!-- <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+ <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
- <h3 align="center">Immersive room</h3>
-  <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos Poliedros chanfrados" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Chamfered polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
-  <hr>
+<!-- <h3 align="center">Immersive room</h3>
+  <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos Poliedros de hélice" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to propellor polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
+  <hr> -->
   <h3 id="ra" align="center">Augmented Reality</h3>
-  To view chamfered polyhedra in AR, simply visit:
-<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/chamfered/ra.html</a></p> 
+  To view propellor polyhedra in AR, simply visit:
+<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/propellor/ra.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
-<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to fractal polyhedra" src="ar/example.jpg" width="85%"></p>
-<p align="center"><img src="ar/fractalarchimedean.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to propellor polyhedra" src="ar/example.jpg" width="85%"></p>
+<p align="center"><img src="ar/propellor.gif" alt="Augmented Reality to propellor polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
