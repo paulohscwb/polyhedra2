@@ -27,10 +27,10 @@ The polyhedra of this page were created by applying George Hart's propellor oper
 <hr> 
  <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
-<!-- <h3 align="center">Immersive room</h3>
+ <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos Poliedros de hélice" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><img align="middle" src="../../geometria-descritiva/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to propellor polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
-  <hr> -->
+  <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view propellor polyhedra in AR, simply visit:
 <p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/propellor/ra.html</a></p> 
