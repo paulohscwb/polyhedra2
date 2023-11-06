@@ -1,23 +1,29 @@
 ## Alias MTL Material File
+illum 6
 
 newmtl Cor1
+Ka 0.3 0.8 1.0
 Kd 0.3 0.8 1.0
-Ks 0.8 0.8 0.8
+Ks 0.3 0.8 1.0
 Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
 
 newmtl Cor2
+Ka 0.3 0.8 0.3
 Kd 0.3 0.8 0.3
-Ks 0.8 0.8 0.8
+Ks 0.3 0.8 0.3
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
 
 newmtl Cor3
+Ka 1.0 0.6 0.6
 Kd 1.0 0.6 0.6
-Ks 0.8 0.8 0.8
+Ks 1.0 0.6 0.6
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -25,6 +31,7 @@ d 0.45
 newmtl Cor4
 Kd 0.4 1.0 1.0
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -32,6 +39,7 @@ d 0.45
 newmtl Cor5
 Kd 0.455 0.95 0.3
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -39,6 +47,7 @@ d 0.45
 newmtl Cor6
 Kd 1.0 0.5 0.5
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -46,6 +55,7 @@ d 0.45
 newmtl Cor7
 Kd 0.455 0.3 0.95
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -53,6 +63,7 @@ d 0.45
 newmtl Cor8
 Kd 0.5 1.0 0.5
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -60,6 +71,7 @@ d 0.45
 newmtl Cor9
 Kd 0.5 0.5 1.0
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -67,6 +79,7 @@ d 0.45
 newmtl Cor10
 Kd 0.7 0.7 1.0
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -74,6 +87,7 @@ d 0.45
 newmtl Cor11
 Kd 1.0 0.7 0.7
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -81,6 +95,7 @@ d 0.45
 newmtl Cor12
 Kd 0.6 0.9 0.6
 Ks 0.8 0.8 0.8
+Ns 25
 Pr 0.4
 Pm 0.6
 d 0.45
@@ -116,8 +131,8 @@ d 0.45
 newmtl CorL
 Kd 0.3 0.3 0.3
 Ks 0.5 0.5 0.5
-Pr 0.4
-Pm 0.6
+Pr 0.6
+Pm 0.4
 d 1
 
 newmtl CorL1
