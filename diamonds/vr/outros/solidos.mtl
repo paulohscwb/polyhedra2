@@ -2,12 +2,11 @@
 illum 6
 
 newmtl Cor1
-Ka 1 1 1
 Kd 0.3 0.8 1.0
 Ks 0.5 0.5 0.5
-Tf 1.0000 1.0000 1.0000
-Ns 200
-Ni 1.2000
+Pr 0.3
+Pm 0.7
+Ns 12
 d 0.8
 
 newmtl Cor2
