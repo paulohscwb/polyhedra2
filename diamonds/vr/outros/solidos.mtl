@@ -1,104 +1,98 @@
 ## Alias MTL Material File
-illum 2
+illum 6
 
 newmtl Cor1
-Ka 0 0 0
-Kd 0 0 0
-Ks 0.3 0.8 1.0
-Ns 200
+Kd 0.3 0.8 1.0
+Ks 0.5 0.5 0.5
+Pr 0.3
+Pm 0.7
+Ns 100
 d 0.25
 
 newmtl Cor2
-Ka 0 0 0
-Kd 0 0 0
-Ks 0.3 0.8 0.3
-Ns 200
+Kd 0.3 0.8 0.3
+Ks 0.5 0.5 0.5
+Pr 0.3
+Pm 0.7
+Ns 100
 d 0.25
 
 newmtl Cor3
-Ka 0 0 0
-Kd 0 0 0
-Ks 1.0 0.6 0.6
-Ns 200
+Kd 1.0 0.6 0.6
+Ks 0.5 0.5 0.5
+Pr 0.3
+Pm 0.7
+Ns 100
 d 0.25
 
 newmtl Cor4
-Ka 1 1 1
 Kd 0.4 1.0 1.0
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor5
-Ka 1 1 1
 Kd 0.255 0.95 0.3
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor6
-Ka 1 1 1
 Kd 1.0 0.5 0.5
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor7
-Ka 1 1 1
 Kd 0.255 0.3 0.95
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor8
-Ka 1 1 1
 Kd 0.5 1.0 0.5
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor9
-Ka 1 1 1
 Kd 0.5 0.5 1.0
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor10
-Ka 1 1 1
 Kd 0.7 0.7 1.0
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor11
-Ka 1 1 1
 Kd 1.0 0.7 0.7
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
 
 newmtl Cor12
-Ka 1 1 1
 Kd 0.6 0.9 0.6
 Ks 0.5 0.5 0.5
-Ns 200
+Ns 100
 Pr 0.3
 Pm 0.7
 d 0.25
