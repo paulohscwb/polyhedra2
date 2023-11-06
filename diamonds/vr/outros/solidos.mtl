@@ -2,24 +2,30 @@
 illum 6
 
 newmtl Cor1
+Ka 0.3 0.8 1.0
 Kd 0.3 0.8 1.0
 Ks 0.5 0.5 0.5
+Ke 1 1 1
 Pr 0.2
 Pm 0.9
 Ns 100
 d 0.72
 
 newmtl Cor2
+Ka 0.3 0.8 0.3
 Kd 0.3 0.8 0.3
 Ks 0.35 0.35 0.35
+Ke 1 1 1
 Pr 0.2
 Pm 0.9
 Ns 100
 d 0.72
 
 newmtl Cor3
+Ka 1.0 0.6 0.6
 Kd 1.0 0.6 0.6
 Ks 0.35 0.35 0.35
+Ke 1 1 1
 Pr 0.2
 Pm 0.9
 Ns 100
