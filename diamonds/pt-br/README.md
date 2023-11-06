@@ -61,6 +61,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>4. Rotunda pentagonal</h4>
+<a href="../vr/PentagonalRotunda.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Rotunda pentagonal"></a><img src="../ar/83.png" class="qr">
+ <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
+ <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

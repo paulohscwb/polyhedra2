@@ -1,10 +1,10 @@
 ## Alias MTL Material File
-illum 2
+illum 6
 
 newmtl Cor1
 Ka 0.3 0.8 1.0
 Kd 0.3 0.8 1.0
-Ks 0.5 0.5 0.5
+Ks 0.45 0.45 0.45
 Pr 0.2
 Pm 0.9
 Ns 100
