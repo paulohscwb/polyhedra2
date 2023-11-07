@@ -97,6 +97,30 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>10. Pentagonal antiprism</h4>
+<a href="vr/PentagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Pentagonal antiprism"></a><img src="ar/89.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>11. Hexagonal antiprism</h4>
+<a href="vr/HexagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Hexagonal antiprism"></a><img src="ar/90.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>12. Heptagonal antiprism</h4>
+<a href="vr/HeptagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Heptagonal antiprism"></a><img src="ar/91.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>13. Octagonal antiprism</h4>
+<a href="vr/OctagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Octagonal antiprism"></a><img src="ar/92.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
