@@ -67,6 +67,24 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>5. Pentagonal dipyramid</h4>
+<a href="vr/PentagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Pentagonal dipyramid"></a><img src="ar/84.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>6. Heptagonal dipyramid</h4>
+<a href="vr/HeptagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Heptagonal dipyramid"></a><img src="ar/85.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>7. Octagonal dipyramid</h4>
+<a href="vr/OctagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Octagonal dipyramid"></a><img src="ar/86.png" class="qr">
+ <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
+ <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
