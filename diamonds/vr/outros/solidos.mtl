@@ -4,129 +4,129 @@ newmtl Cor1
 Ka 0.95 0.95 0.95
 Kd 0.3 0.8 1.0
 Ks 0.3 0.8 1.0
-Pr 0.2
-Pm 0.9
-Ns 100
-d 0.8
+Pr 0.9
+Pm 0.2
+Ns 50
+d 0.75
 
 newmtl Cor2
 Ka 0.95 0.95 0.95
 Kd 0.3 0.8 0.3
 Ks 0.3 0.8 0.3
-Pr 0.2
-Pm 0.9
-Ns 100
-d 0.8
+Pr 0.9
+Pm 0.2
+Ns 50
+d 0.75
 
 newmtl Cor3
 Ka 0.95 0.95 0.95
 Kd 1.0 0.6 0.6
 Ks 1.0 0.6 0.6
-Pr 0.2
-Pm 0.9
-Ns 100
-d 0.8
+Pr 0.9
+Pm 0.2
+Ns 50
+d 0.75
 
 newmtl Cor4
 Ka 0.95 0.95 0.95
 Kd 0.1 0.9 0.9
-Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ks 0.1 0.9 0.9
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor5
-Kd 0.85 0.95 0.3
+Kd 0.755 0.95 0.3
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor6
 Kd 1.0 0.5 0.5
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor7
-Kd 0.85 0.3 0.95
+Kd 0.755 0.3 0.95
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor8
 Kd 0.5 1.0 0.5
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor9
 Kd 0.5 0.5 1.0
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor10
 Kd 0.7 0.7 1.0
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor11
 Kd 1.0 0.7 0.7
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor12
-Kd 0.8 0.9 0.6
+Kd 0.75 0.9 0.6
 Ks 1 1 1
-Ns 100
-Pr 0.2
-Pm 0.9
-d 0.8
+Ns 50
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor13
 Kd 0.92 0.92 0.92
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
-d 0.8
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor14
 Kd 0 0 0
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
-d 0.8
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor15
 Kd 1 1 1
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
-d 0.8
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl Cor16
 Kd 0.1 0.9 1
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
-d 0.8
+Pr 0.9
+Pm 0.2
+d 0.75
 
 newmtl CorL
 Ka 1 1 1
@@ -139,27 +139,27 @@ d 1
 newmtl CorL1
 Kd 0.3 0.8 1.0
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
+Pr 0.9
+Pm 0.2
 d 1
 
 newmtl CorL2
 Kd 0.3 0.8 0.3
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
+Pr 0.9
+Pm 0.2
 d 1
 
 newmtl CorL3
 Kd 1.0 0.4 0.1
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
+Pr 0.9
+Pm 0.2
 d 1
 
 newmtl CorL4
 Kd 0.4 0.4 0.4
 Ks 1 1 1
-Pr 0.2
-Pm 0.9
+Pr 0.9
+Pm 0.2
 d 0.2
