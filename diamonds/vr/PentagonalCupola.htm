@@ -17,6 +17,7 @@
 			<a-mixin id="mtl9" material="color: lightcyan;"></a-mixin>
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
+			<a-mixin id="luz" light="type: directional; color: white; intensity:0.1"></a-mixin>
 			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.046;" material="metalness:0.5; roughness:0.6;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 		</a-assets>
@@ -45,23 +46,23 @@
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 	  
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="-2 2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 -2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="-2 -2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="-2 2 -2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 -2 -2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="-2 -2 -2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 2 -2"></a-light>
+		<a-light mixin="luz" position="-2 2 2"></a-light>
+		<a-light mixin="luz" position="2 -2 2"></a-light>
+		<a-light mixin="luz" position="-2 -2 2"></a-light>
+		<a-light mixin="luz" position="2 2 2"></a-light>
+		<a-light mixin="luz" position="-2 2 -2"></a-light>
+		<a-light mixin="luz" position="2 -2 -2"></a-light>
+		<a-light mixin="luz" position="-2 -2 -2"></a-light>
+		<a-light mixin="luz" position="2 2 -2"></a-light>
 		
-		<a-light type="directional" color="white" intensity="0.1" position="-2 2 0"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 2 0"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="0 2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="0 2 -2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="-2 -2 0"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="2 -2 0"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="0 -2 2"></a-light>
-		<a-light type="directional" color="white" intensity="0.1" position="0 -2 -2"></a-light>
+		<a-light mixin="luz" position="-2 2 0"></a-light>
+		<a-light mixin="luz" position="2 2 0"></a-light>
+		<a-light mixin="luz" position="0 2 2"></a-light>
+		<a-light mixin="luz" position="0 2 -2"></a-light>
+		<a-light mixin="luz" position="-2 -2 0"></a-light>
+		<a-light mixin="luz" position="2 -2 0"></a-light>
+		<a-light mixin="luz" position="0 -2 2"></a-light>
+		<a-light mixin="luz" position="0 -2 -2"></a-light>
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
