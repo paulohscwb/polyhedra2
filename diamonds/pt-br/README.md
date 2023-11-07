@@ -73,18 +73,30 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>6. Dipirâmide heptagonal</h4>
-<a href="../vr/HeptagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Dipirâmide heptagonal"></a><img src="../ar/85.png" class="qr">
+<h4>6. Dipirâmide hexagonal</h4>
+<a href="../vr/HexagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Dipirâmide hexagonal"></a><img src="../ar/85.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>7. Dipirâmide octagonal</h4>
-<a href="../vr/OctagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Dipirâmide octagonal"></a><img src="../ar/86.png" class="qr">
+<h4>7. Dipirâmide heptagonal</h4>
+<a href="../vr/HeptagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Dipirâmide heptagonal"></a><img src="../ar/86.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>OctagonalDipyramid
+<hr>
+<h4>8. Dipirâmide octagonal</h4>
+<a href="../vr/OctagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Dipirâmide octagonal"></a><img src="../ar/87.png" class="qr">
+ <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
+ <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>9. Antiprisma quadrado</h4>
+<a href="../vr/SquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Square antiprism"></a><img src="../ar/88.png" class="qr">
+ <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
+ <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
