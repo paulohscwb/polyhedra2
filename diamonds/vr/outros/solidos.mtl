@@ -6,8 +6,7 @@ Kd 0.3 0.8 1.0
 Ks 1 1 1
 Pr 0.2
 Pm 0.9
-Ns 50
-illum 2
+Ns 20
 Tr 0.2
 
 newmtl Cor2
@@ -16,8 +15,7 @@ Kd 0.3 0.8 0.3
 Ks 1 1 1
 Pr 0.2
 Pm 0.9
-Ns 50
-illum 2
+Ns 20
 d 0.8
 
 newmtl Cor3
@@ -26,15 +24,14 @@ Kd 1.0 0.6 0.6
 Ks 1 1 1
 Pr 0.2
 Pm 0.9
-Ns 50
-illum 2
+Ns 20
 d 0.8
 
 newmtl Cor4
 Ka 0.95 0.95 0.95
 Kd 0.1 0.9 0.9
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -42,7 +39,7 @@ d 0.8
 newmtl Cor5
 Kd 0.85 0.95 0.3
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -50,7 +47,7 @@ d 0.8
 newmtl Cor6
 Kd 1.0 0.5 0.5
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -58,7 +55,7 @@ d 0.8
 newmtl Cor7
 Kd 0.85 0.3 0.95
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -66,7 +63,7 @@ d 0.8
 newmtl Cor8
 Kd 0.5 1.0 0.5
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -74,7 +71,7 @@ d 0.8
 newmtl Cor9
 Kd 0.5 0.5 1.0
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -82,7 +79,7 @@ d 0.8
 newmtl Cor10
 Kd 0.7 0.7 1.0
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -90,7 +87,7 @@ d 0.8
 newmtl Cor11
 Kd 1.0 0.7 0.7
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
@@ -98,7 +95,7 @@ d 0.8
 newmtl Cor12
 Kd 0.8 0.9 0.6
 Ks 1 1 1
-Ns 50
+Ns 20
 Pr 0.2
 Pm 0.9
 d 0.8
