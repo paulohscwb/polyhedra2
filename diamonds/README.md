@@ -163,7 +163,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>21. >Diamond snub square antiprism</h4>
+<h4>21. Diamond truncated snub square antiprism</h4>
 <a href="vr/SnubSquareAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/100A.png" class="foto" alt=">Diamond snub square antiprism"></a><img src="ar/100.png" class="qr">
  <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
  <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Snub_square_antiprism" target="_blank">More...</a>
