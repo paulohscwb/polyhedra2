@@ -43,79 +43,79 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-<h4>1. Triangular cupola</h4>
-<a href="vr/TriangularCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Triangular Cupola"></a><img src="ar/80.png" class="qr">
+<h4>1. Diamond triangular cupola</h4>
+<a href="vr/TriangularCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Diamond Triangular Cupola"></a><img src="ar/80.png" class="qr">
+ <br><br><br>When we build a regular pyramid with a hexagonal base, which has the base coincident with the hexagonal face of a Johnson triangular cupola, we obtain a diamond triangular cupola. 
+ <br><br><br><b>Faces:</b> 10 triangles and 3 squares | <b>Edges:</b> 21 | <b>Vertices:</b> 10. <a href="https://polytope.miraheze.org/wiki/Triangular_cupola" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>2. Diamond square cupola</h4>
+<a href="vr/SquareCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Diamond Square Cupola"></a><img src="ar/81.png" class="qr">
+ <br><br><br>When we build a regular pyramid with a octagonal base, which has the base coincident with the octagonal face of a Johnson square cupola, we obtain a diamond square cupola.
+ <br><br><br><b>Faces:</b> 12 triangles and 5 squares | <b>Edges:</b> 28 | <b>Vertices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Square_cupola" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>3. Diamond pentagonal cupola</h4>
+<a href="vr/PentagonalCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/82A.png" class="foto" alt="Diamond Pentagonal Cupola"></a><img src="ar/82.png" class="qr">
+ <br><br><br>When we build a regular pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal cupola, we obtain a diamond pentagonal cupola.
+ <br><br><br><b>Faces:</b> 15 triangles, 5 squares and 1 pentagon | <b>Edges:</b> 35 | <b>Vertices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Pentagonal_cupola" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>4. Diamond pentagonal rotunda</h4>
+<a href="vr/PentagonalRotunda.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/83A.png" class="foto" alt="Diamond Pentagonal rotunda"></a><img src="ar/83.png" class="qr">
+ <br><br><br>When we build a regular pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal rotunda, we obtain a diamond pentagonal rotunda.
+ <br><br><br><b>Faces:</b> 20 triangles and 6 pentagons | <b>Edges:</b> 45 | <b>Vertices:</b> 21. <a href="https://polytope.miraheze.org/wiki/Pentagonal_rotunda" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>5. Diamond pentagonal dipyramid</h4>
+<a href="vr/PentagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Diamond Pentagonal dipyramid"></a><img src="ar/84.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>2. Square cupola</h4>
-<a href="vr/SquareCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Square Cupola"></a><img src="ar/81.png" class="qr">
+<h4>6. Diamond hexagonal dipyramid</h4>
+<a href="vr/HexagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Diamond Hexagonal dipyramid"></a><img src="ar/85.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>3. Pentagonal cupola</h4>
-<a href="vr/PentagonalCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/82A.png" class="foto" alt="Pentagonal Cupola"></a><img src="ar/82.png" class="qr">
+<h4>7. Diamond heptagonal dipyramid</h4>
+<a href="vr/HeptagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Diamond Heptagonal dipyramid"></a><img src="ar/86.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>4. Pentagonal rotunda</h4>
-<a href="vr/PentagonalRotunda.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/83A.png" class="foto" alt="Pentagonal rotunda"></a><img src="ar/83.png" class="qr">
+<h4>8. Diamond octagonal dipyramid</h4>
+<a href="vr/OctagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Diamond Octagonal dipyramid"></a><img src="ar/87.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>5. Pentagonal dipyramid</h4>
-<a href="vr/PentagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Pentagonal dipyramid"></a><img src="ar/84.png" class="qr">
+<h4>9. Diamond square antiprism</h4>
+<a href="vr/SquareAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Diamond Square antiprism"></a><img src="ar/88.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>6. Hexagonal dipyramid</h4>
-<a href="vr/HexagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Hexagonal dipyramid"></a><img src="ar/85.png" class="qr">
+<h4>10. Diamond pentagonal antiprism</h4>
+<a href="vr/PentagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Diamond Pentagonal antiprism"></a><img src="ar/89.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>7. Heptagonal dipyramid</h4>
-<a href="vr/HeptagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Heptagonal dipyramid"></a><img src="ar/86.png" class="qr">
+<h4>11. Diamond hexagonal antiprism</h4>
+<a href="vr/HexagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Diamond Hexagonal antiprism"></a><img src="ar/90.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>8. Octagonal dipyramid</h4>
-<a href="vr/OctagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Octagonal dipyramid"></a><img src="ar/87.png" class="qr">
+<h4>12. Diamond heptagonal antiprism</h4>
+<a href="vr/HeptagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Diamond Heptagonal antiprism"></a><img src="ar/91.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>9. Square antiprism</h4>
-<a href="vr/SquareAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Square antiprism"></a><img src="ar/88.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
- <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<hr>
-<h4>10. Pentagonal antiprism</h4>
-<a href="vr/PentagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Pentagonal antiprism"></a><img src="ar/89.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
- <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<hr>
-<h4>11. Hexagonal antiprism</h4>
-<a href="vr/HexagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Hexagonal antiprism"></a><img src="ar/90.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
- <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<hr>
-<h4>12. Heptagonal antiprism</h4>
-<a href="vr/HeptagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Heptagonal antiprism"></a><img src="ar/91.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
- <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<hr>
-<h4>13. Octagonal antiprism</h4>
+<h4>13. Diamond octagonal antiprism</h4>
 <a href="vr/OctagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Octagonal antiprism"></a><img src="ar/92.png" class="qr">
  <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
  <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>

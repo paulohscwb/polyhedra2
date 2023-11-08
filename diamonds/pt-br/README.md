@@ -43,80 +43,80 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-<h4>1. Cúpula triangular</h4>
-<a href="../vr/TriangularCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Cúpula triangular"></a><img src="../ar/80.png" class="qr">
+<h4>1. Cúpula triangular de diamante</h4>
+<a href="../vr/TriangularCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Cúpula triangular de diamante"></a><img src="../ar/80.png" class="qr">
+ <br><br>Quando construímos uma pirâmide regular de base hexagonal, que tem a base coincidente com a face hexagonal de uma cúpula triangular de Johnson, obtemos uma cúpula triangular de diamante. 
+ <br><br><br><b>Faces:</b> 10 triângulos e 3 quadrados | <b>Arestas:</b> 21 | <b>Vértices:</b> 10. <a href="https://polytope.miraheze.org/wiki/Triangular_cupola" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>2. Cúpula quadrada de diamante</h4>
+<a href="../vr/SquareCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Cúpula quadrada de diamante"></a><img src="../ar/81.png" class="qr">
+ <br><br>Quando construímos uma pirâmide regular de base octogonal, que tem a base coincidente com a face octogonal de uma cúpula quadrada de Johnson, obtemos uma cúpula quadrada de diamante. 
+ <br><br><br><b>Faces:</b> 12 triângulos e 5 quadrados | <b>Arestas:</b> 28 | <b>Vértices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Square_cupola" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>3. Cúpula pentagonal de diamante</h4>
+<a href="../vr/PentagonalCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/82A.png" class="foto" alt="Cúpula pentagonal de diamante"></a><img src="../ar/82.png" class="qr">
+ <br><br>Quando construímos uma pirâmide regular de base decagonal, que tem a base coincidente com a face decagonal de uma cúpula pentagonal de Johnson, obtemos uma cúpula pentagonal de diamante. 
+ <br><br><br><b>Faces:</b> 15 triângulos, 5 quadrados e 1 pentágono | <b>Arestas:</b> 35 | <b>Vértices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Pentagonal_cupola" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>4. Rotunda pentagonal de diamante</h4>
+<a href="../vr/PentagonalRotunda.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Rotunda pentagonal de diamante"></a><img src="../ar/83.png" class="qr">
+ <br><br>Quando construímos uma pirâmide regular de base decagonal, que tem a base coincidente com a face decagonal de uma rotunda pentagonal de Johnson, obtemos uma rotunda pentagonal de diamante.
+ <br><br><br><b>Faces:</b> 20 triângulos e 6 pentágonos | <b>Arestas:</b> 45 | <b>Vértices:</b> 21. <a href="https://polytope.miraheze.org/wiki/Pentagonal_rotunda" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>5. Dipirâmide pentagonal de diamante</h4>
+<a href="../vr/PentagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/84A.png" class="foto" alt="Dipirâmide pentagonal de diamante"></a><img src="../ar/84.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>2. Cúpula quadrada</h4>
-<a href="../vr/SquareCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Cúpula quadrada"></a><img src="../ar/81.png" class="qr">
+<h4>6. Dipirâmide hexagonal de diamante</h4>
+<a href="../vr/HexagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Dipirâmide hexagonal de diamante"></a><img src="../ar/85.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>3. Cúpula pentagonal</h4>
-<a href="../vr/PentagonalCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/82A.png" class="foto" alt="Cúpula pentagonal"></a><img src="../ar/82.png" class="qr">
+<h4>7. Dipirâmide heptagonal de diamante</h4>
+<a href="../vr/HeptagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Dipirâmide heptagonal de diamante"></a><img src="../ar/86.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>4. Rotunda pentagonal</h4>
-<a href="../vr/PentagonalRotunda.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Rotunda pentagonal"></a><img src="../ar/83.png" class="qr">
+<h4>8. Dipirâmide octogonal de diamante</h4>
+<a href="../vr/OctagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Dipirâmide octogonal de diamante"></a><img src="../ar/87.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>5. Dipirâmide pentagonal</h4>
-<a href="../vr/PentagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/84A.png" class="foto" alt="Dipirâmide pentagonal"></a><img src="../ar/84.png" class="qr">
+<h4>9. Antiprisma quadrado de diamante</h4>
+<a href="../vr/SquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Antiprisma quadrado de diamante"></a><img src="../ar/88.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>6. Dipirâmide hexagonal</h4>
-<a href="../vr/HexagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Dipirâmide hexagonal"></a><img src="../ar/85.png" class="qr">
+<h4>10. Antiprisma pentagonal de diamante</h4>
+<a href="../vr/PentagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="Antiprisma pentagonal de diamante"></a><img src="../ar/89.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>7. Dipirâmide heptagonal</h4>
-<a href="../vr/HeptagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Dipirâmide heptagonal"></a><img src="../ar/86.png" class="qr">
+<h4>11. Antiprisma hexagonal de diamante</h4>
+<a href="../vr/HexagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="Antiprisma hexagonal de diamante"></a><img src="../ar/90.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>8. Dipirâmide octagonal</h4>
-<a href="../vr/OctagonalDipyramid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Dipirâmide octagonal"></a><img src="../ar/87.png" class="qr">
+<h4>12. Antiprisma heptagonal de diamante</h4>
+<a href="../vr/HeptagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="Antiprisma heptagonal de diamante"></a><img src="../ar/91.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>9. Antiprisma quadrado</h4>
-<a href="../vr/SquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Antiprisma quadrado"></a><img src="../ar/88.png" class="qr">
- <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
- <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
- <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>
-<h4>10. Antiprisma pentagonal</h4>
-<a href="../vr/PentagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="Antiprisma pentagonal"></a><img src="../ar/89.png" class="qr">
- <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
- <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
- <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>
-<h4>11. Antiprisma hexagonal</h4>
-<a href="../vr/HexagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="Antiprisma hexagonal"></a><img src="../ar/90.png" class="qr">
- <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
- <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
- <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>
-<h4>12. Antiprisma heptagonal</h4>
-<a href="../vr/HeptagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="Antiprisma heptagonal"></a><img src="../ar/91.png" class="qr">
- <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
- <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
- <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<hr>
-<h4>13. Antiprisma octagonal</h4>
-<a href="../vr/OctagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/92A.png" class="foto" alt="Antiprisma octagonal"></a><img src="../ar/92.png" class="qr">
+<h4>13. Antiprisma octogonal de diamante</h4>
+<a href="../vr/OctagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/92A.png" class="foto" alt="Antiprisma octogonal de diamante"></a><img src="../ar/92.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
  <br><br><br><b>Faces:</b> 4 triângulos equiláteros e 12 pipas | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
