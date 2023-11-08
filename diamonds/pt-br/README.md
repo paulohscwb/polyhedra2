@@ -163,6 +163,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>21. Antiprisma snub quadrado de diamante</h4>
+<a href="../vr/SnubSquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/100A.png" class="foto" alt="Antiprisma snub quadrado de diamante"></a><img src="../ar/100.png" class="qr">
+ <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
+ <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Snub_square_antiprism" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

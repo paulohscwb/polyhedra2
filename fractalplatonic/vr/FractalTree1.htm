@@ -14,9 +14,12 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="fc" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-radial:20;"></a-mixin>
-			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
-			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
-			<a-mixin id="mtl3" material="color: #EE4B2B; metalness:0.4; roughness:0.7;" geometry="radius:0.7; primitive: dodecahedron;"></a-mixin>
+			<a-mixin id="mtl1" mixin="fc" material="src: #wood; color: #736154;"></a-mixin>
+			<a-mixin id="mtl2" mixin="fc" material="src: #leaf; color: #387146;"></a-mixin>
+			<img id="#apple" src="salas/imagens/apple.jpg"/>
+			<img id="#wood" src="salas/imagens/wood.jpg"/>
+			<img id="#leaf" src="salas/imagens/leaf.jpg"/>
+			<a-mixin id="mtl3" material="src: #apple; metalness:0.4; roughness:0.7;" geometry="radius:0.7; primitive: dodecahedron;"></a-mixin>
 			<a-mixin id="mtl4" material="color: #04b494;"></a-mixin>
 			<a-mixin id="mtl5" material="color: #04aadd;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
