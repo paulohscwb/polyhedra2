@@ -30,12 +30,13 @@
 			<a-mixin id="p8a" mixin="fc1" scale="1.25 1.25 1.25"></a-mixin>
 			<a-mixin id="p8a2" mixin="fc1" scale="1.365 1.365 1.365" rotation="0 0 5"></a-mixin>
 			<a-mixin id="p8a3" mixin="fc1" scale="1.345 1.345 1.345" rotation="0 0 -6.5"></a-mixin>
-			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: -35 15 45; to: -35 375 45; easing: linear; delay: 13000'></a-mixin>
-			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
-			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
+			<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 13000'></a-mixin>
+			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 0 0 0; to: 35 30 0; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
+			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 0 30 35; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>
+			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: 0 0 0; to: 0 45 0; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>
 		</a-assets>
 		
-		<a-entity scale="2.8 2.8 2.8"><!-- mixin="anima1 anima2 anima3">-->
+		<a-entity scale="2.8 2.8 2.8" mixin="anima1 anima2 anima3 anima4">
 			<a-entity scale="1 1 1" id="nivel0">
 				<a-entity mixin="fc"></a-entity>
 				<a-entity mixin="ar"></a-entity>
