@@ -93,31 +93,31 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>9. Antiprisma quadrado de diamante</h4>
 <a href="../vr/SquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Antiprisma quadrado de diamante"></a><img src="../ar/88.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base quadrada reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta quadrada com a base coincidente com a maior base do antiprisma, obtemos um antiprisma quadrado de diamante.
+ <br><br>Considere um antiprisma modificado, com uma base quadrada reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta quadrada com a base coincidente com a base maior do antiprisma, obtemos um antiprisma quadrado de diamante.
  <br><br><b>Faces:</b> 12 triângulos e 1 quadrado | <b>Arestas:</b> 20 | <b>Vértices:</b> 9. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>10. Antiprisma pentagonal de diamante</h4>
 <a href="../vr/PentagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="Antiprisma pentagonal de diamante"></a><img src="../ar/89.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base pentagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta pentagonal com a base coincidente com a maior base do antiprisma, obtemos um antiprisma pentagonal de diamante. 
+ <br><br>Considere um antiprisma modificado, com uma base pentagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta pentagonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma pentagonal de diamante. 
  <br><br><b>Faces:</b> 15 triângulos e 1 pentágono | <b>Arestas:</b> 25 | <b>Vértices:</b> 11. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>11. Antiprisma hexagonal de diamante</h4>
 <a href="../vr/HexagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="Antiprisma hexagonal de diamante"></a><img src="../ar/90.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base hexagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta hexagonal com a base coincidente com a maior base do antiprisma, obtemos um antiprisma hexagonal de diamante.
+ <br><br>Considere um antiprisma modificado, com uma base hexagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta hexagonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma hexagonal de diamante.
  <br><br><b>Faces:</b> 18 triângulos e 1 hexágono | <b>Arestas:</b> 30 | <b>Vértices:</b> 13. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>12. Antiprisma heptagonal de diamante</h4>
 <a href="../vr/HeptagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="Antiprisma heptagonal de diamante"></a><img src="../ar/91.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base heptagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta heptagonal com a base coincidente com a maior base do antiprisma, obtemos um antiprisma heptagonal de diamante. 
+ <br><br>Considere um antiprisma modificado, com uma base heptagonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta heptagonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma heptagonal de diamante. 
  <br><br><b>Faces:</b> 21 triângulos e 1 heptágono | <b>Arestas:</b> 35 | <b>Vértices:</b> 15. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>13. Antiprisma octogonal de diamante</h4>
 <a href="../vr/OctagonalAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/92A.png" class="foto" alt="Antiprisma octogonal de diamante"></a><img src="../ar/92.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta octogonal com a base coincidente com a maior base do antiprisma, obtemos um antiprisma octogonal de diamante. 
+ <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta octogonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma octogonal de diamante. 
  <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
