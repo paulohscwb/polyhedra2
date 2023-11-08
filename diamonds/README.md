@@ -151,6 +151,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>19. Augmented tridiminished icosahedron</h4>
+<a href="vr/AugmentedTridiminishedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Augmented tridiminished icosahedron"></a><img src="ar/98.png" class="qr">
+ <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_tridiminished_icosahedron" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>20. Diamond augmented truncated tetrahedron</h4>
+<a href="vr/AugmentedTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Diamond augmented truncated tetrahedron"></a><img src="ar/99.png" class="qr">
+ <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
