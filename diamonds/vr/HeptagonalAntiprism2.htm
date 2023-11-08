@@ -18,26 +18,35 @@
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.4"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.02;" material="metalness:0.4; roughness:0.6;">
+			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.029;" material="metalness:0.4; roughness:0.6;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 		</a-assets>
 				
-		<a-entity rotation="-90 0 0" position="0 2.5 0" scale="7 7 7">
-			<a-obj-model id="fc" src="outros/SquareAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="outros/SquareAntiprism2L.obj" mtl="#material"></a-obj-model>
-			<a-sphere mixin='esfera' position='0.28 -0.28 0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.28 0.28 0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.28 -0.28 0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='0.70711 0.0 -0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.70711 0.0 -0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='0.0 0.70711 -0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='0.0 -0.70711 -0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='0.28 0.28 0.2'></a-sphere>
-			<a-sphere mixin='esfera' position='0 0 -1.1'></a-sphere>
-			<a-sphere mixin='esfera' position='0.28 0.28 -0.6'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.28 0.28 -0.6'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.28 -0.28 -0.6'></a-sphere>
-			<a-sphere mixin='esfera' position='0.28 -0.28 -0.6'></a-sphere>
+		<a-entity rotation="-90 0 0" position="0 2.5 0" scale="4.8 4.8 4.8">
+			<a-obj-model id="fc" src="outros/HeptagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+			<a-obj-model id="ar" src="outros/HeptagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
+			<a-sphere mixin='esfera' position='0 -0.7703 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.6001 -0.4816 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.7484 0.1677 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.3333 0.6885 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.3333 0.6885 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.7481 0.168 0.25 '></a-sphere>
+			<a-sphere mixin='esfera' position='-0.6001 -0.4816 0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.5 -1.0427 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='1.1237 -0.261 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.9014 0.714 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0.0005 1.148 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.9006 0.7143 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='-1.1233 -0.2605 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.5 -1.0425 -0.25'></a-sphere>
+			<a-sphere mixin='esfera' position='0 0 -1.7'></a-sphere>
+			<a-sphere mixin='esfera' position='0 -0.7703 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='0.6001 -0.4816 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='0.7484 0.1677 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='0.3333 0.6885 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.3333 0.6885 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.7481 0.168 -0.75'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.6001 -0.4816 -0.75'></a-sphere>
 		</a-entity>
 		
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
@@ -53,8 +62,8 @@
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Diamond mirror square antiprism</span>
-		<br><span class="titulo">Antiprisma quadrado refletido de diamante</span>
+		<span class="titulo">Diamond mirror heptagonal antiprism</span>
+		<br><span class="titulo">Antiprisma heptagonal refletido de diamante</span>
 		<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
 		<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
 		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
