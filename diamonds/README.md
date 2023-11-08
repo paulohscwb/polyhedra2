@@ -45,80 +45,80 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Diamond triangular cupola</h4>
 <a href="vr/TriangularCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Diamond Triangular Cupola"></a><img src="ar/80.png" class="qr">
- <br><br><br>When we build a regular pyramid with a hexagonal base, which has the base coincident with the hexagonal face of a Johnson triangular cupola, we obtain a diamond triangular cupola. 
- <br><br><br><b>Faces:</b> 10 triangles and 3 squares | <b>Edges:</b> 21 | <b>Vertices:</b> 10. <a href="https://polytope.miraheze.org/wiki/Triangular_cupola" target="_blank">More...</a>
+ <br><br>When we construct a right pyramid with a hexagonal base, which has the base coincident with the hexagonal face of a Johnson triangular cupola, we obtain a diamond triangular cupola. 
+ <br><br><b>Faces:</b> 10 triangles and 3 squares | <b>Edges:</b> 21 | <b>Vertices:</b> 10. <a href="https://polytope.miraheze.org/wiki/Triangular_cupola" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>2. Diamond square cupola</h4>
 <a href="vr/SquareCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Diamond Square Cupola"></a><img src="ar/81.png" class="qr">
- <br><br><br>When we build a regular pyramid with a octagonal base, which has the base coincident with the octagonal face of a Johnson square cupola, we obtain a diamond square cupola.
- <br><br><br><b>Faces:</b> 12 triangles and 5 squares | <b>Edges:</b> 28 | <b>Vertices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Square_cupola" target="_blank">More...</a>
+ <br><br>When we construct a right pyramid with a octagonal base, which has the base coincident with the octagonal face of a Johnson square cupola, we obtain a diamond square cupola.
+ <br><br><b>Faces:</b> 12 triangles and 5 squares | <b>Edges:</b> 28 | <b>Vertices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Square_cupola" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>3. Diamond pentagonal cupola</h4>
 <a href="vr/PentagonalCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/82A.png" class="foto" alt="Diamond Pentagonal Cupola"></a><img src="ar/82.png" class="qr">
- <br><br><br>When we build a regular pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal cupola, we obtain a diamond pentagonal cupola.
- <br><br><br><b>Faces:</b> 15 triangles, 5 squares and 1 pentagon | <b>Edges:</b> 35 | <b>Vertices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Pentagonal_cupola" target="_blank">More...</a>
+ <br><br>When we construct a right pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal cupola, we obtain a diamond pentagonal cupola.
+ <br><br><b>Faces:</b> 15 triangles, 5 squares and 1 pentagon | <b>Edges:</b> 35 | <b>Vertices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Pentagonal_cupola" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>4. Diamond pentagonal rotunda</h4>
 <a href="vr/PentagonalRotunda.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/83A.png" class="foto" alt="Diamond Pentagonal rotunda"></a><img src="ar/83.png" class="qr">
- <br><br><br>When we build a regular pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal rotunda, we obtain a diamond pentagonal rotunda.
- <br><br><br><b>Faces:</b> 20 triangles and 6 pentagons | <b>Edges:</b> 45 | <b>Vertices:</b> 21. <a href="https://polytope.miraheze.org/wiki/Pentagonal_rotunda" target="_blank">More...</a>
+ <br><br>When we construct a right pyramid with a decagonal base, which has the base coincident with the decagonal face of a Johnson pentagonal rotunda, we obtain a diamond pentagonal rotunda.
+ <br><br><b>Faces:</b> 20 triangles and 6 pentagons | <b>Edges:</b> 45 | <b>Vertices:</b> 21. <a href="https://polytope.miraheze.org/wiki/Pentagonal_rotunda" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Diamond pentagonal dipyramid</h4>
 <a href="vr/PentagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Diamond Pentagonal dipyramid"></a><img src="ar/84.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>If we construct a dipyramid using two right pentagonal pyramids with different heights, we obtain a diamond pentagonal dipyramid.
+ <br><br><b>Faces:</b> 10 triangles | <b>Edges:</b> 15 | <b>Vertices:</b> 7. <a href="https://polytope.miraheze.org/wiki/Pentagonal_tegum" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>6. Diamond hexagonal dipyramid</h4>
 <a href="vr/HexagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Diamond Hexagonal dipyramid"></a><img src="ar/85.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>If we construct a dipyramid using two right hexagonal pyramids with different heights, we obtain a diamond hexagonal dipyramid.
+ <br><br><b>Faces:</b> 12 triangles | <b>Edges:</b> 18 | <b>Vertices:</b> 8. <a href="https://mathworld.wolfram.com/HexagonalDipyramid.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>7. Diamond heptagonal dipyramid</h4>
 <a href="vr/HeptagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Diamond Heptagonal dipyramid"></a><img src="ar/86.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>If we construct a dipyramid using two right heptagonal pyramids with different heights, we obtain a diamond heptagonal dipyramid. 
+ <br><br><b>Faces:</b> 14 triangles | <b>Edges:</b> 21 | <b>Vertices:</b> 9. <a href="https://mathworld.wolfram.com/Dipyramid.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>8. Diamond octagonal dipyramid</h4>
 <a href="vr/OctagonalDipyramid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Diamond Octagonal dipyramid"></a><img src="ar/87.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>If we construct a dipyramid using two right octagonal pyramids with different heights, we obtain a diamond octagonal dipyramid.  
+ <br><br><b>Faces:</b> 16 triangles | <b>Edges:</b> 24 | <b>Vertices:</b> 10. <a href="https://mathworld.wolfram.com/Dipyramid.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>9. Diamond square antiprism</h4>
 <a href="vr/SquareAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Diamond Square antiprism"></a><img src="ar/88.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>Consider a modified antiprism, with a square base reduced by a factor between 0.6 and 0.8. If we construct a right square pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond square antiprism. 
+ <br><br><b>Faces:</b> 12 triangles and 1 square | <b>Edges:</b> 20 | <b>Vertices:</b> 9. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>10. Diamond pentagonal antiprism</h4>
 <a href="vr/PentagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Diamond Pentagonal antiprism"></a><img src="ar/89.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>Consider a modified antiprism, with a pentagonal base reduced by a factor between 0.6 and 0.8. If we construct a right pentagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond pentagonal antiprism. 
+ <br><br><b>Faces:</b> 15 triangles and 1 pentagon | <b>Edges:</b> 25 | <b>Vertices:</b> 11. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>11. Diamond hexagonal antiprism</h4>
 <a href="vr/HexagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Diamond Hexagonal antiprism"></a><img src="ar/90.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>Consider a modified antiprism, with a hexagonal base reduced by a factor between 0.6 and 0.8. If we construct a right hexagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond hexagonal antiprism. 
+ <br><br><b>Faces:</b> 18 triangles and 1 hexagon | <b>Edges:</b> 30 | <b>Vertices:</b> 13. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>12. Diamond heptagonal antiprism</h4>
 <a href="vr/HeptagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Diamond Heptagonal antiprism"></a><img src="ar/91.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>Consider a modified antiprism, with a heptagonal base reduced by a factor between 0.6 and 0.8. If we construct a right heptagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond heptagonal antiprism. 
+ <br><br><b>Faces:</b> 21 triangles and 1 heptagon | <b>Edges:</b> 35 | <b>Vertices:</b> 15. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>13. Diamond octagonal antiprism</h4>
 <a href="vr/OctagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Octagonal antiprism"></a><img src="ar/92.png" class="qr">
- <br><br><br>A propellor tetrahedron is a polyhedron obtained by performing propellor operations on a regular tetrahedron. 
- <br><br><br><b>Faces:</b> 4 equilateral triangles and 12 kites | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="http://dmccooey.com/polyhedra/Propellor.html" target="_blank">More...</a>
+ <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br><b>Faces:</b> 24 triangles and 1 octagon | <b>Edges:</b> 40 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
