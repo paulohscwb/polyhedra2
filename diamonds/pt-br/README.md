@@ -127,13 +127,17 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<hr>
 <h4>15. Antiprisma pentagonal refletido de diamante</h4>
 <a href="../vr/PentagonalAntiprism2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/94A.png" class="foto" alt="Antiprisma pentagonal refletido de diamante"></a><img src="../ar/94.png" class="qr">
  <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta octogonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma octogonal de diamante. 
  <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>16. Antiprisma hexagonal refletido de diamante</h4>
+<a href="../vr/HexagonalAntiprism2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/95A.png" class="foto" alt="Antiprisma hexagonal refletido de diamante"></a><img src="../ar/95.png" class="qr">
+ <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta octogonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma octogonal de diamante. 
+ <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>17. Antiprisma heptagonal refletido de diamante</h4>
 <a href="../vr/HeptagonalAntiprism2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/96A.png" class="foto" alt="Antiprisma heptagonal refletido de diamante"></a><img src="../ar/96.png" class="qr">
