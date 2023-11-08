@@ -116,7 +116,13 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>13. Diamond octagonal antiprism</h4>
-<a href="vr/OctagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Octagonal antiprism"></a><img src="ar/92.png" class="qr">
+<a href="vr/OctagonalAntiprism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Diamond Octagonal antiprism"></a><img src="ar/92.png" class="qr">
+ <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br><b>Faces:</b> 24 triangles and 1 octagon | <b>Edges:</b> 40 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>14. Diamond mirror square antiprism</h4>
+<a href="vr/SquareAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Diamond mirror square antiprism"></a><img src="ar/93.png" class="qr">
  <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
  <br><br><b>Faces:</b> 24 triangles and 1 octagon | <b>Edges:</b> 40 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
