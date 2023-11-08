@@ -145,6 +145,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>18. Antiprisma octagonal refletido de diamante</h4>
+<a href="../vr/OctagonalAntiprism2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/97A.png" class="foto" alt="Antiprisma octagonal refletido de diamante"></a><img src="../ar/97.png" class="qr">
+ <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Se construirmos uma pirâmide reta octogonal com a base coincidente com a base maior do antiprisma, obtemos um antiprisma octogonal de diamante. 
+ <br><br><b>Faces:</b> 24 triângulos e 1 octógono | <b>Arestas:</b> 40 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

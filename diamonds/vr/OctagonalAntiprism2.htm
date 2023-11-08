@@ -10,7 +10,7 @@
   </head>
   <body>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
-    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+    <a-scene renderer="logarithmicDepthBuffer: true;">
 		<a-assets>
 			<a-mixin id="mtl0" material="opacity: 0.7; metalness:0.3; roughness:0.9;"></a-mixin>
 			<a-mixin id="mtl8" material="color: #86B404;"></a-mixin>
@@ -18,13 +18,13 @@
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.4"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.031;" material="metalness:0.4; roughness:0.6;">
+			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.035;" material="metalness:0.4; roughness:0.6;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 		</a-assets>
 				
-		<a-entity rotation="-90 0 0" position="0 1.5 0" scale="4.5 4.5 4.5">
-			<a-obj-model id="fc" src="outros/OctagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="outros/OctagonalAntiprismL.obj" mtl="#material"></a-obj-model>
+		<a-entity rotation="-90 0 0" position="0 2 0" scale="4 4 4">
+			<a-obj-model id="fc" src="outros/OctagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+			<a-obj-model id="ar" src="outros/OctagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.8039 -0.333 0.333'></a-sphere>
 			<a-sphere mixin='esfera' position='-0.8039 0.333 0.333'></a-sphere>
 			<a-sphere mixin='esfera' position='-0.8039 -0.333 0.333'></a-sphere>
@@ -41,7 +41,15 @@
 			<a-sphere mixin='esfera' position='-0.878 0.878 -0.333'></a-sphere>
 			<a-sphere mixin='esfera' position='-0.878 -0.878 -0.333'></a-sphere>
 			<a-sphere mixin='esfera' position='0.8039 0.333 0.333'></a-sphere>
-			<a-sphere mixin='esfera' position='0 0 -1.5'></a-sphere>
+			<a-sphere mixin='esfera' position='0 0 -2'></a-sphere>
+			<a-sphere mixin='esfera' position='0.8039 0.333 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='0.333 0.8039 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.333 0.8039 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.8039 0.333 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.8039 -0.333 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.333 -0.8039 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='0.333 -0.8039 -0.999'></a-sphere>
+			<a-sphere mixin='esfera' position='0.8039 -0.333 -0.999'></a-sphere>
 		</a-entity>
 		
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
@@ -57,8 +65,8 @@
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Diamond octagonal antiprism</span>
-		<br><span class="titulo">Antiprisma octagonal de diamante</span>
+		<span class="titulo">Diamond mirror octagonal antiprism</span>
+		<br><span class="titulo">Antiprisma octagonal refletido de diamante</span>
 		<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
 		<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
 		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
