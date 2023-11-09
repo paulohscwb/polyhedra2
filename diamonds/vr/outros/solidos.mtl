@@ -4,8 +4,8 @@ newmtl Cor1
 illum 3
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.05 0.1 0.2
+Ns 25
 map_Ks c4.jpg
 map_Kd c4.jpg
 d 0.7
@@ -14,8 +14,8 @@ newmtl Cor2
 illum 3
 Ka 0.1 0.2 0.1
 Kd 0.3 0.8 0.3
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.1 0.2 0.1
+Ns 25
 map_Ks c2.jpg
 map_Kd c2.jpg
 d 0.7
@@ -24,8 +24,8 @@ newmtl Cor3
 illum 2
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.2 0.15 0.15
+Ns 25
 map_Ks c3.jpg
 map_Kd c3.jpg
 d 0.7
@@ -34,8 +34,8 @@ newmtl Cor4
 illum 2
 Ka 0.05 0.2 0.1
 Kd 0.4 1.0 0.8
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.05 0.2 0.1
+Ns 25
 map_Ks c3.jpg
 map_Kd c3.jpg
 d 0.7
@@ -44,8 +44,8 @@ newmtl Cor5
 illum 2
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.2 0.05 0.1
+Ns 25
 map_Ks c1.jpg
 map_Kd c1.jpg
 d 0.7
@@ -54,8 +54,8 @@ newmtl Cor6
 illum 2
 Ka 0 0.1 0.2
 Kd 0 0.8 1
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0 0.1 0.2
+Ns 25
 map_Ks c5.jpg
 map_Kd c5.jpg
 d 0.7
@@ -64,8 +64,8 @@ newmtl Cor7
 illum 2
 Ka 0.05 0.15 0.2
 Kd 0.4 0.9 1
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.05 0.15 0.2
+Ns 25
 map_Ks c4.jpg
 map_Kd c4.jpg
 d 0.7
@@ -74,8 +74,8 @@ newmtl Cor8
 illum 2
 Ka 0.15 0.05 0.2
 Kd 0.8 0.55 1
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.15 0.05 0.2
+Ns 25
 map_Ks c2.jpg
 map_Kd c2.jpg
 d 0.7
@@ -84,8 +84,8 @@ newmtl Cor9
 illum 2
 Ka 0.05 0.2 0.15
 Kd 0.1 1.0 0.9
-Ks 0.8 0.8 0.8
-Ns 15
+Ks 0.05 0.2 0.15
+Ns 25
 map_Ks c1.jpg
 map_Kd c1.jpg
 d 0.7
