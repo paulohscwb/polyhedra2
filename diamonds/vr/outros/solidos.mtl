@@ -9,7 +9,7 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor2
 Ka 0.7 0.7 0.7
@@ -20,7 +20,7 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor3
 Ka 0.7 0.7 0.7
@@ -31,7 +31,7 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor4
 Ka 0.7 0.7 0.7
@@ -42,18 +42,17 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor5
-Ka 0.7 0.7 0.7
-Kd 1.0 0.5 0.5
-Ks 1.0 0.5 0.5
-Ns 28
-Ni 7
-Pm 0.9
-Pr 0.7
-illum 3
-d 0.75
+illum 2
+Ka 0.2 0.05 0.1
+Kd 1 0.1 0.48
+Ks 0.7 0.7 0.7
+Ns 20
+map_Ks c3.jpg
+map_Kd c3.jpg
+d 0.7
 
 newmtl Cor6
 illum 2
@@ -63,7 +62,7 @@ Ks 0.7 0.7 0.7
 Ns 20
 map_Ks c5.jpg
 map_Kd c5.jpg
-d 0.75
+d 0.7
 
 newmtl Cor7
 illum 2
@@ -73,17 +72,17 @@ Ks 0.7 0.7 0.7
 Ns 20
 map_Ks c4.jpg
 map_Kd c4.jpg
-d 0.75
+d 0.7
 
 newmtl Cor8
 illum 2
-Ka 0.2 0.1 0.05
-Kd 1 0.7 0.2
+Ka 0.15 0.05 0.2
+Kd 0.8 0.55 1
 Ks 0.7 0.7 0.7
 Ns 20
-map_Ks c3.jpg
-map_Kd c3.jpg
-d 0.75
+map_Ks c2.jpg
+map_Kd c2.jpg
+d 0.7
 
 newmtl Cor9
 illum 2
@@ -93,7 +92,7 @@ Ks 0.7 0.7 0.7
 Ns 20
 map_Ks c1.jpg
 map_Kd c1.jpg
-d 0.75
+d 0.7
 
 newmtl Cor10
 Ka 0.7 0.7 0.7
@@ -104,7 +103,7 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor11
 Ka 0.7 0.7 0.7
@@ -115,7 +114,7 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor12
 Ka 0.7 0.7 0.7
@@ -126,35 +125,35 @@ Ni 7
 Pm 0.9
 Pr 0.7
 illum 3
-d 0.75
+d 0.7
 
 newmtl Cor13
 Kd 0.92 0.92 0.92
 Ks 1 1 1
 Pr 0.3
 Pm 1
-d 0.75
+d 0.7
 
 newmtl Cor14
 Kd 0 0 0
 Ks 1 1 1
 Pr 0.3
 Pm 1
-d 0.75
+d 0.7
 
 newmtl Cor15
 Kd 1 1 1
 Ks 1 1 1
 Pr 0.3
 Pm 1
-d 0.75
+d 0.7
 
 newmtl Cor16
 Kd 0.1 0.9 1
 Ks 1 1 1
 Pr 0.3
 Pm 1
-d 0.75
+d 0.7
 
 newmtl CorL
 Ka 1 1 1
