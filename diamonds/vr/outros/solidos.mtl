@@ -67,16 +67,18 @@ illum 3
 d 0.75
 
 newmtl Cor7
-Ka 0.8 0.7 0.95
-Kd 0.7 0.7 0.8
+illum 4
+Ka 0 0 0
+Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
 map_Kd c4.jpg
 d 0.75
 
 newmtl Cor8
-Ka 0.7 0.7 1.0
-Kd 0.7 0.7 0.8
+illum 4
+Ka 0 0 0
+Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
 map_Kd c3.jpg
@@ -85,7 +87,7 @@ d 0.75
 newmtl Cor9
 illum 4
 Ka 0 0 0
-Kd 0.8 0.9 0.8
+Kd 0.9 1.0 0.9
 Ks 0.9 1.0 0.9
 Tf 0.5 0.5 0.5
 Ns 20
