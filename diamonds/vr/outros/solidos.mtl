@@ -23,7 +23,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor3
-illum 2
+illum 4
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
@@ -34,7 +34,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor4
-illum 2
+illum 4
 Ka 0.05 0.2 0.1
 Kd 0.4 1.0 0.8
 Ks 0.8 0.8 0.8
@@ -45,7 +45,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor5
-illum 2
+illum 4
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
 Ks 0.8 0.8 0.8
@@ -56,7 +56,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor6
-illum 2
+illum 4
 Ka 0 0.1 0.2
 Kd 0 0.8 1
 Ks 0.8 0.8 0.8
@@ -67,7 +67,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor7
-illum 2
+illum 4
 Ka 0.05 0.15 0.2
 Kd 0.4 0.9 1
 Ks 0.8 0.8 0.8
@@ -78,7 +78,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor8
-illum 2
+illum 4
 Ka 0.15 0.05 0.2
 Kd 0.8 0.55 1
 Ks 0.8 0.8 0.8
@@ -89,7 +89,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor9
-illum 2
+illum 4
 Ka 0.05 0.2 0.15
 Kd 0.1 1.0 0.9
 Ks 0.8 0.8 0.8
