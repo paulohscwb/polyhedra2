@@ -153,8 +153,8 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>19. Augmented tridiminished icosahedron</h4>
 <a href="vr/AugmentedTridiminishedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Augmented tridiminished icosahedron"></a><img src="ar/98.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
- <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_tridiminished_icosahedron" target="_blank">More...</a>
+ <br><br>Johnson's augmented tridiminished icosahedron can be considered a diamond polyhedron. It can be constructed by attaching a tetrahedron, seen as a triangular pyramid, to the triangular face of the tridiminished icosahedron which is connected only to the pentagons. It is the only Johnson solid that is constructed using decrease and increase, assuming that no decrease and increase cancel each other out.
+ <br><br><b>Faces:</b> 7 triangles and 3 pentagons | <b>Edges:</b> 18 | <b>Vertices:</b> 10. <a href="https://polytope.miraheze.org/wiki/Augmented_tridiminished_icosahedron" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>20. Diamond augmented truncated tetrahedron</h4>
