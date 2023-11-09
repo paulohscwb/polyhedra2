@@ -89,10 +89,9 @@ illum 3
 d 0.75
 
 newmtl Cor9
-Ka 0.7 0.7 0.7
 Kd 0.7 0.7 1.0
 Ks 0.9 0.9 0.9
-Ns 10
+Ns 50
 map_Ks c1.jpg
 d 0.75
 
