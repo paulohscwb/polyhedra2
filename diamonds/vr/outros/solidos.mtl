@@ -91,12 +91,12 @@ d 0.75
 newmtl Cor9
 Ka 0.7 0.7 0.7
 Kd 0.5 0.5 1.0
-Ks 0.5 0.5 1.0
+Ks 0.8 0.8 0.8
 Ns 28
 Ni 7
 Pm 0.9
 Pr 0.7
-illum 3
+map_Ks c1.jpg
 d 0.75
 
 newmtl Cor10
