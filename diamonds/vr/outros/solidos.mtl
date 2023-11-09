@@ -62,6 +62,7 @@ Kd 0 0.8 1
 Ks 0 0.8 1
 Ns 20
 map_Ks c5.jpg
+map_Kd c5.jpg
 d 0.75
 
 newmtl Cor7
@@ -71,6 +72,7 @@ Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
 map_Ks c4.jpg
+map_Kd c4.jpg
 d 0.75
 
 newmtl Cor8
@@ -80,6 +82,7 @@ Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
 map_Ks c3.jpg
+map_Kd c3.jpg
 d 0.75
 
 newmtl Cor9
@@ -90,6 +93,7 @@ Ks 0.9 1.0 0.9
 Tf 0.5 0.5 0.5
 Ns 20
 map_Ks c1.jpg
+map_Kd c1.jpg
 bump -bm 0.3 c1.jpg
 Ni 1
 d 0.75
