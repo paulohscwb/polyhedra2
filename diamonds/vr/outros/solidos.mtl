@@ -1,7 +1,7 @@
 ## Alias MTL Material File
 
 newmtl Cor1
-illum 3
+illum 4
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
 Ks 0.8 0.8 0.8
@@ -12,7 +12,7 @@ Ni 1.45
 d 0.7
 
 newmtl Cor2
-illum 3
+illum 4
 Ka 0.1 0.2 0.1
 Kd 0.3 0.8 0.3
 Ks 0.8 0.8 0.8
@@ -107,7 +107,7 @@ Ns 28
 Ni 7
 Pm 0.9
 Pr 0.7
-illum 3
+illum 4
 d 0.7
 
 newmtl Cor11
@@ -118,7 +118,7 @@ Ns 28
 Ni 7
 Pm 0.9
 Pr 0.7
-illum 3
+illum 4
 d 0.7
 
 newmtl Cor12
@@ -129,7 +129,7 @@ Ns 28
 Ni 7
 Pm 0.9
 Pr 0.7
-illum 3
+illum 4
 d 0.7
 
 newmtl Cor13
