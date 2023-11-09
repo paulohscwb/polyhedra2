@@ -56,42 +56,39 @@ illum 3
 d 0.75
 
 newmtl Cor6
-Ka 0.7 0.7 0.7
+illum 4
+Ka 0.2 0.2 0.2
 Kd 0 0.8 1
 Ks 0 0.8 1
-Ns 28
-Ni 7
-Pm 0.9
-Pr 0.7
-illum 3
+Ns 20
+map_Ks c5.jpg
 d 0.75
 
 newmtl Cor7
 illum 4
-Ka 0 0 0
+Ka 0.2 0.2 0.2
 Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
-map_Kd c4.jpg
+map_Ks c4.jpg
 d 0.75
 
 newmtl Cor8
 illum 4
-Ka 0 0 0
+Ka 0.2 0.2 0.2
 Kd 0.9 0.9 1.0
 Ks 0.9 0.9 1.0
 Ns 20
-map_Kd c3.jpg
+map_Ks c3.jpg
 d 0.75
 
 newmtl Cor9
 illum 4
-Ka 0 0 0
+Ka 0.2 0.2 0.2
 Kd 0.9 1.0 0.9
 Ks 0.9 1.0 0.9
 Tf 0.5 0.5 0.5
 Ns 20
-map_Kd c1.jpg
 map_Ks c1.jpg
 bump -bm 0.3 c1.jpg
 Ni 1
