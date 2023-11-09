@@ -123,31 +123,31 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>14. Diamond mirror square antiprism</h4>
 <a href="vr/SquareAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Diamond mirror square antiprism"></a><img src="ar/93.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br>Consider a modified antiprism, with a square base reduced by a factor between 0.6 and 0.8. Find the reflection of the smaller base of the antiprism relative to the larger base. By joining the vertex of a right square pyramid with the vertices of the largest base and the reflected antiprism base, we find a diamond mirror square antiprism. 
  <br><br><b>Faces:</b> 20 triangles and 1 square | <b>Edges:</b> 32 | <b>Vertices:</b> 13. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>15. Diamond mirror pentagonal antiprism</h4>
 <a href="vr/PentagonalAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/94A.png" class="foto" alt="Diamond mirror pentagonal antiprism"></a><img src="ar/94.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br>Consider a modified antiprism, with a pentagonal base reduced by a factor between 0.6 and 0.8. Find the reflection of the smaller base of the antiprism relative to the larger base. By joining the vertex of a right pentagonal pyramid with the vertices of the largest base and the reflected antiprism base, we find a diamond mirror pentagonal antiprism.
  <br><br><b>Faces:</b> 25 triangles and 1 pentagon | <b>Edges:</b> 40 | <b>Vertices:</b> 16. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>16. Diamond mirror hexagonal antiprism</h4>
 <a href="vr/HexagonalAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/95A.png" class="foto" alt="Diamond mirror hexagonal antiprism"></a><img src="ar/95.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br>Consider a modified antiprism, with a hexagonal base reduced by a factor between 0.6 and 0.8. Find the reflection of the smaller base of the antiprism relative to the larger base. By joining the vertex of a right hexagonal pyramid with the vertices of the largest base and the reflected antiprism base, we find a diamond mirror hexagonal antiprism.
  <br><br><b>Faces:</b> 30 triangles and 1 hexagon | <b>Edges:</b> 48 | <b>Vertices:</b> 19. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>17. Diamond mirror heptagonal antiprism</h4>
 <a href="vr/HeptagonalAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/96A.png" class="foto" alt="Diamond mirror heptagonal antiprism"></a><img src="ar/96.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br>Consider a modified antiprism, with a heptagonal base reduced by a factor between 0.6 and 0.8. Find the reflection of the smaller base of the antiprism relative to the larger base. By joining the vertex of a right heptagonal pyramid with the vertices of the largest base and the reflected antiprism base, we find a diamond mirror heptagonal antiprism.
  <br><br><b>Faces:</b> 35 triangles and 1 heptagon | <b>Edges:</b> 56 | <b>Vertices:</b> 22. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>18. Diamond mirror octagonal antiprism</h4>
 <a href="vr/OctagonalAntiprism2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/97A.png" class="foto" alt="Diamond mirror octagonal antiprism"></a><img src="ar/97.png" class="qr">
- <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. If we construct a right octagonal pyramid with the base coinciding with the largest base of the antiprism, we obtain a diamond octagonal antiprism. 
+ <br><br>Consider a modified antiprism, with a octagonal base reduced by a factor between 0.6 and 0.8. Find the reflection of the smaller base of the antiprism relative to the larger base. By joining the vertex of a right octagonal pyramid with the vertices of the largest base and the reflected antiprism base, we find a diamond mirror octagonal antiprism.
  <br><br><b>Faces:</b> 40 triangles and 1 octagon | <b>Edges:</b> 64 | <b>Vertices:</b> 25. <a href="https://mathworld.wolfram.com/Antiprism.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
