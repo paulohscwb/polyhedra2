@@ -122,14 +122,14 @@ Ni 1.45
 d 0.7
 
 newmtl Cor12
-Ka 0.7 0.7 0.7
-Kd 0.2 0.9 0.6
-Ks 0.2 0.9 0.6
-Ns 28
-Ni 7
-Pm 0.9
-Pr 0.7
 illum 4
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0.8 0.8 0.8
+Ns 20
+map_Kd c2.jpg
+map_Ks c2.jpg
+Ni 1.45
 d 0.7
 
 newmtl Cor13
