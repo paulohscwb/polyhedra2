@@ -130,7 +130,7 @@ Ns 20
 map_Kd c2.jpg
 map_Ks c2.jpg
 Ni 1.45
-d 0.7
+Tr 0.3
 
 newmtl Cor13
 Kd 0.92 0.92 0.92
