@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>Diamond polyhedra</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl0" material="opacity: 0.7; metalness:0.3; roughness:0.9;"></a-mixin>
+			<a-mixin id="mtl8" material="color: #86B404;"></a-mixin>
+			<a-mixin id="mtl9" material="color: #F79F81;"></a-mixin>
+			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
+			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
+			<a-mixin id="luz" light="type: directional; color: white; intensity:0.4"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.039;" material="metalness:0.5; roughness:0.6;">
+			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
+		</a-assets>
+				
+		<a-entity rotation="-35 0 45" scale="3.5 3.5 3.5">
+			<a-obj-model id="fc" src="outros/TriangularHebesphenorotunda.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+			<a-obj-model id="ar" src="outros/TriangularHebesphenorotundaL.obj" mtl="#material"></a-obj-model>
+			<a-sphere mixin='esfera' position='-0.38064 1.237398 -0.38064'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.38064 -0.38064 1.237398'></a-sphere>
+			<a-sphere mixin='esfera' position='0.92838 0.42838 -0.88064'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.88064 0.92838 0.42838'></a-sphere>
+			<a-sphere mixin='esfera' position='0.42838 -0.88064 0.92838'></a-sphere>
+			<a-sphere mixin='esfera' position='0.42838 -0.88064 -0.68965'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.68965 0.42838 -0.88064'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.88064 -0.68965 0.42838'></a-sphere>
+			<a-sphere mixin='esfera' position='0.11936 -0.07162 -1.18965'></a-sphere>
+			<a-sphere mixin='esfera' position='-1.18965 0.11936 -0.07162'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.07162 -1.18965 0.11936'></a-sphere>
+			<a-sphere mixin='esfera' position='0.92838 0.42838 0.11936'></a-sphere>
+			<a-sphere mixin='esfera' position='0.11936 0.92838 0.42838'></a-sphere>
+			<a-sphere mixin='esfera' position='0.42838 0.11936 0.92838'></a-sphere>
+			<a-sphere mixin='esfera' position='0.92838 -1.18965 0.11936'></a-sphere>
+			<a-sphere mixin='esfera' position='0.11936 0.92838 -1.18965'></a-sphere>
+			<a-sphere mixin='esfera' position='-1.18965 0.11936 0.92838'></a-sphere>
+			<a-sphere mixin='esfera' position='1.237398 -0.38064 -0.38064'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.9 -0.9 -0.9'></a-sphere>
+		</a-entity>
+		
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
+	  
+		<a-light type="ambient" color="white" intensity="0.6"></a-light>
+		<a-light mixin="luz" position="-3 0 0"></a-light>
+		<a-light mixin="luz" position="3 0 0"></a-light>
+		<a-light mixin="luz" position="0 3 0"></a-light>
+		<a-light mixin="luz" position="0 -3 0"></a-light>
+		<a-light mixin="luz" position="0 0 3"></a-light>
+		<a-light mixin="luz" position="0 0 -3"></a-light>
+
+		<a-sky color="aliceblue"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Diamond triangular hebesphenorotunda</span>
+		<br><span class="titulo">Hebesfenorotunda triangular de diamante</span>
+		<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
+		<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
+		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
+	</div>
+  </body>
+</html>
