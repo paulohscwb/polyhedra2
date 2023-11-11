@@ -1,6 +1,72 @@
 ## Alias MTL Material File
 
 newmtl Cor1
+illum 3
+Ka 0.2 0.15 0.15
+Kd 0.7 0.6 0.6
+Ks 0.65 0.65 0.65
+Ns 18
+map_Kd c1a.jpg
+map_Ks c1a.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor2
+illum 3
+Ka 0.1 0.1 0.2
+Kd 0.6 0.6 0.7
+Ks 0.65 0.65 0.65
+Ns 20
+map_Kd c1b.jpg
+map_Ks c1b.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor3
+illum 3
+Ka 0.1 0.1 0.2
+Kd 0.6 0.6 0.7
+Ks 0.65 0.65 0.65
+Ns 20
+map_Kd c1c.jpg
+map_Ks c1c.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor4
+illum 3
+Ka 0.1 0.2 0.1
+Kd 0.6 0.7 0.6
+Ks 0.65 0.65 0.65
+Ns 18
+map_Kd c1d.jpg
+map_Ks c1d.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor5
+illum 3
+Ka 0.1 0.1 0.2
+Kd 0.6 0.6 0.7
+Ks 0.65 0.65 0.65
+Ns 18
+map_Kd c1e.jpg
+map_Ks c1e.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor6
+illum 3
+Ka 0.1 0.2 0.1
+Kd 0.6 0.7 0.6
+Ks 0.65 0.65 0.65
+Ns 18
+map_Kd c1f.jpg
+map_Ks c1f.jpg
+Ni 1.2
+d 0.7
+
+newmtl Cor1a
 illum 4
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
@@ -11,7 +77,7 @@ map_Ks c4.jpg
 Ni 1.2
 d 0.7
 
-newmtl Cor2
+newmtl Cor2a
 illum 4
 Ka 0.1 0.2 0.1
 Kd 0.3 0.8 0.3
@@ -22,7 +88,7 @@ map_Ks c5.jpg
 Ni 1.2
 d 0.7
 
-newmtl Cor3
+newmtl Cor3a
 illum 4
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
@@ -33,7 +99,7 @@ map_Ks c3.jpg
 Ni 1.2
 d 0.7
 
-newmtl Cor4
+newmtl Cor4a
 illum 4
 Ka 0.05 0.2 0.1
 Kd 0.4 1.0 0.8
@@ -44,7 +110,7 @@ map_Ks c3.jpg
 Ni 1.2
 d 0.7
 
-newmtl Cor5
+newmtl Cor5a
 illum 4
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
@@ -55,7 +121,7 @@ map_Ks c1.jpg
 Ni 1.2
 d 0.7
 
-newmtl Cor6
+newmtl Cor6a
 illum 4
 Ka 0 0.1 0.2
 Kd 0 0.8 1
