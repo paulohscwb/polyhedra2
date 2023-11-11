@@ -123,8 +123,8 @@ d 0.7
 
 newmtl Cor12
 illum 4
-Ka 0.2 0.2 0.2
-Kd 0.8 1 0.8
+Ka 0.15 0.2 0.15
+Kd 0.92 1 0.92
 Ks 0.65 0.65 0.65
 Ns 22
 map_Kd c2.jpg
