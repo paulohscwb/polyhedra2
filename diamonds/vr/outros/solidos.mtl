@@ -1,229 +1,201 @@
 ## Alias MTL Material File
 
 newmtl Cor1
-illum 3
+illum 4
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
-Ks 0.75 0.75 0.75
-Ns 25
+Ks 0.85 0.85 0.85
+Ns 27
 map_Kd c1a.jpg
 map_Ks c1a.jpg
-Ni 1.2
-d 0.65
+Ni 1.5
+d 0.7
 
 newmtl Cor2
-illum 3
+illum 4
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
-Ks 0.75 0.75 0.75
+Ks 0.85 0.85 0.85
 Ns 30
 map_Kd c1b.jpg
 map_Ks c1b.jpg
-Ni 1.2
-d 0.65
+Ni 1.5
+d 0.7
 
 newmtl Cor3
-illum 3
+illum 4
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
-Ks 0.75 0.75 0.75
+Ks 0.85 0.85 0.85
 Ns 20
 map_Kd c1c.jpg
 map_Ks c1c.jpg
-Ni 1.2
-d 0.65
+Ni 1.5
+d 0.7
 
 newmtl Cor4
-illum 3
+illum 4
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
-Ks 0.75 0.75 0.75
-Ns 30
+Ks 0.85 0.85 0.85
+Ns 25
 map_Kd c1d.jpg
 map_Ks c1d.jpg
-Ni 1.2
-d 0.65
+Ni 1.5
+d 0.7
 
 newmtl Cor5
-illum 3
+illum 4
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
-Ks 0.75 0.75 0.75
-Ns 30
+Ks 0.85 0.85 0.85
+Ns 40
 map_Kd c1e.jpg
 map_Ks c1e.jpg
-Ni 1.2
-d 0.65
+Ni 1.5
+d 0.7
 
 newmtl Cor6
-illum 3
+illum 4
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
-Ks 0.75 0.75 0.75
+Ks 0.85 0.85 0.85
 Ns 30
 map_Kd c1f.jpg
 map_Ks c1f.jpg
-Ni 1.2
-d 0.65
-
-newmtl Cor1a
-illum 4
-Ka 0.05 0.1 0.2
-Kd 0.3 0.8 1.0
-Ks 0.65 0.65 0.65
-Ns 18
-map_Kd c4.jpg
-map_Ks c4.jpg
-Ni 1.2
-d 0.7
-
-newmtl Cor2a
-illum 4
-Ka 0.1 0.2 0.1
-Kd 0.3 0.8 0.3
-Ks 0.65 0.65 0.65
-Ns 20
-map_Kd c5.jpg
-map_Ks c5.jpg
-Ni 1.2
-d 0.7
-
-newmtl Cor3a
-illum 4
-Ka 0.2 0.15 0.15
-Kd 1 0.9 0.9
-Ks 0.65 0.65 0.65
-Ns 20
-map_Kd c3.jpg
-map_Ks c3.jpg
-Ni 1.2
-d 0.7
-
-newmtl Cor4a
-illum 4
-Ka 0.05 0.2 0.1
-Kd 0.4 1.0 0.8
-Ks 0.65 0.65 0.65
-Ns 18
-map_Kd c3.jpg
-map_Ks c3.jpg
-Ni 1.2
-d 0.7
-
-newmtl Cor5a
-illum 4
-Ka 0.2 0.05 0.1
-Kd 1 0.2 0.58
-Ks 0.65 0.65 0.65
-Ns 18
-map_Kd c1.jpg
-map_Ks c1.jpg
-Ni 1.2
-d 0.7
-
-newmtl Cor6a
-illum 4
-Ka 0 0.1 0.2
-Kd 0 0.8 1
-Ks 0.65 0.65 0.65
-Ns 18
-map_Kd c5.jpg
-map_Ks c5.jpg
-Ni 1.2
+Ni 1.5
 d 0.7
 
 newmtl Cor7
 illum 4
-Ka 0.05 0.15 0.2
-Kd 0.4 0.9 1
-Ks 0.65 0.65 0.65
+Ka 0.05 0.1 0.2
+Kd 0.3 0.8 1.0
+Ks 0.85 0.85 0.85
 Ns 18
-map_Kd c4.jpg
-map_Ks c4.jpg
-Ni 1.2
+map_Kd c1.jpg
+map_Ks c1.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor8
 illum 4
-Ka 0.15 0.05 0.2
-Kd 0.8 0.55 1
-Ks 0.65 0.65 0.65
+Ka 0.1 0.2 0.1
+Kd 0.3 0.8 0.3
+Ks 0.85 0.85 0.85
 Ns 20
 map_Kd c2.jpg
 map_Ks c2.jpg
-Ni 1.2
+Ni 1.5
 d 0.7
 
 newmtl Cor9
 illum 4
-Ka 0.05 0.2 0.15
-Kd 0.1 1.0 0.9
-Ks 0.65 0.65 0.65
-Ns 18
-map_Kd c1.jpg
-map_Ks c1.jpg
-Ni 1.2
+Ka 0.2 0.15 0.15
+Kd 1 0.9 0.9
+Ks 0.85 0.85 0.85
+Ns 20
+map_Kd c3.jpg
+map_Ks c3.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor10
 illum 4
 Ka 0.05 0.2 0.1
-Kd 0.6 1 0.9
-Ks 0.65 0.65 0.65
+Kd 0.4 1.0 0.8
+Ks 0.85 0.85 0.85
 Ns 18
-map_Kd c4.jpg
-map_Ks c4.jpg
-Ni 1.2
+map_Kd c1a.jpg
+map_Ks c1a.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor11
 illum 4
-Ka 0.2 0.15 0.1
-Kd 1 0.9 0.7
-Ks 0.65 0.65 0.65
-Ns 22
-map_Kd c5.jpg
-map_Ks c5.jpg
-Ni 1.2
+Ka 0.2 0.05 0.1
+Kd 1 0.2 0.58
+Ks 0.85 0.85 0.85
+Ns 18
+map_Kd c1b.jpg
+map_Ks c1b.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor12
 illum 4
-Ka 0.15 0.2 0.15
-Kd 0.85 1 0.85
-Ks 0.65 0.65 0.65
-Ns 26
-map_Kd c2.jpg
-map_Ks c2.jpg
-Ni 1.2
+Ka 0 0.1 0.2
+Kd 0 0.8 1
+Ks 0.85 0.85 0.85
+Ns 18
+map_Kd c1c.jpg
+map_Ks c1c.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor13
-Kd 0.92 0.92 0.92
-Ks 1 1 1
-Pr 0.3
-Pm 1
+illum 4
+Ka 0.05 0.15 0.2
+Kd 0.4 0.9 1
+Ks 0.85 0.85 0.85
+Ns 18
+map_Kd c1d.jpg
+map_Ks c1d.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor14
-Kd 0 0 0
-Ks 1 1 1
-Pr 0.3
-Pm 1
+illum 4
+Ka 0.15 0.05 0.2
+Kd 0.8 0.55 1
+Ks 0.85 0.85 0.85
+Ns 20
+map_Kd c1e.jpg
+map_Ks c1e.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor15
-Kd 1 1 1
-Ks 1 1 1
-Pr 0.3
-Pm 1
+illum 4
+Ka 0.05 0.2 0.15
+Kd 0.1 1.0 0.9
+Ks 0.85 0.85 0.85
+Ns 18
+map_Kd c1f.jpg
+map_Ks c1f.jpg
+Ni 1.5
 d 0.7
 
 newmtl Cor16
-Kd 0.1 0.9 1
-Ks 1 1 1
-Pr 0.3
-Pm 1
+illum 4
+Ka 0.05 0.2 0.1
+Kd 0.6 1 0.9
+Ks 0.85 0.85 0.85
+Ns 18
+map_Kd c1.jpg
+map_Ks c1.jpg
+Ni 1.5
+d 0.7
+
+newmtl Cor17
+illum 4
+Ka 0.2 0.15 0.1
+Kd 1 0.9 0.7
+Ks 0.85 0.85 0.85
+Ns 22
+map_Kd c2.jpg
+map_Ks c2.jpg
+Ni 1.5
+d 0.7
+
+newmtl Cor18
+illum 4
+Ka 0.15 0.2 0.15
+Kd 0.85 1 0.85
+Ks 0.85 0.85 0.85
+Ns 26
+map_Kd c3.jpg
+map_Ks c3.jpg
+Ni 1.5
 d 0.7
 
 newmtl CorL
