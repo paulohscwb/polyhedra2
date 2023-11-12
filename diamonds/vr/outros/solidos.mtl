@@ -124,11 +124,11 @@ d 0.7
 newmtl Cor12
 illum 4
 Ka 0 0.1 0.2
-Kd 0.6 0.9 1
+Kd 0.9 1 0.9
 Ks 1 1 1
 Ns 18
-map_Kd c1c.jpg
-map_Ks c1c.jpg
+map_Kd c6.jpg
+map_Ks c6.jpg
 Ni 1.5
 d 0.7
 
