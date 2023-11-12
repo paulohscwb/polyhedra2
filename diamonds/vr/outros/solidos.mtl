@@ -16,7 +16,7 @@ illum 4
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.85 0.85 0.85
-Ns 30
+Ns 35
 map_Kd c1b.jpg
 map_Ks c1b.jpg
 Ni 1.5
@@ -60,7 +60,7 @@ illum 4
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.85 0.85 0.85
-Ns 30
+Ns 40
 map_Kd c1f.jpg
 map_Ks c1f.jpg
 Ni 1.5
@@ -71,7 +71,7 @@ illum 4
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
 Ks 0.85 0.85 0.85
-Ns 18
+Ns 13
 map_Kd c1.jpg
 map_Ks c1.jpg
 Ni 1.5
@@ -79,10 +79,10 @@ d 0.7
 
 newmtl Cor8
 illum 4
-Ka 0.1 0.2 0.1
-Kd 0.3 0.8 0.3
+Ka 0.1 0.1 0.2
+Kd 0.9 0.9 1
 Ks 0.85 0.85 0.85
-Ns 20
+Ns 25
 map_Kd c2.jpg
 map_Ks c2.jpg
 Ni 1.5
@@ -116,15 +116,15 @@ Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
 Ks 0.85 0.85 0.85
 Ns 18
-map_Kd c1b.jpg
-map_Ks c1b.jpg
+map_Kd c1c.jpg
+map_Ks c1c.jpg
 Ni 1.5
 d 0.7
 
 newmtl Cor12
 illum 4
 Ka 0 0.1 0.2
-Kd 0 0.8 1
+Kd 0.6 0.9 1
 Ks 0.85 0.85 0.85
 Ns 18
 map_Kd c1c.jpg
@@ -145,8 +145,8 @@ d 0.7
 
 newmtl Cor14
 illum 4
-Ka 0.15 0.05 0.2
-Kd 0.8 0.55 1
+Ka 0.2 0.2 0.0
+Kd 1 0.7 0
 Ks 0.85 0.85 0.85
 Ns 20
 map_Kd c1e.jpg
@@ -156,10 +156,10 @@ d 0.7
 
 newmtl Cor15
 illum 4
-Ka 0.05 0.2 0.15
-Kd 0.1 1.0 0.9
+Ka 0.1 0.2 0.1
+Kd 0.9 1.0 0.9
 Ks 0.85 0.85 0.85
-Ns 18
+Ns 25
 map_Kd c1f.jpg
 map_Ks c1f.jpg
 Ni 1.5
@@ -170,7 +170,7 @@ illum 4
 Ka 0.05 0.2 0.1
 Kd 0.6 1 0.9
 Ks 0.85 0.85 0.85
-Ns 18
+Ns 14
 map_Kd c1.jpg
 map_Ks c1.jpg
 Ni 1.5
@@ -182,15 +182,15 @@ Ka 0.2 0.15 0.1
 Kd 1 0.9 0.7
 Ks 0.85 0.85 0.85
 Ns 22
-map_Kd c2.jpg
-map_Ks c2.jpg
+map_Kd c5.jpg
+map_Ks c5.jpg
 Ni 1.5
 d 0.7
 
 newmtl Cor18
 illum 4
-Ka 0.15 0.2 0.15
-Kd 0.85 1 0.85
+Ka 0.05 0.15 0.2
+Kd 0.4 0.9 1
 Ks 0.85 0.85 0.85
 Ns 26
 map_Kd c3.jpg
