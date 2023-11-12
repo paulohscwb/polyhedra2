@@ -157,7 +157,7 @@ d 0.7
 newmtl Cor15
 illum 4
 Ka 0.1 0.2 0.1
-Kd 0.9 1.0 0.9
+Kd 0.9 1.0 1.0
 Ks 0.85 0.85 0.85
 Ns 25
 map_Kd c1f.jpg
