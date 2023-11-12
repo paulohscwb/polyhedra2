@@ -159,32 +159,32 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>20. Tetraedro truncado aumentado de diamante</h4>
 <a href="../vr/AugmentedTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/99A.png" class="foto" alt="Tetraedro truncado aumentado de diamante"></a><img src="../ar/99.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
- <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base triangular, que tem a base coincidente com a face triangular oposta à cúpula triangular, obtemos um tetraedro truncado aumentado de diamante.
+ <br><br><b>Faces:</b> 10 triângulos, 3 quadrados e 3 hexágonos | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>21. Antiprisma snub quadrado truncado de diamante</h4>
 <a href="../vr/SnubSquareAntiprism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/100A.png" class="foto" alt="Antiprisma snub quadrado de diamante"></a><img src="../ar/100.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
- <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Snub_square_antiprism" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base octogonal, unindo o vértice principal desta pirâmide com os 8 vértices de uma das partes simétricas de um antiprisma snub quadrado, obtemos um antiprisma snub quadrado truncado de diamante.
+ <br><br><b>Faces:</b> 20 triângulos e 1 quadrado | <b>Arestas:</b> 32 | <b>Vértices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Snub_square_antiprism" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>22. Hebesfenorotunda triangular de diamante</h4>
 <a href="../vr/TriangularHebesphenorotunda.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/101A.png" class="foto" alt="Hebesfenorotunda triangular de diamante"></a><img src="../ar/101.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
- <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base hexagonal, que tem a base coincidente com a face hexagonal de uma hebesfenorotunda triangular, obtemos uma hebesfenorotunda triangular de diamante. 
+ <br><br><b>Faces:</b> 19 triângulos, 3 quadrados e 3 pentágonos | <b>Arestas:</b> 42 | <b>Vértices:</b> 19. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>23. Hebesfenorotunda triangular truncada de diamante</h4>
 <a href="../vr/TriangularHebesphenorotunda1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="Hebesfenorotunda triangular truncada de diamante"></a><img src="../ar/102.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
- <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando a face hexagonal e todas as demais faces que estão unidas aos vértices do hexágono. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
+ <br><br><b>Faces:</b> 13 triângulos e 3 pentágonos | <b>Arestas:</b> 27 | <b>Vértices:</b> 13. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>24. Hebesfenorotunda triangular truncada de diamante</h4>
 <a href="../vr/TriangularHebesphenorotunda2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/103A.png" class="foto" alt="Hebesfenorotunda triangular truncada de diamante"></a><img src="../ar/103.png" class="qr">
- <br><br>Considere um antiprisma modificado, com uma base octogonal reduzida com um fator entre 0.6 e 0.8. Encontre a reflexão da base menor do antiprisma em relação à base maior. Unindo-se o vértice de uma pirâmide reta octogonal com os vértices da base maior e da base refletida do antiprisma, encontramos um antiprisma octogonal refletido de diamante. 
- <br><br><b>Faces:</b> 40 triângulos e 1 octógono | <b>Arestas:</b> 64 | <b>Vértices:</b> 25. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
+ <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
