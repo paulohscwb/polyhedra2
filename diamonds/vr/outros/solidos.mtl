@@ -157,9 +157,9 @@ d 0.7
 newmtl Cor15
 illum 4
 Ka 0.08 0.1 0.2
-Kd 0.3 0.8 1.0
+Kd 0.2 0.7 1.0
 Ks 0.85 0.85 0.85
-Ns 35
+Ns 25
 map_Kd c1d.jpg
 map_Ks c1d.jpg
 Ni 1.5
@@ -189,8 +189,8 @@ d 0.7
 
 newmtl Cor18
 illum 4
-Ka 0.2 0.15 0.15
-Kd 1 0.95 0.5
+Ka 0.15 0.2 0.15
+Kd 0.7 0.95 0.6
 Ks 0.85 0.85 0.85
 Ns 26
 map_Kd c3.jpg
