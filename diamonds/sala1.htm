@@ -11,6 +11,7 @@
 	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
   </head>
   <body>
+	<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
 	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;' id="info">
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
@@ -39,6 +40,8 @@
 			<a-mixin id="esferaGG" mixin="mtl9" geometry="radius: 0.18;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.4"></a-mixin>
+			<a-mixin id="fc"></a-mixin>
+			<a-mixin id="ar"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
