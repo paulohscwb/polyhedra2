@@ -28,11 +28,11 @@ function urlHandler(value) {
  <hr>
 <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
-<!-- <h3 align="center">Salas imersivas</h3>
+ <h3 align="center">Salas imersivas</h3>
   <div class="embed-container"><iframe width="100%" src="../sala1.htm" title="Sala Imersiva dos poliedros de diamante" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala4.htm" target="_blank">&#x1f517; sala 4</a></p>
-  <p align="center"><img src="../../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
-  <hr> -->
+  <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a></p>
+  <p align="center"><img src="../../../geometria-descritiva/videos/diamonds1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../../../geometria-descritiva/videos/diamonds2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../../../geometria-descritiva/videos/diamonds3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
+  <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os poliedros de diamante em RA, visite a página:
 <p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/diamonds/ra.html</a></p> 
