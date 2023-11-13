@@ -211,6 +211,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>29. Pirâmide heptagonal truncada de diamante</h4>
+<a href="../vr/HeptagonalPrism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/108A.png" class="foto" alt="Pirâmide heptagonal truncada de diamante"></a><img src="../ar/108.png" class="qr">
+ <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
+ <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
