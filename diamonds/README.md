@@ -223,6 +223,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
+<h4>31. Diamond disdyakis dodecahedron</h4>
+<a href="vr/DisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/110A.png" class="foto" alt="Diamond disdyakis dodecahedron"></a><img src="ar/110.png" class="qr">
+ <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
+ <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
+ <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
