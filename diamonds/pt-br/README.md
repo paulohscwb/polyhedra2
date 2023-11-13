@@ -23,8 +23,8 @@ function urlHandler(value) {
 </script>
 
 <p id="p1"></p>
-  <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros de diamante</h2>
-  Os diamantes.
+  <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45">Poliedros de diamante</h2>
+  Os poliedros desta página foram criados unindo-se pirâmides retas com outros poliedros inteiros ou truncados. Desta forma, obtemos os poliedros de diamante.
  <hr>
 <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
@@ -32,13 +32,13 @@ function urlHandler(value) {
   <div class="embed-container"><iframe width="100%" src="../sala1.htm" title="Sala Imersiva dos poliedros de diamante" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala4.htm" target="_blank">&#x1f517; sala 4</a></p>
   <p align="center"><img src="../../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
-  <hr> 
+  <hr> -->
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os poliedros de diamante em RA, visite a página:
 <p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/diamonds/ra.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
-<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros de hélice" src="../ar/example.jpg" width="85%"></p>
+<p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros de diamante" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/diamonds.gif" alt="Realidade Aumentada para poliedros de diamante" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
@@ -252,7 +252,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Diamond polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/diamonds/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
 <h4>Como citar este trabalho:</h4> 
-<p>Siqueira, P.H., "Diamond polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality". Disponível em: <https://paulohscwb.github.io/polyhedra2/diamonds/pt-br/>, Novembro de 2023.</p>
+<p>Siqueira, P.H., "Diamonds polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality". Disponível em: <https://paulohscwb.github.io/polyhedra2/diamonds/pt-br/>, Novembro de 2023.</p>
 <!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8272770"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8272770.svg" alt="DOI"></a>-->
 <br><br><b>Referências:</b>
 <br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>

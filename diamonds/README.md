@@ -24,14 +24,14 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Diamond polyhedra</h2>
-The diamonds.
+The polyhedra on this page were created by joining right pyramids with other whole or truncated polyhedra. In this way, we obtain the diamond polyhedra.
 <hr> 
-<!-- <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
+ <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
- <h3 align="center">Immersive rooms</h3>
+<!-- <h3 align="center">Immersive rooms</h3>
 <div class="embed-container"><iframe width="100%" src="sala1.htm" title="Sala Imersiva dos poliedros de diamante" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><a href="sala1.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala4.htm" target="_blank">&#x1f517; room 4</a></p>
-  <p align="center"><img src="../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
+  <p align="center"><img src="../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../../geometria-descritiva/videos/diamonds.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p> -->
   <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view diamond polyhedra in AR, simply visit:
