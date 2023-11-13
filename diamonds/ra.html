@@ -31,8 +31,8 @@
 		<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 		<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 		<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.05;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-		<a-mixin id="esferaP" mixin="mtl9" geometry="radius: 0.022;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-		<a-mixin id="esferaG" mixin="mtl9" geometry="radius: 0.08;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+		<a-mixin id="esferaP" mixin="esfera mtl9" geometry="radius: 0.022;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+		<a-mixin id="esferaG" mixin="esfera mtl9" geometry="radius: 0.08;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
 		<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
 		<a-mixin id="luz" light="type: directional; color: white; intensity:0.4"></a-mixin>
