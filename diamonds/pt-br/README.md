@@ -241,6 +241,11 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>34. Hexecontaedro pentagonal de diamante</h4>
+<a href="../vr/PentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/113A.png" class="foto" alt="Hexecontaedro pentagonal de diamante"></a><img src="../ar/113.png" class="qr">
+ <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
+ <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/PentagonalHexecontahedron.html" target="_blank">Mais sobre...</a>
+ <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
