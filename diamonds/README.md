@@ -223,28 +223,28 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>31. Diamond disdyakis dodecahedron</h4>
-<a href="vr/DisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/110A.png" class="foto" alt="Diamond disdyakis dodecahedron"></a><img src="ar/110.png" class="qr">
- <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
- <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
+<h4>31. Diamond truncated disdyakis dodecahedron</h4>
+<a href="vr/DisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/110A.png" class="foto" alt="Diamond truncated disdyakis dodecahedron"></a><img src="ar/110.png" class="qr">
+ <br><br>When we construct a right octagonal pyramid, with its main vertex united with the truncated Catalan disdiakis dodecahedron vertices, we obtain a diamond truncated disdiakis dodecahedron.
+ <br><br><b>Faces:</b> 32 triangles | <b>Edges:</b> 48 | <b>Vertices:</b> 18. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>32. Diamond triakis icosahedron</h4>
-<a href="vr/TriakisIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Diamond triakis icosahedron"></a><img src="ar/111.png" class="qr">
- <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
- <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
+<h4>32. Diamond truncated triakis icosahedron</h4>
+<a href="vr/TriakisIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Diamond truncated triakis icosahedron"></a><img src="ar/111.png" class="qr">
+ <br><br>When we construct a right decagonal pyramid, with its main vertex united with the truncated Catalan triakis icosahedron vertices, we obtain a diamond truncated triakis icosahedron.
+ <br><br><b>Faces:</b> 30 triangles | <b>Edges:</b> 45 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>33. Diamond pentakis dodecahedron</h4>
-<a href="vr/PentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/112A.png" class="foto" alt="Diamond pentakis dodecahedron"></a><img src="ar/112.png" class="qr">
- <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
- <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
+<h4>33. Diamond truncated pentakis dodecahedron</h4>
+<a href="vr/PentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/112A.png" class="foto" alt="Diamond truncated pentakis dodecahedron"></a><img src="ar/112.png" class="qr">
+ <br><br>When we construct a right decagonal pyramid, with its main vertex united with the truncated Catalan pentakis dodecahedron vertices, we obtain a diamond truncated pentakis dodecahedron.
+ <br><br><b>Faces:</b> 30 triangles | <b>Edges:</b> 45 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>34. Diamond pentagonal hexecontahedron</h4>
-<a href="vr/PentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/113A.png" class="foto" alt="Diamond pentagonal hexecontahedron"></a><img src="ar/113.png" class="qr">
- <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
- <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/PentagonalHexecontahedron.html" target="_blank">More...</a>
+<h4>34. Diamond truncated pentagonal hexecontahedron</h4>
+<a href="vr/PentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/113A.png" class="foto" alt="Diamond truncated pentagonal hexecontahedron"></a><img src="ar/113.png" class="qr">
+ <br><br>When we construct a right pentadecagonal pyramid, with its main vertex united with the truncated Catalan pentagonal hexecontahedron vertices, we obtain a diamond truncated pentagonal hexecontahedron.
+ <br><br><b>Faces:</b> 15 triangles and 15 pentagons | <b>Edges:</b> 60 | <b>Vertices:</b> 32. <a href="https://mathworld.wolfram.com/PentagonalHexecontahedron.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>

@@ -223,28 +223,28 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>31. Dodecaedro disdiakis de diamante</h4>
-<a href="../vr/DisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/110A.png" class="foto" alt="Dodecaedro disdiakis de diamante"></a><img src="../ar/110.png" class="qr">
- <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
- <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
+<h4>31. Dodecaedro disdiakis truncado de diamante</h4>
+<a href="../vr/DisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/110A.png" class="foto" alt="Dodecaedro disdiakis truncado de diamante"></a><img src="../ar/110.png" class="qr">
+ <br><br>Quando construímos uma pirâmide reta de base octogonal, com seu vértice principal unido com os vértices de um dodecaedro disdiakis de Catalan truncado, obtemos um dodecaedro disdiakis truncado de diamante.  
+ <br><br><b>Faces:</b> 32 triângulos | <b>Arestas:</b> 48 | <b>Vértices:</b> 18. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>32. Icosaedro triakis de diamante</h4>
-<a href="../vr/TriakisIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/111A.png" class="foto" alt="Icosaedro triakis de diamante"></a><img src="../ar/111.png" class="qr">
- <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
- <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
+<h4>32. Icosaedro triakis truncado de diamante</h4>
+<a href="../vr/TriakisIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/111A.png" class="foto" alt="Icosaedro triakis truncado de diamante"></a><img src="../ar/111.png" class="qr">
+ <br><br>Quando construímos uma pirâmide reta de base decagonal, com seu vértice principal unido com os vértices de um icosaedro triakis de Catalan truncado, obtemos um icosaedro triakis truncado de diamante.   
+ <br><br><b>Faces:</b> 30 triângulos | <b>Arestas:</b> 45 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>33. Dodecaedro pentakis de diamante</h4>
-<a href="../vr/PentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/112A.png" class="foto" alt="Dodecaedro pentakis de diamante"></a><img src="../ar/112.png" class="qr">
- <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
- <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
+<h4>33. Dodecaedro pentakis truncado de diamante</h4>
+<a href="../vr/PentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/112A.png" class="foto" alt="Dodecaedro pentakis truncado de diamante"></a><img src="../ar/112.png" class="qr">
+ <br><br>Quando construímos uma pirâmide reta de base decagonal, com seu vértice principal unido com os vértices de um dodecaedro pentakis de Catalan truncado, obtemos um dodecaedro pentakis truncado de diamante.  
+ <br><br><b>Faces:</b> 30 triângulos | <b>Arestas:</b> 45 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/DisdyakisDodecahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>34. Hexecontaedro pentagonal de diamante</h4>
-<a href="../vr/PentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/113A.png" class="foto" alt="Hexecontaedro pentagonal de diamante"></a><img src="../ar/113.png" class="qr">
- <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
- <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/PentagonalHexecontahedron.html" target="_blank">Mais sobre...</a>
+<h4>34. Hexecontaedro pentagonal truncado de diamante</h4>
+<a href="../vr/PentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/113A.png" class="foto" alt="Hexecontaedro pentagonal truncado de diamante"></a><img src="../ar/113.png" class="qr">
+ <br><br>Quando construímos uma pirâmide reta de base pentadecagonal, com seu vértice principal unido com os vértices de um hexecontaedro pentagonal de Catalan truncado, obtemos um hexecontaedro pentagonal truncado de diamante.   
+ <br><br><b>Faces:</b> 15 triângulos e 15 pentágonos | <b>Arestas:</b> 60 | <b>Vértices:</b> 32. <a href="https://mathworld.wolfram.com/PentagonalHexecontahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
