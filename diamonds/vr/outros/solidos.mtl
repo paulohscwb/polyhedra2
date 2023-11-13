@@ -126,7 +126,7 @@ illum 4
 Ka 0 0.1 0.2
 Kd 0.9 1 0.9
 Ks 0.85 0.85 0.85
-Ns 18
+Ns 30
 map_Kd c1f.jpg
 map_Ks c1f.jpg
 Ni 1.5
