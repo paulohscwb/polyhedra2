@@ -189,38 +189,38 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>25. Diamond truncated dodecahedron</h4>
 <a href="vr/Dodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/104A.png" class="foto" alt="Diamond truncated dodecahedron"></a><img src="ar/104.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>Consider a modified dodecahedron, disregarding one face and the 5 faces that are joined with this disregarded face. The solid obtained by joining a right decagonal pyramid with a the other faces of the modified dodecahedron is a diamond truncated dodecahedron.
+ <br><br><b>Faces:</b> 10 triangles and 6 pentagons | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="https://mathworld.wolfram.com/Dodecahedron.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>26. Diamond truncated square pyramid</h4>
 <a href="vr/Cube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/105A.png" class="foto" alt="Diamond truncated square pyramid"></a><img src="ar/105.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>When we construct a right square pyramid, which has the base coinciding with the base of a truncated square pyramid, we obtain a diamond truncated square pyramid.
+ <br><br><b>Faces:</b> 4 triangles, 1 square and 4 trapezoids | <b>Edges:</b> 16 | <b>Vertices:</b> 9. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>27. Diamond truncated pentagonal pyramid</h4>
 <a href="vr/PentagonalPrism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/106A.png" class="foto" alt="Diamond truncated pentagonal pyramid"></a><img src="ar/106.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>When we construct a right pentagonal pyramid, which has the base coinciding with the base of a truncated pentagonal pyramid, we obtain a diamond truncated pentagonal pyramid.
+ <br><br><b>Faces:</b> 5 triangles, 1 pentagon and 5 trapezoids | <b>Edges:</b> 20 | <b>Vertices:</b> 11. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>28. Diamond truncated hexagonal pyramid</h4>
 <a href="vr/HexagonalPrism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/107A.png" class="foto" alt="Diamond truncated hexagonal pyramid"></a><img src="ar/107.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>When we construct a right hexagonal pyramid, which has the base coinciding with the base of a truncated hexagonal pyramid, we obtain a diamond truncated hexagonal pyramid.
+ <br><br><b>Faces:</b> 6 triangles, 1 hexagon and 6 trapezoids | <b>Edges:</b> 24 | <b>Vertices:</b> 13. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>29. Diamond truncated heptagonal pyramid</h4>
 <a href="vr/HeptagonalPrism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/108A.png" class="foto" alt="Diamond truncated heptagonal pyramid"></a><img src="ar/108.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>When we construct a right heptagonal pyramid, which has the base coinciding with the base of a truncated heptagonal pyramid, we obtain a diamond truncated heptagonal pyramid.
+ <br><br><b>Faces:</b> 7 triangles, 1 heptagon and 7 trapezoids | <b>Edges:</b> 28 | <b>Vertices:</b> 15. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>30. Diamond truncated octagonal pyramid</h4>
 <a href="vr/OctagonalPrism.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/109A.png" class="foto" alt="Diamond truncated octagonal pyramid"></a><img src="ar/109.png" class="qr">
- <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br>When we construct a right octagonal pyramid, which has the base coinciding with the base of a truncated octagonal pyramid, we obtain a diamond truncated octagonal pyramid.
+ <br><br><b>Faces:</b> 8 triangles, 1 octagon and 8 trapezoids | <b>Edges:</b> 32 | <b>Vertices:</b> 17. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>

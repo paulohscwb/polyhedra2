@@ -189,38 +189,38 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>25. Dodecaedro truncado de diamante</h4>
 <a href="../vr/Dodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/104A.png" class="foto" alt="Dodecaedro truncado de diamante"></a><img src="../ar/104.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Considere um dodecaedro modificado, desconsiderando uma face e as 5 faces que estão unidas com esta face desconsiderada. O sólido obtido com a união de uma pirâmide reta decagonal com as demais faces do dodecaedro modificado é um dodecaedro truncado de diamante. 
+ <br><br><b>Faces:</b> 10 triângulos e 6 pentágonos | <b>Arestas:</b> 30 | <b>Vértices:</b> 16. <a href="https://mathworld.wolfram.com/Dodecahedron.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>26. Pirâmide quadrada truncada de diamante</h4>
 <a href="../vr/Cube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/105A.png" class="foto" alt="Pirâmide quadrada truncada de diamante"></a><img src="../ar/105.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base quadrada, que tem a base coincidente com a base de uma pirâmide quadrada truncada, obtemos uma pirâmide quadrada truncada de diamante. 
+ <br><br><b>Faces:</b> 4 triângulos, 1 quadrado e 4 trapézios | <b>Arestas:</b> 16 | <b>Vértices:</b> 9. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>27. Pirâmide pentagonal truncada de diamante</h4>
 <a href="../vr/PentagonalPrism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/106A.png" class="foto" alt="Pirâmide pentagonal truncada de diamante"></a><img src="../ar/106.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base pentagonal, que tem a base coincidente com a base de uma pirâmide pentagonal truncada, obtemos uma pirâmide pentagonal truncada de diamante. 
+ <br><br><b>Faces:</b> 5 triângulos, 1 pentágono e 5 trapézios | <b>Arestas:</b> 20 | <b>Vértices:</b> 11. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>28. Pirâmide hexagonal truncada de diamante</h4>
 <a href="../vr/HexagonalPrism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/107A.png" class="foto" alt="Pirâmide hexagonal truncada de diamante"></a><img src="../ar/107.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base hexagonal, que tem a base coincidente com a base de uma pirâmide hexagonal truncada, obtemos uma pirâmide hexagonal truncada de diamante. 
+ <br><br><b>Faces:</b> 6 triângulos, 1 hexágono e 6 trapézios | <b>Arestas:</b> 24 | <b>Vértices:</b> 13. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>29. Pirâmide heptagonal truncada de diamante</h4>
 <a href="../vr/HeptagonalPrism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/108A.png" class="foto" alt="Pirâmide heptagonal truncada de diamante"></a><img src="../ar/108.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base heptagonal, que tem a base coincidente com a base de uma pirâmide heptagonal truncada, obtemos uma pirâmide heptagonal truncada de diamante.  
+ <br><br><b>Faces:</b> 7 triângulos, 1 heptágono e 7 trapézios | <b>Arestas:</b> 28 | <b>Vértices:</b> 15. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>30. Pirâmide octogonal truncada de diamante</h4>
 <a href="../vr/OctagonalPrism.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/109A.png" class="foto" alt="Pirâmide octogonal truncada de diamante"></a><img src="../ar/109.png" class="qr">
- <br><br>Considere uma hebesfenorotunda triangular modificada, desconsiderando as faces pentagonais e a face triangular que está unida apenas com os vértices dos pentágonos. O sólido obtido com a união de uma pirâmide reta de base eneagonal com as demais faces da hebesfenorotunda triangular modificada é uma hebesfenorotunda triangular truncada de diamante. 
- <br><br><b>Faces:</b> 18 triângulos, 3 quadrados e 1 hexágono | <b>Arestas:</b> 36 | <b>Vértices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">Mais sobre...</a>
+ <br><br>Quando construímos uma pirâmide reta de base octogonal, que tem a base coincidente com a base de uma pirâmide octogonal truncada, obtemos uma pirâmide octogonal truncada de diamante.  
+ <br><br><b>Faces:</b> 8 triângulos, 1 octógono e 8 trapézios | <b>Arestas:</b> 32 | <b>Vértices:</b> 17. <a href="https://mathworld.wolfram.com/PyramidalFrustum.html" target="_blank">Mais sobre...</a>
  <br><a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
