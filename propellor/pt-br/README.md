@@ -13,6 +13,7 @@
 		<option value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>
 		<option value="../../chamfered/pt-br/">Poliedros chanfrados</option>
 		<option disabled value="../../propellor/pt-br/">Poliedros de hélice</option>
+		<option value="../../diamonds/pt-br/">Poliedros de diamante</option>
 	</select>
 </form>
 <script>

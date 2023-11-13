@@ -13,6 +13,7 @@
 		<option value="../fractalarchimedean/">Archimedean polyhedra fractals</option>
 		<option value="../chamfered/">Chamfered polyhedra</option>
 		<option disabled value="../propellor/">Propellor polyhedra</option>
+		<option value="../diamonds/">Diamond polyhedra</option>
 	</select>
 </form>
 <script>
