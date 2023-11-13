@@ -23,19 +23,21 @@
 		</a-assets>
 				
 		<a-entity rotation="-90 0 0" position="0 2 0" scale="6.5 6.5 6.5">
-			<a-obj-model id="fc" src="outros/PentagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="outros/PentagonalPrismL.obj" mtl="#material"></a-obj-model>
-			<a-sphere mixin='esfera' position='0.80902 0.26287 -0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.4045 0.1314 0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.80902 0.26287 -0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0.25 -0.3441 0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0.5 -0.68819 -0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.25 -0.3441 0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='-0.5 -0.68819 -0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0.0 0.4253 0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0.0 0.85065 -0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0.4045 0.1314 0.175'></a-sphere>
-			<a-sphere mixin='esfera' position='0 0 -1'></a-sphere>
+			<a-obj-model id="fc" src="outros/HexagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+			<a-obj-model id="ar" src="outros/HexagonalPrismL.obj" mtl="#material"></a-obj-model>
+			<a-sphere mixin='esfera' position='1.0 0.0 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.5 0.0 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-1.0 0.0 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0.25 0.433 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0.5 0.86602 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0.25 -0.433 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0.5 -0.86602 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.25 0.433 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.5 0.86602 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.25 -0.433 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='-0.5 -0.86602 -0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0.5 0.0 0.175'></a-sphere>
+			<a-sphere mixin='esfera' position='0 0 -1.3'></a-sphere>
 		</a-entity>
 		
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
@@ -51,8 +53,8 @@
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Diamond truncated pentagonal pyramid</span>
-		<br><span class="titulo">Pirâmide pentagonal truncada de diamante</span>
+		<span class="titulo">Diamond truncated hexagonal pyramid</span>
+		<br><span class="titulo">Pirâmide hexagonal truncada de diamante</span>
 		<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
 		<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
 		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
