@@ -35,7 +35,7 @@
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.06;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-mixin id="esferaP" mixin="esfera mtl9" geometry="radius: 0.035;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-			<a-mixin id="esferaG" mixin="esfera mtl9" geometry="radius: 0.11;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esferaG" mixin="esfera mtl9" geometry="radius: 0.07;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.25"></a-mixin>
 			<a-mixin id="fc"></a-mixin>
@@ -50,7 +50,7 @@
         <a-gltf-model static-body src="vr/salas/diamonds5.glb" position="0 0 0" shadow></a-gltf-model>
 		<a-gltf-model static-body src="vr/salas/diamonds6.glb" position="0 0 0" shadow></a-gltf-model>
 		
-		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.7" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.7" scale="0.16 0.16 0.16" shadow>
 			<a-obj-model mixin="fc" rotation="32 0 0" src="vr/outros/Dodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="32 0 0" src="vr/outros/DodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="32 0 0">
@@ -73,7 +73,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.2" scale="0.38 0.38 0.38" shadow>
+		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.2" scale="0.36 0.36 0.36" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/Cube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/CubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP' position='0.25 0.175 -0.25'></a-sphere>
@@ -87,7 +87,7 @@
 			<a-sphere mixin='esferaP' position='0 -0.85 0'></a-sphere>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.7" scale="0.31 0.31 0.31" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.7" scale="0.27 0.27 0.27" shadow>
 			<a-obj-model mixin="fc" rotation="-90 0 0" src="vr/outros/PentagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-90 0 0" src="vr/outros/PentagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -105,7 +105,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.2" scale="0.27 0.27 0.27" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.2" scale="0.25 0.25 0.25" shadow>
 			<a-obj-model mixin="fc" rotation="-90 0 0" src="vr/outros/HexagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-90 0 0" src="vr/outros/HexagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -125,7 +125,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.5" scale="0.24 0.24 0.24" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.5" scale="0.22 0.22 0.22" shadow>
 			<a-obj-model mixin="fc" rotation="-90 0 0" src="vr/outros/HeptagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-90 0 0" src="vr/outros/HeptagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -148,7 +148,7 @@
 		</a-entity>
 			
 		<!-- segunda mesa: girada 180 graus, com afastamento 1.5-->
-		<a-entity class="poli" mixin="poli1" position="0.75 1.1 2.2" scale="0.19 0.19 0.19" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.75 1.1 2.2" scale="0.17 0.17 0.17" shadow>
 			<a-obj-model mixin="fc" rotation="-90 0 0" src="vr/outros/OctagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-90 0 0" src="vr/outros/OctagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
