@@ -33,10 +33,10 @@
 			<a-mixin id="mtl8" material="color: #86B404; side:double;"></a-mixin>
 			<a-mixin id="mtl9" material="color: #F79F81; side:double;"></a-mixin>
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-			<a-mixin id="esfera" geometry="radius: 0.06;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-			<a-mixin id="esferaP" geometry="radius: 0.035;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-			<a-mixin id="esferaG" geometry="radius: 0.11;" material="metalness:0.4; roughness:0.5;"></a-mixin>
-			<a-mixin id="esferaGG" geometry="radius: 0.18;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.06;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esferaP" mixin="esfera mtl9" geometry="radius: 0.035;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esferaG" mixin="esfera mtl9" geometry="radius: 0.11;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esferaGG" mixin="esfera mtl9" geometry="radius: 0.18;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.25"></a-mixin>
 			<a-mixin id="fc"></a-mixin>
@@ -51,7 +51,7 @@
         <a-gltf-model static-body src="vr/salas/diamonds3.glb" position="0 0 0" shadow></a-gltf-model>
 		<a-gltf-model static-body src="vr/salas/diamonds4.glb" position="0 0 0" shadow></a-gltf-model>
 		
-		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.7" scale="0.21 0.21 0.21" shadow>
+		<a-entity class="poli" mixin="poli1" position="-1.11 1.1 -0.7" scale="0.19 0.19 0.19" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/OctagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998" rotation="-90 0 0"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/OctagonalAntiprismL.obj" mtl="#material" rotation="-90 0 0"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -95,7 +95,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.7" scale="0.26 0.26 0.26" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.7" scale="0.25 0.25 0.25" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.809 -0.25 0.263'></a-sphere>
@@ -116,7 +116,7 @@
 			<a-sphere mixin='esfera' position='0.333 -0.75 0.458'></a-sphere>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.2" scale="0.24 0.24 0.24" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.37 1.1 -0.2" scale="0.22 0.22 0.22" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/HexagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998" rotation="-90 0 0"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HexagonalAntiprism2L.obj" mtl="#material" rotation="-90 0 0"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -142,7 +142,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.7" scale="0.23 0.23 0.23" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.7" scale="0.2 0.2 0.2" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/HeptagonalAntiprism2.obj" rotation="-90 0 0" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HeptagonalAntiprism2L.obj" rotation="-90 0 0" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -171,7 +171,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.2" scale="0.19 0.19 0.19" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.37 1.1 -0.2" scale="0.18 0.18 0.18" shadow>
 			<a-obj-model rotation="-90 0 0" mixin="fc" src="vr/outros/OctagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model rotation="-90 0 0" mixin="ar" src="vr/outros/OctagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-90 0 0">
@@ -244,7 +244,7 @@
 			</a-entity>
 		</a-entity>
 			
-		<a-entity class="poli" mixin="poli1" position="0 1.1 2.2" scale="0.19 0.19 0.19" shadow>
+		<a-entity class="poli" mixin="poli1" position="0 1.1 2.2" scale="0.18 0.18 0.18" shadow>
 			<a-obj-model mixin="fc" src="vr/outros/SnubSquareAntiprism.obj" rotation="90 0 0" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/SnubSquareAntiprismL.obj" rotation="90 0 0" mtl="#material"></a-obj-model>
 			<a-entity rotation="90 0 0">
@@ -264,7 +264,7 @@
 			</a-entity>
 		</a-entity>
 			
-		<a-entity class="poli" mixin="poli1" position="0 1.1 1.7" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="0 1.1 1.7" scale="0.16 0.16 0.16" shadow>
 			<a-obj-model mixin="fc" rotation="-35 0 45" src="vr/outros/TriangularHebesphenorotunda.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-35 0 45" src="vr/outros/TriangularHebesphenorotundaL.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-35 0 45">
@@ -290,7 +290,7 @@
 			</a-entity>
 		</a-entity>
 			
-		<a-entity class="poli" mixin="poli1" position="-0.75 1.1 2.2" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.1 2.2" scale="0.16 0.16 0.16" shadow>
 			<a-obj-model mixin="fc" rotation="-35 0 45" src="vr/outros/TriangularHebesphenorotunda1.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="-35 0 45" src="vr/outros/TriangularHebesphenorotunda1L.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="-35 0 45">
@@ -310,7 +310,7 @@
 			</a-entity>
 		</a-entity>
 			
-		<a-entity class="poli" mixin="poli1" position="-0.75 1.1 1.7" scale="0.17 0.17 0.17" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.1 1.7" scale="0.16 0.16 0.16" shadow>
 			<a-obj-model mixin="fc" rotation="35 0 -135" src="vr/outros/TriangularHebesphenorotunda2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" rotation="35 0 -135" src="vr/outros/TriangularHebesphenorotunda2L.obj" mtl="#material"></a-obj-model>
 			<a-entity rotation="35 0 -135">
