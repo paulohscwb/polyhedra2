@@ -16,14 +16,14 @@
 			<a-mixin id="fc" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:12;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
-			<a-mixin id="mtl3" scale="0 0 0" material="color: #EE4B2B; metalness:0.4; roughness:0.7;" geometry="radius:0.7; primitive: dodecahedron; segments-height:1; segments-radial:1;"></a-mixin>
+			<a-mixin id="mtl3" material="color: #EE4B2B; metalness:0.4; roughness:0.7;" geometry="radius:0.7; primitive: dodecahedron; segments-height:1; segments-radial:1;"></a-mixin>
 			<a-mixin id="mtl4" material="color: #04b494;"></a-mixin>
 			<a-mixin id="mtl5" material="color: #04aadd;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
 			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.344 1.22 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.172 1.22 0.294"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
-			<a-mixin id="p4" mixin="es" position="0.07 -0.13 0.58" animation='property: scale; dur: 3000; to: 0.7 0.7 0.7; easing: easeInOutQuad; delay: 85000;'></a-mixin>
+			<a-mixin id="p4" mixin="es" position="0.07 -0.13 0.58" animation='property: scale; dur: 3000; to: 0.7 0.7 0.7; easing: easeInOutQuad; delay: 17000;'></a-mixin>
 			<!-- <a-mixin id="p1" mixin="es" rotation="0 0 -45" position="0.4 1.15 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="45 -30 0" position="-0.2 1.15 0.35"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-45 30 0" position="-0.2 1.15 -0.35"></a-mixin>
@@ -31,10 +31,8 @@
 			<a-mixin id="p1" mixin="es" rotation="0 -14.1 -50" position="0.441 1.102 0.108"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="45 -4.14 30" position="-0.3 1.068 0.325"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-47.7 -8.38 29.89" position="-0.23 1.08 -0.41"></a-mixin>--> 
-			<a-mixin id="anima1" animation='property: rotation; dur: 45000; from: 0 -45 0; to: 0 187 0; easing: linear; delay: 15000'></a-mixin>
-			<a-mixin id="anima2" animation__2='property: rotation; dur: 30000; from: 0 187 0; to: 0 300 0; dir: alternate; easing: linear; delay: 63000; loop: 1'></a-mixin>
 		</a-assets>
-		<a-entity rotation="0 -45 0" position="0 -3.7 0" mixin="anima1 anima2">
+		<a-entity rotation="0 -45 0" position="0 -3.7 0"><!-- mixin="anima1 anima2">-->
 			<a-entity scale="2.1 2.1 2.1" class="nivel0t">
 				<a-cone mixin="mtl1"></a-cone>
 				<a-entity mixin="p1" class="nivel1t">
