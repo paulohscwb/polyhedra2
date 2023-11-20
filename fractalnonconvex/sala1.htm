@@ -41,7 +41,7 @@
 		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
-        <a-gltf-model static-body src="vr/salas/fractal_platao1.glb" position="0 0 0" shadow></a-gltf-model>
+        <a-gltf-model static-body src="vr/salas/fractal_nonconvex1.glb" id="#mesa, mesa" position="0 0 0" shadow></a-gltf-model>
 		
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=0; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=1; mnivelRA()"></a-sphere>
@@ -50,46 +50,46 @@
 
 		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.75" scale="0.042 0.042 0.042" shadow>	
 			<a-entity class="nivel0">
-				<a-gltf-model src="vr/salas/glb/fractalescher0.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalescher0.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, ##mesa, mesa, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel1" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalescher1.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalescher1.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel2" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalescher2.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalescher2.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel3" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalescher3.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalescher3.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 		</a-entity>
 		
 		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.15" scale="0.045 0.045 0.045" shadow>
 			<a-entity class="nivel0">
-				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron0.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron0.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel1" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron1.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron1.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel2" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron2.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron2.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel3" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron3.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalsmallstellateddodecahedron3.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 		</a-entity>
 		
 		<a-entity class="poli" mixin="poli1" position="0 1 -0.5" scale="0.045 0.045 0.045" shadow>
 			<a-entity class="nivel0">
-				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron0.glb"  shadowcollision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron0.glb"  shadowcollision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel1" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron1.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron1.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel2" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron2.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron2.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 			<a-entity class="nivel3" visible="false">
-				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron3.glb" shadow collision-filter="group: objt; collidesWith: hands"></a-gltf-model>
+				<a-gltf-model src="vr/salas/glb/fractalgreatstellateddodecahedron3.glb" shadow collision-filter="group: objt; collidesWith: hands, controle, mfisicas, #mesa, mesa"></a-gltf-model>
 			</a-entity>
 		</a-entity>
 		
