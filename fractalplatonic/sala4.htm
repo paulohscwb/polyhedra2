@@ -33,7 +33,7 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link, a-sphere" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:12;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:10;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
@@ -45,7 +45,7 @@
 			<a-mixin id="mtl4" rotation="0 0 0" mixin="fc1" material="color: #04aadd;"></a-mixin>
 			<a-mixin id="p1a" position="-1.06 -1.06 0" rotation="0 0 45"></a-mixin>
 			<a-mixin id="p2a" position="1.06 -1.06 0" rotation="0 0 -45"></a-mixin>
-			<a-mixin id="mtl3" material="color: #EE4B2B; metalness:0.4; roughness:0.5;" geometry="radius:0.5; primitive: dodecahedron; segments-height:1; segments-radial:1;"></a-mixin>			
+			<a-mixin id="mtl3" material="color: #EE4B2B; metalness:0.4; roughness:0.5; width:1; height:1;"  geometry="radius:0.5; primitive: dodecahedron; segments-height:1; segments-radial:1;"></a-mixin>			
         </a-assets>
 		
         <a-entity id="cameraRig">

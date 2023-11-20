@@ -33,7 +33,7 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link, a-sphere" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.92;  metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.92; metalness:0.7; roughness:0.6; width:1; height:1;" geometry="radius:1; segments-height:1; segments-radial:1;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2;"></a-mixin>
 			<a-mixin id="mtl3" mixin="fc" material="color: #e88;"></a-mixin>
