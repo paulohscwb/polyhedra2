@@ -27,7 +27,7 @@
 	</div>
     <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
-           <a-mixin id="poli1" shadow grabbable draggable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:20; shape: auto"></a-mixin>
+           <a-mixin id="poli1" shadow grabbable draggable sleepy dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:20; shape: sphere; sphereRadius: 0.25"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
@@ -37,7 +37,7 @@
 		
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
-           <a-entity id="lhand" mixin="controle" hand-controls="hand: left"></a-entity>
+           <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
 		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
