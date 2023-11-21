@@ -25,15 +25,15 @@
 	<div class="box" style="visibility: hidden;">
 		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="8" step="1" value="0" onchange="rangevalue.value=value; mnivelTREE()">
 	</div>
-    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true;-->
+    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; "> <!--logarithmicDepthBuffer: true;sortObjects: true; highRefreshRate: true;-->
         <a-assets>
-           <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
+           <a-mixin id="poli1" shadow grabbable draggable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-icosahedron, a-dodecahedron, a-link, a-sphere" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-cone, a-dodecahedron, a-link, a-sphere" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5; width:1; height:1;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:10;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5; width:1; height:1;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:8;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
