@@ -25,7 +25,7 @@
 	<div class="box" style="visibility: hidden;">
 		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="5" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 	</div>
-    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true;"> <!--logarithmicDepthBuffer: true;-->
+    <a-scene physics="gravity:-1; iterations: 5;" shadow="type: pcfsoft" renderer="colorManagement: true;"> <!--logarithmicDepthBuffer: true;-->
         <a-assets>
            <a-mixin id="poli1" shadow grabbable draggable sleepy dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:20; shape: sphere; sphereRadius: 0.25"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
@@ -109,7 +109,7 @@
 		</a-entity>
 		
 		<!-- segunda mesa -->
-		<a-entity class="poli" mixin="poli1" position="0.75 1.05 2.2" scale="0.045 0.045 0.045" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.75 1.05 2.2" scale="0.045 0.045 0.045" shadow dynamic-body="sphereRadius: 0.3">
 			<a-entity class="nivel0">
 				<a-gltf-model src="vr/salas/glb/fractalsmallhexacronicicositetrahedron0.glb" shadow></a-gltf-model>
 			</a-entity>
