@@ -2,6 +2,13 @@ function abrir() {
   window.open(fl, '_self');
 }
 
+function sairVR() {
+	const sceneEl = document.querySelector('a-scene');
+	if (sceneEl.is('vr-mode')) {
+		sceneEl.exitVR();
+	}
+}
+
 function mfaces() {
 	var x = document.getElementById("faces")
 	var sceneEl = document.querySelector('a-scene')
