@@ -30,7 +30,7 @@ function urlHandler(value) {
  <hr>
   <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos cascos convexos de Arquimedes e Catalan" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../geometria-descritiva/videos/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os cascos convexos de Arquimedes e Catalan"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p> 
+  <p align="center"><img align="middle" src="../vr/salas/imagens/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os cascos convexos de Arquimedes e Catalan"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p> 
 <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os cascos convexos de Arquimedes e Catalan em RA, visite a página:

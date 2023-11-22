@@ -30,7 +30,7 @@ Each polyhedron on this page is the convex hull of an solid of Archimedes compou
  <hr>
   <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos cascos convexos de Arquimedes e Catalan" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/fractal.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Archimedean and Catalan Convex Hulls"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> 
+  <p align="center"><img align="middle" src="vr/salas/imagens/ArchimedeanCatalanHulls.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Archimedean and Catalan Convex Hulls"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> 
  <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
 To view Archimedean and Catalan Convex Hulls in AR, simply visit:
