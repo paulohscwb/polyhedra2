@@ -27,13 +27,13 @@
 	</div>
     <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; "> <!--logarithmicDepthBuffer: true;sortObjects: true; highRefreshRate: true;-->
         <a-assets>
-           <a-mixin id="poli1" shadow grabbable draggable sleepy dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: sphere; sphereRadius:0.37;"></a-mixin>
+           <a-mixin id="poli1" shadow grabbable draggable sleepy dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto;"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-tetrahedron, a-dodecahedron, a-link, a-sphere, a-cone, a-gltf-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-tetrahedron, a-dodecahedron, a-link, a-sphere, a-cone" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
-			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5; width:1; height:1" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:8;"></a-mixin>
+			<a-mixin id="fc" material="opacity: 0.95; metalness:0.4; roughness:0.5; width:1; height:1" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:7;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
 			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
@@ -66,7 +66,7 @@
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=7; mnivelTREE(); mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=8; mnivelTREE(); mnivelRA()"></a-sphere>
 		
-		<!--<a-entity class="poli" mixin="poli1" position="0.18 0.885 -0.5" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>
+		<a-entity class="poli" mixin="poli1" position="0.18 0.885 -0.5" rotation="0 -45 0" scale="0.06 0.06 0.06" shadow>
 			<a-entity scale="2.3 2.3 2.3" class="nivel0t">
 				<a-cone mixin="mtl1"></a-cone>
 				<a-entity mixin="p1" class="nivel1t">
@@ -1915,31 +1915,6 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-			</a-entity>
-		</a-entity>
-		-->
-		
-		<a-entity class="poli" mixin="poli1" position="0.18 1.1 -0.5" rotation="0 0 0" scale="0.06 0.06 0.06" shadow>
-			<a-entity class="nivel0t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_0.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel1t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_1.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel2t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_2.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel3t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_3.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel4t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_4.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel5t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_5.glb" shadow></a-gltf-model>
-			</a-entity>
-			<a-entity class="nivel6t">
-				<a-gltf-model src="vr/salas/glb/fractaltree1_6.glb" shadow></a-gltf-model>
 			</a-entity>
 		</a-entity>
 		
