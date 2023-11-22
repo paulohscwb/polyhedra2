@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Platonic polyhedra fractals</h2>
 Using the same principle as the construction of the Sierpinski triangle or the Koch curve, we can construct fractals from other regular polygons. When these polygons form a polyhedron, we have the construction of a fractal polyhedron.
-<hr> 
+
  <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
 <hr>
   <h3 align="center">Immersive rooms</h3>
@@ -40,7 +40,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <p align="center"><img src="ar/fractalplatonic.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxVDbVP3SyhZfOpfD4SdsoVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Fractal tetrahedron</h4>
 <a href="vr/FractalTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/13A.png" class="foto" alt="Fractal Tetrahedron"></a><img src="ar/13.png" class="qr">
  <br><br>Applying the construction principle of the Sierpinski triangle to the 4 faces of the regular tetrahedron, we obtain a regular fractal tetrahedron. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
@@ -141,7 +141,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>3. Fractal cube</h4>
 <a href="vr/FractalCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/16A.png" class="foto" alt="Fractal Cube"></a><img src="ar/16.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski carpet to the 6 faces of the cube, we obtain a fractal cube. In the first order of construction of the fractal, we construct 8 new solids on each face of the original polyhedron, all with &frac13; the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction principle of the Sierpinski carpet to the 6 faces of the cube, we obtain a fractal cube. In the first order of construction of the fractal, we construct 8 new solids on each face of the original polyhedron, all with ⅓ the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>

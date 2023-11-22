@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros de diamante</h2>
   Os poliedros desta página foram criados unindo-se pirâmides retas com outros poliedros inteiros ou truncados. Desta forma, obtemos os poliedros de diamante.
- <hr>
+
 <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
  <h3 align="center">Salas imersivas</h3>

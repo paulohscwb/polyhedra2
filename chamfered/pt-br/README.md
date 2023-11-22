@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros chanfrados</h2>
   Definimos a operação de "chanfrar" como um truncamento ao longo das arestas de um poliedro. Um poliedro chanfrado, também conhecido como poliedro truncado por exemplo, é um poliedro construído a partir de um poliedro original movendo as faces para fora, mantendo os vértices originais, criando assim um novo hexágono, em geral não regular, no lugar de cada aresta original. Nesta página temos os poliedros "chanfrados" de Platão e um poliedro de Arquimedes. Os poliedros obtidos com a operação de chanfro têm todas as arestas com mesmo comprimento.
- <hr>
+
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
  <h3 align="center">Sala imersiva</h3>

@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Propellor polyhedra</h2>
 The polyhedra of this page were created by applying George Hart's propellor operation to the Platonic solids and some of the Archimedean and Catalan solids. Each face is surrounded by a "propellor" of quadrilaterals, with rotational symmetry of its underlying Platonic solid.
-<hr> 
+
  <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
  <h3 align="center">Immersive room</h3>

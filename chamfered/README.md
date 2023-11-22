@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Chamfered polyhedra</h2>
 We define the operation of "chamfering" as a truncation along the edges of a polyhedron. A chamfered polyhedron, also known as an egde-truncated polyhedron, is a polyhedron constructed from an original polyhedron by moving faces outward while retaining the original vertices, thus creating a new hexagon, in general not regular, in place of each original edge. On this page we have Plato's polyhedra and an Archimedes polyhedron "chamfered". The polyhedra obtained with the chamfer operation have all edges of the same length.
-<hr> 
+
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
  <h3 align="center">Immersive room</h3>

@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Cascos convexos de Arquimedes e Catalan</h2>
   Cada poliedro nesta página é o casco convexo de um sólido de Arquimedes composto por seu dual de Catalan. Esta operação é equivalente à operação de 'junção' de John Conway aplicada ao sólido de Arquimedes ou ao respectivo dual de Catalan.
- <hr>
+
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
  <hr>
   <h3 align="center">Sala imersiva</h3>

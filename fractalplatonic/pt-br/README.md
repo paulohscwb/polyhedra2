@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fractais dos poliedros de Platão</h2>
   Utilizando o mesmo princípio da construção do triângulo de Sierpinski ou da curva de Koch, podemos construir fractais de outros polígonos regulares. Quando estes polígonos formam um poliedro, temos a construção de um poliedro fractal.
- <hr>
+
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
  <hr>
    <h3 align="center">Salas imersivas</h3>
@@ -40,7 +40,7 @@ function urlHandler(value) {
 <p align="center"><img src="../ar/fractalplatonic.gif" alt="Realidade Aumentada para fractais de poliedros" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxVDbVP3SyhZfOpfD4SdsoVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Tetraedro fractal</h4>
 <a href="../vr/FractalTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/13A.png" class="foto" alt="Tetraedro fractal"></a><img src="../ar/13.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas 4 faces do tetraedro regular, obtemos um tetraedro regular fractal. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
@@ -141,7 +141,7 @@ function urlHandler(value) {
  <hr>
 <h4>3. Cubo fractal</h4>
 <a href="../vr/FractalCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Cubo fractal"></a><img src="../ar/16.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com &frac13; da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces do cubo, obtemos um cubo fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face do poliedro original, todas com ⅓ da medida da aresta do cubo. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>

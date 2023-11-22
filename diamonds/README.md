@@ -25,7 +25,7 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Diamond polyhedra</h2>
 The polyhedra on this page were created by joining right pyramids with other whole or truncated polyhedra. In this way, we obtain the diamond polyhedra.
-<hr> 
+
  <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
  <h3 align="center">Immersive rooms</h3>
