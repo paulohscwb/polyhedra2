@@ -40,7 +40,7 @@
 			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.344 1.22 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.172 1.22 0.294"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
-			<a-mixin id="fc1" material="opacity: 0.92; metalness:0.7; roughness:0.6;" geometry="radius:2.6; height:3; width:0.7; depth:0.7"></a-mixin>
+			<a-mixin id="fc1" material="opacity: 0.92; metalness:0.7; roughness:0.6;" geometry="radius:2.6;"></a-mixin>
 			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
 			<a-mixin id="mtl4" rotation="0 0 0" mixin="fc1" material="color: coral;"></a-mixin>
 			<a-mixin id="p1a" position="-1.06 -1.06 0" rotation="0 0 45"></a-mixin>
@@ -1920,7 +1920,7 @@
 		<a-entity class="poli" mixin="poli1" position="-0.82 1.13 -0.6" rotation="0 30 0" scale="0.15 0.15 0.15" shadow>
 		
 			<a-entity scale="1 1 1" class="nivel0">
-				<a-entity mixin="mtl4"></a-entity>
+				<a-tetrahedron mixin="mtl4"></a-tetrahedron>
 			</a-entity>
 			
 			<a-entity scale="0.7071 0.7071 0.7071" class="nivel1" visible="false">
