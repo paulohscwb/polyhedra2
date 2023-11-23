@@ -9,6 +9,49 @@ function sairVR() {
 	}
 }
 
+function fracs() {
+	var sceneEl = document.querySelector('a-scene')
+	var ent = document.getElementById("cena")
+	while (ent.firstChild) {
+        ent.removeChild(ent.firstChild)
+    }
+	sc = 6
+	var box = document.createElement("a-tetrahedron")
+	  box.setAttribute("mixin", "mtl1")
+	  box.setAttribute("scale", `${sc} ${sc} ${sc}`)
+	  if (i == nv.value) {
+		  ent.appendChild(box)
+	  }
+	  
+	for (var i = 1; i <= nv.value; i++) {
+	  var box = document.createElement("a-tetrahedron")
+	  box.setAttribute("mixin", "mtl1 p1")
+	  box.setAttribute("scale", `${sc} ${sc} ${sc}`)
+	  if (i == nv.value) {
+		  ent.appendChild(box)
+	  }
+	  var box = document.createElement("a-tetrahedron")
+	  box.setAttribute("mixin", "mtl1 p2")
+	  box.setAttribute("scale", `${sc} ${sc} ${sc}`)
+	  if (i == nv.value) {
+		  ent.appendChild(box)
+	  }
+	  var box = document.createElement("a-tetrahedron")
+	  box.setAttribute("mixin", "mtl1 p3")
+	  box.setAttribute("scale", `${sc} ${sc} ${sc}`)
+	  if (i == nv.value) {
+		  ent.appendChild(box)
+	  }
+	  var box = document.createElement("a-tetrahedron")
+	  box.setAttribute("mixin", "mtl1 p4")
+	  box.setAttribute("scale", `${sc} ${sc} ${sc}`)
+	  if (i == nv.value) {
+		  ent.appendChild(box)
+	  }
+	  sc *= 0.5
+	}
+}
+
 function mfaces() {
 	var x = document.getElementById("faces")
 	var sceneEl = document.querySelector('a-scene')
