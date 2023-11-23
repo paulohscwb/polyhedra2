@@ -25,7 +25,7 @@
 	<div class="box" style="visibility: hidden;">
 		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 	</div>
-    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="colorManagement: true; "> <!--logarithmicDepthBuffer: true;sortObjects: true; highRefreshRate: true;-->
+    <a-scene physics="gravity:-1; iterations: 30;" shadow="type: pcfsoft" renderer="sortObjects: true; colorManagement: true; "> <!--logarithmicDepthBuffer: true;sortObjects: true; highRefreshRate: true;-->
         <a-assets>
            <a-mixin id="poli1" shadow grabbable draggable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
 		  <a-mixin id="botao1" geometry="radius:0.06; height:0.03; phi-length: 180" material="opacity: 0.3; color:cyan;" clickable static-body></a-mixin>
