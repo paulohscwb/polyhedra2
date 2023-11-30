@@ -1135,6 +1135,48 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>26. Fractal do toróide hexagonal trapezoedro-antiprisma</h4>
+<a href="../vr/FractalHexagonalTrapezohedronAntiprismToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/249A.png" class="foto" alt="Fractal do toróide hexagonal trapezoedro-antiprisma"></a><img src="../ar/249.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide hexagonal trapezoedro-antiprisma, obtemos um fractal do toróide hexagonal trapezoedro-antiprisma. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>48</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>192</td>
+		<td>384</td>
+		<td>192</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>64</td>
+		<td>1536</td>
+		<td>3072</td>
+		<td>1536</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>512</td>
+		<td>12288</td>
+		<td>24576</td>
+		<td>12288</td>
+	</tr>
+ </table>
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

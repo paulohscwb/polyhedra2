@@ -1134,6 +1134,48 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>26. Hexagonal trapezohedron-antiprism toroid fractal</h4>
+<a href="vr/FractalHexagonalTrapezohedronAntiprismToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/249A.png" class="foto" alt="Hexagonal trapezohedron-antiprism toroid fractal"></a><img src="ar/249.png" class="qr">
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron-antiprism toroid, we obtain a fractal of the hexagonal trapezohedron-antiprism toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>48</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>8</td>
+		<td>192</td>
+		<td>384</td>
+		<td>192</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>64</td>
+		<td>1536</td>
+		<td>3072</td>
+		<td>1536</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>512</td>
+		<td>12288</td>
+		<td>24576</td>
+		<td>12288</td>
+	</tr>
+ </table>
+ <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
