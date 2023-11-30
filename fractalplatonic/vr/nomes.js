@@ -214,9 +214,6 @@ function fracCubo() {
 		moduloM(-coord1, 0, -coord1);
 		ent1.appendChild(ent3);
 	ent.appendChild(ent1)
-	
-	var sceneEls = document.querySelectorAll('a-box')
-	sceneEls.setAttribute("mixin", `mtl2 p${i}d`)
 }
 
 function fracTetraedro() {
