@@ -12,9 +12,9 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-mixin id="fc" scale="0.18 0.18 0.18" obj-model="obj: #aq; mtl: #mt"></a-mixin>
-			<a-mixin id="fc1" scale="0.18 0.18 0.18" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
-			<a-mixin id="ar" scale="0.18 0.18 0.18" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-mixin id="fc" scale="0.5 0.5 0.5" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+			<a-mixin id="fc1" scale="0.5 0.5 0.5" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="ar" scale="0.5 0.5 0.5" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404; side:double;">
 			<a-asset-item id="mt" src="outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
@@ -42,8 +42,8 @@
 			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: 0 0 0; to: 90 75 135; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
-		<a-entity rotation="0 0 0" scale="6 6 6"><!-- mixin="anima1 anima2 anima3">-->
-			<a-entity scale="0.9999	0.9999 0.9999" id="nivel0">
+		<a-entity rotation="0 0 0" scale="8 8 8"><!-- mixin="anima1 anima2 anima3">-->
+			<a-entity scale="1 1 1" id="nivel0">
 				<a-entity rotation="90 0 0" mixin="fc"></a-entity>
 				<a-entity rotation="90 0 0" mixin="ar"></a-entity>
 			</a-entity>
