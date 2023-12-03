@@ -30,7 +30,7 @@ Using the same principle as the construction of the Sierpinski triangle or the K
   <hr>
  <h3 align="center">Immersive rooms</h3>
   <div class="embed-container"><iframe width="100%" src="sala1.htm" title="Sala Imersiva de Fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><a href="sala1.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala4.htm" target="_blank">&#x1f517; room 4</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala5.htm" target="_blank">&#x1f517; room 5</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala6.htm" target="_blank">&#x1f517; room 6</a></p>
+  <p align="center"><a href="sala1.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala4.htm" target="_blank">&#x1f517; room 4</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala5.htm" target="_blank">&#x1f517; room 5</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala6.htm" target="_blank">&#x1f517; room 6</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala7.htm" target="_blank">&#x1f517; room 7</a></p>
   <p align="center"><img src="vr/salas/videos/fractalnonconvex1.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
  <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
@@ -1176,7 +1176,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
-  <hr>
+<hr>
  <h4>27. Tetragonal toroid fractal</h4>
 <a href="vr/FractalRegularTetragonalToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/248A.png" class="foto" alt="Tetragonal toroid fractal"></a><img src="ar/248.png" class="qr">
  <br><br>Applying the Antoine necklace construction principle to a tetragonal toroid, we obtain a fractal of the tetragonal toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
@@ -1218,7 +1218,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
-   <hr>
+<hr>
  <h4>28. Hexagonal trapezohedron toroid fractal</h4>
 <a href="vr/FractalHexagonalTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/247A.png" class="foto" alt="Hexagonal trapezohedron toroid fractal"></a><img src="ar/247.png" class="qr">
  <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron toroid, we obtain a fractal of the hexagonal trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
@@ -1260,7 +1260,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
-    <hr>
+<hr>
  <h4>29. Hexagonal antiprism-trapezohedron toroid fractal</h4>
 <a href="vr/FractalHexagonalAntiprismTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/246A.png" class="foto" alt="Hexagonal antiprism-trapezohedron toroid fractal"></a><img src="ar/246.png" class="qr">
  <br><br>Applying the Antoine necklace construction principle to a hexagonal antiprism-trapezohedron toroid, we obtain a fractal of the hexagonal antiprism-trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
@@ -1302,7 +1302,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
-     <hr>
+<hr>
  <h4>30. Anti-octagonal iris toroid fractal</h4>
 <a href="vr/FractalAntiOctagonalIrisToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Anti-octagonal iris toroid fractal"></a><img src="ar/111.png" class="qr">
  <br><br>Applying the Antoine necklace construction principle to a anti-octagonal iris toroid, we obtain a fractal of the anti-octagonal iris toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.

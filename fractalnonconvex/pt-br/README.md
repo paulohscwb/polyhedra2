@@ -30,7 +30,7 @@ function urlHandler(value) {
   <hr>
  <h3 align="center">Salas imersivas</h3>
   <div class="embed-container"><iframe width="100%" src="../sala1.htm" title="Sala Imersiva de fractais de poliedros" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala4.htm" target="_blank">&#x1f517; sala 4</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala5.htm" target="_blank">&#x1f517; sala 5</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala6.htm" target="_blank">&#x1f517; sala 6</a></p>
+  <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala4.htm" target="_blank">&#x1f517; sala 4</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala5.htm" target="_blank">&#x1f517; sala 5</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala6.htm" target="_blank">&#x1f517; sala 6</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala7.htm" target="_blank">&#x1f517; sala 7</a></p>
   <p align="center"><img src="../vr/salas/videos/fractalnonconvex1.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="../vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px" loading="lazy"/></p>
 <hr> 
   <h3 id="ra" align="center">Realidade Aumentada</h3>
@@ -1135,7 +1135,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <hr>
+<hr>
 <h4>26. Fractal do toróide hexagonal trapezoedro-antiprisma</h4>
 <a href="../vr/FractalHexagonalTrapezohedronAntiprismToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/249A.png" class="foto" alt="Fractal do toróide hexagonal trapezoedro-antiprisma"></a><img src="../ar/249.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide hexagonal trapezoedro-antiprisma, obtemos um fractal do toróide hexagonal trapezoedro-antiprisma. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -1177,7 +1177,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-  <hr>
+<hr>
 <h4>27. Fractal do toróide tetragonal</h4>
 <a href="../vr/FractalRegularTetragonalToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/248A.png" class="foto" alt="Fractal do toróide tetragonal"></a><img src="../ar/248.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide tetragonal, obtemos um fractal do toróide tetragonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -1219,7 +1219,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-   <hr>
+<hr>
 <h4>28. Fractal do toróide trapezoedro hexagonal</h4>
 <a href="../vr/FractalHexagonalTrapezohedronToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/247A.png" class="foto" alt="Fractal do toróide trapezoedro hexagonal"></a><img src="../ar/247.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide trapezoedro hexagonal, obtemos um fractal do toróide trapezoedro hexagonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -1261,7 +1261,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-    <hr>
+<hr>
 <h4>29. Fractal do toróide antiprisma-trapezoedro hexagonal</h4>
 <a href="../vr/FractalHexagonalAntiprismTrapezohedronToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/246A.png" class="foto" alt="Fractal do toróide antiprisma-trapezoedro hexagonal"></a><img src="../ar/246.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide antiprisma-trapezoedro hexagonal, obtemos um fractal do toróide antiprisma-trapezoedro hexagonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
@@ -1303,7 +1303,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-    <hr>
+<hr>
 <h4>30. Fractal do toróide de íris anti-octogonal</h4>
 <a href="../vr/FractalAntiOctagonalIrisToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/111A.png" class="foto" alt="Fractal do toróide de íris anti-octogonal"></a><img src="../ar/111.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide de íris anti-octogonal, obtemos um fractal do toróide de íris anti-octogonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
