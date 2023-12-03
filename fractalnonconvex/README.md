@@ -1155,27 +1155,195 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>8</td>
-		<td>192</td>
+		<td>16</td>
 		<td>384</td>
-		<td>192</td>
+		<td>768</td>
+		<td>384</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>64</td>
-		<td>1536</td>
-		<td>3072</td>
-		<td>1536</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>12288</td>
+		<td>6144</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>512</td>
-		<td>12288</td>
-		<td>24576</td>
-		<td>12288</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>196608</td>
+		<td>98304</td>
 	</tr>
  </table>
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+  <hr>
+ <h4>27. Tetragonal toroid fractal</h4>
+<a href="vr/FractalRegularTetragonalToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/248A.png" class="foto" alt="Tetragonal toroid fractal"></a><img src="ar/248.png" class="qr">
+ <br><br>Applying the Antoine necklace construction principle to a tetragonal toroid, we obtain a fractal of the tetragonal toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>18</td>
+		<td>36</td>
+		<td>18</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>288</td>
+		<td>576</td>
+		<td>288</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>4608</td>
+		<td>9216</td>
+		<td>4608</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>73728</td>
+		<td>147456</td>
+		<td>73728</td>
+	</tr>
+ </table>
+ <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
+   <hr>
+ <h4>28. Hexagonal trapezohedron toroid fractal</h4>
+<a href="vr/FractalHexagonalTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/247A.png" class="foto" alt="Hexagonal trapezohedron toroid fractal"></a><img src="ar/247.png" class="qr">
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron toroid, we obtain a fractal of the hexagonal trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>60</td>
+		<td>36</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>384</td>
+		<td>960</td>
+		<td>576</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>15360</td>
+		<td>9216</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>245760</td>
+		<td>147456</td>
+	</tr>
+ </table>
+ <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
+    <hr>
+ <h4>29. Hexagonal antiprism-trapezohedron toroid fractal</h4>
+<a href="vr/FractalHexagonalAntiprismTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/246A.png" class="foto" alt="Hexagonal antiprism-trapezohedron toroid fractal"></a><img src="ar/246.png" class="qr">
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal antiprism-trapezohedron toroid, we obtain a fractal of the hexagonal antiprism-trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>48</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>384</td>
+		<td>768</td>
+		<td>384</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>12288</td>
+		<td>6144</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>196608</td>
+		<td>98304</td>
+	</tr>
+ </table>
+ <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
+     <hr>
+ <h4>30. Anti-octagonal iris toroid fractal</h4>
+<a href="vr/FractalAntiOctagonalIrisToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Anti-octagonal iris toroid fractal"></a><img src="ar/111.png" class="qr">
+ <br><br>Applying the Antoine necklace construction principle to a anti-octagonal iris toroid, we obtain a fractal of the anti-octagonal iris toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <table>
+	<tr>
+		<th>order</th>
+		<th>polyhedra</th>
+		<th>faces</th>
+		<th>edges</th>
+		<th>vertices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>32</td>
+		<td>48</td>
+		<td>16</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>512</td>
+		<td>768</td>
+		<td>256</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>8192</td>
+		<td>12288</td>
+		<td>4096</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>131072</td>
+		<td>196608</td>
+		<td>65536</td>
+	</tr>
+ </table>
+ <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

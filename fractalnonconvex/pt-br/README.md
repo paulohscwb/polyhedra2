@@ -1156,27 +1156,195 @@ function urlHandler(value) {
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>8</td>
-		<td>192</td>
+		<td>16</td>
 		<td>384</td>
-		<td>192</td>
+		<td>768</td>
+		<td>384</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>64</td>
-		<td>1536</td>
-		<td>3072</td>
-		<td>1536</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>12288</td>
+		<td>6144</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>512</td>
-		<td>12288</td>
-		<td>24576</td>
-		<td>12288</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>196608</td>
+		<td>98304</td>
 	</tr>
  </table>
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+  <hr>
+<h4>27. Fractal do toróide tetragonal</h4>
+<a href="../vr/FractalRegularTetragonalToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/248A.png" class="foto" alt="Fractal do toróide tetragonal"></a><img src="../ar/248.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide tetragonal, obtemos um fractal do toróide tetragonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>18</td>
+		<td>36</td>
+		<td>18</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>288</td>
+		<td>576</td>
+		<td>288</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>4608</td>
+		<td>9216</td>
+		<td>4608</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>73728</td>
+		<td>147456</td>
+		<td>73728</td>
+	</tr>
+ </table>
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+   <hr>
+<h4>28. Fractal do toróide trapezoedro hexagonal</h4>
+<a href="../vr/FractalHexagonalTrapezohedronToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/247A.png" class="foto" alt="Fractal do toróide trapezoedro hexagonal"></a><img src="../ar/247.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide trapezoedro hexagonal, obtemos um fractal do toróide trapezoedro hexagonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>60</td>
+		<td>36</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>384</td>
+		<td>960</td>
+		<td>576</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>15360</td>
+		<td>9216</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>245760</td>
+		<td>147456</td>
+	</tr>
+ </table>
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+    <hr>
+<h4>29. Fractal do toróide antiprisma-trapezoedro hexagonal</h4>
+<a href="../vr/FractalHexagonalAntiprismTrapezohedronToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/246A.png" class="foto" alt="Fractal do toróide antiprisma-trapezoedro hexagonal"></a><img src="../ar/246.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide antiprisma-trapezoedro hexagonal, obtemos um fractal do toróide antiprisma-trapezoedro hexagonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>24</td>
+		<td>48</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>384</td>
+		<td>768</td>
+		<td>384</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>6144</td>
+		<td>12288</td>
+		<td>6144</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>98304</td>
+		<td>196608</td>
+		<td>98304</td>
+	</tr>
+ </table>
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+    <hr>
+<h4>30. Fractal do toróide de íris anti-octogonal</h4>
+<a href="../vr/FractalAntiOctagonalIrisToroid.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/111A.png" class="foto" alt="Fractal do toróide de íris anti-octogonal"></a><img src="../ar/111.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do colar de Antoine em um toróide de íris anti-octogonal, obtemos um fractal do toróide de íris anti-octogonal. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <table>
+	<tr>
+		<th>ordem</th>
+		<th>poliedros</th>
+		<th>faces</th>
+		<th>arestas</th>
+		<th>vértices</th>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>1</td>
+		<td>32</td>
+		<td>48</td>
+		<td>16</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>16</td>
+		<td>512</td>
+		<td>768</td>
+		<td>256</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>256</td>
+		<td>8192</td>
+		<td>12288</td>
+		<td>4096</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4096</td>
+		<td>131072</td>
+		<td>196608</td>
+		<td>65536</td>
+	</tr>
+ </table>
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
