@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>Polyhedra fractals</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="fc" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-mixin id="mtl1" material="color: #5bb404; side:double;">
+			<a-asset-item id="mt" src="outros/c2.mtl"></a-asset-item>
+			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
+			<a-asset-item id="aq" src="outros/ArvoreFractal1.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="outros/ArvoreFractal1L.obj"></a-asset-item>
+			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 13000'></a-mixin>
+			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 0 0 0; to: 180 180 120; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
+			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 270 105 270; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>
+			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: 0 0 0; to: 90 75 135; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>-->
+		</a-assets>
+		
+		<a-entity rotation="0 0 0" scale="2 2 2"><!-- mixin="anima1 anima2 anima3">-->
+			<a-entity scale="1 1 1" id="nivel0">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			
+			<a-entity scale="0.618 0.618 0.618" position="0 1.236 0" id="nivel1" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.3819 0.3819 0.3819" position="0 2 0" id="nivel2" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.236 0.236 0.236" position="0 3.236 0" id="nivel3" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.1459 0.1459 0.1459" position="0 1.236 0" id="nivel4" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.0901 0.0901 0.0901" position="0 1.236 0" id="nivel5" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.0557 0.0557 0.0557" position="0 1.236 0" id="nivel6" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.0344 0.0344 0.0344" position="0 1.236 0" id="nivel7" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.0213 0.0213 0.0213" position="0 1.236 0" id="nivel8" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.01315 0.01315 0.01315" position="0 1.236 0" id="nivel9" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+			<a-entity scale="0.00813 0.00813 0.00813" position="0 1.236 0" id="nivel10" visible="false">
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
+	  
+		<a-light type="ambient" color="white" intensity="0.6"></a-light>
+		<a-light type="directional" color="white" intensity="0.65" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.65" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.65" position="7 5 -1"></a-light>
+
+		<a-sky color="aliceblue"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Tree fractal</span>
+		<br><span class="titulo">Árvore fractal</span>
+		<br><input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp;&nbsp;<label for="rangevalue">order: </label><output id="rangevalue">0</output>
+		<br><input type="range" id="nv" min="0" max="10" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
+	</div>
+  </body>
+</html>
