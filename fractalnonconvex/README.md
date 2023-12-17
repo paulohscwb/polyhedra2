@@ -40,7 +40,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <p align="center"><img src="ar/fractalnonconvex.gif" alt="Augmented Reality to fractal polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/playlist?list=PLy0I_lGW8HxWvg2uw06vbRaVe7ot5zUIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxWvg2uw06vbRaVe7ot5zUIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Escher solid fractal</h4>
 <a href="vr/FractalEscher.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/18A.png" class="foto" alt="Escher solid fractal"></a><img src="ar/18.png" class="qr">
  <br><br>Applying the construction principle of the Sierpinski triangle to the 48 faces of the Escher solid, we obtain an Escher solid fractal. In the first order of fractal construction, we construct a new solid at 12 vertices of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
