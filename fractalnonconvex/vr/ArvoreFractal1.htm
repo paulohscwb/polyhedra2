@@ -14,12 +14,13 @@
 		<a-assets>
 			<a-mixin id="fc" rotation="0 -30 0" material="opacity: 0.92; metalness:0.7; roughness:0.6; color:green" geometry="primitive:cone; radius-bottom:4; radius-top:2.85; height:1.236; segments-radial:9; segments-height:1;"></a-mixin><!--obj-model="obj: #aq; mtl: #mt"></a-mixin>-->
 			<a-mixin id="fcb" obj-model="obj: #aq1; mtl: #mt" scale="0.8 0.8 0.8"></a-mixin>
-			<a-mixin id="fcs" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+			<a-mixin id="fcs" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-mixin id="fct" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.07; radiusBottom:0.25; height:8.7;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fct" material="color: #736154;">
 			<a-asset-item id="mt" src="outros/c3s.mtl"></a-asset-item>
+			<a-asset-item id="mt1" src="outros/c3s1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/PentagrammicDipyramid.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="outros/GreatStellatedDodecahedron.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="outros/SmallStellatedDodecahedron.obj"></a-asset-item>
 			<a-mixin id="anima1" animation='property: rotation; dur: 30000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 15000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 30000; from: 0 0 0; to: 0 -180 0; dir: alternate; easing: linear; delay: 48000; loop: 1'></a-mixin>
 		</a-assets>
