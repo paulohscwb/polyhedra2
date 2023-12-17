@@ -19,16 +19,14 @@
 			<a-mixin id="mtl1" mixin="fct" material="color: #736154;">
 			<a-asset-item id="mt" src="outros/c3s.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/PentagrammicDipyramid.obj"></a-asset-item>
-			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 13000'></a-mixin>
-			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 0 0 0; to: 180 180 120; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
-			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 270 105 270; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>
-			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: 0 0 0; to: 90 75 135; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>-->
+			<a-mixin id="anima1" animation='property: rotation; dur: 30000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 15000'></a-mixin>
+			<a-mixin id="anima2" animation__2='property: rotation; dur: 30000; from: 0 0 0; to: 0 -180 0; dir: alternate; easing: linear; delay: 48000; loop: 1'></a-mixin>
 		</a-assets>
 		
-		<a-entity rotation="0 0 0" position="0 -3.7 0" scale="1.2 1.2 1.2"><!-- mixin="anima1 anima2 anima3">-->
+		<a-entity rotation="0 0 0" position="0 -3.7 0" scale="1.2 1.2 1.2" mixin="anima1 anima2">
 			<a-cone class="nivel0t" position="0 2.57 0" mixin="mtl1"></a-cone>
 			<a-entity class="nivel3t" visible="false">
-				<a-cylinder position="0 7.2 0" color="#FFD700" geometry="radius:0.07; height:0.6;"></a-cylinder>
+				<a-cylinder position="0 7.2 0" color="rgb(253,201,52)" geometry="radius:0.07; height:0.6;"></a-cylinder>
 				<a-entity mixin="fcs" position="0 7.6 0" rotation="0 0 36" scale="0.4 0.4 0.25"></a-entity>
 			</a-entity>
 			<a-entity class="nivel1t" visible="false">
