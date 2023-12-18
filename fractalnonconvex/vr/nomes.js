@@ -26,17 +26,10 @@ function Conic1() {
 			box.setAttribute("class", `nivel2t`)
 			box.setAttribute("scale", `${rd} ${rd} ${rd}`)
 			box.setAttribute("position", `${cx} ${cy} ${cz}`)
-			if (cxP >= 0 && czP >= 0) {
-				angz = Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
-				angx = Math.abs(Math.atan((czP - cz)/(cxP - cx))*180/Math.PI)
-			} else if (cxP > 0 && czP < 0) {
-				angz = -Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
-				angx = Math.atan((czP - cz)/(cxP - cx))*180/Math.PI
-			} else {
-				angz = Math.atan((cxP - cx)/(czP - cz))*180/Math.PI
-				angx = Math.atan((czP - cz)/Math.abs(cxP - cx))*180/Math.PI
-			}
-			box.setAttribute("rotation", `${angx} 0 ${angz}`)
+			angx = Math.atan((czP - cz)/(cxP - cx))*180/Math.PI
+			proj = Math.sqrt((cxP - cx)**2 + (czP - cz)**2)
+			angz = Math.atan((cyP - cy)/proj)*180/Math.PI
+			box.setAttribute("rotation", `0 ${90 - angx} ${90 - angz}`)
 			ent.appendChild(box)
 			if (i < mx) {
 				ent.appendChild(box1)
