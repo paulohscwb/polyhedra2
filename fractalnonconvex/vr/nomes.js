@@ -19,7 +19,7 @@ function Conic1() {
 		cy = -h * (i / mx) + 7.5
 		cxP = r * (ang+ac) * Math.cos(ang+ac)/(ac * mx);
 		czP = r * (ang+ac) * Math.sin(ang+ac)/(ac * mx);
-		if (Math.abs(cxP - cx) > 0.25 || Math.abs(czP - cz) > 0.25) {
+		if (Math.abs(cxP - cx) > 0.23 || Math.abs(czP - cz) > 0.23) {
 			box.setAttribute("position", `${cx} ${cy} ${cz}`)
 		}
 		if (cxP >= 0 && czP >= 0) {
