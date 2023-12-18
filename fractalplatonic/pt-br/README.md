@@ -287,7 +287,7 @@ function urlHandler(value) {
  <hr>
 <h4>10. Cruz de Menger - Jerusalém: cubo fractal v2</h4>
 <a href="../vr/FractalCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/237A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/237.png" class="qr">
- <br><br>Considere um cubo fractal. Podemos aumentar os tamanhos das arestas dos cubos dos cantos e diminuir os tamanhos das arestas dos cubos intermediários para revelar uma cruz. Nesta versão, temos 8 cubos homotéticos com proporção de &Sqrt;2 - 1 e 12 cubos homotéticos com proporção de (&Sqrt;2 - 1)&#xb2;.
+ <br><br>Considere um cubo fractal. Podemos aumentar os tamanhos das arestas dos cubos dos cantos e diminuir os tamanhos das arestas dos cubos intermediários para revelar uma cruz. Nesta versão, temos 8 cubos homotéticos com proporção de &#8730;2 - 1 e 12 cubos homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>

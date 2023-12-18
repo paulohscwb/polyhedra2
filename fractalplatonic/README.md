@@ -287,7 +287,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
   <hr>
 <h4>10. Menger's Cross - Jerusalem: fractal cube v2</h4>
 <a href="vr/FractalCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/237A.png" class="foto" alt="Fractal Cube"></a><img src="ar/237.png" class="qr">
- <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &Sqrt;2 - 1 and 12 homothetic cubes with a proportion of (&Sqrt;2 - 1)&#xb2;.
+ <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
