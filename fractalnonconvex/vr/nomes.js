@@ -2,7 +2,7 @@ function Conic1() {
 	var sceneEl = document.querySelector('a-scene')
 	var ent = document.getElementById("cena")
 	h = 8;
-	r = 4.2;
+	r = 4.1;
 	ang = 0;
 	mx = 75;
 	n = 4;
