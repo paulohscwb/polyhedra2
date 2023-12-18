@@ -12,13 +12,13 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-mixin id="fc" scale="2 1 2" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>-->
+			<a-mixin id="fc" scale="2 1 2" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-mixin id="fcb" material="opacity: 0.92; metalness:0.7; roughness:0.6; color:red" geometry="primitive:dodecahedron;"></a-mixin><!--obj-model="obj: #aq1; mtl: #mt"></a-mixin>-->
 			<a-mixin id="fcs" obj-model="obj: #aq; mtl: #mt"></a-mixin>
 			<a-mixin id="fct" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.07; radiusBottom:0.25; height:8.7;"></a-mixin>
 			<a-mixin id="mtl1" mixin="fct" material="color: #736154;">
 			<a-asset-item id="mt" src="outros/c3s1.mtl"></a-asset-item>
-			<a-asset-item id="mt" src="outros/c1.mtl"></a-asset-item>
+			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/PentagrammicDipyramid.obj"></a-asset-item>
 			<a-asset-item id="aq1" src="outros/EneagrammicPyramid.obj"></a-asset-item>
 			<a-mixin id="anima1" animation='property: rotation; dur: 30000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 15000'></a-mixin>
