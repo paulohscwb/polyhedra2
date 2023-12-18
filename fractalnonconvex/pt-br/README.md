@@ -1347,6 +1347,22 @@ function urlHandler(value) {
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+<h4>31. Árvore geométrica de Natal v1</h4>
+<a href="../vr/FractalTreeA.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/242A.png" class="foto" alt="Árvore geométrica de Natal v1"></a><img src="../ar/242.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide pentagrâmica e uma hélice cônica com dodecaedros.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>32. Árvore geométrica de Natal v2</h4>
+<a href="../vr/FractalTreeB.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/243A.png" class="foto" alt="Árvore geométrica de Natal v2"></a><img src="../ar/243.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide pentagrâmica e uma hélice cônica com pequenos dodecaedros estrelados.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>33. Árvore geométrica de Natal v4</h4>
+<a href="../vr/FractalTreeC.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Árvore geométrica de Natal v3"></a><img src="../ar/244.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide heptagrâmica e uma hélice cônica com grandes dodecaedros stellapentakis.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Non convex polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 

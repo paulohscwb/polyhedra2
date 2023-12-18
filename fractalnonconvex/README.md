@@ -1346,6 +1346,22 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+ <h4>31. Geometric Christmas tree v1</h4>
+<a href="vr/FractalTreeA.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/242A.png" class="foto" alt="Geometric Christmas tree v1"></a><img src="ar/242.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a pentagrammic dipyramid and a conical helix with dodecahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>32. Geometric Christmas tree v1</h4>
+<a href="vr/FractalTreeB.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Geometric Christmas tree v2"></a><img src="ar/243.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a pentagrammic dipyramid and a conical helix with small stellated dodecahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>33. Geometric Christmas tree v3</h4>
+<a href="vr/FractalTreeC.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Geometric Christmas tree v3"></a><img src="ar/244.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a heptagrammic dipyramid and a conical helix with great stellapentakis dodecahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Non convex polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
