@@ -1,3 +1,45 @@
+function Conic1() {
+	var sceneEl = document.querySelector('a-scene')
+	var ent = document.getElementById("cena")
+	h = 8;
+	r = 4.2;
+	ang = 0;
+	mx = 75;
+	n = 4;
+	ac = 2*n*Math.PI / mx;
+	
+	for (i = 0; i <= mx; i++) {
+		var box = document.createElement("a-entity")
+		box.setAttribute("visible", `false`)
+		box.setAttribute("mixin", `fcb`)
+		box.setAttribute("class", `nivel2t`)
+		box.setAttribute("scale", `${rd} ${rd} ${rd}`)
+		cx = r * ang * Math.cos(ang)/(ac * mx);
+		cz = r * ang * Math.sin(ang)/(ac * mx);
+		cy = -h * (i / mx) + 7.5
+		cxP = r * (ang+ac) * Math.cos(ang+ac)/(ac * mx);
+		czP = r * (ang+ac) * Math.sin(ang+ac)/(ac * mx);
+		if (Math.abs(cxP - cx) > 0.25 || Math.abs(czP - cz) > 0.25) {
+			box.setAttribute("position", `${cx} ${cy} ${cz}`)
+		}
+		if (cxP >= 0 && czP >= 0) {
+			angz = Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
+			angx = Math.abs(Math.atan((czP - cz)/(cxP - cx))*180/Math.PI)
+		} else if (cxP > 0 && czP < 0) {
+			angz = -Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
+			angx = Math.atan((czP - cz)/(cxP - cx))*180/Math.PI
+		} else {
+			angz = Math.atan((cxP - cx)/(czP - cz))*180/Math.PI
+			angx = Math.atan((czP - cz)/Math.abs(cxP - cx))*180/Math.PI
+		}
+		box.setAttribute("rotation", `${angx} 0 ${angz}`)
+		ang += ac
+		rd *= 1.005;
+		ent.appendChild(box)
+	}
+}
+
+
 function abrir() {
   window.open(fl, '_self');
 }
