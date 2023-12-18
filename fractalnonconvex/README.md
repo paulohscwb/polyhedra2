@@ -1360,6 +1360,26 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalTreeC.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Geometric Christmas tree v3"></a><img src="ar/244.png" class="qr">
  <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a heptagrammic dipyramid and a conical helix with great stellapentakis dodecahedrons.
  <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>34. Geometric Christmas tree v4</h4>
+<a href="vr/FractalTreeD.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/241A.png" class="foto" alt="Geometric Christmas tree v4"></a><img src="ar/241.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, stellated pyramid frustums, a heptagrammic dipyramid and a conical helix with icosahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>35. Geometric Christmas tree v5</h4>
+<a href="vr/FractalTreeE.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/240A.png" class="foto" alt="Geometric Christmas tree v5"></a><img src="ar/240.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, stellated pyramid frustums, a heptagrammic dipyramid and a conical helix with icosidodecadodecahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>36. Geometric Christmas tree v6</h4>
+<a href="vr/FractalTreeF.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/239A.png" class="foto" alt="Geometric Christmas tree v6"></a><img src="ar/239.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, stellated pyramid frustums, a heptagrammic dipyramid and a conical helix with truncated great icosahedrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+ <h4>37. Geometric Christmas tree v7</h4>
+<a href="vr/FractalTreeG.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/238A.png" class="foto" alt="Geometric Christmas tree v7"></a><img src="ar/238.png" class="qr">
+ <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, stellated pyramid frustums, a pentagrammic dipyramid and a conical helix with small rhombidodecacrons.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

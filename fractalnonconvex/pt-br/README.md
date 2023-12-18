@@ -1361,6 +1361,26 @@ function urlHandler(value) {
 <a href="../vr/FractalTreeC.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Árvore geométrica de Natal v3"></a><img src="../ar/244.png" class="qr">
  <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide heptagrâmica e uma hélice cônica com grandes dodecaedros stellapentakis.
  <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>34. Árvore geométrica de Natal v4</h4>
+<a href="../vr/FractalTreeD.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/241A.png" class="foto" alt="Árvore geométrica de Natal v4"></a><img src="../ar/241.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide estrelada, uma dipirâmide heptagrâmica e uma hélice cônica com icosaedros.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>35. Árvore geométrica de Natal v5</h4>
+<a href="../vr/FractalTreeE.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/240A.png" class="foto" alt="Árvore geométrica de Natal v5"></a><img src="../ar/240.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide estrelada, uma dipirâmide heptagrâmica e uma hélice cônica com icosidodecadodecaedros.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>36. Árvore geométrica de Natal v6</h4>
+<a href="../vr/FractalTreeF.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/239A.png" class="foto" alt="Árvore geométrica de Natal v6"></a><img src="../ar/239.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide estrelada, uma dipirâmide heptagrâmica e uma hélice cônica com grandes icosaedros truncados.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>37. Árvore geométrica de Natal v7</h4>
+<a href="../vr/FractalTreeG.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/238A.png" class="foto" alt="Árvore geométrica de Natal v7"></a><img src="../ar/238.png" class="qr">
+ <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide estrelada, uma dipirâmide pentagrâmica e uma hélice cônica com pequenos rombidodecacrons.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
