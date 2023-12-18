@@ -1351,7 +1351,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a pentagrammic dipyramid and a conical helix with dodecahedrons.
  <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <h4>32. Geometric Christmas tree v1</h4>
+ <h4>32. Geometric Christmas tree v2</h4>
 <a href="vr/FractalTreeB.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Geometric Christmas tree v2"></a><img src="ar/243.png" class="qr">
  <br><br>Construction of a Christmas tree using the following solids: right circular cone frustum, pyramid frustums, a pentagrammic dipyramid and a conical helix with small stellated dodecahedrons.
  <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>

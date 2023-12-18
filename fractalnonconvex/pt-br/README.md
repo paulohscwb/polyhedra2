@@ -1357,7 +1357,7 @@ function urlHandler(value) {
  <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide pentagrâmica e uma hélice cônica com pequenos dodecaedros estrelados.
  <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>33. Árvore geométrica de Natal v4</h4>
+<h4>33. Árvore geométrica de Natal v3</h4>
 <a href="../vr/FractalTreeC.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Árvore geométrica de Natal v3"></a><img src="../ar/244.png" class="qr">
  <br><br>Construção de uma árvore de Natal usando os seguintes sólidos: tronco de cone circular reto, troncos de pirâmide, uma dipirâmide heptagrâmica e uma hélice cônica com grandes dodecaedros stellapentakis.
  <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
