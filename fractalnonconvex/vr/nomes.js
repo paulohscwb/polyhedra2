@@ -21,21 +21,21 @@ function Conic1() {
 		czP = r * (ang+ac) * Math.sin(ang+ac)/(ac * mx);
 		if (Math.abs(cxP - cx) > 0.23 || Math.abs(czP - cz) > 0.23) {
 			box.setAttribute("position", `${cx} ${cy} ${cz}`)
+			if (cxP >= 0 && czP >= 0) {
+				angz = Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
+				angx = Math.abs(Math.atan((czP - cz)/(cxP - cx))*180/Math.PI)
+			} else if (cxP > 0 && czP < 0) {
+				angz = -Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
+				angx = Math.atan((czP - cz)/(cxP - cx))*180/Math.PI
+			} else {
+				angz = Math.atan((cxP - cx)/(czP - cz))*180/Math.PI
+				angx = Math.atan((czP - cz)/Math.abs(cxP - cx))*180/Math.PI
+			}
+			box.setAttribute("rotation", `${angx} 0 ${angz}`)
+			ent.appendChild(box)
 		}
-		if (cxP >= 0 && czP >= 0) {
-			angz = Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
-			angx = Math.abs(Math.atan((czP - cz)/(cxP - cx))*180/Math.PI)
-		} else if (cxP > 0 && czP < 0) {
-			angz = -Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
-			angx = Math.atan((czP - cz)/(cxP - cx))*180/Math.PI
-		} else {
-			angz = Math.atan((cxP - cx)/(czP - cz))*180/Math.PI
-			angx = Math.atan((czP - cz)/Math.abs(cxP - cx))*180/Math.PI
-		}
-		box.setAttribute("rotation", `${angx} 0 ${angz}`)
-		ang += ac
+				ang += ac
 		rd *= 1.005;
-		ent.appendChild(box)
 	}
 }
 
