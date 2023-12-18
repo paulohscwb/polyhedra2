@@ -9,17 +9,22 @@ function Conic1() {
 	ac = 2*n*Math.PI / mx;
 	
 	for (i = 0; i <= mx; i++) {
-		var box = document.createElement("a-entity")
-		box.setAttribute("visible", `false`)
-		box.setAttribute("mixin", `fcb`)
-		box.setAttribute("class", `nivel2t`)
-		box.setAttribute("scale", `${rd} ${rd} ${rd}`)
 		cx = r * ang * Math.cos(ang)/(ac * mx);
 		cz = r * ang * Math.sin(ang)/(ac * mx);
 		cy = -h * (i / mx) + 7.5
+		cyP = -h * ((i + 1) / mx) + 7.5
 		cxP = r * (ang+ac) * Math.cos(ang+ac)/(ac * mx);
 		czP = r * (ang+ac) * Math.sin(ang+ac)/(ac * mx);
 		if (Math.abs(cxP - cx) > 0.23 || Math.abs(czP - cz) > 0.23) {
+			var box = document.createElement("a-entity")
+			var box1 = document.createElement("a-entity")
+			box1.setAttribute("line", `start: ${cx} ${cy} ${cz}; end: ${cxP} ${cyP} ${czP}; color: grey`)
+			box1.setAttribute("visible", `false`)
+			box1.setAttribute("class", `nivel2t`)
+			box.setAttribute("visible", `false`)
+			box.setAttribute("mixin", `fcb`)
+			box.setAttribute("class", `nivel2t`)
+			box.setAttribute("scale", `${rd} ${rd} ${rd}`)
 			box.setAttribute("position", `${cx} ${cy} ${cz}`)
 			if (cxP >= 0 && czP >= 0) {
 				angz = Math.abs(Math.atan((cxP - cx)/(czP - cz))*180/Math.PI)
@@ -33,8 +38,11 @@ function Conic1() {
 			}
 			box.setAttribute("rotation", `${angx} 0 ${angz}`)
 			ent.appendChild(box)
+			if (i < mx) {
+				ent.appendChild(box1)
+			}
 		}
-				ang += ac
+		ang += ac
 		rd *= 1.005;
 	}
 }
