@@ -279,6 +279,16 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalTree1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Fractal tree with dodecahedrons"></a><img src="ar/79.png" class="qr">
  <br><br>Applying the principle of repetitions with cone frustum, we obtain a fractal tree. In this example, we added dodecahedrons as the "fruits" or "flowers" of the tree. In the first order of construction the fractal, we build three new cone frustums connected with a face of the original cone frustum. In this example, we have solid representations in orders from 0 to 7.
  <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>9. Menger's Cross - Jerusalem: fractal cube v1</h4>
+<a href="vr/FractalCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/236A.png" class="foto" alt="Fractal Cube"></a><img src="ar/236.png" class="qr">
+ <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &#8534; and 12 homothetic cubes with a proportion of &#8533;.
+<a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
+  <hr>
+<h4>10. Menger's Cross - Jerusalem: fractal cube v2</h4>
+<a href="vr/FractalCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/237A.png" class="foto" alt="Fractal Cube"></a><img src="ar/237.png" class="qr">
+ <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &Sqrt;2 - 1 and 12 homothetic cubes with a proportion of (&Sqrt;2 - 1)&#xb2;.
+ <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
