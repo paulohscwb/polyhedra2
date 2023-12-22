@@ -14,18 +14,16 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="fc" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:12;"></a-mixin>
-			<a-mixin id="fc1" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="fc1" scale="0.8 0.8 0.8" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/GreatIcosahedron.obj"></a-asset-item>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #387146;"></a-mixin>
-			<a-mixin id="mtl4" material="color: #04b494;"></a-mixin>
-			<a-mixin id="mtl5" material="color: #04aadd;"></a-mixin>
-			<a-mixin id="es" scale="1.2 1.2 1.2"></a-mixin>
+			<a-mixin id="es" scale="0.75 0.75 0.75"></a-mixin>
 			<a-mixin id="p1" mixin="es" rotation="0 0 -35" position="0.344 1.22 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="35 -30 0" position="-0.172 1.22 0.294"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-35 30 0" position="-0.172 1.22 -0.294"></a-mixin>
-			<a-mixin id="p4" mixin="es" position="0.07 -0.13 0.58"></a-mixin>
+			<a-mixin id="p4" position="0.07 -0.13 0.58"></a-mixin>
 			<!-- <a-mixin id="p1" mixin="es" rotation="0 0 -45" position="0.4 1.15 0"></a-mixin>
 			<a-mixin id="p2" mixin="es" rotation="45 -30 0" position="-0.2 1.15 0.35"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-45 30 0" position="-0.2 1.15 -0.35"></a-mixin>
