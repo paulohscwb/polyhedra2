@@ -14,7 +14,7 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="fc" material="opacity: 0.97; metalness:0.4; roughness:0.6;" geometry="radiusTop:0.12; radiusBottom:0.15; height:1.5; segments-height:1; segments-radial:12;"></a-mixin>
-			<a-mixin id="fc1" scale="0.8 0.8 0.8" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="fc1" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/GreatIcosahedron.obj"></a-asset-item>
 			<a-mixin id="mtl1" mixin="fc" material="color: #736154;"></a-mixin>
@@ -12063,7 +12063,7 @@
 
 		</a-entity>
 		
-		<a-entity camera="fov:1; near:1; zoom:1" mixin="anima4" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
+		<a-entity camera="fov:1; near:1; zoom:1" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 	  
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
