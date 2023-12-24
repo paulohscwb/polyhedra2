@@ -15,6 +15,8 @@
 			<a-mixin id="fc" scale="1 1 1" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/UniformGreatRhombicuboctahedron.obj"></a-asset-item>
+			<a-mixin id="ar" scale="1 1 1" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-asset-item id="aq1" src="outros/UniformGreatRhombicuboctahedronL.obj"></a-asset-item>
 			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2;"></a-mixin>
 			<a-mixin id="mtl3" mixin="fc" material="color: #e33;"></a-mixin>
@@ -50,30 +52,51 @@
 		
 		<a-entity rotation="0 0 0" scale="1.2 1.2 1.2"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="6 6 6" id="nivel0">
-				<a-entity mixin="fc mtl1"></a-entity>
+				<a-entity mixin="fc"></a-entity>
+				<a-entity mixin="ar"></a-entity>
 			</a-entity>
 			
 			<a-entity scale="2 2 2" id="nivel1" visible="false">
 				<a-entity mixin="fc p1d"></a-entity>
+				<a-entity mixin="ar p1d"></a-entity>
 				<a-entity mixin="fc p2d"></a-entity>
+				<a-entity mixin="ar p2d"></a-entity>
 				<a-entity mixin="fc p3d"></a-entity>
+				<a-entity mixin="ar p3d"></a-entity>
 				<a-entity mixin="fc p4d"></a-entity>
+				<a-entity mixin="ar p4d"></a-entity>
 				<a-entity mixin="fc p5d"></a-entity>
+				<a-entity mixin="ar p5d"></a-entity>
 				<a-entity mixin="fc p6d"></a-entity>
+				<a-entity mixin="ar p6d"></a-entity>
 				<a-entity mixin="fc p7d"></a-entity>
+				<a-entity mixin="ar p7"></a-entity>
 				<a-entity mixin="fc p8d"></a-entity>
+				<a-entity mixin="ar p8d"></a-entity>
 				<a-entity mixin="fc p9d"></a-entity>
+				<a-entity mixin="ar p9d"></a-entity>
 				<a-entity mixin="fc p10d"></a-entity>
+				<a-entity mixin="ar p10d"></a-entity>
 				<a-entity mixin="fc p11d"></a-entity>
+				<a-entity mixin="ar p11d"></a-entity>
 				<a-entity mixin="fc p12d"></a-entity>
+				<a-entity mixin="ar p12d"></a-entity>
 				<a-entity mixin="fc p13d"></a-entity>
+				<a-entity mixin="ar p13d"></a-entity>
 				<a-entity mixin="fc p14d"></a-entity>
+				<a-entity mixin="ar p14d"></a-entity>
 				<a-entity mixin="fc p15d"></a-entity>
+				<a-entity mixin="ar p15d"></a-entity>
 				<a-entity mixin="fc p16d"></a-entity>
+				<a-entity mixin="ar p16d"></a-entity>
 				<a-entity mixin="fc p17d"></a-entity>
+				<a-entity mixin="ar p17d"></a-entity>
 				<a-entity mixin="fc p18d"></a-entity>
+				<a-entity mixin="ar p18d"></a-entity>
 				<a-entity mixin="fc p19d"></a-entity>
+				<a-entity mixin="ar p19d"></a-entity>
 				<a-entity mixin="fc p20d"></a-entity>
+				<a-entity mixin="ar p20d"></a-entity>
 			</a-entity>
 			<a-entity scale="0.666 0.666 0.666" id="nivel2" visible="false">
 				<a-entity position="-3 3 0">
