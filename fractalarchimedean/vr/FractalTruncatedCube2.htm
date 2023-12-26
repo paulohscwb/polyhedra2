@@ -23,14 +23,14 @@
 			<a-mixin id="mtl5" mixin="fc" material="color: #0468b4;"></a-mixin>
 			<a-mixin id="mtl4" mixin="fc" material="color: #04b494;"></a-mixin>
 			<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-			<a-mixin id="p1c" scale="0.5 0.5 0.5" position="-1 1 0"></a-mixin>
-			<a-mixin id="p2c" scale="0.5 0.5 0.5" position="1 1 0"></a-mixin>
-			<a-mixin id="p3c" scale="0.5 0.5 0.5" position="1 -1 0"></a-mixin>
-			<a-mixin id="p4c" scale="0.5 0.5 0.5" position="-1 -1 0"></a-mixin>
-			<a-mixin id="p5c" scale="0.5 0.5 0.5" position="0 1 1"></a-mixin>
-			<a-mixin id="p6c" scale="0.5 0.5 0.5" position="0 1 -1"></a-mixin>
-			<a-mixin id="p7c" scale="0.5 0.5 0.5" position="0 -1 1"></a-mixin>
-			<a-mixin id="p8c" scale="0.5 0.5 0.5" position="0 -1 -1"></a-mixin>
+			<a-mixin id="p1c" scale="0.2075 0.2075 0.2075" position="-1 1 0"></a-mixin>
+			<a-mixin id="p2c" scale="0.2075 0.2075 0.2075" position="1 1 0"></a-mixin>
+			<a-mixin id="p3c" scale="0.2075 0.2075 0.2075" position="1 -1 0"></a-mixin>
+			<a-mixin id="p4c" scale="0.2075 0.2075 0.2075" position="-1 -1 0"></a-mixin>
+			<a-mixin id="p5c" scale="0.2075 0.2075 0.2075" position="0 1 1"></a-mixin>
+			<a-mixin id="p6c" scale="0.2075 0.2075 0.2075" position="0 1 -1"></a-mixin>
+			<a-mixin id="p7c" scale="0.2075 0.2075 0.2075" position="0 -1 1"></a-mixin>
+			<a-mixin id="p8c" scale="0.2075 0.2075 0.2075" position="0 -1 -1"></a-mixin>
 			<a-mixin id="p9c" position="0.75 0.75 0.75"></a-mixin>
 			<a-mixin id="p10c" position="0.75 0.75 -0.75"></a-mixin>
 			<a-mixin id="p11c" position="0.75 -0.75 0.75"></a-mixin>
@@ -39,14 +39,16 @@
 			<a-mixin id="p14c" position="-0.75 0.75 -0.75"></a-mixin>
 			<a-mixin id="p15c" position="-0.75 -0.75 0.75"></a-mixin>
 			<a-mixin id="p16c" position="-0.75 -0.75 -0.75"></a-mixin>
-			<a-mixin id="p17c" scale="0.5 0.5 0.5" position="1 0 1"></a-mixin>
-			<a-mixin id="p18c" scale="0.5 0.5 0.5" position="1 0 -1"></a-mixin>
-			<a-mixin id="p19c" scale="0.5 0.5 0.5" position="-1 0 1"></a-mixin>
-			<a-mixin id="p20c" scale="0.5 0.5 0.5" position="-1 0 -1"></a-mixin>
+			<a-mixin id="p17c" scale="0.2075 0.2075 0.2075" position="1 0 1"></a-mixin>
+			<a-mixin id="p18c" scale="0.2075 0.2075 0.2075" position="1 0 -1"></a-mixin>
+			<a-mixin id="p19c" scale="0.2075 0.2075 0.2075" position="-1 0 1"></a-mixin>
+			<a-mixin id="p20c" scale="0.2075 0.2075 0.2075" position="-1 0 -1"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 10000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 0 0 0; to: 180 -120 120; dir: alternate; easing: linear; delay: 24000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 270 120 290; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
+		
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 		
 		<a-entity rotation="0 0 0" scale="1.2 1.2 1.2"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="6 6 6" id="nivel0">
@@ -97,7 +99,7 @@
 				<a-entity mixin="ar p20c"></a-entity>
 			</a-entity>
 			<a-entity scale="0.96 0.96 0.96" id="nivel2" visible="false">
-				<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -123,7 +125,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -149,7 +151,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -175,7 +177,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -201,7 +203,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -227,7 +229,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -253,7 +255,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -279,7 +281,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -513,7 +515,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -539,7 +541,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -565,7 +567,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -591,7 +593,7 @@
 					<a-entity mixin="mtl3 p19c"></a-entity>
 					<a-entity mixin="mtl3 p20c"></a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 					<a-entity mixin="mtl3 p1c"></a-entity>
 					<a-entity mixin="mtl3 p2c"></a-entity>
 					<a-entity mixin="mtl3 p3c"></a-entity>
@@ -619,8 +621,8 @@
 				</a-entity>
 			</a-entity>
 			<a-entity scale="0.384 0.384 0.384" id="nivel3" visible="false">
-				<a-entity scale="0.5 0.5 0.5" position="-6.25 6.25 0">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-6.25 6.25 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -648,7 +650,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -676,7 +678,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -704,7 +706,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -732,7 +734,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -760,7 +762,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -788,7 +790,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -816,7 +818,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1068,7 +1070,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1096,7 +1098,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1124,7 +1126,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1152,7 +1154,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1181,8 +1183,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="6.25 6.25 0">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="6.25 6.25 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1210,7 +1212,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1238,7 +1240,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1266,7 +1268,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1294,7 +1296,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1322,7 +1324,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1350,7 +1352,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1378,7 +1380,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1630,7 +1632,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1658,7 +1660,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1686,7 +1688,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1714,7 +1716,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1743,8 +1745,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="6.25 -6.25 0">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="6.25 -6.25 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1772,7 +1774,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1800,7 +1802,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1828,7 +1830,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1856,7 +1858,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1884,7 +1886,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1912,7 +1914,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -1940,7 +1942,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2192,7 +2194,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2220,7 +2222,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2248,7 +2250,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2276,7 +2278,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2305,8 +2307,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-6.25 -6.25 0">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-6.25 -6.25 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2334,7 +2336,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2362,7 +2364,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2390,7 +2392,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2418,7 +2420,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2446,7 +2448,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2474,7 +2476,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2502,7 +2504,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2754,7 +2756,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2782,7 +2784,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2810,7 +2812,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2838,7 +2840,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2867,8 +2869,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 6.25 6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 6.25 6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2896,7 +2898,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2924,7 +2926,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2952,7 +2954,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -2980,7 +2982,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3008,7 +3010,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3036,7 +3038,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3064,7 +3066,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3316,7 +3318,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3344,7 +3346,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3372,7 +3374,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3400,7 +3402,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3429,8 +3431,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 6.25 -6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 6.25 -6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3458,7 +3460,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3486,7 +3488,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3514,7 +3516,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3542,7 +3544,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3570,7 +3572,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3598,7 +3600,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3626,7 +3628,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3878,7 +3880,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3906,7 +3908,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3934,7 +3936,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3962,7 +3964,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -3991,8 +3993,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 -6.25 6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 -6.25 6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4020,7 +4022,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4048,7 +4050,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4076,7 +4078,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4104,7 +4106,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4132,7 +4134,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4160,7 +4162,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4188,7 +4190,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4440,7 +4442,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4468,7 +4470,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4496,7 +4498,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4524,7 +4526,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4553,8 +4555,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="0 -6.25 -6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="0 -6.25 -6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4582,7 +4584,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4610,7 +4612,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4638,7 +4640,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4666,7 +4668,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4694,7 +4696,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4722,7 +4724,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -4750,7 +4752,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5002,7 +5004,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5030,7 +5032,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5058,7 +5060,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5086,7 +5088,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5116,7 +5118,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="4.6875 4.6875 4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5144,7 +5146,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5172,7 +5174,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5200,7 +5202,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5228,7 +5230,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5256,7 +5258,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5284,7 +5286,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5312,7 +5314,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5564,7 +5566,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5592,7 +5594,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5620,7 +5622,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5648,7 +5650,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5678,7 +5680,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="4.6875 4.6875 -4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5706,7 +5708,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5734,7 +5736,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5762,7 +5764,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5790,7 +5792,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5818,7 +5820,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5846,7 +5848,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -5874,7 +5876,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6126,7 +6128,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6154,7 +6156,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6182,7 +6184,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6210,7 +6212,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6240,7 +6242,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="4.6875 -4.6875 4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6268,7 +6270,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6296,7 +6298,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6324,7 +6326,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6352,7 +6354,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6380,7 +6382,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6408,7 +6410,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6436,7 +6438,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6688,7 +6690,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6716,7 +6718,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6744,7 +6746,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6772,7 +6774,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6802,7 +6804,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="4.6875 -4.6875 -4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6830,7 +6832,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6858,7 +6860,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6886,7 +6888,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6914,7 +6916,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6942,7 +6944,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6970,7 +6972,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -6998,7 +7000,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7250,7 +7252,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7278,7 +7280,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7306,7 +7308,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7334,7 +7336,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7364,7 +7366,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="-4.6875 4.6875 4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7392,7 +7394,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7420,7 +7422,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7448,7 +7450,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7476,7 +7478,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7504,7 +7506,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7532,7 +7534,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7560,7 +7562,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7812,7 +7814,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7840,7 +7842,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7868,7 +7870,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7896,7 +7898,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7926,7 +7928,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="-4.6875 4.6875 -4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7954,7 +7956,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -7982,7 +7984,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8010,7 +8012,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8038,7 +8040,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8066,7 +8068,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8094,7 +8096,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8122,7 +8124,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8374,7 +8376,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8402,7 +8404,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8430,7 +8432,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8458,7 +8460,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8488,7 +8490,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="-4.6875 -4.6875 4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8516,7 +8518,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8544,7 +8546,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8572,7 +8574,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8600,7 +8602,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8628,7 +8630,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8656,7 +8658,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8684,7 +8686,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8936,7 +8938,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8964,7 +8966,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -8992,7 +8994,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9020,7 +9022,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9050,7 +9052,7 @@
 					</a-entity>
 				</a-entity>
 				<a-entity position="-4.6875 -4.6875 -4.6875">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9078,7 +9080,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9106,7 +9108,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9134,7 +9136,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9162,7 +9164,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9190,7 +9192,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9218,7 +9220,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9246,7 +9248,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9498,7 +9500,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9526,7 +9528,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9554,7 +9556,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9582,7 +9584,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9611,8 +9613,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="6.25 0 6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="6.25 0 6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9640,7 +9642,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9668,7 +9670,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9696,7 +9698,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9724,7 +9726,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9752,7 +9754,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9780,7 +9782,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -9808,7 +9810,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10060,7 +10062,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10088,7 +10090,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10116,7 +10118,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10144,7 +10146,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10173,8 +10175,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="6.25 0 -6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="6.25 0 -6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10202,7 +10204,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10230,7 +10232,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10258,7 +10260,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10286,7 +10288,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10314,7 +10316,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10342,7 +10344,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10370,7 +10372,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10622,7 +10624,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10650,7 +10652,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10678,7 +10680,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10706,7 +10708,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10735,8 +10737,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-6.25 0 6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-6.25 0 6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10764,7 +10766,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10792,7 +10794,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10820,7 +10822,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10848,7 +10850,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10876,7 +10878,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10904,7 +10906,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -10932,7 +10934,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11184,7 +11186,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11212,7 +11214,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11240,7 +11242,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11268,7 +11270,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11297,8 +11299,8 @@
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity scale="0.5 0.5 0.5" position="-6.25 0 -6.25">
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 2.5 0">
+				<a-entity scale="0.2075 0.2075 0.2075" position="-6.25 0 -6.25">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11326,7 +11328,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11354,7 +11356,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11382,7 +11384,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 -2.5 0">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 -2.5 0">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11410,7 +11412,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11438,7 +11440,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11466,7 +11468,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11494,7 +11496,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="0 -2.5 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="0 -2.5 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11746,7 +11748,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11774,7 +11776,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11802,7 +11804,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>
 	
 						<a-entity mixin="mtl4 p2c"></a-entity>
@@ -11830,7 +11832,7 @@
 						<a-entity mixin="mtl4 p19c"></a-entity>
 						<a-entity mixin="mtl4 p20c"></a-entity>
 					</a-entity>
-					<a-entity scale="0.5 0.5 0.5" position="-2.5 0 -2.5">
+					<a-entity scale="0.2075 0.2075 0.2075" position="-2.5 0 -2.5">
 						<a-entity mixin="mtl4 p1c"></a-entity>	
 						<a-entity mixin="mtl4 p2c"></a-entity>
 	
