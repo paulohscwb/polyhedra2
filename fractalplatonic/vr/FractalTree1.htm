@@ -32,6 +32,9 @@
 			<a-mixin id="p2" mixin="es" rotation="45 -4.14 30" position="-0.3 1.068 0.325"></a-mixin>
 			<a-mixin id="p3" mixin="es" rotation="-47.7 -8.38 29.89" position="-0.23 1.08 -0.41"></a-mixin>--> 
 		</a-assets>
+		
+		<a-entity camera="fov:1; near:1; zoom:1" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
+		
 		<a-entity rotation="0 -45 0" position="0 -3.7 0"><!-- mixin="anima1 anima2">-->
 			<a-entity scale="2.1 2.1 2.1" class="nivel0t">
 				<a-cone mixin="mtl1"></a-cone>
@@ -12062,9 +12065,7 @@
 			</a-entity>
 
 		</a-entity>
-		
-		<a-entity camera="fov:1; near:1; zoom:1" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
-	  
+			  
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="7 -5 1"></a-light>

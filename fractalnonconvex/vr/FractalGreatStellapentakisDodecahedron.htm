@@ -47,6 +47,8 @@
 			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: 0 30 0; to: 90 90 135; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>-->
 		</a-assets>
 		
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
+		
 		<a-entity rotation="0 30 0" scale="2.3 2.3 2.3"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="0.9999	0.9999 0.9999" id="nivel0">
 				<a-entity mixin="fc"></a-entity>
@@ -1097,9 +1099,7 @@
 				</a-entity>
 			</a-entity>
 		</a-entity>
-		
-		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
-	  
+			  
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="7 -5 1"></a-light>
