@@ -12,11 +12,11 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; ">
 		<a-assets>
-			<a-mixin id="fc" scale="0.44 0.44 0.44" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
-			<a-asset-item id="mt1" src="outros/c2.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="outros/SnubCube.obj"></a-asset-item>
-			<a-mixin id="ar" scale="0.44 0.44 0.44" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
-			<a-asset-item id="aq1" src="outros/SnubCubeL.obj"></a-asset-item>
+			<a-mixin id="fc" scale="1 1 1" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
+			<a-asset-item id="aq" src="outros/StellaOctangula.obj"></a-asset-item>
+			<a-mixin id="ar" scale="1 1 1" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+			<a-asset-item id="aq1" src="outros/StellaOctangulaL.obj"></a-asset-item>
 			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2;"></a-mixin>
 			<a-mixin id="mtl3" mixin="fc" material="color: #e33;"></a-mixin>
@@ -11862,7 +11862,7 @@
 				</a-entity>
 			</a-entity>
 		</a-entity>
-	  
+		
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="7 -5 1"></a-light>
