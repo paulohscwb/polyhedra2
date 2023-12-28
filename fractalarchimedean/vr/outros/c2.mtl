@@ -28,7 +28,7 @@ Pm/map_Pm 0.4
 d 0.88
 
 newmtl Cor2
-Kd 0.2 0.7 0.2
+Kd 0.4 0.9 0.7
 Ks 0.3 0.3 0.3 
 Ni 1
 illum 4
