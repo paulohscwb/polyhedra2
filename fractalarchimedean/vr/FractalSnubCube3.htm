@@ -12,10 +12,10 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; ">
 		<a-assets>
-			<a-mixin id="fc" scale="0.415 0.415 0.415" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="fc" scale="0.44 0.44 0.44" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/SnubCube.obj"></a-asset-item>
-			<a-mixin id="ar" scale="0.415 0.415 0.415" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+			<a-mixin id="ar" scale="0.44 0.44 0.44" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-asset-item id="aq1" src="outros/SnubCubeL.obj"></a-asset-item>
 			<a-mixin id="mtl1" material="color: #5cb404;">
 			<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
@@ -47,7 +47,7 @@
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 		
 		<a-entity rotation="0 0 0" scale="1.2 1.2 1.2"><!-- mixin="anima1 anima2 anima3">-->
-			<a-entity scale="6 6 6" id="nivel0">
+			<a-entity scale="6.335 6.335 6.335" id="nivel0">
 				<a-entity mixin="fc"></a-entity>
 				<a-entity mixin="ar"></a-entity>
 			</a-entity>
