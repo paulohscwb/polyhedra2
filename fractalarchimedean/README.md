@@ -652,7 +652,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <br><br>Consider a fractal truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>17. Mosely snowflake: Truncated cube</h4>
+<h4>21. Mosely snowflake: Truncated cube</h4>
 <a href="vr/FractalTruncatedCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Mosely snowflake - Truncated Cube"></a><img src="ar/51.png" class="qr">
  <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner truncated cubes and the center truncated cube in each iteration. 
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
