@@ -274,22 +274,28 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalTree.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/77A.png" class="foto" alt="Fractal tree"></a><img src="ar/77.png" class="qr">
  <br><br>Applying the principle of repetitions with cone frustum, we obtain a fractal tree. In the first order of construction the fractal, we build three new cone frustums connected with a face of the original cone frustum. In this example, we have solid representations in orders from 0 to 7.
  <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
 <h4>8. Fractal tree with dodecahedrons</h4>
 <a href="vr/FractalTree1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Fractal tree with dodecahedrons"></a><img src="ar/79.png" class="qr">
  <br><br>Applying the principle of repetitions with cone frustum, we obtain a fractal tree. In this example, we added dodecahedrons as the "fruits" or "flowers" of the tree. In the first order of construction the fractal, we build three new cone frustums connected with a face of the original cone frustum. In this example, we have solid representations in orders from 0 to 7.
  <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>9. Menger's Cross - Jerusalem: fractal cube v1</h4>
-<a href="vr/FractalCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/236A.png" class="foto" alt="Fractal Cube"></a><img src="ar/236.png" class="qr">
+<h4>9. Menger's Cross - Jerusalem: Cube v1</h4>
+<a href="vr/FractalCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/236A.png" class="foto" alt="Fractal Cube - Menger's cross Jerusalem"></a><img src="ar/236.png" class="qr">
  <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &#8534; and 12 homothetic cubes with a proportion of &#8533;.
 <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
-  <hr>
-<h4>10. Menger's Cross - Jerusalem: fractal cube v2</h4>
-<a href="vr/FractalCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/237A.png" class="foto" alt="Fractal Cube"></a><img src="ar/237.png" class="qr">
+<hr>
+<h4>10. Menger's Cross - Jerusalem: Cube v2</h4>
+<a href="vr/FractalCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/237A.png" class="foto" alt="Fractal Cube - Menger's cross Jerusalem"></a><img src="ar/237.png" class="qr">
  <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
+<h4>11. Mosely snowflake: Cube</h4>
+<a href="vr/FractalCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/238A.png" class="foto" alt="Mosely snowflake - Cube"></a><img src="ar/238.png" class="qr">
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cubes and the center cube from each previous iteration. 
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Platonic polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalplatonic/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.

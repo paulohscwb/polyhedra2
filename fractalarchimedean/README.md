@@ -341,6 +341,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
  <h4>8. Truncated cube fractal</h4>
 <a href="vr/FractalTruncatedCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/37A.png" class="foto" alt="Truncated cube fractal"></a><img src="ar/37.png" class="qr">
@@ -614,8 +615,51 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
  </table>
  <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>14. Menger sponge: Snub cube</h4>
+<a href="vr/FractalSnubCube1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/44A.png" class="foto" alt="Menger sponge - Snub cube"></a><img src="ar/44.png" class="qr">
+ <br><br>Applying the construction principle of the Sierpinski carpet to the 6 square faces of the snub cube, we obtain a fractal snub cube. In the first order of construction of the fractal, we construct 8 new solids on each square face of the original polyhedron, all with ⅓ the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>15. Menger's Cross - Jerusalem: Snub cube v1</h4>
+<a href="vr/FractalSnubCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/45A.png" class="foto" alt="Snub Cube - Menger's cross Jerusalem"></a><img src="ar/45.png" class="qr">
+ <br><br>Consider a fractal snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8534; and 12 homothetic snub cubes with a proportion of &#8533;.
+<a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>16. Menger's Cross - Jerusalem: Snub cube v2</h4>
+<a href="vr/FractalSnubCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/46A.png" class="foto" alt="Snub Cube - Menger's cross Jerusalem"></a><img src="ar/46.png" class="qr">
+ <br><br>Consider a fractal snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic snub cubes with a proportion of (&#8730;2 - 1)&#xb2;.
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>17. Mosely snowflake: Snub cube</h4>
+<a href="vr/FractalSnubCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/47A.png" class="foto" alt="Mosely snowflake - Snub Cube"></a><img src="ar/47.png" class="qr">
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner snub cubes and the center snub cube in each iteration. 
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>18. Menger sponge: Truncated cube</h4>
+<a href="vr/FractalTruncatedCube1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/48A.png" class="foto" alt="Menger sponge - Truncated cube"></a><img src="ar/48.png" class="qr">
+ <br><br>Applying the construction principle of the Sierpinski carpet to the 6 octagonal faces of the truncated cube, we obtain a fractal truncated cube. In the first order of construction of the fractal, we construct 8 new solids on each square face of the original polyhedron, all with ⅓ the measurement of the cube's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>19. Menger's Cross - Jerusalem: Truncated cube v1</h4>
+<a href="vr/FractalTruncatedCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Truncated Cube - Menger's cross Jerusalem"></a><img src="ar/49.png" class="qr">
+ <br><br>Consider a fractal truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8534; and 12 homothetic truncated cubes with a proportion of &#8533;.
+<a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>20. Menger's Cross - Jerusalem: Truncated cube v2</h4>
+<a href="vr/FractalTruncatedCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/50A.png" class="foto" alt="Truncated Cube - Menger's cross Jerusalem"></a><img src="ar/50.png" class="qr">
+ <br><br>Consider a fractal truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cubes with a proportion of (&#8730;2 - 1)&#xb2;.
+ <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>17. Mosely snowflake: Truncated cube</h4>
+<a href="vr/FractalTruncatedCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Mosely snowflake - Truncated Cube"></a><img src="ar/51.png" class="qr">
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner truncated cubes and the center truncated cube in each iteration. 
+ <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+
+O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos dos cantos e o cubo central da iteração anterior. Neste exemplo, temos o floco de neve Mosely feito com um cubo snub.
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalarchimedean/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 

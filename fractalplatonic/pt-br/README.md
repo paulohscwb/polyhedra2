@@ -275,20 +275,26 @@ function urlHandler(value) {
  <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
  <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <h4>8. Árvore fractal com dodecaedros</h4>
 <a href="../vr/FractalTree1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/79A.png" class="foto" alt="Árvore fractal com dodecaedros"></a><img src="../ar/79.png" class="qr">
  <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Neste exemplo, adicionamos dodecaedros como "frutos" ou "flores" da árvore. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
  <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>9. Cruz de Menger - Jerusalém: cubo fractal v1</h4>
+<h4>9. Cruz de Menger - Jerusalém: Cubo v1</h4>
 <a href="../vr/FractalCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/236A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/236.png" class="qr">
  <br><br>Considere um cubo fractal. Podemos aumentar os tamanhos das arestas dos cubos dos cantos e diminuir os tamanhos das arestas dos cubos intermediários para revelar uma cruz. Nesta versão, temos 8 cubos homotéticos com proporção de &#8534; e 12 cubos homotéticos com proporção de &#8533;.
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
-<h4>10. Cruz de Menger - Jerusalém: cubo fractal v2</h4>
+<h4>10. Cruz de Menger - Jerusalém: Cubo v2</h4>
 <a href="../vr/FractalCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/237A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/237.png" class="qr">
  <br><br>Considere um cubo fractal. Podemos aumentar os tamanhos das arestas dos cubos dos cantos e diminuir os tamanhos das arestas dos cubos intermediários para revelar uma cruz. Nesta versão, temos 8 cubos homotéticos com proporção de &#8730;2 - 1 e 12 cubos homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>11. Floco de neve Mosely: Cubo</h4>
+<a href="../vr/FractalCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/238A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/238.png" class="qr">
+ <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos dos cantos e o cubo central de cada iteração anterior.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

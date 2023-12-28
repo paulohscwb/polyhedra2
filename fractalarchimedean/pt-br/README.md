@@ -341,6 +341,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>8. Fractal do cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
@@ -607,6 +608,47 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>14. Esponja Menger: Cubo snub</h4>
+<a href="../vr/FractalSnubCube1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Esponja Menger - Cubo snub"></a><img src="../ar/44.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces quadradas do cubo snub, obtemos um cubo snub fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face quadrada do poliedro original, todas com ⅓ da medida da aresta do cubo snub. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
+<h4>15. Cruz de Menger - Jerusalém: Cubo snub v1</h4>
+<a href="../vr/FractalSnubCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/45.png" class="qr">
+ <br><br>Considere um cubo snub fractal. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8534; e 12 cubos snub homotéticos com proporção de &#8533;.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>16. Cruz de Menger - Jerusalém: Cubo snub v2</h4>
+<a href="../vr/FractalSnubCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/46.png" class="qr">
+ <br><br>Considere um cubo snub fractal. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8730;2 - 1 e 12 cubos snub homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>17. Floco de neve Mosely: Cubo snub</h4>
+<a href="../vr/FractalSnubCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/47A.png" class="foto" alt="Floco de neve Mosely: Cubo snub"></a><img src="../ar/47.png" class="qr">
+ <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos snub dos cantos e o cubo snub central em cada iteração.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>18. Esponja Menger: Cubo truncado</h4>
+<a href="../vr/FractalTruncatedCube1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/48A.png" class="foto" alt="Esponja Menger - Cubo truncado"></a><img src="../ar/48.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces octogonais do cubo truncado, obtemos um cubo truncado fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face octogonal do poliedro original, todas com ⅓ da medida da aresta do cubo truncado. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>19. Cruz de Menger - Jerusalém: Cubo truncado v1</h4>
+<a href="../vr/FractalTruncatedCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/49.png" class="qr">
+ <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8534; e 12 cubos truncados homotéticos com proporção de &#8533;.
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>20. Cruz de Menger - Jerusalém: Cubo truncado v2</h4>
+<a href="../vr/FractalTruncatedCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/50.png" class="qr">
+ <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8730;2 - 1 e 12 cubos truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>21. Floco de neve Mosely: Cubo truncado</h4>
+<a href="../vr/FractalTruncatedCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Floco de neve Mosely: Cubo truncado"></a><img src="../ar/51.png" class="qr">
+ <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos truncados dos cantos e o cubo truncado central em cada iteração.
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
