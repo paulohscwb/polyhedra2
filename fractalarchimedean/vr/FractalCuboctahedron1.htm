@@ -12,10 +12,10 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; ">
 		<a-assets>
-			<a-mixin id="fc" scale="0.415 0.415 0.415" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="fc" scale="0.707 0.707 0.707" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
-			<a-mixin id="ar" scale="0.415 0.415 0.415" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+			<a-mixin id="ar" scale="0.707 0.707 0.707" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-asset-item id="aq1" src="outros/CuboctahedronL.obj"></a-asset-item>
 			<a-mixin id="mtl1" material="color: #5cb404;">
 			<a-mixin id="fcp" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
@@ -11866,8 +11866,8 @@
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Menger sponge: Rhombicuboctahedron</span>
-		<br><span class="titulo">Esponja Menger: Rombicuboctaedro</span>
+		<span class="titulo">Menger sponge: Cuboctahedron</span>
+		<br><span class="titulo">Esponja Menger: Cuboctaedro</span>
 		<hr><input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp;&nbsp;<label for="rangevalue">order: </label><output id="rangevalue">0</output>
 		<br><input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivel()">
 	</div>
