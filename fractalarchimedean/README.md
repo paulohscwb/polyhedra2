@@ -694,8 +694,29 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
 <h4>29. Mosely snowflake: Cuboctahedron</h4>
 <a href="vr/FractalCuboctahedron4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Mosely snowflake - Cuboctahedron"></a><img src="ar/59.png" class="qr">
- <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cuboctahedrons and the center rhombicuboctahedron in each iteration. 
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cuboctahedrons and the center cuboctahedron in each iteration. 
  <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>30. Menger sponge: Truncated cuboctahedron</h4>
+<a href="vr/FractalTruncatedCuboctahedron1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Menger sponge - Truncated cuboctahedron"></a><img src="ar/60.png" class="qr">
+ <br><br>Applying the construction principle of the Sierpinski carpet to 6 octagonal faces of the truncated cuboctahedron, we obtain a fractal truncated cuboctahedron. In the first order of construction of the fractal, we construct 8 new solids on octagonal faces of the original polyhedron, all with ⅓ the measurement of the truncated cuboctahedron's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra8.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>31. Menger's Cross - Jerusalem: Truncated cuboctahedron v1</h4>
+<a href="vr/FractalTruncatedCuboctahedron2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Truncated cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/61.png" class="qr">
+ <br><br>Consider a fractal truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic truncated cuboctahedrons with a proportion of &#8533;.
+<a href="ra8.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>32. Menger's Cross - Jerusalem: Truncated cuboctahedron v2</h4>
+<a href="vr/FractalTruncatedCuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Truncated cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/62.png" class="qr">
+ <br><br>Consider a fractal truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
+ <a href="ra8.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>33. Mosely snowflake: Truncated cuboctahedron</h4>
+<a href="vr/FractalTruncatedCuboctahedron4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Mosely snowflake - Truncated cuboctahedron"></a><img src="ar/63.png" class="qr">
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner truncated cuboctahedrons and the center truncated cuboctahedron in each iteration. 
+ <a href="ra8.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
