@@ -295,6 +295,11 @@ function urlHandler(value) {
 <a href="../vr/FractalCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/238A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/238.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos dos cantos e o cubo central de cada iteração anterior.
  <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+ <h4>12. Árvore fractal com icosaedros</h4>
+<a href="../vr/FractalTree2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/239A.png" class="foto" alt="Árvore fractal com icosaedros"></a><img src="../ar/239.png" class="qr">
+ <br><br>Aplicando-se o princípio de repetições com troncos de cones, obtemos uma árvore fractal. Neste exemplo, adicionamos icosaedros como "frutos" ou "flores" da árvore. Na primeira ordem de construção do fractal, construímos três novos troncos de cone conectados com uma face do tronco de cone original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 7.
+ <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

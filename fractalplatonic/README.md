@@ -295,6 +295,11 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/238A.png" class="foto" alt="Mosely snowflake - Cube"></a><img src="ar/238.png" class="qr">
  <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cubes and the center cube from each previous iteration. 
  <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>12. Fractal tree with icosahedrons</h4>
+<a href="vr/FractalTree2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/239A.png" class="foto" alt="Fractal tree with icosahedrons"></a><img src="ar/239.png" class="qr">
+ <br><br>Applying the principle of repetitions with cone frustum, we obtain a fractal tree. In this example, we added icosahedrons as the "fruits" or "flowers" of the tree. In the first order of construction the fractal, we build three new cone frustums connected with a face of the original cone frustum. In this example, we have solid representations in orders from 0 to 7.
+ <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
