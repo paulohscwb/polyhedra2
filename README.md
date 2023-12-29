@@ -7,7 +7,7 @@
  <br><br> New page: polyhedra can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="ArchimedeanCatalanHulls/"><img src="ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Archimedean and Catalan Convex Hulls</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="fractalplatonic/"><img src="fractalplatonic/ar/14A.png" style="margin-bottom:-10px" width="40"> Platonic polyhedra fractals</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="fractalplatonic/"><img src="fractalplatonic/ar/16A.png" style="margin-bottom:-10px" width="40"> Platonic polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalnonconvex/"><img src="fractalnonconvex/ar/19A.png" style="margin-bottom:-10px" width="40"> Non convex polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalarchimedean/"><img src="fractalarchimedean/ar/37A.png" style="margin-bottom:-10px" width="40"> Archimedean polyhedra fractals</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="chamfered/"><img src="chamfered/ar/56A.png" style="margin-bottom:-10px" width="40"> Chamfered polyhedra</a></h3>

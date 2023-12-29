@@ -87,6 +87,7 @@
 	<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=3; mnivelRA()"></a-sphere>
 	
 	<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.6" scale="0.051 0.051 0.051" shadow>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-icosahedron mixin="mtl1"></a-icosahedron>
 		</a-entity>
@@ -2320,6 +2321,7 @@
 	</a-entity>
 	
 	<a-entity class="poli" mixin="poli1" position="0 1 -0.6" scale="0.055 0.055 0.055" shadow>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-dodecahedron mixin="mtl1"></a-dodecahedron>
 		</a-entity>
