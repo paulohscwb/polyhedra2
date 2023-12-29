@@ -341,7 +341,6 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>8. Fractal do cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Fractal do cubo truncado"></a><img src="../ar/37.png" class="qr">
@@ -468,6 +467,7 @@ function urlHandler(value) {
 	</tr>
  </table>
  <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>11. Fractal do icosidodecaedro truncado</h4>
 <a href="../vr/FractalTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/41A.png" class="foto" alt="Fractal do icosidodecaedro truncado"></a><img src="../ar/41.png" class="qr">
@@ -613,7 +613,6 @@ function urlHandler(value) {
 <a href="../vr/FractalSnubCube1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Esponja Menger - Cubo snub"></a><img src="../ar/44.png" class="qr">
  <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces quadradas do cubo snub, obtemos um cubo snub fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos em cada face quadrada do poliedro original, todas com ⅓ da medida da aresta do cubo snub. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>15. Cruz de Menger - Jerusalém: Cubo snub v1</h4>
 <a href="../vr/FractalSnubCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/45.png" class="qr">
@@ -644,10 +643,32 @@ function urlHandler(value) {
 <a href="../vr/FractalTruncatedCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/50.png" class="qr">
  <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8730;2 - 1 e 12 cubos truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>21. Floco de neve Mosely: Cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Floco de neve Mosely: Cubo truncado"></a><img src="../ar/51.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos truncados dos cantos e o cubo truncado central em cada iteração.
+ <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>22. Esponja Menger: Rombicuboctaedro</h4>
+<a href="../vr/FractalRhombicuboctahedron1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Esponja Menger - rombicuboctaedro"></a><img src="../ar/52.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski em 6 faces quadradas do rombicuboctaedro, obtemos um rombicuboctaedro fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos nas faces quadradas do poliedro original, todas com ⅓ da medida da aresta do rombicuboctaedro. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>23. Cruz de Menger - Jerusalém: Rombicuboctaedro v1</h4>
+<a href="../vr/FractalRhombicuboctahedron2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/53A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/53.png" class="qr">
+ <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8534; e 12 rombicuboctaedros homotéticos com proporção de &#8533;.
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>24. Cruz de Menger - Jerusalém: Rombicuboctaedro v2</h4>
+<a href="../vr/FractalRhombicuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/54.png" class="qr">
+ <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 rombicuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
+<h4>25. Floco de neve Mosely: Rombicuboctaedro</h4>
+<a href="../vr/FractalRhombicuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Floco de neve Mosely: rombicuboctaedro"></a><img src="../ar/55.png" class="qr">
+ <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito rombicuboctaedros dos cantos e o rombicuboctaedro central em cada iteração.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
