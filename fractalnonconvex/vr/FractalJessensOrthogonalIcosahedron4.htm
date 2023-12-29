@@ -12,11 +12,11 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; ">
 		<a-assets>
-			<a-mixin id="fc" scale="0.261 0.261 0.261" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
+			<a-mixin id="fc" scale="0.25 0.25 0.25" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5cb404;">
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/JessensOrthogonalIcosahedron.obj"></a-asset-item>
-			<a-mixin id="ar" scale="0.261 0.261 0.261" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+			<a-mixin id="ar" scale="0.25 0.25 0.25" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-asset-item id="aq1" src="outros/JessensOrthogonalIcosahedronL.obj"></a-asset-item>
 			<a-mixin id="p1d" mixin="fc" position="-1 1 0"></a-mixin>
 			<a-mixin id="p2d" mixin="fc" position="1 1 0"></a-mixin>
@@ -51,41 +51,41 @@
 			
 			<a-entity scale="2 2 2" id="nivel1" visible="false">
 				<a-entity mixin="p1d"></a-entity>
-				<a-entity mixin="ar p1d"></a-entity>
+				<a-entity mixin="p1d ar"></a-entity>
 				<a-entity mixin="p2d"></a-entity>
-				<a-entity mixin="ar p2d"></a-entity>
+				<a-entity mixin="p2d ar"></a-entity>
 				<a-entity mixin="p3d"></a-entity>
-				<a-entity mixin="ar p3d"></a-entity>
+				<a-entity mixin="p3d ar"></a-entity>
 				<a-entity mixin="p4d"></a-entity>
-				<a-entity mixin="ar p4d"></a-entity>
+				<a-entity mixin="p4d ar"></a-entity>
 				<a-entity mixin="p5d"></a-entity>
-				<a-entity mixin="ar p5d"></a-entity>
+				<a-entity mixin="p5d ar"></a-entity>
 				<a-entity mixin="p6d"></a-entity>
-				<a-entity mixin="ar p6d"></a-entity>
+				<a-entity mixin="p6d ar"></a-entity>
 				<a-entity mixin="p7d"></a-entity>
-				<a-entity mixin="ar p7d"></a-entity>
+				<a-entity mixin="p7d ar"></a-entity>
 				<a-entity mixin="p8d"></a-entity>
-				<a-entity mixin="ar p8d"></a-entity>
+				<a-entity mixin="p8d ar"></a-entity>
 				<a-entity mixin="p9d"></a-entity>
-				<a-entity mixin="ar p9d"></a-entity>
+				<a-entity mixin="p9d ar"></a-entity>
 				<a-entity mixin="p10d"></a-entity>
-				<a-entity mixin="ar p10d"></a-entity>
+				<a-entity mixin="p10d ar"></a-entity>
 				<a-entity mixin="p11d"></a-entity>
-				<a-entity mixin="ar p11d"></a-entity>
+				<a-entity mixin="p11d ar"></a-entity>
 				<a-entity mixin="p12d"></a-entity>
-				<a-entity mixin="ar p12d"></a-entity>
+				<a-entity mixin="p12d ar"></a-entity>
 				<a-entity mixin="p13d"></a-entity>
-				<a-entity mixin="ar p13d"></a-entity>
+				<a-entity mixin="p13d ar"></a-entity>
 				<a-entity mixin="p14d"></a-entity>
-				<a-entity mixin="ar p14d"></a-entity>
+				<a-entity mixin="p14d ar"></a-entity>
 				<a-entity mixin="p17d"></a-entity>
-				<a-entity mixin="ar p17d"></a-entity>
+				<a-entity mixin="p17d ar"></a-entity>
 				<a-entity mixin="p18d"></a-entity>
-				<a-entity mixin="ar p18d"></a-entity>
+				<a-entity mixin="p18d ar"></a-entity>
 				<a-entity mixin="p19d"></a-entity>
-				<a-entity mixin="ar p19d"></a-entity>
+				<a-entity mixin="p19d ar"></a-entity>
 				<a-entity mixin="p20d"></a-entity>
-				<a-entity mixin="ar p20d"></a-entity>
+				<a-entity mixin="p20d ar"></a-entity>
 			</a-entity>
 			<a-entity scale="0.666 0.666 0.666" id="nivel2" visible="false">
 				<a-entity position="-3 3 0">
