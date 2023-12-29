@@ -16,7 +16,7 @@
 			<a-mixin id="mtl1" material="color: #5cb404;">
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
-			<a-mixin id="ar" scale="0.707 0.707 0.707" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-asset-item id="aq1" src="outros/CuboctahedronL.obj"></a-asset-item>
 			<a-mixin id="p1c" scale="0.3535 0.3535 0.3535" mixin="fc" position="-1 1 0"></a-mixin>
 			<a-mixin id="p2c" scale="0.3535 0.3535 0.3535" mixin="fc" position="1 1 0"></a-mixin>
@@ -48,7 +48,7 @@
 		<a-entity rotation="0 0 0" scale="1.2 1.2 1.2"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="6 6 6" id="nivel0">
 				<a-entity mixin="fc"></a-entity>
-				<a-entity mixin="ar"></a-entity>
+				<a-entity mixin="ar" scale="0.707 0.707 0.707"></a-entity>
 			</a-entity>
 			
 			<a-entity scale="2.4 2.4 2.4" id="nivel1" visible="false">
