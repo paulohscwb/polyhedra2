@@ -671,16 +671,33 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalRhombicuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/54A.png" class="foto" alt="Rhombicuboctahedron - Menger's cross Jerusalem"></a><img src="ar/54.png" class="qr">
  <br><br>Consider a fractal rhombicuboctahedron. We can increase the edge sizes of the corner rhombicuboctahedrons and decrease the edge sizes of the intermediate rhombicuboctahedrons to reveal a cross. In this version, we have 8 homothetic rhombicuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic rhombicuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 <h4>25. Mosely snowflake: Rhombicuboctahedron</h4>
 <a href="vr/FractalRhombicuboctahedron4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/55A.png" class="foto" alt="Mosely snowflake - Rhombicuboctahedron"></a><img src="ar/55.png" class="qr">
  <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner rhombicuboctahedrons and the center rhombicuboctahedron in each iteration. 
  <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>26. Menger sponge: Cuboctahedron</h4>
+<a href="vr/FractalCuboctahedron1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/56A.png" class="foto" alt="Menger sponge - Cuboctahedron"></a><img src="ar/56.png" class="qr">
+ <br><br>Applying the construction principle of the Sierpinski carpet to 6 square faces of the cuboctahedron, we obtain a fractal cuboctahedron. In the first order of construction of the fractal, we construct 8 new solids on square faces of the original polyhedron, all with ⅓ the measurement of the cuboctahedron's edge. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>27. Menger's Cross - Jerusalem: Cuboctahedron v1</h4>
+<a href="vr/FractalCuboctahedron2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/57.png" class="qr">
+ <br><br>Consider a fractal cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic cuboctahedrons with a proportion of &#8533;.
+<a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>28. Menger's Cross - Jerusalem: Cuboctahedron v2</h4>
+<a href="vr/FractalCuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/58.png" class="qr">
+ <br><br>Consider a fractal cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>29. Mosely snowflake: Cuboctahedron</h4>
+<a href="vr/FractalCuboctahedron4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Mosely snowflake - Cuboctahedron"></a><img src="ar/59.png" class="qr">
+ <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cuboctahedrons and the center rhombicuboctahedron in each iteration. 
+ <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
-
-O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos dos cantos e o cubo central da iteração anterior. Neste exemplo, temos o floco de neve Mosely feito com um cubo snub.
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Archimedean polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalarchimedean/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 

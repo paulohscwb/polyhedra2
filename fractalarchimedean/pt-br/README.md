@@ -664,12 +664,31 @@ function urlHandler(value) {
 <a href="../vr/FractalRhombicuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/54.png" class="qr">
  <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 rombicuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>25. Floco de neve Mosely: Rombicuboctaedro</h4>
 <a href="../vr/FractalRhombicuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Floco de neve Mosely: rombicuboctaedro"></a><img src="../ar/55.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito rombicuboctaedros dos cantos e o rombicuboctaedro central em cada iteração.
- <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>26. Esponja Menger: Cuboctaedro</h4>
+<a href="../vr/FractalCuboctahedron1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Esponja Menger - Cuboctaedro"></a><img src="../ar/56.png" class="qr">
+ <br><br>Aplicando-se o princípio de construção do tapete de Sierpinski nas 6 faces quadradas do cuboctaedro, obtemos um cuboctaedro fractal. Na primeira ordem de construção do fractal, construímos 8 novos sólidos nas faces quadradas do poliedro original, todas com ⅓ da medida da aresta do cuboctaedro. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>27. Cruz de Menger - Jerusalém: Cuboctaedro v1</h4>
+<a href="../vr/FractalCuboctahedron2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro"></a><img src="../ar/57.png" class="qr">
+ <br><br>Considere um cuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8534; e 12 cuboctaedros homotéticos com proporção de &#8533;.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>28. Cruz de Menger - Jerusalém: Cuboctaedro v2</h4>
+<a href="../vr/FractalCuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro"></a><img src="../ar/58.png" class="qr">
+ <br><br>Considere um cuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>29. Floco de neve Mosely: Cuboctaedro</h4>
+<a href="../vr/FractalCuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Floco de neve Mosely: cuboctaedro"></a><img src="../ar/59.png" class="qr">
+ <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cuboctaedros dos cantos e o rombicuboctaedro central em cada iteração.
+ <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
