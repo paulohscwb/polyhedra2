@@ -13,7 +13,7 @@
 	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;'>
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
-<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
 <div class="box">
 	<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="8" step="1" value="0" onchange="rangevalue.value=value; mnivelRA(); mnivelTREE()">
 </div>
@@ -73,11 +73,11 @@
 	<a-marker type="barcode" value="238" smooth="smooth:true; smoothCount:1">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalCube3.htm"></a-link>
 	   	<a-entity position="2 0.8 0" rotation="0 0 0" scale="0.27 0.27 0.27">
-			<a-entity scale="6 6 6" id="nivel0">
-				<a-box mixin="mtl1"></a-box>
+			<a-entity scale="6 6 6" class="nivel0">
+				<a-box mixin="mtl1d"></a-box>
 			</a-entity>
 			
-			<a-entity scale="2.4 2.4 2.4" id="nivel1" visible="false">
+			<a-entity scale="2.4 2.4 2.4" class="nivel1" visible="false">
 				<a-box mixin="mtl2d p1d"></a-box>
 				<a-box mixin="mtl2d p2d"></a-box>
 				<a-box mixin="mtl2d p3d"></a-box>
@@ -99,7 +99,7 @@
 				<a-box mixin="mtl2d p19d"></a-box>
 				<a-box mixin="mtl2d p20d"></a-box>
 			</a-entity>
-			<a-entity scale="0.96 0.96 0.96" id="nivel2" visible="false">
+			<a-entity scale="0.96 0.96 0.96" class="nivel2" visible="false">
 				<a-entity scale="0.42893 0.42893 0.42893" position="-2.59 2.59 0">
 					<a-box mixin="mtl3d p1d"></a-box>
 					<a-box mixin="mtl3d p2d"></a-box>
@@ -621,7 +621,7 @@
 					<a-box mixin="mtl3d p20d"></a-box>
 				</a-entity>
 			</a-entity>
-			<a-entity scale="0.384 0.384 0.384" id="nivel3" visible="false">
+			<a-entity scale="0.384 0.384 0.384" class="nivel3" visible="false">
 				<a-entity scale="0.42893 0.42893 0.42893" position="-6.475 6.475 0">
 					<a-entity scale="0.42893 0.42893 0.42893" position="-2.59 2.59 0">
 						<a-box mixin="mtl4d p1d"></a-box>
