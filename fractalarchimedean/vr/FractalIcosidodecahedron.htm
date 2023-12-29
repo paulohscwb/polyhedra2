@@ -85,7 +85,7 @@
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: -35 15 45; to: 150 105 45; dir: alternate; easing: linear; delay: 27000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: -35 15 45; to: 240 15 325; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
-		
+		<a-light type="point" color="yellow" intensity="0.75" position="0 0 0"></a-light>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 		
 		<a-entity rotation="0 0 0" scale="3.5 3.5 3.5"><!-- mixin="anima1 anima2 anima3">-->
@@ -1139,10 +1139,10 @@
 			</a-entity>
 		</a-entity>
 			  
-		<a-light type="ambient" color="white" intensity="0.6"></a-light>
-		<a-light type="directional" color="white" intensity="0.65" position="-7 5 1"></a-light>
-		<a-light type="directional" color="white" intensity="0.65" position="7 -5 1"></a-light>
-		<a-light type="directional" color="white" intensity="0.65" position="7 5 -1"></a-light>
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
 
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
