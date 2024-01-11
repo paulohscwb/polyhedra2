@@ -1138,7 +1138,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
  <h4>26. Hexagonal trapezohedron-antiprism toroid fractal</h4>
 <a href="vr/FractalHexagonalTrapezohedronAntiprismToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/249A.png" class="foto" alt="Hexagonal trapezohedron-antiprism toroid fractal"></a><img src="ar/249.png" class="qr">
- <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron-antiprism toroid, we obtain a fractal of the hexagonal trapezohedron-antiprism toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron-antiprism toroid, we obtain a fractal of the hexagonal trapezohedron-antiprism toroid. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -1180,7 +1180,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
  <h4>27. Tetragonal toroid fractal</h4>
 <a href="vr/FractalRegularTetragonalToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/248A.png" class="foto" alt="Tetragonal toroid fractal"></a><img src="ar/248.png" class="qr">
- <br><br>Applying the Antoine necklace construction principle to a tetragonal toroid, we obtain a fractal of the tetragonal toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the Antoine necklace construction principle to a tetragonal toroid, we obtain a fractal of the tetragonal toroid. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -1222,7 +1222,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
  <h4>28. Hexagonal trapezohedron toroid fractal</h4>
 <a href="vr/FractalHexagonalTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/247A.png" class="foto" alt="Hexagonal trapezohedron toroid fractal"></a><img src="ar/247.png" class="qr">
- <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron toroid, we obtain a fractal of the hexagonal trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal trapezohedron toroid, we obtain a fractal of the hexagonal trapezohedron toroid. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -1264,7 +1264,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
  <h4>29. Hexagonal antiprism-trapezohedron toroid fractal</h4>
 <a href="vr/FractalHexagonalAntiprismTrapezohedronToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/246A.png" class="foto" alt="Hexagonal antiprism-trapezohedron toroid fractal"></a><img src="ar/246.png" class="qr">
- <br><br>Applying the Antoine necklace construction principle to a hexagonal antiprism-trapezohedron toroid, we obtain a fractal of the hexagonal antiprism-trapezohedron toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the Antoine necklace construction principle to a hexagonal antiprism-trapezohedron toroid, we obtain a fractal of the hexagonal antiprism-trapezohedron toroid. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -1306,7 +1306,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <hr>
  <h4>30. Anti-octagonal iris toroid fractal</h4>
 <a href="vr/FractalAntiOctagonalIrisToroid.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Anti-octagonal iris toroid fractal"></a><img src="ar/111.png" class="qr">
- <br><br>Applying the Antoine necklace construction principle to a anti-octagonal iris toroid, we obtain a fractal of the anti-octagonal iris toroid fractal. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the Antoine necklace construction principle to a anti-octagonal iris toroid, we obtain a fractal of the anti-octagonal iris toroid. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
