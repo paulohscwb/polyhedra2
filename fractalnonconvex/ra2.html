@@ -5,6 +5,7 @@
 <title>Polyhedra fractals</title>
 <link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <script src="vr/nomes.js"></script>
 <link rel="stylesheet" href="vr/nomes.css">
@@ -17,8 +18,7 @@
 <div class="box">
 <label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 </div>
-  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
-   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      
      <a-assets>
 <a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
@@ -85,9 +85,9 @@
 <a-light type="directional" color="white" intensity="0.6" position="7 -5 1"></a-light>
 <a-light type="directional" color="white" intensity="0.6" position="7 5 -1"></a-light>
     
-<a-marker type="barcode" value="23" smooth="smooth:true; smoothCount:1">
+<a-marker type="barcode" value="23" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 <a-link mixin="lnk" class="lnk" href="vr/FractalPentagrammicDipyramid.htm"></a-link>
-   	<a-entity position="2 0.8 0" rotation="-52 0 0" scale="0.2 0.2 0.2">
+   	<a-entity position="2 0.8 0" rotation="-52 0 0" scale="0.2 0.2 0.2" gesture-handler>
 	<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 	<a-entity scale="4 4 4" class="nivel0">
 		<a-entity mixin="fca"></a-entity>
@@ -2269,9 +2269,9 @@
 	</a-entity>
 </a-entity>
 </a-marker>
-<a-marker type="barcode" value="24" smooth="smooth:true; smoothCount:1">
+<a-marker type="barcode" value="24" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 <a-link mixin="lnk" class="lnk" href="vr/FractalMedialTriambicIcosahedron.htm"></a-link>
-   	<a-entity position="2 0.8 0" scale="0.052 0.052 0.052">
+   	<a-entity position="2 0.8 0" scale="0.052 0.052 0.052" gesture-handler>
 	<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 	<a-entity scale="8 8 8" class="nivel0">
 		<a-entity mixin="fcb"></a-entity>
@@ -5054,9 +5054,9 @@
 	</a-entity>
 </a-entity>
 </a-marker>
-<a-marker type="barcode" value="44" smooth="smooth:true; smoothCount:1">
+<a-marker type="barcode" value="44" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 <a-link mixin="lnk" class="lnk" href="vr/FractalGreatRhombicTriacontahedron.htm"></a-link>
-   	<a-entity position="2 0.8 0" scale="2.22 2.22 2.22">
+   	<a-entity position="2 0.8 0" scale="2.22 2.22 2.22" gesture-handler>
 	<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 	<a-entity scale="0.9999	0.9999 0.9999" class="nivel0">
 		<a-entity mixin="fcc"></a-entity>

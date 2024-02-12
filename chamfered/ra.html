@@ -5,6 +5,7 @@
 	<title>Chamfered polyhedra</title>
 	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 <body style='margin: 0; overflow: hidden;'>
@@ -12,8 +13,7 @@
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
-  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
-	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      
      <a-assets>
 		<a-mixin id="mtl0" material="opacity: 0.7; side: double; metalness:0.3; roughness:0.9;"></a-mixin>
@@ -38,9 +38,9 @@
 	<a-light type="directional" color="white" intensity="0.7" position="-3 2 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.7" position="3 -2 1"></a-light>
     
-	<a-marker type="barcode" value="56" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="56" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedTetrahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.92 0.92 0.92">
+	   	<a-entity position="2 0.8 0" scale="0.92 0.92 0.92" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedTetrahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.853553 0.853553 -0.853553'></a-sphere>
@@ -62,9 +62,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="57" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="57" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedCube.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62">
+	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedCube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedCubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.5 0.5 -1.6547'></a-sphere>
@@ -102,9 +102,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="58" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="58" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedOctahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62">
+	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedOctahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedOctahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.8618073'></a-sphere>
@@ -140,9 +140,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="59" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="59" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedIcosahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.46 0.46 0.46">
+	   	<a-entity position="2 0.8 0" scale="0.46 0.46 0.46" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedIcosahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedIcosahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaG mtl9' position='1.35065 0.0 -2.1854'></a-sphere>
@@ -220,9 +220,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="60" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="60" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedDodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.39 0.39 0.39">
+	   	<a-entity position="2 0.8 0" scale="0.39 0.39 0.39" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaG mtl9' position='0.0 1.025731 -2.685399'></a-sphere>
@@ -308,9 +308,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="61" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="61" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/ChamferedTruncatedIcosahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.1 1.1 1.1">
+	   	<a-entity position="2 0.8 0" scale="1.1 1.1 1.1" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/ChamferedTruncatedIcosahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/ChamferedTruncatedIcosahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP mtl9' position='0.2081 0.0 -0.98352'></a-sphere>

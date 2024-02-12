@@ -5,6 +5,7 @@
 	<title>Archimedean and Catalan convex hulls</title>
 	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 <body style='margin: 0; overflow: hidden;'>
@@ -12,8 +13,7 @@
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
-  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
-	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      
      <a-assets>
 		<a-mixin id="mtl0" material="opacity: 0.7; side: double; metalness:0.3; roughness:0.9;"></a-mixin>
@@ -38,9 +38,9 @@
 	<a-light type="directional" color="white" intensity="0.7" position="-3 2 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.7" position="3 -2 1"></a-light>
     
-	<a-marker type="barcode" value="0" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="0" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedTetrahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62">
+	   	<a-entity position="2 0.8 0" scale="0.62 0.62 0.62" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedTetrahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='1.06066 -1.06066 -1.06066'></a-sphere>
@@ -66,9 +66,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="1" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="1" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedCuboctahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.95 0.95 0.95">
+	   	<a-entity position="2 0.8 0" scale="0.95 0.95 0.95" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedCuboctahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedCuboctahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.06066'></a-sphere>
@@ -100,9 +100,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="2" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="2" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedOctahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.67 0.67 0.67">
+	   	<a-entity position="2 0.8 0" scale="0.67 0.67 0.67" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedOctahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedOctahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.59099'></a-sphere>
@@ -146,9 +146,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="3" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="3" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedCube.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.46 0.46 0.46">
+	   	<a-entity position="2 0.8 0" scale="0.46 0.46 0.46" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedCube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedCubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -2.41421'></a-sphere>
@@ -192,9 +192,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="4" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="4" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedRhombicuboctahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.77 0.77 0.77">
+	   	<a-entity position="2 0.8 0" scale="0.77 0.77 0.77" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedRhombicuboctahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedRhombicuboctahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.41421'></a-sphere>
@@ -250,9 +250,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="5" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="5" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedSnubCube.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.81 0.81 0.81">
+	   	<a-entity position="2 0.8 0" scale="0.81 0.81 0.81" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedSnubCube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedSnubCubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.36141'></a-sphere>
@@ -320,9 +320,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="6" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="6" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedIcosidodecahedronL.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.68 0.68 0.68">
+	   	<a-entity position="2 0.8 0" scale="0.68 0.68 0.68" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedIcosidodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedIcosidodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -1.618034'></a-sphere>
@@ -390,9 +390,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="7" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="7" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedCuboctahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.44 0.44 0.44">
+	   	<a-entity position="2 0.8 0" scale="0.44 0.44 0.44" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedCuboctahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedCuboctahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -2.67542'></a-sphere>
@@ -472,9 +472,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="8" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="8" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedIcosahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.44 0.44 0.44">
+	   	<a-entity position="2 0.8 0" scale="0.44 0.44 0.44" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedIcosahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedIcosahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.927051 -2.427051'></a-sphere>
@@ -572,9 +572,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="9" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="9" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedDodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.33 0.33 0.33">
+	   	<a-entity position="2 0.8 0" scale="0.33 0.33 0.33" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='1.80902 0.0 -2.92705'></a-sphere>
@@ -672,9 +672,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="10" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="10" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedRhombicosidodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.5 0.5 0.5">
+	   	<a-entity position="2 0.8 0" scale="0.5 0.5 0.5" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedRhombicosidodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedRhombicosidodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -2.236068'></a-sphere>
@@ -802,9 +802,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedSnubDodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.53 0.53 0.53">
+	   	<a-entity position="2 0.8 0" scale="0.53 0.53 0.53" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedSnubDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedSnubDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.37482 0.33092 -2.09705'></a-sphere>
@@ -962,9 +962,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="12" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="12" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/JoinedTruncatedIcosidodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.29 0.29 0.29">
+	   	<a-entity position="2 0.8 0" scale="0.29 0.29 0.29" gesture-handler>
 			<a-obj-model id="fc" src="vr/outros/JoinedTruncatedIcosidodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/JoinedTruncatedIcosidodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.0 0.0 -3.80298'></a-sphere>

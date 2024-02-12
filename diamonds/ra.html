@@ -5,6 +5,7 @@
 	<title>Diamond polyhedra</title>
 	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
 	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	<script src="vr/nomes.js"></script>
 	<link rel="stylesheet" href="vr/nomes.css">
@@ -19,8 +20,7 @@
 	<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp; 
 	<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
 </div>
-  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" 
-	   embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;'>
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      
      <a-assets>
 		<a-mixin id="fc"></a-mixin>
@@ -52,9 +52,9 @@
 	<a-light mixin="luz" position="0 0 3"></a-light>
 	<a-light mixin="luz" position="0 0 -3"></a-light>
     
-	<a-marker type="barcode" value="80" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="80" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TriangularCupola.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.15 1.15 1.15" rotation="-35 0 45">
+	   	<a-entity position="2 0.8 0" scale="1.15 1.15 1.15" rotation="-35 0 45" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/TriangularCupola.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/TriangularCupolaL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='0.70711 0.0 -0.70711'></a-sphere>
@@ -70,9 +70,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="81" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="81" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/SquareCupola.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.97 0.97 0.97" rotation="-90 0 0">
+	   	<a-entity position="2 1.1 0" scale="0.97 0.97 0.97" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/SquareCupola.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/SquareCupolaL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera mtl9' position='1.20711 -0.5 0.0'></a-sphere>
@@ -91,9 +91,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="82" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="82" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalCupola.htm"></a-link>
-	   	<a-entity position="2 1.25 0" scale="0.81 0.81 0.81" rotation="-58 0 0">
+	   	<a-entity position="2 1.25 0" scale="0.81 0.81 0.81" rotation="-58 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalCupola.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalCupolaL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-1.61803 0.0 0.0'></a-sphere>
@@ -115,9 +115,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="83" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="83" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalRotunda.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.7 0.7 0.7" rotation="-32 0 0">
+	   	<a-entity position="2 0.8 0" scale="0.7 0.7 0.7" rotation="-32 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalRotunda.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalRotundaL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-1.61803 0.0 0.0'></a-sphere>
@@ -144,9 +144,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="84" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="84" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalDipyramid.htm"></a-link>
-	   	<a-entity position="2 1.2 0" scale="1.3 1.3 1.3" rotation="-90 0 0">
+	   	<a-entity position="2 1.2 0" scale="1.3 1.3 1.3" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalDipyramid.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalDipyramidL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 0.48'></a-sphere>
@@ -159,9 +159,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="85" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="85" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HexagonalDipyramid.htm"></a-link>
-	   	<a-entity position="2 1.2 0" scale="0.97 0.97 0.97" rotation="-90 0 0">
+	   	<a-entity position="2 1.2 0" scale="0.97 0.97 0.97" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HexagonalDipyramid.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HexagonalDipyramidL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 -1.2'></a-sphere>
@@ -175,9 +175,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="86" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="86" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HeptagonalDipyramid.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.85 0.85 0.85" rotation="-90 0 0">
+	   	<a-entity position="2 1.1 0" scale="0.85 0.85 0.85" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HeptagonalDipyramid.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HeptagonalDipyramidL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 -1.3'></a-sphere>
@@ -192,9 +192,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="87" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="87" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/OctagonalDipyramid.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.85 0.85 0.85" rotation="-90 0 0">
+	   	<a-entity position="2 1.1 0" scale="0.85 0.85 0.85" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/OctagonalDipyramid.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/OctagonalDipyramidL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 -1.3'></a-sphere>
@@ -210,9 +210,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="88" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="88" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/SquareAntiprism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.72 1.72 1.72" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.72 1.72 1.72" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/SquareAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/SquareAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP' position='0.28 -0.28 0.2'></a-sphere>
@@ -227,9 +227,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="89" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="89" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalAntiprism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.4 1.4 1.4">
+	   	<a-entity position="2 1.5 0" scale="1.4 1.4 1.4" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP' position='0.809 -0.25 0.263'></a-sphere>
@@ -246,9 +246,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="90" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="90" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HexagonalAntiprism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.2 1.2 1.2" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.2 1.2 1.2" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HexagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HexagonalAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.666 0.0 0.275'></a-sphere>
@@ -267,9 +267,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="91" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="91" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HeptagonalAntiprism.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.2 1.2 1.2" rotation="-90 0 0">
+	   	<a-entity position="2 0.8 0" scale="1.2 1.2 1.2" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HeptagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HeptagonalAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0 -0.7703 0.25'></a-sphere>
@@ -290,9 +290,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="92" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="92" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/OctagonalAntiprism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.04 1.04 1.04" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.04 1.04 1.04" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/OctagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/OctagonalAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.8039 -0.333 0.333'></a-sphere>
@@ -315,9 +315,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="93" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="93" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/SquareAntiprism2.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.61 1.61 1.61" rotation="-90 0 0">
+	   	<a-entity position="2 0.8 0" scale="1.61 1.61 1.61" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/SquareAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/SquareAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP' position='0.28 -0.28 0.2'></a-sphere>
@@ -336,9 +336,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="94" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="94" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalAntiprism2.htm"></a-link>
-	   	<a-entity position="2 1.7 0" scale="1.24 1.24 1.24">
+	   	<a-entity position="2 1.7 0" scale="1.24 1.24 1.24" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.809 -0.25 0.263'></a-sphere>
@@ -360,9 +360,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="95" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="95" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HexagonalAntiprism2.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.15 1.15 1.15" rotation="-90 0 0">
+	   	<a-entity position="2 0.8 0" scale="1.15 1.15 1.15" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HexagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HexagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.666 0.0 0.275'></a-sphere>
@@ -387,9 +387,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="96" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="96" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HeptagonalAntiprism2.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="1.1 1.1 1.1" rotation="-90 0 0">
+	   	<a-entity position="2 0.8 0" scale="1.1 1.1 1.1" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HeptagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HeptagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0 -0.7703 0.25'></a-sphere>
@@ -417,9 +417,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="97" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="97" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/OctagonalAntiprism2.htm"></a-link>
-	   	<a-entity position="2 1.7 0" scale="0.92 0.92 0.92" rotation="-90 0 0">
+	   	<a-entity position="2 1.7 0" scale="0.92 0.92 0.92" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/OctagonalAntiprism2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/OctagonalAntiprism2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.8039 -0.333 0.333'></a-sphere>
@@ -450,9 +450,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="98" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="98" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/AugmentedTridiminishedIcosahedron.htm"></a-link>
-	   	<a-entity position="2 1 0" scale="1.03 1.03 1.03" rotation="35 120 -135">
+	   	<a-entity position="2 1 0" scale="1.03 1.03 1.03" rotation="35 120 -135" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/AugmentedTridiminishedIcosahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/AugmentedTridiminishedIcosahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.809017 0.5'></a-sphere>
@@ -468,9 +468,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="99" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="99" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/AugmentedTruncatedTetrahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.74 0.74 0.74" rotation="-35 120 45">
+	   	<a-entity position="2 0.8 0" scale="0.74 0.74 0.74" rotation="-35 120 45" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/AugmentedTruncatedTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/AugmentedTruncatedTetrahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.35355 0.35355 -1.06066'></a-sphere>
@@ -492,9 +492,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="100" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="100" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/SnubSquareAntiprism.htm"></a-link>
-	   	<a-entity position="2 1.2 0" scale="0.92 0.92 0.92" rotation="90 0 0">
+	   	<a-entity position="2 1.2 0" scale="0.92 0.92 0.92" rotation="90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/SnubSquareAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/SnubSquareAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-1.21321 0.0 0.18561'></a-sphere>
@@ -513,9 +513,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="101" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="101" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TriangularHebesphenorotunda.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="-35 0 45">
+	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="-35 0 45" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/TriangularHebesphenorotunda.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/TriangularHebesphenorotundaL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.38064 1.237398 -0.38064'></a-sphere>
@@ -540,9 +540,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="102" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="102" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TriangularHebesphenorotunda1.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="-35 0 45">
+	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="-35 0 45" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/TriangularHebesphenorotunda1.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/TriangularHebesphenorotunda1L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.38064 1.237398 -0.38064'></a-sphere>
@@ -561,9 +561,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="103" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="103" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TriangularHebesphenorotunda2.htm"></a-link>
-	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="35 0 -135">
+	   	<a-entity position="2 1.1 0" scale="0.81 0.81 0.81" rotation="35 0 -135" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/TriangularHebesphenorotunda2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/TriangularHebesphenorotunda2L.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.38064 1.237398 -0.38064'></a-sphere>
@@ -585,9 +585,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="104" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="104" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/Dodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.81 0.81 0.81" rotation="32 0 0">
+	   	<a-entity position="2 0.8 0" scale="0.81 0.81 0.81" rotation="32 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/Dodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/DodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.5 -1.309017'></a-sphere>
@@ -609,9 +609,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="105" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="105" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/Cube.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.84 1.84 1.84">
+	   	<a-entity position="2 1.5 0" scale="1.84 1.84 1.84" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/Cube.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/CubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaP' position='0.25 0.175 -0.25'></a-sphere>
@@ -626,9 +626,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="106" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="106" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalPrism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.5 1.5 1.5" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.5 1.5 1.5" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.80902 0.26287 -0.175'></a-sphere>
@@ -645,9 +645,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="107" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="107" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HexagonalPrism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.3 1.3 1.3" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.3 1.3 1.3" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HexagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HexagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='1.0 0.0 -0.175'></a-sphere>
@@ -666,9 +666,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="108" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="108" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/HeptagonalPrism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="1.15 1.15 1.15" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="1.15 1.15 1.15" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/HeptagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/HeptagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='1.1235 -0.2564 -0.175'></a-sphere>
@@ -689,9 +689,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="109" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="109" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/OctagonalPrism.htm"></a-link>
-	   	<a-entity position="2 1.5 0" scale="0.92 0.92 0.92" rotation="-90 0 0">
+	   	<a-entity position="2 1.5 0" scale="0.92 0.92 0.92" rotation="-90 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/OctagonalPrism.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/OctagonalPrismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='1.2071 0.5 -0.175'></a-sphere>
@@ -714,9 +714,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="110" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="110" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/DisdyakisDodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.8 0" scale="0.41 0.41 0.41">
+	   	<a-entity position="2 0.8 0" scale="0.41 0.41 0.41" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/DisdyakisDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/DisdyakisDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin="esferaG" position="0.0 0.0 -2.6754"></a-sphere>
@@ -740,9 +740,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="111" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="111" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TriakisIcosahedron.htm"></a-link>
-	   	<a-entity position="2 0.3 0" scale="0.37 0.37 0.37" rotation="-31.75 0 0">
+	   	<a-entity position="2 0.3 0" scale="0.37 0.37 0.37" rotation="-31.75 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/TriakisIcosahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/TriakisIcosahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin="esferaG" position="-1.80902 0.0  2.92705"></a-sphere>
@@ -765,9 +765,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="112" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="112" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentakisDodecahedron.htm"></a-link>
-	   	<a-entity position="2 0.5 0" scale="0.41 0.41 0.41" rotation="-31.75 0 0">
+	   	<a-entity position="2 0.5 0" scale="0.41 0.41 0.41" rotation="-31.75 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentakisDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentakisDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esferaG' position='0.0 -0.9271 2.4271'></a-sphere>
@@ -790,9 +790,9 @@
 		</a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="113" smooth="smooth:true; smoothCount:1">
+	<a-marker type="barcode" value="113" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/PentagonalHexecontahedron.htm"></a-link>
-	   	<a-entity position="2 0.2 0" scale="0.6 0.6 0.6" rotation="31.75 0 0">
+	   	<a-entity position="2 0.2 0" scale="0.6 0.6 0.6" rotation="31.75 0 0" gesture-handler>
 			<a-obj-model mixin="fc" src="vr/outros/PentagonalHexecontahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model mixin="ar" src="vr/outros/PentagonalHexecontahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin="esferaG" position="0.19289  -0.21848 -2.09705"></a-sphere>
