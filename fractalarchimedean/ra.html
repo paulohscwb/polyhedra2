@@ -19,7 +19,6 @@
 	<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 </div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
-     
      <a-assets>
 		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
 		<a-mixin id="mtl1" material="color: #5cb404; side:double;">
@@ -118,14 +117,12 @@
 		<a-mixin id="p12c" mixin="fcc" position="-2.625 0 -4.25"></a-mixin>
 		<a-mixin id="p13c" mixin="fcc1" scale="1.42 1.42 1.42"></a-mixin>
 	</a-assets>    <a-entity camera></a-entity>
-		
 	<a-marker preset="hiro">
 	    <a-link mixin="lnk" class="lnk" href="#"></a-link>
 	</a-marker>	<a-light type="ambient" color="white" intensity="0.6"></a-light>
 	<a-light type="directional" color="white" intensity="0.6" position="-7 5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.6" position="7 -5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.6" position="7 5 -1"></a-light>
-    
 	<a-marker type="barcode" value="31" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalCuboctahedron.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="1.36 1.36 1.36" gesture-handler>
@@ -133,7 +130,6 @@
 			<a-entity scale="0.9999 0.9999 0.9999" class="nivel0">
 				<a-entity mixin="fca"></a-entity>
 			</a-entity>
-			
 			<a-entity scale="0.333 0.333 0.333" class="nivel1" visible="false">
 				<a-entity mixin="p1a"></a-entity>
 				<a-entity mixin="p2a"></a-entity>
@@ -1165,7 +1161,6 @@
 			<a-entity scale="0.9999	0.9999 0.9999" class="nivel0">
 				<a-entity mixin="fcb"></a-entity>
 			</a-entity>
-			
 			<a-entity scale="0.25 0.25 0.25" class="nivel1" visible="false">
 				<a-entity mixin="p1b"></a-entity>
 				<a-entity mixin="p2b"></a-entity>
@@ -2191,7 +2186,6 @@
 			<a-entity scale="1 1 1" class="nivel0">
 				<a-entity mixin="fcc"></a-entity>
 			</a-entity>
-			
 			<a-entity scale="0.292 0.292 0.292" class="nivel1" visible="false">
 				<a-entity mixin="p1c"></a-entity>
 				<a-entity mixin="p2c"></a-entity>

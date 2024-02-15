@@ -16,67 +16,57 @@
 	</div>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
-     
      <a-assets>
 		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
 		<a-mixin id="mtl1" material="color: #5cb404; side:double;">
-	</a-assets>    <a-entity camera></a-entity>	
-	<a-marker preset="hiro">
+	</a-assets>    <a-entity camera></a-entity>	<a-marker preset="hiro">
 	    <a-link mixin="lnk" class="lnk" href="#"></a-link>
 	</a-marker>	<a-light type="ambient" color="white" intensity="0.6"></a-light>
 	<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.85" position="7 -5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.85" position="7 5 -1"></a-light>
-    
 	<a-marker type="barcode" value="242" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeA.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaA" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreea.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="243" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeB.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaB" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreeb.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="244" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeC.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaC" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreec.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="241" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeD.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaD" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreed.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="240" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeE.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaE" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreee.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="239" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeF.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaF" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreef.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-	
 	<a-marker type="barcode" value="238" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalTreeG.htm"></a-link>
 	   	<a-entity position="3 0 0" scale="0.35 0.35 0.35" id="cenaG" gesture-handler>
 			<a-gltf-model src="vr/salas/glb/fractaltreeg.glb" shadow></a-gltf-model>
 		</a-entity>
 	</a-marker>
-		
   </a-scene>
 </body>
 </html>	 

@@ -24,7 +24,6 @@
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 30000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 15000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 30000; from: 0 0 0; to: 0 -180 0; dir: alternate; easing: linear; delay: 48000; loop: 1'></a-mixin>-->
 		</a-assets>
-		
 		<a-entity id="cena" rotation="0 0 0" position="0 -3.7 0" scale="1.2 1.2 1.2"> <!--mixin="anima1 anima2">-->
 			<a-cone class="nivel0t" position="0 2.57 0" mixin="mtl1"></a-cone>
 			<a-entity class="nivel3t" visible="false">
@@ -81,17 +80,12 @@
 					<a-entity mixin="fc"></a-entity>
 				</a-entity>
 			</a-entity>
-			
-			
 		</a-entity>
-		
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
-	  
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="7 -5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.65" position="7 5 -1"></a-light>
-
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">

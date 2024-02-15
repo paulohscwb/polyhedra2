@@ -19,7 +19,6 @@
 <label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 </div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
-     
      <a-assets>
 	<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
 	<a-mixin id="fc" material="opacity: 0.92; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
@@ -61,7 +60,6 @@
 	<a-mixin id="p19e" position="0.931 -2.441 0"></a-mixin>
 	<a-mixin id="p20e" position="-0.931 -2.441 0"></a-mixin>
 </a-assets>
-
     <a-entity camera></a-entity>
 <a-marker preset="hiro">
     <a-link mixin="lnk" class="lnk" href="#"></a-link>
@@ -70,7 +68,6 @@
 	<a-light type="directional" color="white" intensity="0.6" position="-7 5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.6" position="7 -5 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.6" position="7 5 -1"></a-light>
-    
 <a-marker type="barcode" value="15" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 	<a-link mixin="lnk" class="lnk" href="vr/FractalIcosahedron.htm"></a-link>
    	<a-entity position="2 0.8 0" scale="0.22 0.22 0.22" gesture-handler>
@@ -78,7 +75,6 @@
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-icosahedron mixin="mtl1"></a-icosahedron>
 		</a-entity>
-		
 		<a-entity scale="2.29 2.29 2.29" class="nivel1" visible="false">
 			<a-icosahedron mixin="mtl2 p1c"></a-icosahedron>
 			<a-icosahedron mixin="mtl2 p2c"></a-icosahedron>
@@ -2314,7 +2310,6 @@
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-dodecahedron mixin="mtl1"></a-dodecahedron>
 		</a-entity>
-		
 		<a-entity scale="1.66 1.66 1.66" class="nivel1" visible="false">
 			<a-dodecahedron mixin="mtl2 p1e"></a-dodecahedron>
 			<a-dodecahedron mixin="mtl2 p2e"></a-dodecahedron>
@@ -11623,7 +11618,6 @@
 		</a-entity>
 	</a-entity>
 </a-marker>
-
   </a-scene>
 </body>
 </html>	 

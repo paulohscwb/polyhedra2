@@ -34,7 +34,6 @@
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-cylinder, a-gltf-model, a-link, a-sphere" sphere-collider="objects: .poli, a-gltf-model, a-cylinder, a-sphere;" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer" hand-controls="hand: right"></a-mixin>
         </a-assets>
-		
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
            <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
@@ -42,13 +41,11 @@
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-gltf-model static-body src="vr/salas/fractal_arquim4.glb" position="0 0 0" shadow></a-gltf-model>
-		
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=0; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=1; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=2; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=3; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.93 0.77 -0.13" onclick="nv.value=4; mnivelRA()"></a-sphere>
-		
 		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.75" scale="0.039 0.039 0.039" shadow dynamic-body="sphereRadius: 0.28">	
 			<a-light type="point" color="yellow" intensity="0.2" position="0 0 0"></a-light>
 			<a-entity class="nivel0">
@@ -64,7 +61,6 @@
 				<a-gltf-model src="vr/salas/glb/fractaltruncatedicosidodecahedron3.glb" shadow></a-gltf-model>
 			</a-entity>
 		</a-entity>
-		
 		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.25" scale="0.04 0.04 0.04" shadow dynamic-body="sphereRadius: 0.26">
 			<a-light type="point" color="yellow" intensity="0.2" position="0 0 0"></a-light>
 			<a-entity class="nivel0">
@@ -83,7 +79,6 @@
 				<a-gltf-model src="vr/salas/glb/fractaltruncatedoctahedron4.glb" shadow></a-gltf-model>
 			</a-entity>
 		</a-entity>
-		
 		<a-entity class="poli" mixin="poli1" position="0 1 -0.55" scale="0.048 0.048 0.048" shadow dynamic-body="sphereRadius: 0.15">
 			<a-light type="point" color="yellow" intensity="0.2" position="0 0 0"></a-light>
 			<a-entity class="nivel0">
@@ -102,7 +97,6 @@
 				<a-gltf-model src="vr/salas/glb/fractaltruncatedtetrahedron4.glb" shadow></a-gltf-model>
 			</a-entity>
 		</a-entity>
-		
 <!-- <a-video src="vr/salas/videos/great_dodecahemidodecahedron_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video> -->
 		<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>
 <!-- <a-link position="2.06 1.5 -0.7" rotation="0 270 0" scale="0.25 0.25 0" href="sala2.htm" title="Proxima sala / Next room" link="backgroundColor: aliceblue; borderColor:#97c9f1; titleColor:#55aaed"></a-link> -->
@@ -114,7 +108,6 @@
 		<a-text value="Exit immersive mode" text="align:center;" position="2.06 1.1 -0.7" width="2" rotation="0 270 0"></a-text>
 		<a-text value="Youtube: @paulohscwb" position="2.06 0.18 1.5" width="2" rotation="0 270 0"></a-text>
 		<a-text value="imagem panoramica: Marko Klaric" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
-
         <a-light type="ambient" color="white" intensity="0.5"></a-light>
 		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.5" position="-3 2 1"></a-light>
 		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.5" position="3 -2 1"></a-light>

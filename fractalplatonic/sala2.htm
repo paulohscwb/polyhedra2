@@ -72,7 +72,6 @@
 		<a-mixin id="p19e" position="0.931 -2.441 0"></a-mixin>
 		<a-mixin id="p20e" position="-0.931 -2.441 0"></a-mixin>
         </a-assets>
-	
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
            <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
@@ -80,18 +79,15 @@
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-gltf-model static-body src="vr/salas/fractal_platao2.glb" position="0 0 0" shadow></a-gltf-model>
-	
 	<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.38 0.77 -0.13" onclick="nv.value=0; mnivelRA()"></a-sphere>
 	<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.13" onclick="nv.value=1; mnivelRA()"></a-sphere>
 	<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.13" onclick="nv.value=2; mnivelRA()"></a-sphere>
 	<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.13" onclick="nv.value=3; mnivelRA()"></a-sphere>
-	
 	<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.6" scale="0.051 0.051 0.051" shadow>
 		<a-light type="point" color="yellow" intensity="0.35" position="0 0 0"></a-light>
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-icosahedron mixin="mtl1"></a-icosahedron>
 		</a-entity>
-		
 		<a-entity scale="2.29 2.29 2.29" class="nivel1" visible="false">
 			<a-icosahedron mixin="mtl2 p1c"></a-icosahedron>
 			<a-icosahedron mixin="mtl2 p2c"></a-icosahedron>
@@ -2319,13 +2315,11 @@
 			</a-entity>
 		</a-entity>
 	</a-entity>
-	
 	<a-entity class="poli" mixin="poli1" position="0 1 -0.6" scale="0.055 0.055 0.055" shadow>
 		<a-light type="point" color="yellow" intensity="0.35" position="0 0 0"></a-light>
 		<a-entity scale="6 6 6" class="nivel0">
 			<a-dodecahedron mixin="mtl1"></a-dodecahedron>
 		</a-entity>
-		
 		<a-entity scale="1.66 1.66 1.66" class="nivel1" visible="false">
 			<a-dodecahedron mixin="mtl2 p1e"></a-dodecahedron>
 			<a-dodecahedron mixin="mtl2 p2e"></a-dodecahedron>
@@ -11633,7 +11627,6 @@
 			</a-entity>
 		</a-entity>
 	</a-entity>
-	
 	<a-video src="vr/salas/videos/FractalTree1_C_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video>
 	<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>
 <!-- <a-link position="2.06 1.5 -0.7" rotation="0 270 0" scale="0.25 0.25 0" href="sala1.htm" title="Sala Anterior / Previous room" link="backgroundColor: aliceblue; borderColor:#97c9f1; titleColor:#55aaed"></a-link> -->
