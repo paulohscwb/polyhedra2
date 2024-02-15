@@ -623,12 +623,12 @@ function urlHandler(value) {
 <h4>16. Cruz de Menger - Jerusalém: Cubo snub v2</h4>
 <a href="../vr/FractalSnubCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/46.png" class="qr">
  <br><br>Considere um cubo snub fractal. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8730;2 - 1 e 12 cubos snub homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
- <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra4a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>17. Floco de neve Mosely: Cubo snub</h4>
 <a href="../vr/FractalSnubCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/47A.png" class="foto" alt="Floco de neve Mosely: Cubo snub"></a><img src="../ar/47.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos snub dos cantos e o cubo snub central em cada iteração.
- <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra4a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>18. Esponja Menger: Cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/48A.png" class="foto" alt="Esponja Menger - Cubo truncado"></a><img src="../ar/48.png" class="qr">
@@ -643,13 +643,13 @@ function urlHandler(value) {
 <h4>20. Cruz de Menger - Jerusalém: Cubo truncado v2</h4>
 <a href="../vr/FractalTruncatedCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/50.png" class="qr">
  <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8730;2 - 1 e 12 cubos truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
- <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra5a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>21. Floco de neve Mosely: Cubo truncado</h4>
 <a href="../vr/FractalTruncatedCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Floco de neve Mosely: Cubo truncado"></a><img src="../ar/51.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos truncados dos cantos e o cubo truncado central em cada iteração.
- <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra5a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>22. Esponja Menger: Rombicuboctaedro</h4>
 <a href="../vr/FractalRhombicuboctahedron1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Esponja Menger - rombicuboctaedro"></a><img src="../ar/52.png" class="qr">
@@ -664,12 +664,12 @@ function urlHandler(value) {
 <h4>24. Cruz de Menger - Jerusalém: Rombicuboctaedro v2</h4>
 <a href="../vr/FractalRhombicuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/54.png" class="qr">
  <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 rombicuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
- <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra6a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>25. Floco de neve Mosely: Rombicuboctaedro</h4>
 <a href="../vr/FractalRhombicuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Floco de neve Mosely: rombicuboctaedro"></a><img src="../ar/55.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito rombicuboctaedros dos cantos e o rombicuboctaedro central em cada iteração.
- <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra6a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>26. Esponja Menger: Cuboctaedro</h4>
 <a href="../vr/FractalCuboctahedron1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Esponja Menger - Cuboctaedro"></a><img src="../ar/56.png" class="qr">
@@ -684,12 +684,12 @@ function urlHandler(value) {
 <h4>28. Cruz de Menger - Jerusalém: Cuboctaedro v2</h4>
 <a href="../vr/FractalCuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro"></a><img src="../ar/58.png" class="qr">
  <br><br>Considere um cuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
- <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra7a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>29. Floco de neve Mosely: Cuboctaedro</h4>
 <a href="../vr/FractalCuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Floco de neve Mosely: cuboctaedro"></a><img src="../ar/59.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cuboctaedros dos cantos e o cuboctaedro central em cada iteração.
- <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra7a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>30. Esponja Menger: Cuboctaedro truncado</h4>
 <a href="../vr/FractalTruncatedCuboctahedron1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/60A.png" class="foto" alt="Esponja Menger - Cuboctaedro truncado"></a><img src="../ar/60.png" class="qr">
@@ -705,12 +705,12 @@ function urlHandler(value) {
 <h4>32. Cruz de Menger - Jerusalém: Cuboctaedro truncado v2</h4>
 <a href="../vr/FractalTruncatedCuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro truncado"></a><img src="../ar/62.png" class="qr">
  <br><br>Considere um cuboctaedro truncado fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros truncados dos cantos e diminuir os tamanhos das arestas dos cuboctaedros truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros truncados homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
- <a href="../ra8.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra8a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>33. Floco de neve Mosely: Cuboctaedro truncado</h4>
 <a href="../vr/FractalTruncatedCuboctahedron4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/63A.png" class="foto" alt="Floco de neve Mosely: Cuboctaedro truncado"></a><img src="../ar/63.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cuboctaedros truncados dos cantos e o cuboctaedro truncado central em cada iteração.
- <a href="../ra8.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <a href="../ra8a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
