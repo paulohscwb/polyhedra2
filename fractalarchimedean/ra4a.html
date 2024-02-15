@@ -14,9 +14,9 @@
 	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;'>
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
-<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
 <div class="box">
-	<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="4" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
+	<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="3" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 </div>
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      <a-assets>
@@ -73,7 +73,7 @@
 	<a-marker type="barcode" value="46" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalSnubCube3.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.37 0.37 0.37" gesture-handler>
-			<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+			<a-light type="point" color="yellow" intensity="0.7" position="0 0 0"></a-light>
 			<a-entity scale="6.335 6.335 6.335" class="nivel0">
 				<a-entity mixin="fc"></a-entity>
 				<a-entity mixin="ar" scale="0.44 0.44 0.44"></a-entity>
@@ -9409,7 +9409,7 @@
 	<a-marker type="barcode" value="47" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/FractalSnubCube4.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.37 0.37 0.37" gesture-handler>
-			<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+			<a-light type="point" color="yellow" intensity="0.7" position="0 0 0"></a-light>
 			<a-entity scale="6 6 6" class="nivel0">
 				<a-entity mixin="fc"></a-entity>
 				<a-entity mixin="ar"></a-entity>
