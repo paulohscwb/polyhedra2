@@ -62,24 +62,24 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>9</td>
-		<td>126</td>
-		<td>216</td>
-		<td>108</td>
+		<td>12</td>
+		<td>168</td>
+		<td>288</td>
+		<td>144</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>81</td>
-		<td>1134</td>
-		<td>1944</td>
-		<td>972</td>
+		<td>144</td>
+		<td>2016</td>
+		<td>3456</td>
+		<td>1728</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>729</td>
-		<td>10206</td>
-		<td>17496</td>
-		<td>8748</td>
+		<td>1728</td>
+		<td>24192</td>
+		<td>41472</td>
+		<td>20736</td>
 	</tr>
  </table>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
@@ -570,7 +570,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
  <h4>13. Truncated tetrahedron fractal</h4>
 <a href="vr/FractalTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Truncated tetrahedron fractal"></a><img src="ar/43.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to triangular faces of the truncated tetrahedron, we obtain a truncated tetrahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2, 3 and 4.
+ <br><br>Applying the construction principle of the Sierpinski triangle to each triangular face vertex of the truncated tetrahedron, we obtain a truncated tetrahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -588,31 +588,24 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>4</td>
-		<td>40</td>
-		<td>90</td>
-		<td>60</td>
+		<td>12</td>
+		<td>96</td>
+		<td>216</td>
+		<td>144</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>25</td>
-		<td>200</td>
-		<td>450</td>
-		<td>300</td>
+		<td>144</td>
+		<td>1152</td>
+		<td>2592</td>
+		<td>1728</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>125</td>
-		<td>1000</td>
-		<td>2250</td>
-		<td>1500</td>
-	</tr>
-	<tr>
-		<td>4</td>
-		<td>625</td>
-		<td>5000</td>
-		<td>11250</td>
-		<td>7500</td>
+		<td>1728</td>
+		<td>13824</td>
+		<td>31104</td>
+		<td>20736</td>
 	</tr>
  </table>
  <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>

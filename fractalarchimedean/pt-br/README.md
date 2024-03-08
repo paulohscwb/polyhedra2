@@ -44,7 +44,7 @@ function urlHandler(value) {
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Fractal do cuboctaedro</h4>
 <a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Fractal do cuboctaedro"></a><img src="../ar/31.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nas faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face triangular do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Koch nos vértices das faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -62,24 +62,24 @@ function urlHandler(value) {
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>9</td>
-		<td>126</td>
-		<td>216</td>
-		<td>108</td>
+		<td>12</td>
+		<td>168</td>
+		<td>288</td>
+		<td>144</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>81</td>
-		<td>1134</td>
-		<td>1944</td>
-		<td>972</td>
+		<td>144</td>
+		<td>2016</td>
+		<td>3456</td>
+		<td>1728</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>729</td>
-		<td>10206</td>
-		<td>17496</td>
-		<td>8748</td>
+		<td>1728</td>
+		<td>24192</td>
+		<td>41472</td>
+		<td>20736</td>
 	</tr>
  </table>
  <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
@@ -563,7 +563,7 @@ function urlHandler(value) {
 <hr>
 <h4>13. Fractal do tetraedro truncado</h4>
 <a href="../vr/FractalTruncatedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/43A.png" class="foto" alt="Fractal do tetraedro truncado"></a><img src="../ar/43.png" class="qr">
- <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nas faces triangulares do tetraedro truncado, obtemos um fractal do tetraedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada face quadrada do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2, 3 e 4.
+ <br><br>Aplicando-se o princípio de construção do triângulo de Sierpinski nos vértices das faces triangulares do tetraedro truncado, obtemos um fractal do tetraedro truncado. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -581,31 +581,24 @@ function urlHandler(value) {
 	</tr>
 	<tr>
 		<td>1</td>
-		<td>4</td>
-		<td>40</td>
-		<td>90</td>
-		<td>60</td>
+		<td>12</td>
+		<td>96</td>
+		<td>216</td>
+		<td>144</td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>25</td>
-		<td>200</td>
-		<td>450</td>
-		<td>300</td>
+		<td>144</td>
+		<td>1152</td>
+		<td>2592</td>
+		<td>1728</td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td>125</td>
-		<td>1000</td>
-		<td>2250</td>
-		<td>1500</td>
-	</tr>
-	<tr>
-		<td>4</td>
-		<td>625</td>
-		<td>5000</td>
-		<td>11250</td>
-		<td>7500</td>
+		<td>1728</td>
+		<td>13824</td>
+		<td>31104</td>
+		<td>20736</td>
 	</tr>
  </table>
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
