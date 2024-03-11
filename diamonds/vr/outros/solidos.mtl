@@ -9,7 +9,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1a.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor2
@@ -21,7 +21,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1b.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor3
@@ -33,7 +33,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1c.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor4
@@ -45,7 +45,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1d.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor5
@@ -57,7 +57,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1e.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor6
@@ -69,7 +69,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1f.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor7
@@ -81,7 +81,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor8
@@ -93,7 +93,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c2.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor9
@@ -105,7 +105,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c3.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor10
@@ -117,7 +117,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1a.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor11
@@ -129,7 +129,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1c.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor12
@@ -141,7 +141,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1f.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor13
@@ -153,7 +153,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1d.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor14
@@ -165,7 +165,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1f.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor15
@@ -177,7 +177,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1d.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor16
@@ -189,7 +189,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c1.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor17
@@ -201,7 +201,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c5.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl Cor18
@@ -213,7 +213,7 @@ Ke 0.72 0.72 0.72
 Ns 30
 
 map_Kd c3.jpg
-Ni 2.5
+Ni 10
 d 0.7
 
 newmtl CorL
