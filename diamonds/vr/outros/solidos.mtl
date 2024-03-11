@@ -5,7 +5,7 @@ illum 5
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1a.jpg
@@ -17,7 +17,7 @@ illum 5
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1b.jpg
@@ -29,7 +29,7 @@ illum 5
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1c.jpg
@@ -41,7 +41,7 @@ illum 5
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1d.jpg
@@ -53,7 +53,7 @@ illum 5
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1e.jpg
@@ -65,7 +65,7 @@ illum 5
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1f.jpg
@@ -77,7 +77,7 @@ illum 5
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1.jpg
@@ -89,7 +89,7 @@ illum 5
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c2.jpg
@@ -101,7 +101,7 @@ illum 5
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c3.jpg
@@ -113,7 +113,7 @@ illum 5
 Ka 0.2 0.2 0.2
 Kd 1 1 1
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1a.jpg
@@ -125,7 +125,7 @@ illum 5
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1c.jpg
@@ -137,7 +137,7 @@ illum 5
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1f.jpg
@@ -149,7 +149,7 @@ illum 5
 Ka 0.05 0.15 0.2
 Kd 0.4 0.9 1
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1d.jpg
@@ -161,7 +161,7 @@ illum 5
 Ka 0.05 0.1 0.2
 Kd 0.6 0.9 1.0
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1f.jpg
@@ -173,7 +173,7 @@ illum 5
 Ka 0.08 0.1 0.2
 Kd 0.2 0.7 1.0
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1d.jpg
@@ -185,7 +185,7 @@ illum 5
 Ka 0.05 0.2 0.1
 Kd 0.6 1 0.9
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c1.jpg
@@ -197,7 +197,7 @@ illum 5
 Ka 0.2 0.15 0.1
 Kd 1 0.9 0.7
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c5.jpg
@@ -209,7 +209,7 @@ illum 5
 Ka 0.15 0.2 0.15
 Kd 0.4 0.95 0.7
 Ks 0.8 0.8 0.8
-Ke 0 0 0
+Ke 2 2 2
 Ns 30
 
 map_Kd c3.jpg
