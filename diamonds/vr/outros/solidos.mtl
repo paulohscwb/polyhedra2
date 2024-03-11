@@ -5,8 +5,8 @@ illum 6
 Ka 0.2 0.15 0.15
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1a.jpg
 map_Kd c1a.jpg
 d 0.7
@@ -16,8 +16,8 @@ illum 6
 Ka 0.1 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1b.jpg
 map_Kd c1b.jpg
 d 0.7
@@ -27,8 +27,8 @@ illum 6
 Ka 0.2 0.15 0.15
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1c.jpg
 map_Kd c1c.jpg
 d 0.7
@@ -38,8 +38,8 @@ illum 6
 Ka 0.1 0.2 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1d.jpg
 map_Kd c1d.jpg
 d 0.7
@@ -49,8 +49,8 @@ illum 6
 Ka 0.1 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1e.jpg
 map_Kd c1e.jpg
 d 0.7
@@ -60,8 +60,8 @@ illum 6
 Ka 0.1 0.2 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1f.jpg
 map_Kd c1f.jpg
 d 0.7
@@ -71,8 +71,8 @@ illum 6
 Ka 0.05 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1.jpg
 map_Kd c1.jpg
 d 0.7
@@ -82,8 +82,8 @@ illum 6
 Ka 0.1 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c2.jpg
 map_Kd c2.jpg
 d 0.7
@@ -93,8 +93,8 @@ illum 6
 Ka 0.2 0.15 0.15
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c3.jpg
 map_Kd c3.jpg
 d 0.7
@@ -104,8 +104,8 @@ illum 6
 Ka 0.2 0.2 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1a.jpg
 map_Kd c1a.jpg
 d 0.7
@@ -115,8 +115,8 @@ illum 6
 Ka 0.2 0.05 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1c.jpg
 map_Kd c1c.jpg
 d 0.7
@@ -126,8 +126,8 @@ illum 6
 Ka 0.1 0.2 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1f.jpg
 map_Kd c1f.jpg
 d 0.7
@@ -137,8 +137,8 @@ illum 6
 Ka 0.05 0.15 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1d.jpg
 map_Kd c1d.jpg
 d 0.7
@@ -148,8 +148,8 @@ illum 6
 Ka 0.05 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1f.jpg
 map_Kd c1f.jpg
 d 0.7
@@ -159,8 +159,8 @@ illum 6
 Ka 0.08 0.1 0.2
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1d.jpg
 map_Kd c1d.jpg
 d 0.7
@@ -170,8 +170,8 @@ illum 6
 Ka 0.05 0.2 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c1.jpg
 map_Kd c1.jpg
 d 0.7
@@ -181,8 +181,8 @@ illum 6
 Ka 0.2 0.15 0.1
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c5.jpg
 map_Kd c5.jpg
 d 0.7
@@ -192,8 +192,8 @@ illum 6
 Ka 0.15 0.2 0.15
 Kd 0.8 0.8 0.8
 Ke 0 0 0
-Ni 0.45
-Ns 40
+Ni 2.41
+Ns 75
 map_Ks c3.jpg
 map_Kd c3.jpg
 d 0.7
