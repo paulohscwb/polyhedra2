@@ -1,216 +1,216 @@
 ## Alias MTL Material File
 
 newmtl Cor1
-illum 5
+illum 10
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1a.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor2
-illum 5
+illum 10
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1b.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor3
-illum 5
+illum 10
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1c.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor4
-illum 5
+illum 10
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1d.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor5
-illum 5
+illum 10
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1e.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor6
-illum 5
+illum 10
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1f.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor7
-illum 5
+illum 10
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor8
-illum 5
+illum 10
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c2.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor9
-illum 5
+illum 10
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c3.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor10
-illum 5
+illum 10
 Ka 0.2 0.2 0.2
 Kd 1 1 1
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1a.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor11
-illum 5
+illum 10
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1c.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor12
-illum 5
+illum 10
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1f.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor13
-illum 5
+illum 10
 Ka 0.05 0.15 0.2
 Kd 0.4 0.9 1
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1d.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor14
-illum 5
+illum 10
 Ka 0.05 0.1 0.2
 Kd 0.6 0.9 1.0
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1f.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor15
-illum 5
+illum 10
 Ka 0.08 0.1 0.2
 Kd 0.2 0.7 1.0
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1d.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor16
-illum 5
+illum 10
 Ka 0.05 0.2 0.1
 Kd 0.6 1 0.9
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c1.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor17
-illum 5
+illum 10
 Ka 0.2 0.15 0.1
 Kd 1 0.9 0.7
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c5.jpg
 Ni 0.5
 d 0.7
 
 newmtl Cor18
-illum 5
+illum 10
 Ka 0.15 0.2 0.15
 Kd 0.4 0.95 0.7
 Ks 0.8 0.8 0.8
 Ke 0 0 0
-Ns 30
+Ns 65
 
 map_Kd c3.jpg
 Ni 0.5
