@@ -1,7 +1,7 @@
 ## Alias MTL Material File
 
 newmtl Cor1
-illum 6
+illum 2
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.6 0.6 0.6
@@ -12,7 +12,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor2
-illum 6
+illum 2
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.6 0.6 0.6
@@ -23,7 +23,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor3
-illum 6
+illum 2
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.6 0.6 0.6
@@ -34,7 +34,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor4
-illum 6
+illum 2
 Ka 0.1 0.2 0.1
 Kd 0.8 0.95 0.95
 Ks 0.6 0.6 0.6
@@ -45,7 +45,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor5
-illum 6
+illum 2
 Ka 0.1 0.1 0.2
 Kd 0.9 0.9 1
 Ks 0.6 0.6 0.6
@@ -56,7 +56,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor6
-illum 6
+illum 2
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.6 0.6 0.6
@@ -67,7 +67,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor7
-illum 6
+illum 2
 Ka 0.05 0.1 0.2
 Kd 0.3 0.8 1.0
 Ks 0.6 0.6 0.6
@@ -78,7 +78,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor8
-illum 6
+illum 2
 Ka 0.1 0.1 0.2
 Kd 0.95 0.8 0.8
 Ks 0.6 0.6 0.6
@@ -89,7 +89,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor9
-illum 6
+illum 2
 Ka 0.2 0.15 0.15
 Kd 1 0.9 0.9
 Ks 0.6 0.6 0.6
@@ -100,7 +100,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor10
-illum 6
+illum 2
 Ka 0.2 0.2 0.2
 Kd 1 1 1
 Ks 0.6 0.6 0.6
@@ -111,7 +111,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor11
-illum 6
+illum 2
 Ka 0.2 0.05 0.1
 Kd 1 0.2 0.58
 Ks 0.6 0.6 0.6
@@ -122,7 +122,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor12
-illum 6
+illum 2
 Ka 0.1 0.2 0.1
 Kd 0.9 1 0.9
 Ks 0.6 0.6 0.6
@@ -133,7 +133,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor13
-illum 6
+illum 2
 Ka 0.05 0.15 0.2
 Kd 0.4 0.9 1
 Ks 0.6 0.6 0.6
@@ -145,7 +145,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor14
-illum 6
+illum 2
 Ka 0.05 0.1 0.2
 Kd 0.9 0.95 1.0
 Ks 0.6 0.6 0.6
@@ -156,7 +156,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor15
-illum 6
+illum 2
 Ka 0.08 0.1 0.2
 Kd 0.2 0.7 1.0
 Ks 0.6 0.6 0.6
@@ -167,7 +167,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor16
-illum 6
+illum 2
 Ka 0.05 0.2 0.1
 Kd 0.6 1 0.9
 Ks 0.6 0.6 0.6
@@ -178,7 +178,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor17
-illum 6
+illum 2
 Ka 0.2 0.15 0.1
 Kd 1 0.9 0.7
 Ks 0.6 0.6 0.6
@@ -189,7 +189,7 @@ Ni 1.3
 d 0.7
 
 newmtl Cor18
-illum 6
+illum 2
 Ka 0.15 0.2 0.15
 Kd 0.6 0.95 0.8
 Ks 0.6 0.6 0.6
