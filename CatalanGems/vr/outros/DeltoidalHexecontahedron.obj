@@ -1,7 +1,4 @@
-# Blender 4.0.2
-# www.blender.org
-mtllib untitled.mtl
-o DeltoidalHexecontahedron
+mtllib solidos.mtl
 v 0.000000 -0.000000 -2.236070
 v 2.236070 0.000000 0.000000
 v -2.236070 0.000000 0.000000
