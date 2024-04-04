@@ -28,7 +28,8 @@
 			<a-mixin id="anima5" animation__5='property: opacity; dur: 25000; from: 1; to: 0; easing: linear; delay: 10000; loop: 1'></a-mixin><a-mixin id="anima6" animation__6='property: visible; from: true; to: false; dur: 1; delay: 44000'></a-mixin>
 		</a-assets>
 				
-		<a-entity rotation="0 0 0" position="0 0 0" scale="7.5 7.5 7.5" mixin="anima1 anima2 anima3">
+		<a-entity mixin="anima1 anima2 anima3">
+		<a-entity rotation="0 0 0" position="0 2.5 0" scale="9 9 9">
 			<a-obj-model id="fc" src="outros/Cube.obj" mtl="#material" scale="0.998 0.998 0.998" scale="0.998 0.998 0.998" visible="false" mixin="anima0"></a-obj-model>
 			<a-obj-model id="ar" mixin="anima6" src="outros/CubeL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.25 0.175 -0.25'></a-sphere>
@@ -40,6 +41,7 @@
 			<a-sphere mixin='esfera' position='-0.5 -0.175 -0.5'></a-sphere>
 			<a-sphere mixin='esfera' position='0.25 0.175 0.25'></a-sphere>
 			<a-sphere mixin='esfera' position='0 -0.85 0'></a-sphere>
+		</a-entity>
 		</a-entity>
 		
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
