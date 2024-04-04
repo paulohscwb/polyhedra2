@@ -18,13 +18,13 @@
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
 			<a-mixin id="texto" text="color: #4d4d4d; align:center;"></a-mixin>
 			<a-mixin id="luz" light="type: directional; color: white; intensity:0.15"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl9 anima5" geometry="radius: 0.027;" material="metalness:0.5; roughness:0.6;">
+			<a-mixin id="esfera" mixin="mtl9" geometry="radius: 0.027;" material="metalness:0.5; roughness:0.6;">
 			<a-asset-item id="material" src="outros/solidos.mtl"></a-asset-item>
 		</a-assets>
 				
 		<a-entity rotation="-90 0 0" position="0 2.3 0" scale="5.7 5.7 5.7">
 			<a-obj-model id="fc" src="outros/HexagonalAntiprism.obj" mtl="#material" scale="0.998 0.998 0.998" visible="false" mixin="anima0"></a-obj-model>
-			<a-obj-model id="ar" mixin="anima6" src="outros/HexagonalAntiprismL.obj" mtl="#material"></a-obj-model>
+			<a-obj-model id="ar" src="outros/HexagonalAntiprismL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='-0.666 0.0 0.275'></a-sphere>
 			<a-sphere mixin='esfera' position='0.333 0.57677 0.275'></a-sphere>
 			<a-sphere mixin='esfera' position='0.333 -0.57677 0.275'></a-sphere>
