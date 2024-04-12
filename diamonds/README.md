@@ -160,7 +160,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>20. Diamond augmented truncated tetrahedron</h4>
 <a href="vr/AugmentedTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Diamond augmented truncated tetrahedron"></a><img src="ar/99.png" class="qr">
- <br><br>When we construct a right pyramid with a triangular base, which has a base coinciding with a triangular face opposite the triangular copula, we obtain a diamond augmented truncated tetrahedron. 
+ <br><br>When we construct a right pyramid with a triangular base, which has a base coinciding with a triangular face opposite the triangular cupola, we obtain a diamond augmented truncated tetrahedron. 
  <br><br><b>Faces:</b> 10 triangles, 3 squares and 3 hexagons | <b>Edges:</b> 30 | <b>Vertices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Augmented_truncated_tetrahedron" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
@@ -185,7 +185,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <h4>24. Diamond truncated triangular hebesphenorotunda</h4>
 <a href="vr/TriangularHebesphenorotunda2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/103A.png" class="foto" alt="Diamond truncated triangular hebesphenorotunda"></a><img src="ar/103.png" class="qr">
  <br><br>Consider a modified triangular hebesphenorotunda, disregarding the pentagonal faces and the triangular face that is joined only with the pentagons vertices. The solid obtained by joining a right pyramid with an enneagonal base with the other faces of the modified triangular hebesphenorotunda is a diamond truncated triangular hebesphenorotunda.
- <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 15. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
+ <br><br><b>Faces:</b> 18 triangles, 3 squares and 1 hexagon | <b>Edges:</b> 36 | <b>Vertices:</b> 16. <a href="https://polytope.miraheze.org/wiki/Triangular_hebesphenorotunda" target="_blank">More...</a>
  <br><a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>25. Diamond truncated dodecahedron</h4>

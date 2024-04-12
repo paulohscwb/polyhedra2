@@ -44,7 +44,7 @@ function urlHandler(value) {
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Fractal do cuboctaedro</h4>
 <a href="../vr/FractalCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Fractal do cuboctaedro"></a><img src="../ar/31.png" class="qr">
- <br><br>Aplicando-se o princípio de construção da curva de Koch nos vértices das faces triangulares do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
+ <br><br>Aplicando-se o princípio de construção da curva de Sierpinski nos vértices das faces quadradas do cuboctaedro, obtemos um fractal do cuboctaedro. Na primeira ordem de construção do fractal, construímos um novo sólido em cada vértice do poliedro original. Neste exemplo, temos as representações do sólido nas ordens 0, 1, 2 e 3.
  <table>
 	<tr>
 		<th>ordem</th>
@@ -610,12 +610,12 @@ function urlHandler(value) {
  <hr>
 <h4>15. Cruz de Menger - Jerusalém: Cubo snub v1</h4>
 <a href="../vr/FractalSnubCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/45.png" class="qr">
- <br><br>Considere um cubo snub fractal. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8534; e 12 cubos snub homotéticos com proporção de &#8533;.
+ <br><br>Considere um cubo snub. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8534; e 12 cubos snub homotéticos com proporção de &#8533;.
  <a href="../ra4.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>16. Cruz de Menger - Jerusalém: Cubo snub v2</h4>
 <a href="../vr/FractalSnubCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo snub"></a><img src="../ar/46.png" class="qr">
- <br><br>Considere um cubo snub fractal. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8730;2 - 1 e 12 cubos snub homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <br><br>Considere um cubo snub. Podemos aumentar os tamanhos das arestas dos cubos snub dos cantos e diminuir os tamanhos das arestas dos cubos snub intermediários para revelar uma cruz. Nesta versão, temos 8 cubos snub homotéticos com proporção de &#8730;2 - 1 e 12 cubos snub homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra4a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>17. Floco de neve Mosely: Cubo snub</h4>
@@ -630,12 +630,12 @@ function urlHandler(value) {
  <hr>
 <h4>19. Cruz de Menger - Jerusalém: Cubo truncado v1</h4>
 <a href="../vr/FractalTruncatedCube2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/49.png" class="qr">
- <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8534; e 12 cubos truncados homotéticos com proporção de &#8533;.
+ <br><br>Considere um cubo truncado. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8534; e 12 cubos truncados homotéticos com proporção de &#8533;.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>20. Cruz de Menger - Jerusalém: Cubo truncado v2</h4>
 <a href="../vr/FractalTruncatedCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="cruz de Menger - Jerusalém - Cubo truncado"></a><img src="../ar/50.png" class="qr">
- <br><br>Considere um cubo truncado fractal. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8730;2 - 1 e 12 cubos truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <br><br>Considere um cubo truncado. Podemos aumentar os tamanhos das arestas dos cubos truncados dos cantos e diminuir os tamanhos das arestas dos cubos truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cubos truncados homotéticos com proporção de &#8730;2 - 1 e 12 cubos truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra5a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
@@ -651,12 +651,12 @@ function urlHandler(value) {
  <hr>
 <h4>23. Cruz de Menger - Jerusalém: Rombicuboctaedro v1</h4>
 <a href="../vr/FractalRhombicuboctahedron2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/53A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/53.png" class="qr">
- <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8534; e 12 rombicuboctaedros homotéticos com proporção de &#8533;.
+ <br><br>Considere um rombicuboctaedro. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8534; e 12 rombicuboctaedros homotéticos com proporção de &#8533;.
  <a href="../ra6.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>24. Cruz de Menger - Jerusalém: Rombicuboctaedro v2</h4>
 <a href="../vr/FractalRhombicuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="cruz de Menger - Jerusalém - rombicuboctaedro"></a><img src="../ar/54.png" class="qr">
- <br><br>Considere um rombicuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 rombicuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <br><br>Considere um rombicuboctaedro. Podemos aumentar os tamanhos das arestas dos rombicuboctaedros dos cantos e diminuir os tamanhos das arestas dos rombicuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 rombicuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 rombicuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra6a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>25. Floco de neve Mosely: Rombicuboctaedro</h4>
@@ -671,12 +671,12 @@ function urlHandler(value) {
  <hr>
 <h4>27. Cruz de Menger - Jerusalém: Cuboctaedro v1</h4>
 <a href="../vr/FractalCuboctahedron2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro"></a><img src="../ar/57.png" class="qr">
- <br><br>Considere um cuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8534; e 12 cuboctaedros homotéticos com proporção de &#8533;.
+ <br><br>Considere um cuboctaedro. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8534; e 12 cuboctaedros homotéticos com proporção de &#8533;.
  <a href="../ra7.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>28. Cruz de Menger - Jerusalém: Cuboctaedro v2</h4>
 <a href="../vr/FractalCuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro"></a><img src="../ar/58.png" class="qr">
- <br><br>Considere um cuboctaedro fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <br><br>Considere um cuboctaedro. Podemos aumentar os tamanhos das arestas dos cuboctaedros dos cantos e diminuir os tamanhos das arestas dos cuboctaedros intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra7a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>29. Floco de neve Mosely: Cuboctaedro</h4>
@@ -692,12 +692,12 @@ function urlHandler(value) {
  <hr>
 <h4>31. Cruz de Menger - Jerusalém: Cuboctaedro truncado v1</h4>
 <a href="../vr/FractalTruncatedCuboctahedron2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro truncado"></a><img src="../ar/61.png" class="qr">
- <br><br>Considere um cuboctaedro truncado fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros truncados dos cantos e diminuir os tamanhos das arestas dos cuboctaedros truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros truncados homotéticos com proporção de &#8534; e 12 cuboctaedros truncados homotéticos com proporção de &#8533;.
+ <br><br>Considere um cuboctaedro truncado. Podemos aumentar os tamanhos das arestas dos cuboctaedros truncados dos cantos e diminuir os tamanhos das arestas dos cuboctaedros truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros truncados homotéticos com proporção de &#8534; e 12 cuboctaedros truncados homotéticos com proporção de &#8533;.
  <a href="../ra8.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>32. Cruz de Menger - Jerusalém: Cuboctaedro truncado v2</h4>
 <a href="../vr/FractalTruncatedCuboctahedron3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="cruz de Menger - Jerusalém - Cuboctaedro truncado"></a><img src="../ar/62.png" class="qr">
- <br><br>Considere um cuboctaedro truncado fractal. Podemos aumentar os tamanhos das arestas dos cuboctaedros truncados dos cantos e diminuir os tamanhos das arestas dos cuboctaedros truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros truncados homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
+ <br><br>Considere um cuboctaedro truncado. Podemos aumentar os tamanhos das arestas dos cuboctaedros truncados dos cantos e diminuir os tamanhos das arestas dos cuboctaedros truncados intermediários para revelar uma cruz. Nesta versão, temos 8 cuboctaedros truncados homotéticos com proporção de &#8730;2 - 1 e 12 cuboctaedros truncados homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra8a.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>33. Floco de neve Mosely: Cuboctaedro truncado</h4>

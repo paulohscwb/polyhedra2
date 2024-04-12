@@ -44,7 +44,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Cuboctahedron fractal</h4>
 <a href="vr/FractalCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/31A.png" class="foto" alt="Cuboctahedron fractal"></a><img src="ar/31.png" class="qr">
- <br><br>Applying the construction principle of the Koch curve to triangular faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each triangular face of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction Sierpinski principle to square faces of the cuboctahedron, we obtain a cuboctahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -570,7 +570,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
  <h4>13. Truncated tetrahedron fractal</h4>
 <a href="vr/FractalTruncatedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Truncated tetrahedron fractal"></a><img src="ar/43.png" class="qr">
- <br><br>Applying the construction principle of the Sierpinski triangle to each triangular face vertex of the truncated tetrahedron, we obtain a truncated tetrahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
+ <br><br>Applying the construction Sierpinski principle to each triangular face vertex of the truncated tetrahedron, we obtain a truncated tetrahedron fractal. In the first order of fractal construction, we construct a new solid at each vertex of the original polyhedron. In this example, we have representations of the solid in orders 0, 1, 2 and 3.
  <table>
 	<tr>
 		<th>order</th>
@@ -617,12 +617,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>15. Menger's Cross - Jerusalem: Snub cube v1</h4>
 <a href="vr/FractalSnubCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/45A.png" class="foto" alt="Snub Cube - Menger's cross Jerusalem"></a><img src="ar/45.png" class="qr">
- <br><br>Consider a fractal snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8534; and 12 homothetic snub cubes with a proportion of &#8533;.
+ <br><br>Consider a snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8534; and 12 homothetic snub cubes with a proportion of &#8533;.
 <a href="ra4.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>16. Menger's Cross - Jerusalem: Snub cube v2</h4>
 <a href="vr/FractalSnubCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/46A.png" class="foto" alt="Snub Cube - Menger's cross Jerusalem"></a><img src="ar/46.png" class="qr">
- <br><br>Consider a fractal snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic snub cubes with a proportion of (&#8730;2 - 1)&#xb2;.
+ <br><br>Consider a snub cube. We can increase the edge sizes of the corner snub cubes and decrease the edge sizes of the intermediate snub cubes to reveal a cross. In this version, we have 8 homothetic snub cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic snub cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra4a.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>17. Mosely snowflake: Snub cube</h4>
@@ -637,12 +637,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>19. Menger's Cross - Jerusalem: Truncated cube v1</h4>
 <a href="vr/FractalTruncatedCube2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Truncated Cube - Menger's cross Jerusalem"></a><img src="ar/49.png" class="qr">
- <br><br>Consider a fractal truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8534; and 12 homothetic truncated cubes with a proportion of &#8533;.
+ <br><br>Consider a truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8534; and 12 homothetic truncated cubes with a proportion of &#8533;.
 <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>20. Menger's Cross - Jerusalem: Truncated cube v2</h4>
 <a href="vr/FractalTruncatedCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/50A.png" class="foto" alt="Truncated Cube - Menger's cross Jerusalem"></a><img src="ar/50.png" class="qr">
- <br><br>Consider a fractal truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cubes with a proportion of (&#8730;2 - 1)&#xb2;.
+ <br><br>Consider a truncated cube. We can increase the edge sizes of the corner truncated cubes and decrease the edge sizes of the intermediate truncated cubes to reveal a cross. In this version, we have 8 homothetic truncated cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra5a.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
@@ -658,12 +658,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>23. Menger's Cross - Jerusalem: Rhombicuboctahedron v1</h4>
 <a href="vr/FractalRhombicuboctahedron2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/53A.png" class="foto" alt="Rhombicuboctahedron - Menger's cross Jerusalem"></a><img src="ar/53.png" class="qr">
- <br><br>Consider a fractal rhombicuboctahedron. We can increase the edge sizes of the corner rhombicuboctahedrons and decrease the edge sizes of the intermediate rhombicuboctahedrons to reveal a cross. In this version, we have 8 homothetic rhombicuboctahedrons with an aspect ratio of &#8534; and 12 homothetic rhombicuboctahedrons with a proportion of &#8533;.
+ <br><br>Consider a rhombicuboctahedron. We can increase the edge sizes of the corner rhombicuboctahedrons and decrease the edge sizes of the intermediate rhombicuboctahedrons to reveal a cross. In this version, we have 8 homothetic rhombicuboctahedrons with an aspect ratio of &#8534; and 12 homothetic rhombicuboctahedrons with a proportion of &#8533;.
 <a href="ra6.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>24. Menger's Cross - Jerusalem: Rhombicuboctahedron v2</h4>
 <a href="vr/FractalRhombicuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/54A.png" class="foto" alt="Rhombicuboctahedron - Menger's cross Jerusalem"></a><img src="ar/54.png" class="qr">
- <br><br>Consider a fractal rhombicuboctahedron. We can increase the edge sizes of the corner rhombicuboctahedrons and decrease the edge sizes of the intermediate rhombicuboctahedrons to reveal a cross. In this version, we have 8 homothetic rhombicuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic rhombicuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
+ <br><br>Consider a rhombicuboctahedron. We can increase the edge sizes of the corner rhombicuboctahedrons and decrease the edge sizes of the intermediate rhombicuboctahedrons to reveal a cross. In this version, we have 8 homothetic rhombicuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic rhombicuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra6a.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>25. Mosely snowflake: Rhombicuboctahedron</h4>
@@ -678,12 +678,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>27. Menger's Cross - Jerusalem: Cuboctahedron v1</h4>
 <a href="vr/FractalCuboctahedron2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/57.png" class="qr">
- <br><br>Consider a fractal cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic cuboctahedrons with a proportion of &#8533;.
+ <br><br>Consider a cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic cuboctahedrons with a proportion of &#8533;.
 <a href="ra7.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>28. Menger's Cross - Jerusalem: Cuboctahedron v2</h4>
 <a href="vr/FractalCuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/58.png" class="qr">
- <br><br>Consider a fractal cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
+ <br><br>Consider a cuboctahedron. We can increase the edge sizes of the corner cuboctahedrons and decrease the edge sizes of the intermediate cuboctahedrons to reveal a cross. In this version, we have 8 homothetic cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra7a.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>29. Mosely snowflake: Cuboctahedron</h4>
@@ -699,12 +699,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>31. Menger's Cross - Jerusalem: Truncated cuboctahedron v1</h4>
 <a href="vr/FractalTruncatedCuboctahedron2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Truncated cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/61.png" class="qr">
- <br><br>Consider a fractal truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic truncated cuboctahedrons with a proportion of &#8533;.
+ <br><br>Consider a truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8534; and 12 homothetic truncated cuboctahedrons with a proportion of &#8533;.
 <a href="ra8.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>32. Menger's Cross - Jerusalem: Truncated cuboctahedron v2</h4>
 <a href="vr/FractalTruncatedCuboctahedron3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Truncated cuboctahedron - Menger's cross Jerusalem"></a><img src="ar/62.png" class="qr">
- <br><br>Consider a fractal truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
+ <br><br>Consider a truncated cuboctahedron. We can increase the edge sizes of the corner truncated cuboctahedrons and decrease the edge sizes of the intermediate truncated cuboctahedrons to reveal a cross. In this version, we have 8 homothetic truncated cuboctahedrons with an aspect ratio of &#8730;2 - 1 and 12 homothetic truncated cuboctahedrons with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra8a.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>33. Mosely snowflake: Truncated cuboctahedron</h4>
