@@ -52,6 +52,12 @@ function mnivel() {
 	var entityEl2 = sceneEl.querySelector('#nivel2')
 	var entityEl3 = sceneEl.querySelector('#nivel3')
 	var entityEl4 = sceneEl.querySelector('#nivel4')
+	var entityEl5 = sceneEl.querySelector('#nivel5')
+	var entityEl6 = sceneEl.querySelector('#nivel6')
+	var entityEl7 = sceneEl.querySelector('#nivel7')
+	var entityEl8 = sceneEl.querySelector('#nivel8')
+	var entityEl9 = sceneEl.querySelector('#nivel9')
+	var entityEl10 = sceneEl.querySelector('#nivel10')
 	var p = document.getElementById("nv").value
 	if (p == 0) { 
 	  entityEl0.setAttribute('visible','true');
@@ -59,30 +65,132 @@ function mnivel() {
 	  entityEl2.setAttribute('visible','false');
 	  entityEl3.setAttribute('visible','false');
 	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
 	} else if (p == 1) {
 	  entityEl0.setAttribute('visible','false');
 	  entityEl1.setAttribute('visible','true');
 	  entityEl2.setAttribute('visible','false');
 	  entityEl3.setAttribute('visible','false');
 	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
 	} else if (p == 2) {
 	  entityEl0.setAttribute('visible','false');
 	  entityEl1.setAttribute('visible','false');
 	  entityEl2.setAttribute('visible','true');
 	  entityEl3.setAttribute('visible','false');
 	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
 	} else if (p == 3) {
 	  entityEl0.setAttribute('visible','false');
 	  entityEl1.setAttribute('visible','false');
 	  entityEl2.setAttribute('visible','false');
 	  entityEl3.setAttribute('visible','true');
 	  entityEl4.setAttribute('visible','false');
-	} else {
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 4) {
 	  entityEl0.setAttribute('visible','false');
 	  entityEl1.setAttribute('visible','false');
 	  entityEl2.setAttribute('visible','false');
 	  entityEl3.setAttribute('visible','false');
 	  entityEl4.setAttribute('visible','true');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 5) {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','true');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 6) {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','true');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 7) {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','true');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 8) {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','true');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','false');
+	} else if (p == 9) {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','true');
+	  entityEl10.setAttribute('visible','false');
+	} else {
+	  entityEl0.setAttribute('visible','false');
+	  entityEl1.setAttribute('visible','false');
+	  entityEl2.setAttribute('visible','false');
+	  entityEl3.setAttribute('visible','false');
+	  entityEl4.setAttribute('visible','false');
+	  entityEl5.setAttribute('visible','false');
+	  entityEl6.setAttribute('visible','false');
+	  entityEl7.setAttribute('visible','false');
+	  entityEl8.setAttribute('visible','false');
+	  entityEl9.setAttribute('visible','false');
+	  entityEl10.setAttribute('visible','true');
 	}
 }
 
