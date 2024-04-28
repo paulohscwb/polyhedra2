@@ -290,8 +290,8 @@ function urlHandler(value) {
 <a href="../vr/FractalCube3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/237A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/237.png" class="qr">
  <br><br>Considere um cubo fractal. Podemos aumentar os tamanhos das arestas dos cubos dos cantos e diminuir os tamanhos das arestas dos cubos intermediários para revelar uma cruz. Nesta versão, temos 8 cubos homotéticos com proporção de &#8730;2 - 1 e 12 cubos homotéticos com proporção de (&#8730;2 - 1)&#xb2;.
  <a href="../ra3.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <hr>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
 <h4>11. Floco de neve Mosely: Cubo</h4>
 <a href="../vr/FractalCube4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/238A.png" class="foto" alt="Cubo fractal - cruz de Menger - Jerusalém"></a><img src="../ar/238.png" class="qr">
  <br><br>O floco de neve Mosely é um tipo de fractal Sierpinski-Menger obtido em duas variantes pela operação usada na criação do floco de neve Sierpinski-Menger. Neste caso, removemos oito cubos dos cantos e o cubo central de cada iteração anterior.
@@ -307,31 +307,27 @@ function urlHandler(value) {
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um tetraedro regular e 3 rotações, obtemos um fractal dragão de tetraedro. Na primeira ordem de construção do fractal, construímos três novos tetraedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
- <hr>
 <h4>14. Fractal dragão de cubo</h4>
 <a href="../vr/FractalDragon1a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/241A.png" class="foto" alt="Fractal dragão de cubo"></a><img src="../ar/241.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um cubo e 3 rotações, obtemos um fractal dragão de cubo. Na primeira ordem de construção do fractal, construímos três novos cubos correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <hr>
  <hr>
 <h4>15. Fractal dragão de octaedro</h4>
 <a href="../vr/FractalDragon2a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/242A.png" class="foto" alt="Fractal dragão de octaedro"></a><img src="../ar/242.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um octaedro regular e 3 rotações, obtemos um fractal dragão de octaedro. Na primeira ordem de construção do fractal, construímos três novos octaedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
- <hr>
 <h4>16. Fractal dragão de icosaedro</h4>
-<a href="../vr/FractalDragon3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/243A.png" class="foto" alt="Fractal dragão de icosaedro"></a><img src="../ar/243.png" class="qr">
+<a href="../vr/FractalDragon3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Fractal dragão de icosaedro"></a><img src="../ar/244.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um icosaedro regular e 3 rotações, obtemos um fractal dragão de icosaedro. Na primeira ordem de construção do fractal, construímos três novos icosaedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
- <hr>
 <h4>17. Fractal dragão de dodecaedro</h4>
-<a href="../vr/FractalDragon4a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Fractal dragão de dodecaedro"></a><img src="../ar/244.png" class="qr">
+<a href="../vr/FractalDragon4a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/243A.png" class="foto" alt="Fractal dragão de dodecaedro"></a><img src="../ar/243.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um dodecaedro regular e 3 rotações, obtemos um fractal dragão de dodecaedro. Na primeira ordem de construção do fractal, construímos três novos dodecaedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fractal polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalplatonic/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 

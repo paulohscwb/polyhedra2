@@ -268,7 +268,7 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <hr>
 <h4>6. Tetrahedron dragon fractal</h4>
 <a href="vr/FractalDragon.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/78A.png" class="foto" alt="Tetrahedron dragon fractal"></a><img src="ar/78.png" class="qr">
- <br><br>Applying the construction principle of the Dragon curve with regular tetrahedron, we obtain a tetrahedron dragon fractal. In the first order of construction of the fractal, we construct two new tetrahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 8.
+ <br><br>Applying the construction principle of the Dragon curve with regular tetrahedron, we obtain a tetrahedron dragon fractal. In the first order of construction of the fractal, we construct two new tetrahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>7. Fractal tree</h4>
@@ -290,8 +290,8 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
 <a href="vr/FractalCube3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/237A.png" class="foto" alt="Fractal Cube - Menger's cross Jerusalem"></a><img src="ar/237.png" class="qr">
  <br><br>Consider a fractal cube. We can increase the edge sizes of the corner cubes and decrease the edge sizes of the intermediate cubes to reveal a cross. In this version, we have 8 homothetic cubes with an aspect ratio of &#8730;2 - 1 and 12 homothetic cubes with a proportion of (&#8730;2 - 1)&#xb2;.
  <a href="ra3.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 <h4>11. Mosely snowflake: Cube</h4>
 <a href="vr/FractalCube4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/238A.png" class="foto" alt="Mosely snowflake - Cube"></a><img src="ar/238.png" class="qr">
  <br><br>The Mosely snowflake is a type of Sierpinski-Menger fractal obtained in two variants by the operation used in creating the Sierpinski-Menger snowflake. In this case, we removed eight corner cubes and the center cube from each previous iteration. 
@@ -307,31 +307,27 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <br><br>Applying the construction principle of the Dragon curve with regular tetrahedron and 3 rotations, we obtain a tetrahedron dragon fractal. In the first order of construction of the fractal, we construct three new tetrahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <hr>
 <h4>14. Cube dragon fractal</h4>
 <a href="vr/FractalDragon1a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/241A.png" class="foto" alt="Cube dragon fractal"></a><img src="ar/241.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a cube and 3 rotations, we obtain a cube dragon fractal. In the first order of construction of the fractal, we construct three new cube corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
  <hr>
 <h4>15. Octahedron dragon fractal</h4>
 <a href="vr/FractalDragon2a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/242A.png" class="foto" alt="Octahedron dragon fractal"></a><img src="ar/242.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a regular octahedron and 3 rotations, we obtain a octahedron dragon fractal. In the first order of construction of the fractal, we construct three new octahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <hr>
 <h4>16. Icosahedron dragon fractal</h4>
-<a href="vr/FractalDragon3a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Icosahedron dragon fractal"></a><img src="ar/243.png" class="qr">
+<a href="vr/FractalDragon3a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Icosahedron dragon fractal"></a><img src="ar/244.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a regular icosahedron and 3 rotations, we obtain a icosahedron dragon fractal. In the first order of construction of the fractal, we construct three new icosahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
- <hr>
 <h4>17. Dodecahedron dragon fractal</h4>
-<a href="vr/FractalDragon4a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Dodecahedron dragon fractal"></a><img src="ar/244.png" class="qr">
+<a href="vr/FractalDragon4a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Dodecahedron dragon fractal"></a><img src="ar/243.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a regular dodecahedron and 3 rotations, we obtain a dodecahedron dragon fractal. In the first order of construction of the fractal, we construct three new dodecahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Platonic polyhedra fractals - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/fractalplatonic/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
