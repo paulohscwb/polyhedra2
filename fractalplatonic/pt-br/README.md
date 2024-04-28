@@ -318,12 +318,12 @@ function urlHandler(value) {
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>16. Fractal dragão de icosaedro</h4>
-<a href="../vr/FractalDragon3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Fractal dragão de icosaedro"></a><img src="../ar/244.png" class="qr">
+<a href="../vr/FractalDragon4a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/244A.png" class="foto" alt="Fractal dragão de icosaedro"></a><img src="../ar/244.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um icosaedro regular e 3 rotações, obtemos um fractal dragão de icosaedro. Na primeira ordem de construção do fractal, construímos três novos icosaedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>
 <h4>17. Fractal dragão de dodecaedro</h4>
-<a href="../vr/FractalDragon4a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/243A.png" class="foto" alt="Fractal dragão de dodecaedro"></a><img src="../ar/243.png" class="qr">
+<a href="../vr/FractalDragon3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/243A.png" class="foto" alt="Fractal dragão de dodecaedro"></a><img src="../ar/243.png" class="qr">
  <br><br>Aplicando-se o princípio de construção da curva do Dragão com um dodecaedro regular e 3 rotações, obtemos um fractal dragão de dodecaedro. Na primeira ordem de construção do fractal, construímos três novos dodecaedros correspondentes a um poliedro original. Neste exemplo, temos as representações do sólido nas ordens de 0 até 10.
  <a href="../ra5.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <hr>

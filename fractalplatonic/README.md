@@ -318,12 +318,12 @@ To view fractal polyhedra in AR, simply visit the pages indicated in the 3D soli
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>16. Icosahedron dragon fractal</h4>
-<a href="vr/FractalDragon3a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Icosahedron dragon fractal"></a><img src="ar/244.png" class="qr">
+<a href="vr/FractalDragon4a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/244A.png" class="foto" alt="Icosahedron dragon fractal"></a><img src="ar/244.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a regular icosahedron and 3 rotations, we obtain a icosahedron dragon fractal. In the first order of construction of the fractal, we construct three new icosahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>17. Dodecahedron dragon fractal</h4>
-<a href="vr/FractalDragon4a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Dodecahedron dragon fractal"></a><img src="ar/243.png" class="qr">
+<a href="vr/FractalDragon3a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/243A.png" class="foto" alt="Dodecahedron dragon fractal"></a><img src="ar/243.png" class="qr">
  <br><br>Applying the construction principle of the Dragon curve with a regular dodecahedron and 3 rotations, we obtain a dodecahedron dragon fractal. In the first order of construction of the fractal, we construct three new dodecahedra corresponding to one original polyhedron. In this example, we have solid representations in orders from 0 to 10.
  <a href="ra5.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
