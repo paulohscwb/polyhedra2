@@ -32,7 +32,7 @@ The polyhedra on this page were created by joining right pyramids with other who
  <h3 align="center">Immersive rooms</h3>
 <div class="embed-container"><iframe width="100%" src="sala1.htm" title="Sala Imersiva dos poliedros de diamante" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><a href="sala1.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 3</a></p>
-  <p align="center"><img src="../../geometria-descritiva/videos/diamonds1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%" loading="lazy"/><img src="../../geometria-descritiva/videos/diamonds2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../../geometria-descritiva/videos/diamonds3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p> 
+  <p align="center"><img src="../../cotadas/videos/diamonds1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%" loading="lazy"/><img src="../../cotadas/videos/diamonds2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../../cotadas/videos/diamonds3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p> 
   <hr> 
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view diamond polyhedra in AR, simply visit:
