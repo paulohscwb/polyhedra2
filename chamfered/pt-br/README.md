@@ -76,7 +76,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>6. Icosaedro truncado chanfrado</h4>
 <a href="../vr/ChamferedTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="Icosaedro truncado chanfrado"></a><img src="../ar/61.png" class="qr">
  <br><br>Um icosaedro truncado chanfrado é um poliedro obtido chanfrando um icosaedro truncado regular. Um icosaedro truncado chanfrado equilátero pode ser construído pela escolha apropriada da relação de comprimento da borda para chanframento.
- <br><br><br><b>Faces:</b> 12 pentágonos regulares, 20 hexágonos regulares e 60 hexágonos simétricos | <b>Arestas:</b> 360 | <b>Vértices:</b> 240. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares, 20 hexágonos regulares e 90 hexágonos simétricos | <b>Arestas:</b> 360 | <b>Vértices:</b> 240. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
