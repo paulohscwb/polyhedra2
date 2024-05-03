@@ -42,7 +42,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <p align="center"><img src="../ar/chamfered.gif" alt="Realidade Aumentada para poliedros chanfrados" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Tetraedro chanfrado</h4>
 <a href="../vr/ChamferedTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Tetraedro chanfrado"></a><img src="../ar/56.png" class="qr">
  <br><br>Um tetraedro chanfrado, também conhecido como cubo truncado alternado, é um poliedro obtido chanfrando um tetraedro regular. Um tetraedro chanfrado equilátero pode ser construído pela escolha apropriada da relação de comprimento da aresta para chanframento.

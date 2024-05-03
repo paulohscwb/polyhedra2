@@ -42,7 +42,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <p align="center"><img src="ar/chamfered.gif" alt="Augmented Reality to chamfered polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Chamfered tetrahedron</h4>
 <a href="vr/ChamferedTetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/56A.png" class="foto" alt="Chamfered Tetrahedron"></a><img src="ar/56.png" class="qr">
  <br><br>A chamfered tetrahedron, also known as the alternate truncated cube, is a polyhedron obtained by chamfering a regular tetrahedron. An equilateral chamfered tetrahedron may be constructed by appropriate choice of the edge length ratio for chamfering.

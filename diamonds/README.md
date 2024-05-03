@@ -43,7 +43,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <p align="center"><img src="ar/diamonds.gif" alt="Augmented Reality to diamonds polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU-mneUmSsccpRAAwbErHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXKNmMlBA-gOp2-i93mQ4Vu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Diamond triangular cupola</h4>
 <a href="vr/TriangularCupola.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Diamond Triangular Cupola"></a><img src="ar/80.png" class="qr">
  <br><br>When we construct a right pyramid with a hexagonal base, which has the base coincident with the hexagonal face of a Johnson triangular cupola, we obtain a diamond triangular cupola. 
