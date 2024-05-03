@@ -31,7 +31,7 @@ We define the operation of "chamfering" as a truncation along the edges of a pol
   <hr>
  <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos Poliedros chanfrados" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../geometria-descritiva/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Chamfered polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
+  <p align="center"><img align="middle" src="../../cotadas/videos/chamfered.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Chamfered polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view chamfered polyhedra in AR, simply visit:
