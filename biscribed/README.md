@@ -55,16 +55,16 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><b>Faces:</b> 24 isosceles triangles | <b>Edges:</b> 36 | <b>Vertices:</b> 14. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>3. Chamfered octahedron</h4>
-<a href="vr/ChamferedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Chamfered octahedron"></a><img src="ar/58.png" class="qr">
- <br><br>A chamfered octahedron, also called tritruncated rhombic dodecahedron, is a polyhedron obtained by chamfering a regular octahedron. An equilateral chamfered octahedron may be constructed by appropriate choice of the edge length ratio for chamfering.
- <br><br><br><b>Faces:</b> 8 equilateral triangles and 12 mirror-symmetric hexagons | <b>Edges:</b> 48 | <b>Vertices:</b> 30. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">More...</a>
+<h4>3. Biscribed truncated cuboctahedron</h4>
+<a href="vr/BiscribedTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Biscribed Truncated Cuboctahedron"></a><img src="ar/79.png" class="qr">
+ <br><br><br>A biscript truncated cuboctahedron has the shape of the truncated cuboctahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis dodecahedron.
+ <br><br><br><b>Faces:</b> 12 rectangles, 8 ditrigons and 6 ditetragons | <b>Edges:</b> 72 | <b>Vertices:</b> 48. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>4. Chamfered icosahedron </h4>
-<a href="vr/ChamferedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Chamfered icosahedron"></a><img src="ar/59.png" class="qr">
- <br><br>A chamfered icosahedron, also called a tritruncated rhombic triacontahedron, is a polyhedron obtained by chamfering a regular icosahedron. An equilateral chamfered icosahedron may be constructed by appropriate choice of the edge length ratio for chamfering.
- <br><br><br><b>Faces:</b> 20 equilateral triangles and 30 mirror-symmetric hexagons | <b>Edges:</b> 120 | <b>Vertices:</b> 72. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">More...</a>
+<h4>4. Biscribed disdyakis dodecahedron</h4>
+<a href="vr/BiscribedDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Biscribed Disdyakis Dodecahedron"></a><img src="ar/80.png" class="qr">
+ <br><br><br>A biscript disdyakis dodecahedron has the shape of the disdyakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated cuboctahedron.
+ <br><br><br><b>Faces:</b> 48 acute triangles | <b>Edges:</b> 72 | <b>Vertices:</b> 26. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Chamfered dodecahedron</h4>
