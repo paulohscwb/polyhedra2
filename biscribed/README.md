@@ -78,6 +78,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed pentakis dodecahedron has the shape of the pentakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated icosahedron.
  <br><br><br><b>Faces:</b> 60 isosceles triangles | <b>Edges:</b> 90 | <b>Vertices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<hr>
+<h4>7. Biscribed truncated icosidodecahedron</h4>
+<a href="vr/BiscribedTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/83A.png" class="foto" alt="Biscribed truncated icosidodecahedron"></a><img src="ar/83.png" class="qr">
+ <br><br><br>A biscript truncated icosidodecahedron has the shape of the truncated icosidodecahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis triacontahedron.
+ <br><br><br><b>Faces:</b> 30 rectangles, 20 ditrigons and 12 dipentagons | <b>Edges:</b> 180 | <b>Vertices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>8. Biscribed disdyakis triacontahedron</h4>
+<a href="vr/BiscribedDisdyakisTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Biscribed disdyakis triacontahedron"></a><img src="ar/84.png" class="qr">
+ <br><br><br>A biscribed disdyakis triacontahedron has the shape of the disdyakis triacontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated icosidodecahedron.
+ <br><br><br><b>Faces:</b> 120 acute triangles | <b>Edges:</b> 180 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

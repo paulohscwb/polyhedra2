@@ -78,6 +78,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um dodecaedro pentakis biscrito tem a forma do dodecaedro pentakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do icosaedro truncado biscrito.
  <br><br><br><b>Faces:</b> 60 triângulos isósceles | <b>Arestas:</b> 90 | <b>Vértices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>7. Icosidodecaedro truncado biscrito</h4>
+<a href="../vr/BiscribedTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Icosidodecaedro truncado biscrito"></a><img src="../ar/83.png" class="qr">
+  <br><br><br>Um icosidodecaedro truncado biscrito tem a forma do icosidodecaedro truncado, um dos poliedros de Arquimedes, mas não possui faces regulares. É o sólido dual do triacontaedro disdiakis biscrito.
+ <br><br><br><b>Faces:</b> 30 retângulos, 20 ditrígonos e 12 dipentágonos | <b>Arestas:</b> 180 | <b>Vértices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>8. Triacontaedro disdiakis biscrito</h4>
+<a href="../vr/BiscribedDisdyakisTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/84A.png" class="foto" alt="triacontaedro disdiakis biscrito"></a><img src="../ar/84.png" class="qr">
+ <br><br><br>Um triacontaedro disdiakis biscrito tem a forma do triacontaedro disdiakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do icosidodecaedro truncado biscrito.
+ <br><br><br><b>Faces:</b> 120 triângulos acutângulos | <b>Arestas:</b> 180 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
