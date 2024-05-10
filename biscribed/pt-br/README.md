@@ -67,16 +67,16 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 48 triângulos acutângulos | <b>Arestas:</b> 72 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>5. Dodecaedro chanfrado</h4>
-<a href="../vr/ChamferedDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/60A.png" class="foto" alt="Dodecaedro chanfrado"></a><img src="../ar/60.png" class="qr">
-  <br><br>Um dodecaedro chanfrado, também chamado de triacontaedro rômbico truncado ou triacontaedro rômbico pentatruncado, é um poliedro obtido chanfrando um dodecaedro regular. Um dodecaedro chanfrado equilátero pode ser construído pela escolha apropriada da relação de comprimento da aresta para chanframento.
- <br><br><br><b>Faces:</b> 12 pentágonos regulares e 30 hexágonos simétricos | <b>Arestas:</b> 120 | <b>Vértices:</b> 80. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">Mais sobre...</a>
+<h4>5. Icosaedro truncado biscrito</h4>
+<a href="../vr/BiscribedTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Icosaedro truncado biscrito"></a><img src="../ar/81.png" class="qr">
+  <br><br><br>Um icosaedro truncado biscrito tem a forma do icosaedro truncado, um dos poliedros de Arquimedes, mas não possui hexágonos regulares. É o sólido dual do dodecaedro pentakis biscrito.
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares e 20 ditrígonos | <b>Arestas:</b> 90 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>6. Icosaedro truncado chanfrado</h4>
-<a href="../vr/ChamferedTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="Icosaedro truncado chanfrado"></a><img src="../ar/61.png" class="qr">
- <br><br>Um icosaedro truncado chanfrado é um poliedro obtido chanfrando um icosaedro truncado regular. Um icosaedro truncado chanfrado equilátero pode ser construído pela escolha apropriada da relação de comprimento da borda para chanframento.
- <br><br><br><b>Faces:</b> 12 pentágonos regulares, 20 hexágonos regulares e 90 hexágonos simétricos | <b>Arestas:</b> 360 | <b>Vértices:</b> 240. <a href="https://mathworld.wolfram.com/topics/ChamferedPolyhedra.html" target="_blank">Mais sobre...</a>
+<h4>6. Dodecaedro pentakis biscrito</h4>
+<a href="../vr/BiscribedPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/82A.png" class="foto" alt="dodecaedro pentakis biscrito"></a><img src="../ar/82.png" class="qr">
+ <br><br><br>Um dodecaedro pentakis biscrito tem a forma do dodecaedro pentakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do icosaedro truncado biscrito.
+ <br><br><br><b>Faces:</b> 60 triângulos isósceles | <b>Arestas:</b> 90 | <b>Vértices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
