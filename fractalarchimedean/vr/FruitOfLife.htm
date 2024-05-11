@@ -12,10 +12,10 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;" reflection>
 		<a-assets>
-			<a-mixin id="mtl1" material="color: #5caa04; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl2" material="color: #cc1100; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl3" material="color: #0088ff; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl4" material="color: #e44; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl1" material="envMap:#cubm; color: #5caa04; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl2" material="envMap:#cubm; color: #cc1100; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl3" material="envMap:#cubm; color: #0088ff; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl4" material="envMap:#cubm; color: #e44; side:double; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
 			<a-mixin id="tr" geometry="radius: 1; segments-height: 100; segments-width: 100" material="envMap:#cubm;" mixin="mtl4"></a-mixin>
 			<a-cubemap id="cubm">
               <img src="outros/cubemap/Right.jpg">
