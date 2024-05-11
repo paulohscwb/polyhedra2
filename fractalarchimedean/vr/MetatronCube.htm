@@ -12,17 +12,6 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene reflection>
 		<a-assets>
-			<a-mixin id="mtl1" material="envMap: #cubm; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl2" material="envMap: #cubm; color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl3" material="envMap: #cubm; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl4" material="envMap: #cubm; color: #ffcc00; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="ci" geometry="height:5.1962; radius:0.031;" mixin="mtl1" material="envMap: #cubm;"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 0.618; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3; envMap: #cubm;"></a-mixin>
-			<a-mixin id="s4_1" position="0 0 1.5"></a-mixin>
-			<a-mixin id="s4_2" position="0 -1.5 1.5"></a-mixin>
-			<a-mixin id="s4_3" position="0 1.5 0"></a-mixin>
-			<a-mixin id="arestas" mixin="mtl1" geometry="radius: 0.031; height:3" material="metalness:0.5; roughness:0.3; envMap: #cubm;"></a-mixin>
-			<a-mixin id="diagonal" mixin="mtl1" geometry="radius: 0.031; height:4.243" material="metalness:0.5; roughness:0.3; envMap: #cubm;">
 			<a-cubemap id="cubm">
               <img src="./outros/cubemap/Right.png">
               <img src="./outros/cubemap/Left.png">
@@ -31,6 +20,17 @@
               <img src="./outros/cubemap/Front.png">
               <img src="./outros/cubemap/Back.png">
            </a-cubemap>
+			<a-mixin id="mtl1" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl2" material="color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl3" material="color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl4" material="color: #ffcc00; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="ci" geometry="height:5.1962; radius:0.031;" mixin="mtl1"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 0.618; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="s4_1" position="0 0 1.5"></a-mixin>
+			<a-mixin id="s4_2" position="0 -1.5 1.5"></a-mixin>
+			<a-mixin id="s4_3" position="0 1.5 0"></a-mixin>
+			<a-mixin id="arestas" mixin="mtl1" geometry="radius: 0.031; height:3" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="diagonal" mixin="mtl1" geometry="radius: 0.031; height:4.243" material="metalness:0.5; roughness:0.3;">
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 350 350 350; maxDistance: 750;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>

@@ -12,13 +12,21 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene reflection>
 		<a-assets>
-			<a-mixin id="mtl1" material="envMap: #cubm; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl2" material="envMap: #cubm; color: #0ef; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl3" material="envMap: #cubm; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl4" material="envMap: #cubm; color: #ffcc00; opacity:0.7; metalness:0.4; roughness:0.3"></a-mixin>
-			<a-mixin id="ci" geometry="height:5.1962; radius:0.031;" mixin="mtl1" material="envMap: #cubm;"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3; envMap: #cubm;"></a-mixin>
-			<a-mixin id="tr" geometry="radius-tubular:0.015; arc:360; radius:1; segments-tubular: 50" material="envMap: #cubm;" mixin="mtl3">
+			<a-cubemap id="cubm">
+              <img src="./outros/cubemap/Right.png">
+              <img src="./outros/cubemap/Left.png">
+              <img src="./outros/cubemap/Top.png">
+              <img src="./outros/cubemap/Bottom.png">
+              <img src="./outros/cubemap/Front.png">
+              <img src="./outros/cubemap/Back.png">
+           </a-cubemap>
+			<a-mixin id="mtl1" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl2" material="color: #0ef; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl3" material="color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="mtl4" material="color: #ffcc00; opacity:0.7; metalness:0.4; roughness:0.3; envMap: #cubm;"></a-mixin>
+			<a-mixin id="ci" geometry="height:5.1962; radius:0.031;" mixin="mtl1"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="tr" geometry="radius-tubular:0.015; arc:360; radius:1; segments-tubular: 50" mixin="mtl3">
 			<a-asset-item id="mt" src="outros/c6.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
 			<a-asset-item id="aq1" src="outros/CuboctahedronL.obj"></a-asset-item>
@@ -35,14 +43,6 @@
 			<a-mixin id="anima1" animation='property: rotation; dur: 15000; to: -90 -45 -90; easing: easeInOutQuad; delay: 5000; loop:1;'></a-mixin>
 			<a-mixin id="anima2" animation__1='property: rotation; dur: 15000; from: -90 -45 -90; to: 0 30 0; easing: easeInOutQuad; delay: 25000; loop:1;'></a-mixin>
 			<a-mixin id="anima3" animation__2='property: rotation; dur: 15000; to: -90 -45 -90; easing: easeInOutQuad; delay: 45000; loop:1;'></a-mixin>
-			<a-cubemap id="cubm">
-              <img src="./outros/cubemap/Right.png">
-              <img src="./outros/cubemap/Left.png">
-              <img src="./outros/cubemap/Top.png">
-              <img src="./outros/cubemap/Bottom.png">
-              <img src="./outros/cubemap/Front.png">
-              <img src="./outros/cubemap/Back.png">
-           </a-cubemap>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" rotation="0 30 0" mixin="anima1 anima2 anima3" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 5 630 -5; maxDistance: 750;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
