@@ -15,12 +15,12 @@
 <h3 style="margin-top:3px"><a target="_blank" href="propellor/"><img src="propellor/ar/65A.png" style="margin-bottom:-10px" width="40"> Propellor polyhedra</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="diamonds/"><img src="diamonds/ar/108A.png" style="margin-bottom:-10px" width="40"> Diamond polyhedra</a></h3>
 
-<!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
+<!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>-->
 <hr>
 <h3 align="center">Immersive rooms</h3>
-<p align="center"><img src="catalan/vr/salas/videos/catalan.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="nonconvex/vr/salas/videos/nonconvex1.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img src="https://paulohscwb.github.io/cotadas/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="fractalnonconvex/vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Augmented Reality and 3D models</h3>
-<p align="center"><img src="johnson1/ar/johnson1.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
+<p align="center"><img src="fractalarchimedean/ar/fractalarchimedean.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <br>The Augmented Reality environments were created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Kevin Ngo</b> were used in the Virtual Reality pages of the 3D models: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
