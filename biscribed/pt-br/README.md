@@ -90,6 +90,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um triacontaedro disdiakis biscrito tem a forma do triacontaedro disdiakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do icosidodecaedro truncado biscrito.
  <br><br><br><b>Faces:</b> 120 triângulos acutângulos | <b>Arestas:</b> 180 | <b>Vértices:</b> 62. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>9. Cubo snub biscrito</h4>
+<a href="../vr/BiscribedSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Cubo snub biscrito"></a><img src="../ar/85.png" class="qr">
+ <br><br><br>Um cubo snub biscrito tem a forma do cubo snub, um dos poliedros de Arquimedes, mas as medidas das arestas são diferentes. É o sólido dual do icositetraedro pentagonal biscrito.
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos acutângulos e 6 quadrados | <b>Arestas:</b> 60 | <b>Vértices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>10. Icositetraedro pentagonal biscrito</h4>
+<a href="../vr/BiscribedPentagonalIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="icositetraedro pentagonal"></a><img src="../ar/86.png" class="qr">
+ <br><br><br>Um icositetraedro pentagonal biscrito tem a forma do icositetraedro pentagonal, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do cubo snub biscrito.
+ <br><br><br><b>Faces:</b> 24 pentágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

@@ -90,6 +90,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed disdyakis triacontahedron has the shape of the disdyakis triacontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated icosidodecahedron.
  <br><br><br><b>Faces:</b> 120 acute triangles | <b>Edges:</b> 180 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>9. Biscribed snub cube</h4>
+<a href="vr/BiscribedSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Biscribed snub cube"></a><img src="ar/85.png" class="qr">
+ <br><br><br>A biscribed snub cube has the shape of the snub cube, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscript pentagonal icositetrahedron.
+ <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 acute triangles and 6 squares | <b>Edges:</b> 60 | <b>Vertices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>10. Biscribed pentagonal icositetrahedron</h4>
+<a href="vr/BiscribedPentagonalIcositetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Biscribed pentagonal icositetrahedron"></a><img src="ar/86.png" class="qr">
+ <br><br><br>A biscribed pentagonal icositetrahedron has the shape of the pentagonal icositetrahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript snub cube.
+ <br><br><br><b>Faces:</b> 24 irregular pentagons | <b>Edges:</b> 60 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
