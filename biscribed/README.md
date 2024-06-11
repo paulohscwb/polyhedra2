@@ -104,6 +104,13 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+<h4>11. Biscribed snub dodecahedron</h4>
+<a href="vr/BiscribedSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Biscribed snub dodecahedron"></a><img src="ar/87.png" class="qr">
+ <br><br><br>A biscribed snub dodecahedron has the shape of the snub dodecahedron, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscript pentagonal hexecontahedron.
+ <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 acute triangles and 12 regular pentagons | <b>Edges:</b> 150 | <b>Vertices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
