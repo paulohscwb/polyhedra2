@@ -31,7 +31,7 @@ f 4 16 5 17
 f 7 19 6 18
 f 8 21 11 22
 f 9 20 10 23
-usemtl Cor9
+usemtl Cor11
 f 24 8 14
 f 1 9 15
 f 2 10 12
@@ -56,7 +56,7 @@ f 20 12 10
 f 21 13 11
 f 22 14 8
 f 23 15 9
-usemtl Cor11
+usemtl Cor9
 f 8 24 4
 f 9 1 5
 f 10 2 6
