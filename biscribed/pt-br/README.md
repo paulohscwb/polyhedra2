@@ -151,6 +151,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um octaedro de hélice biscrito tem a forma do octaedro de hélice, mas as medidas das arestas são diferentes. É o sólido dual do cubo de hélice biscrito.
  <br><br><br><b>Faces:</b> 8 triângulos equiláteros e 24 tetrágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>19. Dodecaedro de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/95A.png" class="foto" alt="dodecaedro de hélice biscrito"></a><img src="../ar/95.png" class="qr">
+ <br><br><br>Um dodecaedro de hélice biscrito tem a forma do dodecaedro de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icosaedro de hélice biscrito.
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares e 60 tetrágonos irregulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 80. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>20. Icosaedro de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/96A.png" class="foto" alt="icosaedro de hélice biscrito"></a><img src="../ar/96.png" class="qr">
+ <br><br><br>Um icosaedro de hélice biscrito tem a forma do icosaedro de hélice, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro de hélice biscrito.
+ <br><br><br><b>Faces:</b> 20 triângulos equiláteros e 60 tetrágonos irregulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

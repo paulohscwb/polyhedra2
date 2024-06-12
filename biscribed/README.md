@@ -151,6 +151,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed propello octahedron has the shape of the propello octahedron, but the edge measurements are different. It is the dual solid of the biscript propello cube.
  <br><br><br><b>Faces:</b> 8 equilateral triangles and 24 irregular tetragons | <b>Edges:</b> 60 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>19. Biscribed propello dodecahedron</h4>
+<a href="vr/BiscribedPropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/95A.png" class="foto" alt="Biscribed propello Dodecahedron"></a><img src="ar/95.png" class="qr">
+ <br><br><br>A biscribed propello dodecahedron has the shape of the propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello icosahedron.
+ <br><br><br><b>Faces:</b> 12 regular pentagons and 60 irregular tetragons | <b>Edges:</b> 150 | <b>Vertices:</b> 80. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>20. Biscribed propello icosahedron</h4>
+<a href="vr/BiscribedPropelloIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/96A.png" class="foto" alt="Biscribed propello icosahedron"></a><img src="ar/96.png" class="qr">
+ <br><br><br>A biscribed propello icosahedron has the shape of the propello icosahedron, but the edge measurements are different. It is the dual solid of the biscript propello dodecahedron.
+ <br><br><br><b>Faces:</b> 20 equilateral triangles and 60 irregular tetragons | <b>Edges:</b> 150 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
