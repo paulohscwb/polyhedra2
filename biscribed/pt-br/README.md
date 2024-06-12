@@ -94,26 +94,38 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <h4>9. Cubo snub biscrito</h4>
 <a href="../vr/BiscribedSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Cubo snub biscrito"></a><img src="../ar/85.png" class="qr">
  <br><br><br>Um cubo snub biscrito tem a forma do cubo snub, um dos poliedros de Arquimedes, mas as medidas das arestas são diferentes. É o sólido dual do icositetraedro pentagonal biscrito.
- <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos acutângulos e 6 quadrados | <b>Arestas:</b> 60 | <b>Vértices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos acutângulos e 6 quadrados | <b>Arestas:</b> 60 | <b>Vértices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>10. Icositetraedro pentagonal biscrito</h4>
 <a href="../vr/BiscribedPentagonalIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="icositetraedro pentagonal biscrito"></a><img src="../ar/86.png" class="qr">
  <br><br><br>Um icositetraedro pentagonal biscrito tem a forma do icositetraedro pentagonal, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do cubo snub biscrito.
- <br><br><br><b>Faces:</b> 24 pentágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 24 pentágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>11. Dodecaedro snub biscrito</h4>
 <a href="../vr/BiscribedSnubDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Dodecaedro snub biscrito"></a><img src="../ar/87.png" class="qr">
  <br><br><br>Um dodecaedro snub biscrito tem a forma do dodecaedro snub, um dos poliedros de Arquimedes, mas as medidas das arestas são diferentes. É o sólido dual do hexecontaedro pentagonal biscrito.
- <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 triângulos acutângulos e 12 pentágonos regulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 triângulos acutângulos e 12 pentágonos regulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>12. Hexecontaedro pentagonal biscrito</h4>
 <a href="../vr/BiscribedPentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Hexecontaedro pentagonal biscrito"></a><img src="../ar/88.png" class="qr">
- <br><br><br>Um hexecontaedro pentagonal biscrito tem a forma do hexecontaedro pentagonal, um dos poliedros de Catalan, mas as medidas das bordas são diferentes. É o sólido dual do dodecaedro snub biscrito.
- <br><br><br><b>Faces:</b> 60 pentágonos irregulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br>Um hexecontaedro pentagonal biscrito tem a forma do hexecontaedro pentagonal, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro snub biscrito.
+ <br><br><br><b>Faces:</b> 60 pentágonos irregulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>13. Octaedro de hélice ortotruncado biscrito</h4>
+<a href="../vr/BiscribedOrthotruncatedPropelloOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="octaedro de hélice ortotruncado biscrito"></a><img src="../ar/89.png" class="qr">
+ <br><br><br>Um octaedro de hélice ortotruncado biscrito tem a forma do octaedro de hélice ortotruncado, mas as medidas das arestas são diferentes. É o sólido dual do cubo ortokis de hélice biscrito.
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 6 quadrados e 24 pentágonos irregulares | <b>Arestas:</b> 84 | <b>Vértices:</b> 48. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>14. Cubo ortokis de hélice biscrito</h4>
+<a href="../vr/BiscribedOrthokisPropelloCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="cubo ortokis de hélice biscrito"></a><img src="../ar/90.png" class="qr">
+ <br><br><br>Um cubo ortokis de hélice biscrito tem a forma do cubo ortokis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do octaedro de hélice ortotruncado biscrito.
+ <br><br><br><b>Faces:</b> 24 triângulos isósceles e 24 tetrágonos irregulares | <b>Arestas:</b> 84 | <b>Vértices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
