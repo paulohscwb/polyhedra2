@@ -109,6 +109,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed snub dodecahedron has the shape of the snub dodecahedron, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscript pentagonal hexecontahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 acute triangles and 12 regular pentagons | <b>Edges:</b> 150 | <b>Vertices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>12. Biscribed pentagonal hexecontahedron</h4>
+<a href="vr/BiscribedPentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Biscribed pentagonal hexecontahedron"></a><img src="ar/88.png" class="qr">
+ <br><br><br>A biscribed pentagonal hexecontahedron has the shape of the pentagonal hexecontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript snub dodecahedron.
+ <br><br><br><b>Faces:</b> 60 irregular pentagons | <b>Edges:</b> 150 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

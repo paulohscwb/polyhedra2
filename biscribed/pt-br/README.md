@@ -109,6 +109,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um dodecaedro snub biscrito tem a forma do dodecaedro snub, um dos poliedros de Arquimedes, mas as medidas das arestas são diferentes. É o sólido dual do hexecontaedro pentagonal biscrito.
  <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 triângulos acutângulos e 12 pentágonos regulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>12. Hexecontaedro pentagonal biscrito</h4>
+<a href="../vr/BiscribedPentagonalHexecontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Hexecontaedro pentagonal biscrito"></a><img src="../ar/88.png" class="qr">
+ <br><br><br>Um hexecontaedro pentagonal biscrito tem a forma do hexecontaedro pentagonal, um dos poliedros de Catalan, mas as medidas das bordas são diferentes. É o sólido dual do dodecaedro snub biscrito.
+ <br><br><br><b>Faces:</b> 60 pentágonos irregulares | <b>Arestas:</b> 150 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
