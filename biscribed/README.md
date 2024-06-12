@@ -129,7 +129,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>15. Biscribed orthotruncated propello icosahedron</h4>
-<a href="vr/BiscribedOrthotruncatedPropelloIcosahedron .htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Biscribed orthotruncated propello icosahedron"></a><img src="ar/91.png" class="qr">
+<a href="vr/BiscribedOrthotruncatedPropelloIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Biscribed orthotruncated propello icosahedron"></a><img src="ar/91.png" class="qr">
  <br><br><br>A biscribed orthotruncated propello icosahedron has the shape of the orthotruncated propello icosahedron, but the edge measurements are different. It is the dual solid of the biscript orthokis propello dodecahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 irregular pentagons and 12 regular pentagons | <b>Edges:</b> 210 | <b>Vertices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
