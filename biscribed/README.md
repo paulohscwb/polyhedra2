@@ -125,7 +125,19 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <h4>14. Biscribed orthokis propello cube</h4>
 <a href="vr/BiscribedOrthokisPropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Biscribed Orthokis Propello Cube"></a><img src="ar/90.png" class="qr">
  <br><br><br>A biscribed orthokis propello cube has the shape of the orthokis propello cube, but the edge measurements are different. It is the dual solid of the biscript orthotruncated propello octahedron.
- <br><br><br><b>Faces:</b> 24 isosceles triangles, 24 irregular tetragons | <b>Edges:</b> 84 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <br><br><br><b>Faces:</b> 24 isosceles triangles and 24 irregular tetragons | <b>Edges:</b> 84 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>15. Biscribed orthotruncated propello icosahedron</h4>
+<a href="vr/BiscribedOrthotruncatedPropelloIcosahedron .htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Biscribed orthotruncated propello icosahedron"></a><img src="ar/91.png" class="qr">
+ <br><br><br>A biscribed orthotruncated propello icosahedron has the shape of the orthotruncated propello icosahedron, but the edge measurements are different. It is the dual solid of the biscript orthokis propello dodecahedron.
+ <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 irregular pentagons and 12 regular pentagons | <b>Edges:</b> 210 | <b>Vertices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>16. Biscribed orthokis propello dodecahedron</h4>
+<a href="vr/BiscribedOrthokisPropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Biscribed orthokis propello dodecahedron"></a><img src="ar/92.png" class="qr">
+ <br><br><br>A biscribed orthokis propello dodecahedron has the shape of the orthokis propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript orthotruncated propello icosahedron.
+ <br><br><br><b>Faces:</b> 60 isosceles triangles and 60 irregular tetragons | <b>Edges:</b> 210 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
