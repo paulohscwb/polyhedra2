@@ -165,6 +165,19 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+<h4>21. Biscribed hexpropello cube</h4>
+<a href="vr/BiscribedHexpropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/97A.png" class="foto" alt="Biscribed hexpropello cube"></a><img src="ar/97.png" class="qr">
+ <br><br><br>A biscribed hexpropello cube has the shape of the hexpropello cube, but the edge measurements are different. It is the dual solid of the biscript tetrakis snub cube.
+ <br><br><br><b>Faces:</b> 6 squares and 24 irregular hexagons | <b>Edges:</b> 84 | <b>Vertices:</b> 56. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>22. Biscribed tetrakis snub cube</h4>
+<a href="vr/BiscribedTetrakisSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Biscribed tetrakis snub cube"></a><img src="ar/98.png" class="qr">
+ <br><br><br>A biscribed tetrakis snub cube has the shape of the tetrakis snub cube, but the edge measurements are different. It is the dual solid of the biscript hexpropello cube.
+ <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 isosceles triangles and 24 acute triangles | <b>Edges:</b> 84 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 

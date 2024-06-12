@@ -165,6 +165,19 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+<h4>21. Cubo de hélice hexagonal biscrito</h4>
+<a href="../vr/BiscribedHexpropelloCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/97A.png" class="foto" alt="Cubo de hélice hexagonal biscrito"></a><img src="../ar/97.png" class="qr">
+ <br><br><br>Um cubo de hélice hexagonal biscrito tem a forma do cubo de hélice hexagonal, mas as medidas das arestas são diferentes. É o sólido dual do cubo snub tetrakis biscrito.
+ <br><br><br><b>Faces:</b> 6 quadrados e 24 hexágonos irregulares | <b>Arestas:</b> 84 | <b>Vértices:</b> 56. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>22. Cubo snub tetrakis biscrito</h4>
+<a href="../vr/BiscribedTetrakisSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/98A.png" class="foto" alt="Cubo snub tetrakis biscrito"></a><img src="../ar/98.png" class="qr">
+ <br><br><br>Um cubo snub tetrakis biscrito tem a forma do cubo snub tetrakis, mas as medidas das arestas são diferentes. É o sólido dual do cubo de hélice hexagonal.
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos isósceles e 24 triângulos acutângulos | <b>Arestas:</b> 84 | <b>Vértices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
