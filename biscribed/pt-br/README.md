@@ -139,6 +139,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um dodecaedro ortokis de hélice biscrito tem a forma do dodecaedro ortokis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icosaedro de hélice ortotruncado biscrito.
  <br><br><br><b>Faces:</b> 60 triângulos isósceles e 60 tetrágonos irregulares | <b>Arestas:</b> 210 | <b>Vértices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>17. Cubo de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/93A.png" class="foto" alt="Cubo de hélice biscrito"></a><img src="../ar/93.png" class="qr">
+ <br><br><br>Um cubo de hélice biscrito tem a forma do cubo de hélice, mas as medidas das arestas são diferentes. É o sólido dual do octaedro de hélice biscrito.
+ <br><br><br><b>Faces:</b> 6 quadrados e 24 tetrágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>18. Octaedro de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/94A.png" class="foto" alt="octaedro de hélice biscrito"></a><img src="../ar/94.png" class="qr">
+ <br><br><br>Um octaedro de hélice biscrito tem a forma do octaedro de hélice, mas as medidas das arestas são diferentes. É o sólido dual do cubo de hélice biscrito.
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros e 24 tetrágonos irregulares | <b>Arestas:</b> 60 | <b>Vértices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

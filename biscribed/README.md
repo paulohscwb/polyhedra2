@@ -139,6 +139,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed orthokis propello dodecahedron has the shape of the orthokis propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript orthotruncated propello icosahedron.
  <br><br><br><b>Faces:</b> 60 isosceles triangles and 60 irregular tetragons | <b>Edges:</b> 210 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>17. Biscribed propello cube</h4>
+<a href="vr/BiscribedPropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Biscribed propello cube"></a><img src="ar/93.png" class="qr">
+ <br><br><br>A biscribed propello cube has the shape of the propello cube, but the edge measurements are different. It is the dual solid of the biscript propello octahedron.
+ <br><br><br><b>Faces:</b> 6 squares and 24 irregular tetragons | <b>Edges:</b> 60 | <b>Vertices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>18. Biscribed propello octahedron</h4>
+<a href="vr/BiscribedPropelloOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/94A.png" class="foto" alt="Biscribed propello octahedron"></a><img src="ar/94.png" class="qr">
+ <br><br><br>A biscribed propello octahedron has the shape of the propello octahedron, but the edge measurements are different. It is the dual solid of the biscript propello cube.
+ <br><br><br><b>Faces:</b> 8 equilateral triangles and 24 irregular tetragons | <b>Edges:</b> 60 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
