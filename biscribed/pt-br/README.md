@@ -188,6 +188,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um dodecaedro snub pentakis biscrito tem a forma do dodecaedro snub pentakis, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro de hélice hexagonal biscrito.
  <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 triângulos isósceles e 60 triângulos acutângulos | <b>Arestas:</b> 210 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>25. Octaedro truncado de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/101A.png" class="foto" alt="Octaedro truncado de hélice biscrito"></a><img src="../ar/101.png" class="qr">
+ <br><br><br>Um octaedro truncado de hélice biscrito tem a forma do octaedro truncado de hélice, mas as medidas das arestas são diferentes. É o sólido dual do hexaedro tetrakis de hélice biscrito.
+ <br><br><br><b>Faces:</b> 6 quadrados, 72 tetrágonos irregulares e 8 ditrígonos | <b>Arestas:</b> 180 | <b>Vértices:</b> 96. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>26. Hexaedro tetrakis de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloTetrakisHexahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="hexaedro tetrakis de hélice biscrito"></a><img src="../ar/102.png" class="qr">
+ <br><br><br>Um hexaedro tetrakis de hélice biscrito tem a forma do hexaedro tetrakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do octaedro truncado de hélice biscrito.
+ <br><br><br><b>Faces:</b> 24 triângulos acutângulos e 72 tetrágonos irregulares | <b>Arestas:</b> 180 | <b>Vértices:</b> 86. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

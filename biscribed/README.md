@@ -188,6 +188,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed pentakis snub dodecahedron has the shape of the pentakis snub dodecahedron, but the edge measurements are different. It is the dual solid of the biscript hexpropello dodecahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 isosceles triangles and 60 acute triangles | <b>Edges:</b> 210 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>25. Biscribed propello truncated octahedron</h4>
+<a href="vr/BiscribedPropelloTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/101A.png" class="foto" alt="Biscribed propello truncated octahedron"></a><img src="ar/101.png" class="qr">
+ <br><br><br>A biscribed propello truncated octahedron has the shape of the propello truncated octahedron, but the edge measurements are different. It is the dual solid of the biscript propello tetrakis hexahedron.
+ <br><br><br><b>Faces:</b> 6 squares, 72 irregular tetragons and 8 ditrigons | <b>Edges:</b> 180 | <b>Vertices:</b> 96. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>26. Biscribed propello tetrakis hexahedron</h4>
+<a href="vr/BiscribedPropelloTetrakisHexahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/102A.png" class="foto" alt="Biscribed propello tetrakis hexahedron"></a><img src="ar/102.png" class="qr">
+ <br><br><br>A biscribed propello tetrakis hexahedron has the shape of the propello tetrakis hexahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated octahedron.
+ <br><br><br><b>Faces:</b> 24 acute triangles and 72 irregular tetragons | <b>Edges:</b> 180 | <b>Vertices:</b> 86. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
