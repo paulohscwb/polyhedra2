@@ -200,6 +200,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed propello tetrakis hexahedron has the shape of the propello tetrakis hexahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated octahedron.
  <br><br><br><b>Faces:</b> 24 acute triangles and 72 irregular tetragons | <b>Edges:</b> 180 | <b>Vertices:</b> 86. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>27. Biscribed propello truncated cuboctahedron</h4>
+<a href="vr/BiscribedPropelloTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/103A.png" class="foto" alt="Biscribed propello truncated cuboctahedron"></a><img src="ar/103.png" class="qr">
+ <br><br><br>A biscribed propello truncated cuboctahedron has the shape of the propello truncated cuboctahedron, but the edge measurements are different. It is the dual solid of the biscript propello disdyakis dodecahedron.
+ <br><br><br><b>Faces:</b> 12 rectangles, 144 irregular tetragons, 8 ditrigons and 6 ditetragons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>28. Biscribed propello disdyakis dodecahedron</h4>
+<a href="vr/BiscribedPropelloDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/104A.png" class="foto" alt="Biscribed propello disdyakis dodecahedron"></a><img src="ar/104.png" class="qr">
+ <br><br><br>A biscribed propello disdyakis dodecahedron has the shape of the propello disdyakis dodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated cuboctahedron.
+ <br><br><br><b>Faces:</b> 48 acute triangles and 144 irregular tetragons | <b>Edges:</b> 360 | <b>Vertices:</b> 170. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

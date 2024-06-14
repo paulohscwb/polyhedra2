@@ -19,22 +19,46 @@
 	</select>
 </form>
 <script>
-function urlHandler(value) {                               
-    window.location.assign(`${value}`);
+function urlHandler(value) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+window.location.assign(`${value}`);
 }
 </script>
 
 <p id="p1"></p>
-  <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros biscritos</h2>
-  Definimos um poliedro biscrito como qualquer poliedro convexo que possui esferas concêntricas circunscritas e inscritas, onde o centro da esfera também é o centróide dos vértices e o centróide dos pontos de tangência das faces.
+
+<h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros biscritos</h2>
+
+Definimos um poliedro biscrito como qualquer poliedro convexo que possui esferas concêntricas circunscritas e inscritas, onde o centro da esfera também é o centróide dos vértices e o centróide dos pontos de tangência das faces.
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
  <h3 align="center">Sala imersiva</h3>
-  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../../cotadas/videos/biscribed.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os Poliedros biscritos"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
-  <hr>
-  <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os poliedros biscritos em RA, visite a página:
+
+<div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
+
+<p align="center"><img align="middle" src="../../../cotadas/videos/biscribed.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV para os Poliedros biscritos"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+
+<hr>
+
+<h3 id="ra" align="center">Realidade Aumentada</h3>
+
+Para visualizar os poliedros biscritos em RA, visite a página:
 <p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/biscribed/ra.html</a></p> 
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
@@ -63,13 +87,15 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>4. Dodecaedro disdiakis biscrito</h4>
 <a href="../vr/BiscribedDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Dodecaedro disdiakis biscrito"></a><img src="../ar/80.png" class="qr">
-  <br><br><br>Um dodecaedro disdiakis biscrito tem a forma do dodecaedro disdiakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do cuboctaedro truncado biscrito.
+
+<br><br><br>Um dodecaedro disdiakis biscrito tem a forma do dodecaedro disdiakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do cuboctaedro truncado biscrito.
  <br><br><br><b>Faces:</b> 48 triângulos acutângulos | <b>Arestas:</b> 72 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Icosaedro truncado biscrito</h4>
 <a href="../vr/BiscribedTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Icosaedro truncado biscrito"></a><img src="../ar/81.png" class="qr">
-  <br><br><br>Um icosaedro truncado biscrito tem a forma do icosaedro truncado, um dos poliedros de Arquimedes, mas não possui hexágonos regulares. É o sólido dual do dodecaedro pentakis biscrito.
+
+<br><br><br>Um icosaedro truncado biscrito tem a forma do icosaedro truncado, um dos poliedros de Arquimedes, mas não possui hexágonos regulares. É o sólido dual do dodecaedro pentakis biscrito.
  <br><br><br><b>Faces:</b> 12 pentágonos regulares e 20 ditrígonos | <b>Arestas:</b> 90 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
@@ -81,7 +107,8 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>7. Icosidodecaedro truncado biscrito</h4>
 <a href="../vr/BiscribedTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Icosidodecaedro truncado biscrito"></a><img src="../ar/83.png" class="qr">
-  <br><br><br>Um icosidodecaedro truncado biscrito tem a forma do icosidodecaedro truncado, um dos poliedros de Arquimedes, mas não possui faces regulares. É o sólido dual do triacontaedro disdiakis biscrito.
+
+<br><br><br>Um icosidodecaedro truncado biscrito tem a forma do icosidodecaedro truncado, um dos poliedros de Arquimedes, mas não possui faces regulares. É o sólido dual do triacontaedro disdiakis biscrito.
  <br><br><br><b>Faces:</b> 30 retângulos, 20 ditrígonos e 12 dipentágonos | <b>Arestas:</b> 180 | <b>Vértices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
@@ -199,6 +226,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../vr/BiscribedPropelloTetrakisHexahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="hexaedro tetrakis de hélice biscrito"></a><img src="../ar/102.png" class="qr">
  <br><br><br>Um hexaedro tetrakis de hélice biscrito tem a forma do hexaedro tetrakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do octaedro truncado de hélice biscrito.
  <br><br><br><b>Faces:</b> 24 triângulos acutângulos e 72 tetrágonos irregulares | <b>Arestas:</b> 180 | <b>Vértices:</b> 86. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>27. Cuboctaedro truncado de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloTruncatedCuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/103A.png" class="foto" alt="cuboctaedro truncado de hélice biscrito"></a><img src="../ar/103.png" class="qr">
+ <br><br><br>Um cuboctaedro truncado de hélice biscrito tem a forma do cuboctaedro truncado de hélice, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro disdiakis de hélice biscrito.
+ <br><br><br><b>Faces:</b> 12 retângulos, 144 tetrágonos irregulares, 8 ditrígonos e 6 ditetrágonos | <b>Arestas:</b> 360 | <b>Vértices:</b> 192. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>28. Dodecaedro disdiakis de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/104A.png" class="foto" alt="dodecaedro disdiakis de hélice biscrito"></a><img src="../ar/104.png" class="qr">
+ <br><br><br>Um dodecaedro disdiakis de hélice biscrito tem a forma do dodecaedro disdiakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do cuboctaedro truncado de hélice biscrito.
+ <br><br><br><b>Faces:</b> 48 triângulos acutângulos e 144 tetrágonos irregulares | <b>Arestas:</b> 360 | <b>Vértices:</b> 170. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
