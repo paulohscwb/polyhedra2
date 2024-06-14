@@ -176,6 +176,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed tetrakis snub cube has the shape of the tetrakis snub cube, but the edge measurements are different. It is the dual solid of the biscript hexpropello cube.
  <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 isosceles triangles and 24 acute triangles | <b>Edges:</b> 84 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>23. Biscribed hexpropello dodecahedron</h4>
+<a href="vr/BiscribedHexpropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Biscribed hexpropello dodecahedron"></a><img src="ar/99.png" class="qr">
+ <br><br><br>A biscribed hexpropello dodecahedron has the shape of the hexpropello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript pentakis snub dodecahedron.
+ <br><br><br><b>Faces:</b> 12 regular pentagons and 60 irregular hexagons | <b>Edges:</b> 210 | <b>Vertices:</b> 140. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>24. Biscribed pentakis snub dodecahedron</h4>
+<a href="vr/BiscribedPentakisSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/100A.png" class="foto" alt="Biscribed pentakis snub dodecahedron"></a><img src="ar/100.png" class="qr">
+ <br><br><br>A biscribed pentakis snub dodecahedron has the shape of the pentakis snub dodecahedron, but the edge measurements are different. It is the dual solid of the biscript hexpropello dodecahedron.
+ <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 isosceles triangles and 60 acute triangles | <b>Edges:</b> 210 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

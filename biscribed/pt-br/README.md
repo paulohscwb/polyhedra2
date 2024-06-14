@@ -173,8 +173,20 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>22. Cubo snub tetrakis biscrito</h4>
 <a href="../vr/BiscribedTetrakisSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/98A.png" class="foto" alt="Cubo snub tetrakis biscrito"></a><img src="../ar/98.png" class="qr">
- <br><br><br>Um cubo snub tetrakis biscrito tem a forma do cubo snub tetrakis, mas as medidas das arestas são diferentes. É o sólido dual do cubo de hélice hexagonal.
+ <br><br><br>Um cubo snub tetrakis biscrito tem a forma do cubo snub tetrakis, mas as medidas das arestas são diferentes. É o sólido dual do cubo de hélice hexagonal biscrito.
  <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 24 triângulos isósceles e 24 triângulos acutângulos | <b>Arestas:</b> 84 | <b>Vértices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>23. Dodecaedro de hélice hexagonal biscrito</h4>
+<a href="../vr/BiscribedHexpropelloDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/99A.png" class="foto" alt="Dodecaedro de hélice hexagonal biscrito"></a><img src="../ar/99.png" class="qr">
+ <br><br><br>Um dodecaedro de hélice hexagonal biscrito tem a forma do dodecaedro de hélice hexagonal, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro snub pentakis biscrito.
+ <br><br><br><b>Faces:</b> 12 pentágonos regulares e 60 hexágonos irregulares | <b>Arestas:</b> 210 | <b>Vértices:</b> 140. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>24. Dodecaedro snub pentakis biscrito</h4>
+<a href="../vr/BiscribedPentakisSnubDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/100A.png" class="foto" alt="Dodecaedro snub pentakis biscrito"></a><img src="../ar/100.png" class="qr">
+ <br><br><br>Um dodecaedro snub pentakis biscrito tem a forma do dodecaedro snub pentakis, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro de hélice hexagonal biscrito.
+ <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 triângulos isósceles e 60 triângulos acutângulos | <b>Arestas:</b> 210 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
