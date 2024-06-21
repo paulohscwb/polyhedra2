@@ -249,6 +249,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed dual snub truncated octahedron has the shape of the dual snub truncated octahedron, but the edge measurements are different.
  <br><br><br><b>Faces:</b> 72 irregular pentagons | <b>Edges:</b> 180 | <b>Vertices:</b> 110. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+  <hr>
+<h4>35. Biscribed snub truncated icosahedron</h4>
+<a href="vr/BiscribedSnubTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Biscribed snub truncated icosahedron"></a><img src="ar/111.png" class="qr">
+ <br><br><br>A biscribed snub truncated icosahedron has the shape of the snub truncated icosahedron, but the edge measurements are different.
+ <br><br><br><b>Faces:</b> 240 acute triangles, 12 regular pentagons and 20 ditrigons | <b>Edges:</b> 450 | <b>Vertices:</b> 180. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
