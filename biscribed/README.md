@@ -237,6 +237,18 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>A biscribed propello disdyakis triacontahedron has the shape of the propello disdyakis triacontahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated icosidodecahedron.
  <br><br><br><b>Faces:</b> 120 acute triangles and 360 irregular tetragons | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>33. Biscribed snub truncated octahedron</h4>
+<a href="vr/BiscribedSnubTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/109A.png" class="foto" alt="Biscribed snub truncated octahedron"></a><img src="ar/109.png" class="qr">
+ <br><br><br>A biscribed snub truncated octahedron has the shape of the snub truncated octahedron, but the edge measurements are different.
+ <br><br><br><b>Faces:</b> 96 acute triangles, 6 squares and 8 ditrigons | <b>Edges:</b> 180 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>34. Biscribed dual snub truncated octahedron</h4>
+<a href="vr/BiscribedDualSnubTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/110A.png" class="foto" alt="Biscribed dual snub truncated octahedron"></a><img src="ar/110.png" class="qr">
+ <br><br><br>A biscribed dual snub truncated octahedron has the shape of the dual snub truncated octahedron, but the edge measurements are different.
+ <br><br><br><b>Faces:</b> 72 irregular pentagons | <b>Edges:</b> 180 | <b>Vertices:</b> 110. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

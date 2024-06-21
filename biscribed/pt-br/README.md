@@ -264,6 +264,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>Um triacontaedro disdiakis de hélice biscrito tem a forma do triacontaedro disdiakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icosidodecaedro truncado de hélice biscrito.
  <br><br><br><b>Faces:</b> 360 tetrágonos irregulares e 120 triângulos acutângulos | <b>Arestas:</b> 900 | <b>Vértices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>33. Octaedro truncado snub biscrito</h4>
+<a href="../vr/BiscribedSnubTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/109A.png" class="foto" alt="Octaedro truncado snub biscrito"></a><img src="../ar/109.png" class="qr">
+ <br><br><br>Um octaedro truncado snub biscrito tem a forma do octaedro truncado snub, mas as medidas das arestas são diferentes.
+ <br><br><br><b>Faces:</b> 6 quadrados, 8 ditrígonos e 96 triângulos acutângulos | <b>Arestas:</b> 180 | <b>Vértices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>34. Dual do octaedro truncado snub biscrito</h4>
+<a href="../vr/BiscribedDualSnubTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/110A.png" class="foto" alt="Dual do octaedro truncado snub biscrito"></a><img src="../ar/110.png" class="qr">
+ <br><br><br>Um dual do octaedro truncado snub biscrito tem a forma do dual do octaedro truncado snub, mas as medidas das arestas são diferentes.
+ <br><br><br><b>Faces:</b> 72 pentágonos irregulares | <b>Arestas:</b> 180 | <b>Vértices:</b> 110. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
