@@ -244,7 +244,7 @@
 			<a-sphere mixin='esfera' position='0.1991 0.1426 1.0'></a-sphere>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.2" scale="0.23 0.23 0.23" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.2" scale="0.2 0.2 0.2" shadow>
 			<a-obj-model id="fc" src="vr/outros/BiscribedPropelloDisdyakisDodecahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/BiscribedPropelloDisdyakisDodecahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 -1.0'></a-sphere>
@@ -2763,20 +2763,20 @@
 	
 		<a-video src="vr/salas/videos/PropellorDisdyakisDodecahedron_x264_x264.mp4" position="2.555 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video>
 		<a-box position="2.58 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>
-		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala3.htm', window.open(fl, '_self');" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
-		<a-text value="Next room" text="align:center;" position="2.06 1.95 -0.7" width="2" rotation="0 270 0"></a-text>
-		<a-text value="Proxima sala" text="align:center;" position="2.06 1.85 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala1.htm', window.open(fl, '_self');" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
+		<a-text value="First room" text="align:center;" position="2.06 1.95 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Primeira sala" text="align:center;" position="2.06 1.85 -0.7" width="2" rotation="0 270 0"></a-text>
 		<a-cylinder mixin="botao1" class="botao" position="2.06 0.65 -0.7" onclick="sairVR()" radius="0.3" material="opacity: 0.5;" color="coral" rotation="-90 270 0"></a-cylinder>
 		<a-text value="Sair do modo imersivo" text="align:center;" position="2.06 1 -0.7" width="2" rotation="0 270 0"></a-text>
 		<a-text value="Exit immersive mode" text="align:center;" position="2.06 1.1 -0.7" width="2" rotation="0 270 0"></a-text>
 
 		<a-text value="Youtube: @paulohscwb" position="2.56 0.18 1.5" width="2" rotation="0 270 0"></a-text>
-		<a-text value="imagem panoramica: Ivan Tsyrkunovich"  text="color: forestgreen" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
+		<a-text value="imagem panoramica: Hemul75"  text="color: forestgreen" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
 
         <a-light type="ambient" color="white" intensity="0.5"></a-light>
 		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="-3 2 1"></a-light>
 		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="3 -2 1"></a-light>
-		<a-sky src="../imagens/toyE.jpg" geometry="phiStart: 7;"></a-sky> <!--geometry="phiStart: 95;"-->
+		<a-sky src="../imagens/toyC.jpg" geometry="phiStart: 270;"></a-sky> <!--geometry="phiStart: 95;"-->
     </a-scene>
   </body>
 </html>
