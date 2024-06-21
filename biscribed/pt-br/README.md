@@ -253,6 +253,19 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+<h4>31. Icosidodecaedro truncado de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/107A.png" class="foto" alt="icosidodecaedro truncado de hélice biscrito"></a><img src="../ar/107.png" class="qr">
+ <br><br><br>Um icosidodecaedro truncado de hélice biscrito tem a forma do icosidodecaedro truncado de hélice, mas as medidas das arestas são diferentes. É o sólido dual do triacontaedro disdiakis de hélice biscrito.
+ <br><br><br><b>Faces:</b> 30 retângulos, 360 tetrágonos irregulares, 20 ditrígonos e 12 dipentágonos | <b>Arestas:</b> 900 | <b>Vértices:</b> 480. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>32. Triacontaedro disdiakis de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/108A.png" class="foto" alt="triacontaedro disdiakis de hélice biscrito"></a><img src="../ar/108.png" class="qr">
+ <br><br><br>Um triacontaedro disdiakis de hélice biscrito tem a forma do triacontaedro disdiakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icosidodecaedro truncado de hélice biscrito.
+ <br><br><br><b>Faces:</b> 360 tetrágonos irregulares e 120 triângulos acutângulos | <b>Arestas:</b> 900 | <b>Vértices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 

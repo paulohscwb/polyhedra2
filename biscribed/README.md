@@ -226,6 +226,19 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+<h4>31. Biscribed propello truncated icosidodecahedron</h4>
+<a href="vr/BiscribedPropelloTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/107A.png" class="foto" alt="Biscribed propello truncated icosidodecahedron"></a><img src="ar/107.png" class="qr">
+ <br><br><br>A biscribed propello truncated icosidodecahedron has the shape of the propello truncated icosidodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello disdyakis triacontahedron.
+ <br><br><br><b>Faces:</b> 30 rectangles, 360 irregular tetragons, 20 ditrigons and 12 dipentagons | <b>Edges:</b> 900 | <b>Vertices:</b> 480. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>32. Biscribed propello disdyakis triacontahedron</h4>
+<a href="vr/BiscribedPropelloTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/108A.png" class="foto" alt="Biscribed propello disdyakis triacontahedron"></a><img src="ar/108.png" class="qr">
+ <br><br><br>A biscribed propello disdyakis triacontahedron has the shape of the propello disdyakis triacontahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated icosidodecahedron.
+ <br><br><br><b>Faces:</b> 120 acute triangles and 360 irregular tetragons | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
