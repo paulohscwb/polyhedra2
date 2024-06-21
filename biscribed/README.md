@@ -15,7 +15,7 @@
 		<option value="../chamfered/">Chamfered polyhedra</option>
 		<option value="../propellor/">Propellor polyhedra</option>
 		<option value="../diamonds/">Diamond polyhedra</option>
-		<option disabled value="../biscribed/pt-br/">Biscribed polyhedra</option>
+		<option disabled value="../biscribed/">Biscribed polyhedra</option>
 	</select>
 </form>
 <script>
@@ -29,9 +29,10 @@ function urlHandler(value) {
 We define a biscribed polyhedron as any convex polyhedron that has circumscribed and inscribed concentric spheres, where the center of the sphere is also the centroid of the vertices and the centroid of the points of tangency of the faces.
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
- <h3 align="center">Immersive room</h3>
-  <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../../cotadas/videos/biscribed.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to biscribed polyhedra"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p>  
+ <h3 align="center">Immersive rooms</h3>
+  <div class="embed-container"><iframe width="100%" src="sala1.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><a href="sala1.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 3</a></p>
+  <p align="center"><img src="../../cotadas/videos/biscribed1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%" loading="lazy"/><img src="../../cotadas/videos/biscribed2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../../cotadas/videos/biscribed3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>   
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view biscribed polyhedra in AR, the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook).

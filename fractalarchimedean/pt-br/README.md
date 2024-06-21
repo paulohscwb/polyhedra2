@@ -15,6 +15,7 @@
 		<option value="../../chamfered/pt-br/">Poliedros chanfrados</option>
 		<option value="../../propellor/pt-br/">Poliedros de hélice</option>
 		<option value="../../diamonds/pt-br/">Poliedros de diamante</option>
+		<option value="../../biscribed/pt-br/">Poliedros biscritos</option>
 	</select>
 </form>
 <script>

@@ -15,6 +15,7 @@
 		<option value="../chamfered/">Chamfered polyhedra</option>
 		<option value="../propellor/">Propellor polyhedra</option>
 		<option value="../diamonds/">Diamond polyhedra</option>
+		<option value="../biscribed/">Biscribed polyhedra</option>
 	</select>
 </form>
 <script>
