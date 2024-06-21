@@ -233,7 +233,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>32. Biscribed propello disdyakis triacontahedron</h4>
-<a href="vr/BiscribedPropelloTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/108A.png" class="foto" alt="Biscribed propello disdyakis triacontahedron"></a><img src="ar/108.png" class="qr">
+<a href="vr/BiscribedPropelloDisdyakisTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/108A.png" class="foto" alt="Biscribed propello disdyakis triacontahedron"></a><img src="ar/108.png" class="qr">
  <br><br><br>A biscribed propello disdyakis triacontahedron has the shape of the propello disdyakis triacontahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated icosidodecahedron.
  <br><br><br><b>Faces:</b> 120 acute triangles and 360 irregular tetragons | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>

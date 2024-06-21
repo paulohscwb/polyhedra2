@@ -260,7 +260,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>32. Triacontaedro disdiakis de hélice biscrito</h4>
-<a href="../vr/BiscribedPropelloPentakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/108A.png" class="foto" alt="triacontaedro disdiakis de hélice biscrito"></a><img src="../ar/108.png" class="qr">
+<a href="../vr/BiscribedPropelloDisdyakisTriacontahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/108A.png" class="foto" alt="triacontaedro disdiakis de hélice biscrito"></a><img src="../ar/108.png" class="qr">
  <br><br><br>Um triacontaedro disdiakis de hélice biscrito tem a forma do triacontaedro disdiakis de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icosidodecaedro truncado de hélice biscrito.
  <br><br><br><b>Faces:</b> 360 tetrágonos irregulares e 120 triângulos acutângulos | <b>Arestas:</b> 900 | <b>Vértices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
