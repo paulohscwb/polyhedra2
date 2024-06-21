@@ -33,7 +33,7 @@ Definimos um poliedro biscrito como qualquer poliedro convexo que possui esferas
 <hr>
  <h3 align="center">Salas imersivas</h3>
 
-<div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
+<div class="embed-container"><iframe width="100%" src="../sala1.htm" title="Sala Imersiva dos Poliedros biscritos" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><a href="../sala1.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 3</a></p>
   <p align="center"><img src="../../../cotadas/videos/biscribed1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../../../cotadas/videos/biscribed2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../../../cotadas/videos/biscribed3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
 <hr>
