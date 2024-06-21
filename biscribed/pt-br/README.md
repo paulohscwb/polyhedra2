@@ -13,31 +13,14 @@
 		<option value="../../fractalnonconvex/pt-br/">Fractais dos poliedros não convexos</option>
 		<option value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>
 		<option value="../../chamfered/pt-br/">Poliedros chanfrados</option>
-		<option value="../../propello/pt-br/">Poliedros de hélice</option>
+		<option value="../../propellor/pt-br/">Poliedros de hélice</option>
 		<option value="../../diamonds/pt-br/">Poliedros de diamante</option>
 		<option disabled value="../../biscribed/pt-br/">Poliedros biscritos</option>
 	</select>
 </form>
 <script>
-function urlHandler(value) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-window.location.assign(`${value}`);
+function urlHandler(value) {                               
+    window.location.assign(`${value}`);
 }
 </script>
 
@@ -301,7 +284,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br><b>Faces:</b> 24 pentágonos irregulares e 120 tetrágonos irregulares | <b>Arestas:</b> 300 | <b>Vértices:</b> 158. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
-<hr>
+<hr>({24 * 5} irregular tetragons + 24 irregular pentagons)
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Biscribed polyhedra - Visualization of polyhedra with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/polyhedra2/biscribed/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
