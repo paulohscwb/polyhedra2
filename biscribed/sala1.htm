@@ -12,7 +12,7 @@
 	<script src="vr/nomes.js"></script>
   </head>
   <body>
-	<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+	<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
 	<div style='position: fixed; top: 100px; width:100%; text-align: center; z-index: -2;' id="info">
 		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
 	</div>
@@ -34,7 +34,7 @@
 			<a-mixin id="mtl8" material="color: #86B404; side:double;"></a-mixin>
 			<a-mixin id="mtl9" material="color: #F79F81;"></a-mixin>
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl9" geometry="primitive: sphere; radius: 0.035; segments-height:6; segments-width:8;" material="metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl9" geometry="primitive: sphere; radius: 0.045; segments-height:6; segments-width:8;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-asset-item id="material" src="vr/outros/solidos.mtl"></a-asset-item>
         </a-assets>
         <a-entity id="cameraRig">
@@ -76,7 +76,7 @@
 			<a-sphere mixin='esfera' position='0.732051 0.0 1.0'></a-sphere>
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.2" scale="0.3 0.3 0.3" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.2" scale="0.23 0.23 0.23" shadow>
 			<a-obj-model id="fc" src="vr/outros/BiscribedTetrakisHexahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 			<a-obj-model id="ar" src="vr/outros/BiscribedTetrakisHexahedronL.obj" mtl="#material"></a-obj-model>
 			<a-sphere mixin='esfera' position='0.0 0.0 1.0'></a-sphere>
