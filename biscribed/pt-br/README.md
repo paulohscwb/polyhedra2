@@ -40,10 +40,7 @@ Definimos um poliedro biscrito como qualquer poliedro convexo que possui esferas
 <hr>
 
 <h3 id="ra" align="center">Realidade Aumentada</h3>
-
-Para visualizar os poliedros biscritos em RA, visite a página:
-<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/polyhedra2/biscribed/ra.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+Para visualizar os poliedros biscritos em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros biscritos" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/chamfered.gif" alt="Realidade Aumentada para poliedros biscritos" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
@@ -70,14 +67,12 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>4. Dodecaedro disdiakis biscrito</h4>
 <a href="../vr/BiscribedDisdyakisDodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Dodecaedro disdiakis biscrito"></a><img src="../ar/80.png" class="qr">
-
 <br><br><br>Um dodecaedro disdiakis biscrito tem a forma do dodecaedro disdiakis, um dos poliedros de Catalan, mas as medidas das arestas são diferentes. É o sólido dual do cuboctaedro truncado biscrito.
  <br><br><br><b>Faces:</b> 48 triângulos acutângulos | <b>Arestas:</b> 72 | <b>Vértices:</b> 26. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Icosaedro truncado biscrito</h4>
 <a href="../vr/BiscribedTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Icosaedro truncado biscrito"></a><img src="../ar/81.png" class="qr">
-
 <br><br><br>Um icosaedro truncado biscrito tem a forma do icosaedro truncado, um dos poliedros de Arquimedes, mas não possui hexágonos regulares. É o sólido dual do dodecaedro pentakis biscrito.
  <br><br><br><b>Faces:</b> 12 pentágonos regulares e 20 ditrígonos | <b>Arestas:</b> 90 | <b>Vértices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
@@ -90,7 +85,6 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>7. Icosidodecaedro truncado biscrito</h4>
 <a href="../vr/BiscribedTruncatedIcosidodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/83A.png" class="foto" alt="Icosidodecaedro truncado biscrito"></a><img src="../ar/83.png" class="qr">
-
 <br><br><br>Um icosidodecaedro truncado biscrito tem a forma do icosidodecaedro truncado, um dos poliedros de Arquimedes, mas não possui faces regulares. É o sólido dual do triacontaedro disdiakis biscrito.
  <br><br><br><b>Faces:</b> 30 retângulos, 20 ditrígonos e 12 dipentágonos | <b>Arestas:</b> 180 | <b>Vértices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
