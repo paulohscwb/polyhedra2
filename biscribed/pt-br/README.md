@@ -13,7 +13,7 @@
 		<option value="../../fractalnonconvex/pt-br/">Fractais dos poliedros não convexos</option>
 		<option value="../../fractalarchimedean/pt-br/">Fractais dos poliedros de Arquimedes</option>
 		<option value="../../chamfered/pt-br/">Poliedros chanfrados</option>
-		<option value="../../propellor/pt-br/">Poliedros de hélice</option>
+		<option value="../../propello/pt-br/">Poliedros de hélice</option>
 		<option value="../../diamonds/pt-br/">Poliedros de diamante</option>
 		<option disabled value="../../biscribed/pt-br/">Poliedros biscritos</option>
 	</select>
@@ -281,6 +281,24 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <a href="../vr/BiscribedSnubTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/111A.png" class="foto" alt="icosaedro truncado snub biscrito"></a><img src="../ar/111.png" class="qr">
  <br><br><br>Um icosaedro truncado snub biscrito tem a forma do icosaedro truncado snub, mas as medidas das arestas são diferentes.
  <br><br><br><b>Faces:</b> 12 pentágonos regulares, 20 ditrígonos e 240 triângulos acutângulos | <b>Arestas:</b> 450 | <b>Vértices:</b> 180. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>36. Dual do icosaedro truncado snub biscrito</h4>
+<a href="../vr/BiscribedDualSnubTruncatedIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/112A.png" class="foto" alt="dual do icosaedro truncado snub biscrito"></a><img src="../ar/112.png" class="qr">
+ <br><br><br>Um dual do icosaedro truncado snub biscrito tem a forma do dual do icosaedro truncado snub, mas as medidas das arestas são diferentes.
+ <br><br><br><b>Faces:</b> 180 pentágonos irregulares | <b>Arestas:</b> 450 | <b>Vértices:</b> 272. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>37. Cubo snub de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/113A.png" class="foto" alt="Cubo snub de hélice biscrito"></a><img src="../ar/113.png" class="qr">
+ <br><br><br>Um cubo snub de hélice biscrito tem a forma do cubo snub de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icositetraedro pentagonal de hélice biscrito.
+ <br><br><br><b>Faces:</b> 12 triângulos equiláteros, 120 tetrágonos irregulares, 6 quadrados e 24 triângulos acutângulos | <b>Arestas:</b> 300 | <b>Vértices:</b> 144. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>38. Icositetraedro pentagonal de hélice biscrito</h4>
+<a href="../vr/BiscribedPropelloPentagonalIcositetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/114A.png" class="foto" alt="Icositetraedro pentagonal de hélice biscrito"></a><img src="../ar/114.png" class="qr">
+ <br><br><br>Um icositetraedro pentagonal de hélice biscrito tem a forma do icositetraedro pentagonal de hélice, mas as medidas das arestas são diferentes. É o sólido dual do cubo snub de hélice biscrito.
+ <br><br><br><b>Faces:</b> 24 pentágonos irregulares e 120 tetrágonos irregulares | <b>Arestas:</b> 300 | <b>Vértices:</b> 158. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>

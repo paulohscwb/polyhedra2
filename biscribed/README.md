@@ -13,7 +13,7 @@
 		<option value="../fractalnonconvex/">Non convex polyhedra fractals</option>
 		<option value="../fractalarchimedean/">Archimedean polyhedra fractals</option>
 		<option value="../chamfered/">Chamfered polyhedra</option>
-		<option value="../propellor/">Propellor polyhedra</option>
+		<option value="../propello/">propello polyhedra</option>
 		<option value="../diamonds/">Diamond polyhedra</option>
 		<option disabled value="../biscribed/pt-br/">Biscribed polyhedra</option>
 	</select>
@@ -45,196 +45,196 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Biscribed truncated octahedron</h4>
 <a href="vr/BiscribedTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/77A.png" class="foto" alt="Biscribed Truncated Octahedron"></a><img src="ar/77.png" class="qr">
- <br><br><br>A biscript truncated octahedron has the shape of the truncated octahedron, one of the Archimedean polyhedra, but does not have the regular hexagons. It is the dual solid of the biscript tetrakis hexahedron.
+ <br><br><br>A biscribed truncated octahedron has the shape of the truncated octahedron, one of the Archimedean polyhedra, but does not have the regular hexagons. It is the dual solid of the biscribed tetrakis hexahedron.
  <br><br><br><b>Faces:</b> 6 squares and 8 ditrigons | <b>Edges:</b> 36 | <b>Vertices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>2. Biscribed tetrakis hexahedron</h4>
 <a href="vr/BiscribedTetrakisHexahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/78A.png" class="foto" alt="Biscribed Tetrakis Hexahedron"></a><img src="ar/78.png" class="qr">
- <br><br><br>A biscript tetrakis hexahedron has the shape of the tetrakis hexahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated octahedron.
+ <br><br><br>A biscribed tetrakis hexahedron has the shape of the tetrakis hexahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed truncated octahedron.
  <br><br><br><b>Faces:</b> 24 isosceles triangles | <b>Edges:</b> 36 | <b>Vertices:</b> 14. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>3. Biscribed truncated cuboctahedron</h4>
 <a href="vr/BiscribedTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Biscribed Truncated Cuboctahedron"></a><img src="ar/79.png" class="qr">
- <br><br><br>A biscript truncated cuboctahedron has the shape of the truncated cuboctahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis dodecahedron.
+ <br><br><br>A biscribed truncated cuboctahedron has the shape of the truncated cuboctahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis dodecahedron.
  <br><br><br><b>Faces:</b> 12 rectangles, 8 ditrigons and 6 ditetragons | <b>Edges:</b> 72 | <b>Vertices:</b> 48. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>4. Biscribed disdyakis dodecahedron</h4>
 <a href="vr/BiscribedDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Biscribed Disdyakis Dodecahedron"></a><img src="ar/80.png" class="qr">
- <br><br><br>A biscript disdyakis dodecahedron has the shape of the disdyakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated cuboctahedron.
+ <br><br><br>A biscribed disdyakis dodecahedron has the shape of the disdyakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed truncated cuboctahedron.
  <br><br><br><b>Faces:</b> 48 acute triangles | <b>Edges:</b> 72 | <b>Vertices:</b> 26. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Biscribed truncated icosahedron</h4>
 <a href="vr/BiscribedTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Biscribed Truncated Icosahedron"></a><img src="ar/81.png" class="qr">
- <br><br><br>A biscript truncated icosahedron has the shape of the truncated icosahedron, one of the Archimedean polyhedra, but does not have the regular hexagons. It is the dual solid of the biscribed pentakis dodecahedron.
+ <br><br><br>A biscribed truncated icosahedron has the shape of the truncated icosahedron, one of the Archimedean polyhedra, but does not have the regular hexagons. It is the dual solid of the biscribed pentakis dodecahedron.
  <br><br><br><b>Faces:</b> 12 regular pentagons and 20 ditrigons | <b>Edges:</b> 90 | <b>Vertices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>6. Biscribed pentakis dodecahedron</h4>
 <a href="vr/BiscribedPentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/82A.png" class="foto" alt="Biscribed pentakis dodecahedron"></a><img src="ar/82.png" class="qr">
- <br><br><br>A biscribed pentakis dodecahedron has the shape of the pentakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated icosahedron.
+ <br><br><br>A biscribed pentakis dodecahedron has the shape of the pentakis dodecahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed truncated icosahedron.
  <br><br><br><b>Faces:</b> 60 isosceles triangles | <b>Edges:</b> 90 | <b>Vertices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>7. Biscribed truncated icosidodecahedron</h4>
 <a href="vr/BiscribedTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/83A.png" class="foto" alt="Biscribed truncated icosidodecahedron"></a><img src="ar/83.png" class="qr">
- <br><br><br>A biscript truncated icosidodecahedron has the shape of the truncated icosidodecahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis triacontahedron.
+ <br><br><br>A biscribed truncated icosidodecahedron has the shape of the truncated icosidodecahedron, one of the Archimedean polyhedra, but does not have the regular faces. It is the dual solid of the biscribed disdyakis triacontahedron.
  <br><br><br><b>Faces:</b> 30 rectangles, 20 ditrigons and 12 dipentagons | <b>Edges:</b> 180 | <b>Vertices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>8. Biscribed disdyakis triacontahedron</h4>
 <a href="vr/BiscribedDisdyakisTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/84A.png" class="foto" alt="Biscribed disdyakis triacontahedron"></a><img src="ar/84.png" class="qr">
- <br><br><br>A biscribed disdyakis triacontahedron has the shape of the disdyakis triacontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript truncated icosidodecahedron.
+ <br><br><br>A biscribed disdyakis triacontahedron has the shape of the disdyakis triacontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed truncated icosidodecahedron.
  <br><br><br><b>Faces:</b> 120 acute triangles | <b>Edges:</b> 180 | <b>Vertices:</b> 62. <a href="http://dmccooey.com/polyhedra/BiscribedNonChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>9. Biscribed snub cube</h4>
 <a href="vr/BiscribedSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Biscribed snub cube"></a><img src="ar/85.png" class="qr">
- <br><br><br>A biscribed snub cube has the shape of the snub cube, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscript pentagonal icositetrahedron.
+ <br><br><br>A biscribed snub cube has the shape of the snub cube, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscribed pentagonal icositetrahedron.
  <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 acute triangles and 6 squares | <b>Edges:</b> 60 | <b>Vertices:</b> 24. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>10. Biscribed pentagonal icositetrahedron</h4>
 <a href="vr/BiscribedPentagonalIcositetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Biscribed pentagonal icositetrahedron"></a><img src="ar/86.png" class="qr">
- <br><br><br>A biscribed pentagonal icositetrahedron has the shape of the pentagonal icositetrahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript snub cube.
+ <br><br><br>A biscribed pentagonal icositetrahedron has the shape of the pentagonal icositetrahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed snub cube.
  <br><br><br><b>Faces:</b> 24 irregular pentagons | <b>Edges:</b> 60 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 <h4>11. Biscribed snub dodecahedron</h4>
 <a href="vr/BiscribedSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Biscribed snub dodecahedron"></a><img src="ar/87.png" class="qr">
- <br><br><br>A biscribed snub dodecahedron has the shape of the snub dodecahedron, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscript pentagonal hexecontahedron.
+ <br><br><br>A biscribed snub dodecahedron has the shape of the snub dodecahedron, one of the Archimedean polyhedra, but the edge measurements are different. It is the dual solid of the biscribed pentagonal hexecontahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 acute triangles and 12 regular pentagons | <b>Edges:</b> 150 | <b>Vertices:</b> 60. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>12. Biscribed pentagonal hexecontahedron</h4>
 <a href="vr/BiscribedPentagonalHexecontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Biscribed pentagonal hexecontahedron"></a><img src="ar/88.png" class="qr">
- <br><br><br>A biscribed pentagonal hexecontahedron has the shape of the pentagonal hexecontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscript snub dodecahedron.
+ <br><br><br>A biscribed pentagonal hexecontahedron has the shape of the pentagonal hexecontahedron, one of the Catalan polyhedra, but the edge measurements are different. It is the dual solid of the biscribed snub dodecahedron.
  <br><br><br><b>Faces:</b> 60 irregular pentagons | <b>Edges:</b> 150 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>13. Biscribed orthotruncated propello octahedron</h4>
 <a href="vr/BiscribedOrthotruncatedPropelloOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Biscribed Orthotruncated Propello Octahedron"></a><img src="ar/89.png" class="qr">
- <br><br><br>A biscribed orthotruncated propello octahedron has the shape of the orthotruncated propello octahedron, but the edge measurements are different. It is the dual solid of the biscript orthokis propello cube.
+ <br><br><br>A biscribed orthotruncated propello octahedron has the shape of the orthotruncated propello octahedron, but the edge measurements are different. It is the dual solid of the biscribed orthokis propello cube.
  <br><br><br><b>Faces:</b> 8 equilateral triangles, 6 squares and 24 irregular pentagons | <b>Edges:</b> 84 | <b>Vertices:</b> 48. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>14. Biscribed orthokis propello cube</h4>
 <a href="vr/BiscribedOrthokisPropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Biscribed Orthokis Propello Cube"></a><img src="ar/90.png" class="qr">
- <br><br><br>A biscribed orthokis propello cube has the shape of the orthokis propello cube, but the edge measurements are different. It is the dual solid of the biscript orthotruncated propello octahedron.
+ <br><br><br>A biscribed orthokis propello cube has the shape of the orthokis propello cube, but the edge measurements are different. It is the dual solid of the biscribed orthotruncated propello octahedron.
  <br><br><br><b>Faces:</b> 24 isosceles triangles and 24 irregular tetragons | <b>Edges:</b> 84 | <b>Vertices:</b> 38. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>15. Biscribed orthotruncated propello icosahedron</h4>
 <a href="vr/BiscribedOrthotruncatedPropelloIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Biscribed orthotruncated propello icosahedron"></a><img src="ar/91.png" class="qr">
- <br><br><br>A biscribed orthotruncated propello icosahedron has the shape of the orthotruncated propello icosahedron, but the edge measurements are different. It is the dual solid of the biscript orthokis propello dodecahedron.
+ <br><br><br>A biscribed orthotruncated propello icosahedron has the shape of the orthotruncated propello icosahedron, but the edge measurements are different. It is the dual solid of the biscribed orthokis propello dodecahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 irregular pentagons and 12 regular pentagons | <b>Edges:</b> 210 | <b>Vertices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>16. Biscribed orthokis propello dodecahedron</h4>
 <a href="vr/BiscribedOrthokisPropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Biscribed orthokis propello dodecahedron"></a><img src="ar/92.png" class="qr">
- <br><br><br>A biscribed orthokis propello dodecahedron has the shape of the orthokis propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript orthotruncated propello icosahedron.
+ <br><br><br>A biscribed orthokis propello dodecahedron has the shape of the orthokis propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed orthotruncated propello icosahedron.
  <br><br><br><b>Faces:</b> 60 isosceles triangles and 60 irregular tetragons | <b>Edges:</b> 210 | <b>Vertices:</b> 92. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>17. Biscribed propello cube</h4>
 <a href="vr/BiscribedPropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Biscribed propello cube"></a><img src="ar/93.png" class="qr">
- <br><br><br>A biscribed propello cube has the shape of the propello cube, but the edge measurements are different. It is the dual solid of the biscript propello octahedron.
+ <br><br><br>A biscribed propello cube has the shape of the propello cube, but the edge measurements are different. It is the dual solid of the biscribed propello octahedron.
  <br><br><br><b>Faces:</b> 6 squares and 24 irregular tetragons | <b>Edges:</b> 60 | <b>Vertices:</b> 32. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>18. Biscribed propello octahedron</h4>
 <a href="vr/BiscribedPropelloOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/94A.png" class="foto" alt="Biscribed propello octahedron"></a><img src="ar/94.png" class="qr">
- <br><br><br>A biscribed propello octahedron has the shape of the propello octahedron, but the edge measurements are different. It is the dual solid of the biscript propello cube.
+ <br><br><br>A biscribed propello octahedron has the shape of the propello octahedron, but the edge measurements are different. It is the dual solid of the biscribed propello cube.
  <br><br><br><b>Faces:</b> 8 equilateral triangles and 24 irregular tetragons | <b>Edges:</b> 60 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>19. Biscribed propello dodecahedron</h4>
 <a href="vr/BiscribedPropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/95A.png" class="foto" alt="Biscribed propello Dodecahedron"></a><img src="ar/95.png" class="qr">
- <br><br><br>A biscribed propello dodecahedron has the shape of the propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello icosahedron.
+ <br><br><br>A biscribed propello dodecahedron has the shape of the propello dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed propello icosahedron.
  <br><br><br><b>Faces:</b> 12 regular pentagons and 60 irregular tetragons | <b>Edges:</b> 150 | <b>Vertices:</b> 80. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>20. Biscribed propello icosahedron</h4>
 <a href="vr/BiscribedPropelloIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/96A.png" class="foto" alt="Biscribed propello icosahedron"></a><img src="ar/96.png" class="qr">
- <br><br><br>A biscribed propello icosahedron has the shape of the propello icosahedron, but the edge measurements are different. It is the dual solid of the biscript propello dodecahedron.
+ <br><br><br>A biscribed propello icosahedron has the shape of the propello icosahedron, but the edge measurements are different. It is the dual solid of the biscribed propello dodecahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles and 60 irregular tetragons | <b>Edges:</b> 150 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 <h4>21. Biscribed hexpropello cube</h4>
 <a href="vr/BiscribedHexpropelloCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/97A.png" class="foto" alt="Biscribed hexpropello cube"></a><img src="ar/97.png" class="qr">
- <br><br><br>A biscribed hexpropello cube has the shape of the hexpropello cube, but the edge measurements are different. It is the dual solid of the biscript tetrakis snub cube.
+ <br><br><br>A biscribed hexpropello cube has the shape of the hexpropello cube, but the edge measurements are different. It is the dual solid of the biscribed tetrakis snub cube.
  <br><br><br><b>Faces:</b> 6 squares and 24 irregular hexagons | <b>Edges:</b> 84 | <b>Vertices:</b> 56. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>22. Biscribed tetrakis snub cube</h4>
 <a href="vr/BiscribedTetrakisSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Biscribed tetrakis snub cube"></a><img src="ar/98.png" class="qr">
- <br><br><br>A biscribed tetrakis snub cube has the shape of the tetrakis snub cube, but the edge measurements are different. It is the dual solid of the biscript hexpropello cube.
+ <br><br><br>A biscribed tetrakis snub cube has the shape of the tetrakis snub cube, but the edge measurements are different. It is the dual solid of the biscribed hexpropello cube.
  <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 isosceles triangles and 24 acute triangles | <b>Edges:</b> 84 | <b>Vertices:</b> 30. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>23. Biscribed hexpropello dodecahedron</h4>
 <a href="vr/BiscribedHexpropelloDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Biscribed hexpropello dodecahedron"></a><img src="ar/99.png" class="qr">
- <br><br><br>A biscribed hexpropello dodecahedron has the shape of the hexpropello dodecahedron, but the edge measurements are different. It is the dual solid of the biscript pentakis snub dodecahedron.
+ <br><br><br>A biscribed hexpropello dodecahedron has the shape of the hexpropello dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed pentakis snub dodecahedron.
  <br><br><br><b>Faces:</b> 12 regular pentagons and 60 irregular hexagons | <b>Edges:</b> 210 | <b>Vertices:</b> 140. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>24. Biscribed pentakis snub dodecahedron</h4>
 <a href="vr/BiscribedPentakisSnubDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/100A.png" class="foto" alt="Biscribed pentakis snub dodecahedron"></a><img src="ar/100.png" class="qr">
- <br><br><br>A biscribed pentakis snub dodecahedron has the shape of the pentakis snub dodecahedron, but the edge measurements are different. It is the dual solid of the biscript hexpropello dodecahedron.
+ <br><br><br>A biscribed pentakis snub dodecahedron has the shape of the pentakis snub dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed hexpropello dodecahedron.
  <br><br><br><b>Faces:</b> 20 equilateral triangles, 60 isosceles triangles and 60 acute triangles | <b>Edges:</b> 210 | <b>Vertices:</b> 72. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>25. Biscribed propello truncated octahedron</h4>
 <a href="vr/BiscribedPropelloTruncatedOctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/101A.png" class="foto" alt="Biscribed propello truncated octahedron"></a><img src="ar/101.png" class="qr">
- <br><br><br>A biscribed propello truncated octahedron has the shape of the propello truncated octahedron, but the edge measurements are different. It is the dual solid of the biscript propello tetrakis hexahedron.
+ <br><br><br>A biscribed propello truncated octahedron has the shape of the propello truncated octahedron, but the edge measurements are different. It is the dual solid of the biscribed propello tetrakis hexahedron.
  <br><br><br><b>Faces:</b> 6 squares, 72 irregular tetragons and 8 ditrigons | <b>Edges:</b> 180 | <b>Vertices:</b> 96. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>26. Biscribed propello tetrakis hexahedron</h4>
 <a href="vr/BiscribedPropelloTetrakisHexahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/102A.png" class="foto" alt="Biscribed propello tetrakis hexahedron"></a><img src="ar/102.png" class="qr">
- <br><br><br>A biscribed propello tetrakis hexahedron has the shape of the propello tetrakis hexahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated octahedron.
+ <br><br><br>A biscribed propello tetrakis hexahedron has the shape of the propello tetrakis hexahedron, but the edge measurements are different. It is the dual solid of the biscribed propello truncated octahedron.
  <br><br><br><b>Faces:</b> 24 acute triangles and 72 irregular tetragons | <b>Edges:</b> 180 | <b>Vertices:</b> 86. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>27. Biscribed propello truncated cuboctahedron</h4>
 <a href="vr/BiscribedPropelloTruncatedCuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/103A.png" class="foto" alt="Biscribed propello truncated cuboctahedron"></a><img src="ar/103.png" class="qr">
- <br><br><br>A biscribed propello truncated cuboctahedron has the shape of the propello truncated cuboctahedron, but the edge measurements are different. It is the dual solid of the biscript propello disdyakis dodecahedron.
+ <br><br><br>A biscribed propello truncated cuboctahedron has the shape of the propello truncated cuboctahedron, but the edge measurements are different. It is the dual solid of the biscribed propello disdyakis dodecahedron.
  <br><br><br><b>Faces:</b> 12 rectangles, 144 irregular tetragons, 8 ditrigons and 6 ditetragons | <b>Edges:</b> 360 | <b>Vertices:</b> 192. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>28. Biscribed propello disdyakis dodecahedron</h4>
 <a href="vr/BiscribedPropelloDisdyakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/104A.png" class="foto" alt="Biscribed propello disdyakis dodecahedron"></a><img src="ar/104.png" class="qr">
- <br><br><br>A biscribed propello disdyakis dodecahedron has the shape of the propello disdyakis dodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated cuboctahedron.
+ <br><br><br>A biscribed propello disdyakis dodecahedron has the shape of the propello disdyakis dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed propello truncated cuboctahedron.
  <br><br><br><b>Faces:</b> 48 acute triangles and 144 irregular tetragons | <b>Edges:</b> 360 | <b>Vertices:</b> 170. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
   <hr>
 <h4>29. Biscribed propello truncated icosahedron</h4>
 <a href="vr/BiscribedPropelloTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/105A.png" class="foto" alt="Biscribed propello truncated icosahedron"></a><img src="ar/105.png" class="qr">
- <br><br><br>A biscribed propello truncated icosahedron has the shape of the propello truncated icosahedron, but the edge measurements are different. It is the dual solid of the biscript propello pentakis dodecahedron.
+ <br><br><br>A biscribed propello truncated icosahedron has the shape of the propello truncated icosahedron, but the edge measurements are different. It is the dual solid of the biscribed propello pentakis dodecahedron.
  <br><br><br><b>Faces:</b> 180 irregular tetragons, 12 regular pentagons and 20 ditrigons | <b>Edges:</b> 450 | <b>Vertices:</b> 240. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>30. Biscribed propello pentakis dodecahedron</h4>
 <a href="vr/BiscribedPropelloPentakisDodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/106A.png" class="foto" alt="Biscribed propello pentakis dodecahedron"></a><img src="ar/106.png" class="qr">
- <br><br><br>A biscribed propello pentakis dodecahedron has the shape of the propello pentakis dodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated icosahedron.
+ <br><br><br>A biscribed propello pentakis dodecahedron has the shape of the propello pentakis dodecahedron, but the edge measurements are different. It is the dual solid of the biscribed propello truncated icosahedron.
  <br><br><br><b>Faces:</b> 180 irregular tetragons and 60 acute triangles | <b>Edges:</b> 450 | <b>Vertices:</b> 212. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 <h4>31. Biscribed propello truncated icosidodecahedron</h4>
 <a href="vr/BiscribedPropelloTruncatedIcosidodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/107A.png" class="foto" alt="Biscribed propello truncated icosidodecahedron"></a><img src="ar/107.png" class="qr">
- <br><br><br>A biscribed propello truncated icosidodecahedron has the shape of the propello truncated icosidodecahedron, but the edge measurements are different. It is the dual solid of the biscript propello disdyakis triacontahedron.
+ <br><br><br>A biscribed propello truncated icosidodecahedron has the shape of the propello truncated icosidodecahedron, but the edge measurements are different. It is the dual solid of the biscribed propello disdyakis triacontahedron.
  <br><br><br><b>Faces:</b> 30 rectangles, 360 irregular tetragons, 20 ditrigons and 12 dipentagons | <b>Edges:</b> 900 | <b>Vertices:</b> 480. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>32. Biscribed propello disdyakis triacontahedron</h4>
 <a href="vr/BiscribedPropelloDisdyakisTriacontahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/108A.png" class="foto" alt="Biscribed propello disdyakis triacontahedron"></a><img src="ar/108.png" class="qr">
- <br><br><br>A biscribed propello disdyakis triacontahedron has the shape of the propello disdyakis triacontahedron, but the edge measurements are different. It is the dual solid of the biscript propello truncated icosidodecahedron.
+ <br><br><br>A biscribed propello disdyakis triacontahedron has the shape of the propello disdyakis triacontahedron, but the edge measurements are different. It is the dual solid of the biscribed propello truncated icosidodecahedron.
  <br><br><br><b>Faces:</b> 120 acute triangles and 360 irregular tetragons | <b>Edges:</b> 900 | <b>Vertices:</b> 422. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
@@ -254,6 +254,24 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <a href="vr/BiscribedSnubTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/111A.png" class="foto" alt="Biscribed snub truncated icosahedron"></a><img src="ar/111.png" class="qr">
  <br><br><br>A biscribed snub truncated icosahedron has the shape of the snub truncated icosahedron, but the edge measurements are different.
  <br><br><br><b>Faces:</b> 240 acute triangles, 12 regular pentagons and 20 ditrigons | <b>Edges:</b> 450 | <b>Vertices:</b> 180. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>36. Biscribed dual snub truncated icosahedron</h4>
+<a href="vr/BiscribedDualSnubTruncatedIcosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/112A.png" class="foto" alt="Biscribed dual snub truncated icosahedron"></a><img src="ar/112.png" class="qr">
+ <br><br><br>A biscribed dual snub truncated icosahedron has the shape of the dual snub truncated icosahedron, but the edge measurements are different.
+ <br><br><br><b>Faces:</b> 180 irregular pentagons | <b>Edges:</b> 450 | <b>Vertices:</b> 272. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>37. Biscribed propello snub cube</h4>
+<a href="vr/BiscribedPropelloSnubCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/113A.png" class="foto" alt="Biscribed propello snub cube"></a><img src="ar/113.png" class="qr">
+ <br><br><br>A biscribed propello snub cube has the shape of the propello snub cube, but the edge measurements are different. It is the dual solid of the biscribed propello pentagonal icositetrahedron.
+ <br><br><br><b>Faces:</b> 8 equilateral triangles, 24 acute triangles, 6 squares and 120 irregular tetragons | <b>Edges:</b> 300 | <b>Vertices:</b> 144. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>38. Biscribed propello pentagonal icositetrahedron</h4>
+<a href="vr/BiscribedPropelloPentagonalIcositetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/114A.png" class="foto" alt="Biscribed propello pentagonal icositetrahedron"></a><img src="ar/114.png" class="qr">
+ <br><br><br>A biscribed propello pentagonal icositetrahedron has the shape of the propello pentagonal icositetrahedron, but the edge measurements are different. It is the dual solid of the biscribed propello snub cube.
+ <br><br><br><b>Faces:</b> 24 irregular pentagons and 120 irregular tetragons | <b>Edges:</b> 300 | <b>Vertices:</b> 158. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">More...</a>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
