@@ -37,8 +37,7 @@ We define a biscribed polyhedron as any convex polyhedron that has circumscribed
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view biscribed polyhedra in AR, the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook).
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
-<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to biscribed polyhedra" src="ar/example.jpg" width="85%"></p>
-<p align="center"><img src="ar/biscribed.gif" alt="Augmented Reality to biscribed polyhedra" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to biscribed polyhedra" src="ar/example.png" width="85%"></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
