@@ -26,7 +26,7 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Biscribed polyhedra</h2>
-We define a biscribed polyhedron as any convex polyhedron that has circumscribed and inscribed concentric spheres, where the center of the sphere is also the centroid of the vertices and the centroid of the points of tangency of the faces.
+We define a biscribed polyhedron as any convex polyhedron that has concentric circumscribed and inscribed spheres. The center of these spheres is the centroid of the vertices and points of tangency of the faces.
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
  <h3 align="center">Immersive rooms</h3>

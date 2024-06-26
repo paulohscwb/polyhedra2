@@ -28,7 +28,7 @@ function urlHandler(value) {
 
 <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Poliedros biscritos</h2>
 
-Definimos um poliedro biscrito como qualquer poliedro convexo que possui esferas concêntricas circunscritas e inscritas, onde o centro da esfera também é o centróide dos vértices e o centróide dos pontos de tangência das faces.
+Definimos um poliedro biscrito como qualquer poliedro convexo que possui as esferas circunscrita e inscrita concêntricas. O centro destas esferas é o centróide dos vértices e dos pontos de tangência das faces.
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
  <h3 align="center">Salas imersivas</h3>
