@@ -15,7 +15,7 @@
 <h3 style="margin-top:3px"><a target="_blank" href="propellor/"><img src="propellor/ar/65A.png" style="margin-bottom:-10px" width="40"> Propellor polyhedra</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="diamonds/"><img src="diamonds/ar/108A.png" style="margin-bottom:-10px" width="40"> Diamond polyhedra</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="biscribed/"><img src="biscribed/ar/81A.png" style="margin-bottom:-10px" width="40"> Biscribed polyhedra</a></h3>
-
+<hr>
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../polyhedra/">&#x2B50; Polyhedra - first part</a></h3>
 <hr>
