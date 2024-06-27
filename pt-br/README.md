@@ -5,7 +5,7 @@
 <b>autor:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
 <br><b>contato:</b> <a href="#"> paulohscwb@gmail.com </a>
 <br><a href="https://paulohscwb.github.io/polyhedra2/">english version</a>
-<br><br>Nova página: os poliedros de Arquimedes podem ser vistos em Realidade Aumentada (RA) com os marcadores indicados, e por meio dos links criados nos marcadores, o modelo 3D de cada poliedro pode ser visto em Realidade Virtual (RV).
+<br><br>Nova página: os poliedros e fractais podem ser vistos em Realidade Aumentada (RA) com os marcadores indicados, e por meio dos links criados nos marcadores, o modelo 3D de cada poliedro pode ser visto em Realidade Virtual (RV).
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="../ArchimedeanCatalanHulls/pt-br/"><img src="../ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Cascos convexos de Arquimedes e Catalan</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalplatonic/pt-br/"><img src="../fractalplatonic/ar/16A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Platão</a></h3>
@@ -34,7 +34,7 @@
 
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Polyhedra 2: Visualization of polyhedra with Augmented Reality and Virtual Reality". Disponível em: <https://paulohscwb.github.io/polyhedra2/>, Outubro de 2023.</p>
-<!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8271425"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8271425.svg" alt="DOI"></a>-->
+<a target="_blank" href="https://doi.org/10.5281/zenodo.12572969"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.https://doi.org/10.5281/zenodo.12572969.svg" alt="DOI"></a>
 <br><b>Referências:</b>
 <br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>
 <br>Weisstein, Eric W. "Platonic Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/PlatonicSolid.html" target="_blank">http://mathworld.wolfram.com/PlatonicSolid.html</a>

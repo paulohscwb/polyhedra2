@@ -5,7 +5,7 @@
  <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/polyhedra2/pt-br/">versão em português</a>
- <br><br> New page: polyhedra can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).
+ <br><br> New page: polyhedra and fractals can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="ArchimedeanCatalanHulls/"><img src="ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Archimedean and Catalan Convex Hulls</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalplatonic/"><img src="fractalplatonic/ar/16A.png" style="margin-bottom:-10px" width="40"> Platonic polyhedra fractals</a></h3>
@@ -34,7 +34,7 @@
 
 <h4>How to cite this work:</h4> 
 <p>Siqueira, P.H., "Polyhedra 2: Visualization of polyhedra with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/polyhedra2/>, October 2023.</p>
-<!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8271425"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8271425.svg" alt="DOI"></a>-->
+<a target="_blank" href="https://doi.org/10.5281/zenodo.12572969"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.https://doi.org/10.5281/zenodo.12572969.svg" alt="DOI"></a>
 
 <br><b>References:</b>
 <br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>
