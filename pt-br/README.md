@@ -16,7 +16,8 @@
 <h3 style="margin-top:3px"><a target="_blank" href="../diamonds/pt-br/"><img src="../diamonds/ar/108A.png" style="margin-bottom:-10px" width="40"> Poliedros de diamante</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../biscribed/pt-br/"><img src="../biscribed/ar/81A.png" style="margin-bottom:-10px" width="40"> Poliedros biscritos</a></h3>
 
-<!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>-->
+<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
+<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../../polyhedra/pt-br/">&#x2B50; Poliedros - primeira parte</a></h3>
 <hr>
 <h3 align="center">Salas imersivas</h3>
 <p align="center"><img src="https://paulohscwb.github.io/cotadas/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="../fractalnonconvex/vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
