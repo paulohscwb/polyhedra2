@@ -113,6 +113,7 @@
 		<td><a href="https://youtu.be/Mz5TvtsDD1M" target="_blank"><img src="../imagens/video.jpg" width="30" alt="video"></a></td>
 		<td rowspan="2"><a href="../fractalplatonic/sala2.htm" target="_blank"><img src="../imagens/vr.png" width="40" alt="immersive room"></a></td>
 	</tr>
+	<tr>
 		<td class="titulo1"><a href="../fractalplatonic/#m3d" target="_blank"><img src="../fractalplatonic/ar/17A.png" class="ima"> Fractal dodecahedron</a></td>
 		<td><a href="../fractalplatonic/vr/FractalDodecahedron.htm" target="_blank"><img src="../imagens/3d.png" width="40" alt="3D model"></a></td>
 		<td><a href="https://youtu.be/kdFS6QyWJds" target="_blank"><img src="../imagens/video.jpg" width="30" alt="video"></a></td>
