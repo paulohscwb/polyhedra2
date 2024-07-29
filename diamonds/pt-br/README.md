@@ -44,7 +44,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <p align="center"><img src="../ar/diamonds.gif" alt="Realidade Aumentada para poliedros de diamante" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXKNmMlBA-gOp2-i93mQ4Vu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXKNmMlBA-gOp2-i93mQ4Vu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Cúpula triangular de diamante</h4>
 <a href="../vr/TriangularCupola.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Cúpula triangular de diamante"></a><img src="../ar/80.png" class="qr">
  <br><br>Quando construímos uma pirâmide reta de base hexagonal, que tem a base coincidente com a face hexagonal de uma cúpula triangular de Johnson, obtemos uma cúpula triangular de diamante. 
