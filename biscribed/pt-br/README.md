@@ -133,7 +133,7 @@ Para visualizar os poliedros biscritos em RA, visite as páginas indicadas nos m
 <h4>15. Icosaedro de hélice ortotruncado biscrito</h4>
 <a href="../vr/BiscribedOrthotruncatedPropelloIcosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="icosaedro de hélice ortotruncado biscrito"></a><img src="../ar/91.png" class="qr">
  <br><br><br>Um icosaedro de hélice ortotruncado biscrito tem a forma do icosaedro de hélice ortotruncado, mas as medidas das arestas são diferentes. É o sólido dual do dodecaedro ortokis de hélice biscrito.
- <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 pentágonos irregulares e 12 pentágonos regulares | <b>Arestas:</b> 210 | <b>Vértices:</b> 84. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 20 triângulos equiláteros, 60 pentágonos irregulares e 12 pentágonos regulares | <b>Arestas:</b> 210 | <b>Vértices:</b> 120. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>16. Dodecaedro ortokis de hélice biscrito</h4>
