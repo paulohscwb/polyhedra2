@@ -267,7 +267,7 @@ Para visualizar os poliedros biscritos em RA, visite as páginas indicadas nos m
 <h4>37. Cubo snub de hélice biscrito</h4>
 <a href="../vr/BiscribedPropelloSnubCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/113A.png" class="foto" alt="Cubo snub de hélice biscrito"></a><img src="../ar/113.png" class="qr">
  <br><br><br>Um cubo snub de hélice biscrito tem a forma do cubo snub de hélice, mas as medidas das arestas são diferentes. É o sólido dual do icositetraedro pentagonal de hélice biscrito.
- <br><br><br><b>Faces:</b> 12 triângulos equiláteros, 120 tetrágonos irregulares, 6 quadrados e 24 triângulos acutângulos | <b>Arestas:</b> 300 | <b>Vértices:</b> 144. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
+ <br><br><br><b>Faces:</b> 8 triângulos equiláteros, 120 tetrágonos irregulares, 6 quadrados e 24 triângulos acutângulos | <b>Arestas:</b> 300 | <b>Vértices:</b> 144. <a href="http://dmccooey.com/polyhedra/BiscribedChiral.html" target="_blank">Mais sobre...</a>
 <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>38. Icositetraedro pentagonal de hélice biscrito</h4>
