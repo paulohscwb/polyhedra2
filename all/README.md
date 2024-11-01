@@ -684,7 +684,7 @@
 		<td><a href="https://youtu.be/W7KvDLeh8HU" target="_blank"><img src="../imagens/video.jpg" width="30" alt="video"></a></td>
 	</tr>
 	<tr>
-		<td class="titulo1"><a href="../propellor/#m3d" target="_blank"><img src="../propellor/ar/76A.png" class="ima"> Propellor truncated icosidodecahedron</a></td>
+		<td class="titulo1"><a href="../propellor/#m3d" target="_blank"><img src="../propellor/ar/76A.png" class="ima"> Propellor disdyakis triacontahedron</a></td>
 		<td><a href="../propellor/vr/PropellorDisdyakisTriacontahedron.htm" target="_blank"><img src="../imagens/3d.png" width="40" alt="3D model"></a></td>
 		<td><a href="https://youtu.be/JdJlb0qDqMQ" target="_blank"><img src="../imagens/video.jpg" width="30" alt="video"></a></td>
 	</tr>
