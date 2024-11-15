@@ -15,7 +15,7 @@
 		<a-assets>
 			<a-mixin id="fc" scale="0.52 0.52 0.52" obj-model="obj: #aq; mtl: #mt"></a-mixin>
 			<a-mixin id="fc1" scale="0.52 0.52 0.52" obj-model="obj: #aq; mtl: #mt1"></a-mixin>
-			<a-mixin id="ar" scale="0.52 0.52 0.52" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
 			<a-mixin id="mtl1" material="color: #5bb404; side:double;">
 			<a-asset-item id="mt" src="outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="outros/c1.mtl"></a-asset-item>
@@ -47,7 +47,7 @@
 		<a-entity rotation="0 0 0" scale="8 8 8"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="1 1 1" id="nivel0">
 				<a-entity rotation="90 0 0" mixin="fc"></a-entity>
-				<a-entity rotation="90 0 0" mixin="ar"></a-entity>
+				<a-entity rotation="90 0 0" mixin="ar" scale="0.52 0.52 0.52"></a-entity>
 			</a-entity>
 			<a-entity scale="0.25 0.25 0.25" id="nivel1" visible="false">
 				<a-entity mixin="p1b"></a-entity>
