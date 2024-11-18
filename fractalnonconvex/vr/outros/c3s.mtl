@@ -5,7 +5,7 @@ Kd 1 0.3 0.3
 Ks 0.3 0.3 0.3 
 Ni 1
 illum 4
-Pr/map_Pr 0.4
-Pm/map_Pm 0.6
+Pr/map_Pr 0.3
+Pm/map_Pm 0.75
 d 0.88
 
