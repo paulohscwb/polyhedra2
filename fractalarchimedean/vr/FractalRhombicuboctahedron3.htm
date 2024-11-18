@@ -38,11 +38,11 @@
 			<a-mixin id="p18d" scale="0.178 0.178 0.178" mixin="fc" position="1.036 0 -1.036"></a-mixin>
 			<a-mixin id="p19d" scale="0.178 0.178 0.178" mixin="fc" position="-1.036 0 1.036"></a-mixin>
 			<a-mixin id="p20d" scale="0.178 0.178 0.178" mixin="fc" position="-1.036 0 -1.036"></a-mixin>
+			<a-mixin id="luz" light="type: point; color: yellow; intensity:0.35"></a-mixin>
 			<!--<a-mixin id="anima1" animation='property: rotation; dur: 13000; from: 0 0 0; to: 0 360 0; easing: linear; delay: 10000'></a-mixin>
 			<a-mixin id="anima2" animation__2='property: rotation; dur: 13000; from: 0 0 0; to: 180 -120 120; dir: alternate; easing: linear; delay: 24000; loop: 1'></a-mixin>
 			<a-mixin id="anima3" animation__3='property: rotation; dur: 20000; from: 0 0 0; to: 270 120 290; dir: alternate; easing: linear; delay: 54000; loop: 1'></a-mixin>-->
 		</a-assets>
-		<a-light type="point" color="yellow" intensity="1.5" position="0 0 0"></a-light>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 425 -425 425; maxDistance: 1500;"></a-entity>
 		<a-entity rotation="0 0 0" scale="1.26 1.26 1.26"><!-- mixin="anima1 anima2 anima3">-->
 			<a-entity scale="6 6 6" id="nivel0">
@@ -9356,10 +9356,13 @@
 				</a-entity>
 			</a-entity>
 		</a-entity>
-		<a-light type="ambient" color="white" intensity="0.5"></a-light>
-		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
-		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
-		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-light type="ambient" color="white" intensity="0.9"></a-light>
+		<a-entity mixin="luz" position="3.5 0 0"></a-entity>
+		<a-entity mixin="luz" position="0 3.5 0"></a-entity>
+		<a-entity mixin="luz" position="0 0 3.5"></a-entity>
+		<a-entity mixin="luz" position="-3.5 0 0"></a-entity>
+		<a-entity mixin="luz" position="0 -3.5 0"></a-entity>
+		<a-entity mixin="luz" position="0 0 -3.5"></a-entity>
 		<a-sky color="aliceblue"></a-sky>
     </a-scene>
 	<div class="box">
