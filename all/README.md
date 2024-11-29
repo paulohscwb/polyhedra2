@@ -79,7 +79,7 @@
 	</tr>
 	<tr>
 		<td class="titulo1"><a href="../ArchimedeanCatalanHulls/#m3d" target="_blank"><img src="../ArchimedeanCatalanHulls/ar/12A.png" class="ima"> Joined Truncated Icosidodecahedron</a></td>
-		<td><a href="../ArchimedeanCatalanHulls/vr/JoinedSnubDodecahedron.htm" target="_blank"><img src="../imagens/3d.png" width="40" alt="3D model"></a></td>
+		<td><a href="../ArchimedeanCatalanHulls/vr/JoinedTruncatedIcosidodecahedron.htm" target="_blank"><img src="../imagens/3d.png" width="40" alt="3D model"></a></td>
 		<td><a href="https://youtu.be/81ugotF1eU0" target="_blank"><img src="../imagens/video.jpg" width="30" alt="video"></a></td>
 	</tr>
 </table>
