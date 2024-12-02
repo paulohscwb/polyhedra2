@@ -42,7 +42,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <p align="center"><img src="../ar/propellor.gif" alt="Realidade Aumentada para poliedros de hélice" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU_sUZZg_ch86wAhxp8K2_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxU_sUZZg_ch86wAhxp8K2_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Tetraedro de hélice</h4>
 <a href="../vr/PropellorTetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="Tetraedro de hélice"></a><img src="../ar/62.png" class="qr">
  <br><br>Um tetraedro de hélice é um poliedro obtido por meio de operações de hélice de George Hart em um tetraedro regular. 
