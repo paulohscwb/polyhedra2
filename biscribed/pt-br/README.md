@@ -44,7 +44,7 @@ Para visualizar os poliedros biscritos em RA, visite as páginas indicadas nos m
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada para poliedros biscritos" src="../ar/example.png" width="85%"></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxUbB2ocRH0QhgUdUlCrYdJ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Octaedro truncado biscrito</h4>
 <a href="../vr/BiscribedTruncatedOctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Octaedro Truncado Biscrito"></a><img src="../ar/77.png" class="qr">
  <br><br><br>Um octaedro truncado biscrito tem a forma do octaedro truncado, um dos poliedros Arquimedianos, mas não possui os hexágonos regulares. É o sólido dual do hexaedro tetrakis biscrito.
