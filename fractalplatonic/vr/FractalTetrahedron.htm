@@ -13,7 +13,7 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="fc" material="opacity: 0.92; metalness:0.7; roughness:0.6;" geometry="radius:1;"></a-mixin>
-			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;"></a-mixin>
+			<a-mixin id="ar" material="wireframe: true; color:grey;" geometry="radius:1.001;wireframe-linewidth:1"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc" material="color: #5cb404;"></a-mixin>
 			<a-mixin id="mtl2" mixin="fc" material="color: #04b4a2;"></a-mixin>
 			<a-mixin id="mtl3" mixin="fc" material="color: #e88;"></a-mixin>
@@ -29,7 +29,7 @@
 			<a-mixin id="anima4" animation__4='property: rotation; dur: 10000; from: -35 15 45; to: 60 75 90; dir: alternate; easing: linear; delay: 95000; loop: 1'></a-mixin>-->
 		</a-assets>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
-		<a-entity rotation="-35 0 45"><!-- mixin="anima1 anima2 anima3 anima4">-->
+		<a-entity rotation="-35 15 45"><!-- mixin="anima1 anima2 anima3 anima4">-->
 			<a-entity scale="6 6 6" id="nivel0">
 				<a-tetrahedron mixin="mtl1"></a-tetrahedron>
 				<a-tetrahedron mixin="ar"></a-tetrahedron>
@@ -603,7 +603,7 @@
 				</a-entity>
 			</a-entity>
 		</a-entity>
-		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 700 0; maxDistance: 1500;"></a-entity>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 150 700; maxDistance: 1500;"></a-entity>
 		<a-light type="ambient" color="white" intensity="0.6"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.85" position="7 -5 1"></a-light>
