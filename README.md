@@ -18,6 +18,7 @@
 <hr>
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../polyhedra/">&#x2B50; Polyhedra - first part</a></h3>
+<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../polyhedra3/">&#x2B50; Polyhedra - third part</a></h3>
 <hr>
 <h3 align="center">Immersive rooms</h3>
 <p align="center"><img src="https://paulohscwb.github.io/cotadas/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="fractalnonconvex/vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
