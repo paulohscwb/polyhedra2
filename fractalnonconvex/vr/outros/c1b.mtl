@@ -143,7 +143,7 @@ Pm/map_Pm 0.75
 d 0.88
 
 newmtl Cor16
-Kd 0.1 0.9 1
+Kd 0.1 1 0.4
 Ks 0.3 0.3 0.3 
 Ni 1
 illum 4
