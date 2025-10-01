@@ -5,7 +5,8 @@
 <b>autor:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
 <br><b>contato:</b> <a href="#"> paulohscwb@gmail.com </a>
 <br><a href="https://paulohscwb.github.io/polyhedra2/">english version</a>
-<br><br>Nova página: os poliedros e fractais podem ser vistos em Realidade Aumentada (RA) com os marcadores indicados, e por meio dos links criados nos marcadores, o modelo 3D de cada poliedro pode ser visto em Realidade Virtual (RV).
+<div><img align="right" src="../imagens/qr.png"/>
+<br><br>Nova página: os poliedros e fractais podem ser vistos em Realidade Aumentada (RA) com os marcadores indicados, e por meio dos links criados nos marcadores, o modelo 3D de cada poliedro pode ser visto em Realidade Virtual (RV).</div>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="../ArchimedeanCatalanHulls/pt-br/"><img src="../ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Cascos convexos de Arquimedes e Catalan</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fractalplatonic/pt-br/"><img src="../fractalplatonic/ar/16A.png" style="margin-bottom:-10px" width="40"> Fractais dos poliedros de Platão</a></h3>
