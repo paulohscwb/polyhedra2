@@ -5,7 +5,8 @@
  <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/polyhedra2/pt-br/">versão em português</a>
- <br><br> New page: polyhedra and fractals can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).
+ <div><img align="right" src="imagens/qr.png"/>
+ <br><br>New page: polyhedra and fractals can be seen in Augmented Reality (AR) with the indicated markers, and through the links created in the markers, the 3D model of each polyhedron can be seen in Virtual Reality (VR).</div>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="ArchimedeanCatalanHulls/"><img src="ArchimedeanCatalanHulls/ar/7A.png" style="margin-bottom:-10px" width="40"> Archimedean and Catalan Convex Hulls</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fractalplatonic/"><img src="fractalplatonic/ar/16A.png" style="margin-bottom:-10px" width="40"> Platonic polyhedra fractals</a></h3>
